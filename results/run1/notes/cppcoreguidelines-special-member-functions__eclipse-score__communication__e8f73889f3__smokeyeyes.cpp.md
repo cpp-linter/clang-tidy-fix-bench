@@ -1,0 +1,1 @@
+`SharedState` owns a process-shared `pthread_barrier_t`, which must not be copied, and its destructor destroys that barrier. The copy/move constructors and copy/move assignment operators are now deleted. It is only created through placement-new from a prvalue (guaranteed elision) and used by reference, so behaviour is unchanged.

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same as the human fix: a named local constant for the reserve size, using constexpr instead of const."}

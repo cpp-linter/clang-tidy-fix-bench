@@ -1,0 +1,16 @@
+--- a/expat/tests/basic_tests.c
++++ b/expat/tests/basic_tests.c
+@@ -413,5 +413,5 @@
+   if (first_chunk_bytes >= sizeof(text) - 1)
+     fail("bad value of first_chunk_bytes");
+-  if (_XML_Parse_SINGLE_BYTES(g_parser, text, first_chunk_bytes, XML_FALSE)
++  if (_XML_Parse_SINGLE_BYTES(g_parser, text, (int)first_chunk_bytes, XML_FALSE)
+       == XML_STATUS_ERROR)
+     xml_failure(g_parser);
+@@ -419,5 +419,5 @@
+     enum XML_Status rc;
+     rc = _XML_Parse_SINGLE_BYTES(g_parser, text + first_chunk_bytes,
+-                                 sizeof(text) - first_chunk_bytes - 1,
++                                 (int)(sizeof(text) - first_chunk_bytes - 1),
+                                  XML_TRUE);
+     if (rc == XML_STATUS_ERROR)

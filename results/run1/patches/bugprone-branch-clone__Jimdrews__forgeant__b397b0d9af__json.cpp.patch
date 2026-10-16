@@ -1,0 +1,16 @@
+--- a/src/json/json.cpp
++++ b/src/json/json.cpp
+@@ -20,5 +20,5 @@
+             if constexpr (std::is_same_v<T, std::nullptr_t>) {
+                 return {nullptr};
+-            } else if constexpr (std::is_same_v<T, bool>) {
++            } else if constexpr (std::is_same_v<T, bool> || std::is_same_v<T, std::string>) {
+                 return Json{val};
+             } else if constexpr (std::is_same_v<T, double>) {
+@@ -28,6 +28,4 @@
+                     return Json{static_cast<Json::integer_t>(val)};
+                 }
+-                return Json{val};
+-            } else if constexpr (std::is_same_v<T, std::string>) {
+                 return Json{val};
+             } else if constexpr (std::is_same_v<T, glz::generic::array_t>) {

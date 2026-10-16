@@ -1,0 +1,1 @@
+The singularity threshold `1e-8f` in `Invert()` is now the local `float constexpr kSingularDetEpsilon = 1e-8f;` (written in the file's east-const style) and used in the determinant check. Behaviour is unchanged.

@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__aklofas__urbi-embedded__2952abc1a5__uparse_stmt.c",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "aklofas/urbi-embedded",
+ "sha": "2952abc1a51eab382cb9378a36f7672b1c42dceb",
+ "parent": "253285833d20c5a6d581479c964129d39456b919",
+ "url": "https://github.com/aklofas/urbi-embedded/commit/2952abc1a51eab382cb9378a36f7672b1c42dceb",
+ "license": "BSD-3-Clause",
+ "message": "code: tidy bugprone-branch-clone sweep (Phase 20)",
+ "file": "src/parse/uparse_stmt.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 184,
+   "col": 35,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 184,
+   "col": 35,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 8
+}

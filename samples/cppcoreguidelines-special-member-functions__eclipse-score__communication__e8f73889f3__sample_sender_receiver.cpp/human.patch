@@ -1,0 +1,9 @@
+diff --git a/score/mw/com/test/common_test_resources/sample_sender_receiver.cpp b/score/mw/com/test/common_test_resources/sample_sender_receiver.cpp
+index 2a77683..868cdc2 100644
+--- a/score/mw/com/test/common_test_resources/sample_sender_receiver.cpp
++++ b/score/mw/com/test/common_test_resources/sample_sender_receiver.cpp
+@@ -248,0 +249,4 @@ class TestDestructor
++    TestDestructor(const TestDestructor&) = delete;
++    TestDestructor& operator=(const TestDestructor&) = delete;
++    TestDestructor(TestDestructor&&) = delete;
++    TestDestructor& operator=(TestDestructor&&) = delete;

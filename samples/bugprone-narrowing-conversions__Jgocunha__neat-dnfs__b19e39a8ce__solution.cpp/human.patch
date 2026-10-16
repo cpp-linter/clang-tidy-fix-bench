@@ -1,0 +1,7 @@
+diff --git a/neat-dnfs/src/neat/solution.cpp b/neat-dnfs/src/neat/solution.cpp
+index b1cc4bd..78d8dde 100644
+--- a/neat-dnfs/src/neat/solution.cpp
++++ b/neat-dnfs/src/neat/solution.cpp
+@@ -1188 +1188 @@ namespace neat_dnfs
+-		const int steps_t = static_cast<int>(SimulationConstants::maxSimulationSteps / steps_x);
++		const int steps_t = static_cast<int>(static_cast<double>(SimulationConstants::maxSimulationSteps) / steps_x);

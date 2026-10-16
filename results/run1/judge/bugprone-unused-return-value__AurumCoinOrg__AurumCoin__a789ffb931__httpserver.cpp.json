@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Binds the released pointer to a [[maybe_unused]] local just like the human fix; only the variable name/type spelling differs."}

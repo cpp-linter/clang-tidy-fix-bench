@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical (int) casts at both _XML_Parse_SINGLE_BYTES arguments."}

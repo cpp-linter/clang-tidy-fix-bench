@@ -1,0 +1,16 @@
+--- a/src/client/main.cpp
++++ b/src/client/main.cpp
+@@ -74,4 +74,6 @@
+ // How long `augustac --replays` waits for the replay server's list.
+ constexpr auto kReplayListPatience = std::chrono::seconds(10);
++// How long `augustac --replays` sleeps between polls of the replay server.
++constexpr auto kReplayListPollInterval = std::chrono::milliseconds(10);
+ 
+ // augustac --replays (ADR-0051): asks the server file_config names for the
+@@ -88,5 +90,5 @@
+       return std::move(*failed);
+     }
+-    std::this_thread::sleep_for(std::chrono::milliseconds(10));
++    std::this_thread::sleep_for(kReplayListPollInterval);
+   }
+   if (const std::optional<std::vector<augusta::harness::ReplayListing>>& list = query.List()) {

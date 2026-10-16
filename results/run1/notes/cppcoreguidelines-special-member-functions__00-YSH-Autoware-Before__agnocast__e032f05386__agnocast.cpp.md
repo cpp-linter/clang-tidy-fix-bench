@@ -1,0 +1,1 @@
+`Cleanup` is a static RAII guard whose destructor calls `shutdown_agnocast()`; a copy or move would run the shutdown twice. The class now declares a defaulted default constructor and deletes the copy/move constructors and the copy/move assignment operators. This satisfies the rule of five, and the single static instance behaves exactly as before.

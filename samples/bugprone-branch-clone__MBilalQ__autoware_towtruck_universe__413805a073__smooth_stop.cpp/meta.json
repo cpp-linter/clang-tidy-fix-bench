@@ -1,0 +1,41 @@
+{
+ "id": "bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__413805a073__smooth_stop.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "MBilalQ/autoware_towtruck_universe",
+ "sha": "413805a0738e4b8aecb190d08bf7eaeafe7f8eaf",
+ "parent": "46cfadbe7397501e7669eda24bd9cde25e242039",
+ "url": "https://github.com/MBilalQ/autoware_towtruck_universe/commit/413805a0738e4b8aecb190d08bf7eaeafe7f8eaf",
+ "license": "Apache-2.0",
+ "message": "fix(autoware_pid_longitudinal_controller): fix bugprone-branch-clone (#9629)",
+ "file": "control/autoware_pid_longitudinal_controller/src/smooth_stop.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "experimental/optional",
+  "rclcpp/rclcpp.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 143,
+   "col": 79,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 143,
+   "col": 79,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 8,
+ "human_changed_lines": 6
+}

@@ -1,0 +1,52 @@
+{
+ "id": "bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__nsalloc_tests.c",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "VanessaRussellbtcmcpv/libexpat",
+ "sha": "36f4fa61567da85a449153ff2bb51bbe5442efcb",
+ "parent": "2a66485554d03bedd2a1840f3ca4757c07f46552",
+ "url": "https://github.com/VanessaRussellbtcmcpv/libexpat/commit/36f4fa61567da85a449153ff2bb51bbe5442efcb",
+ "license": "MIT",
+ "message": "tests: Address clang-tidy warning bugprone-narrowing-conversions",
+ "file": "expat/tests/nsalloc_tests.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 86,
+   "col": 26,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 526,
+   "col": 28,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 86,
+   "col": 26,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 526,
+   "col": 28,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

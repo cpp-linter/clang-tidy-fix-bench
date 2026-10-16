@@ -1,0 +1,6 @@
+diff --git a/src/mesh/gmsh.cpp b/src/mesh/gmsh.cpp
+index ec47e47..42862d4 100644
+--- a/src/mesh/gmsh.cpp
++++ b/src/mesh/gmsh.cpp
+@@ -39 +38,0 @@ std::size_t nodes_per_element(int type) {
+-      return 4;

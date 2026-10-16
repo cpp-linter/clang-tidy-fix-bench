@@ -1,0 +1,1 @@
+The ISR test loop used a uint8_t index compared against the int enum constant k_poeg_motor_count. Changed the loop variable to uint32_t, matching the other loop over k_poeg_motor_count in the same file; behaviour is unchanged.

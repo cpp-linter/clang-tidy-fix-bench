@@ -1,0 +1,1 @@
+The two branches that both `return m_strong_acc;` (time to stop exceeds the weak-stop time plus delay, or no stop-time prediction while moving fast) were combined into a single `if` with the two conditions joined by `||`. Evaluation order and results are unchanged.

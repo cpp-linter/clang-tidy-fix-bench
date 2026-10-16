@@ -1,0 +1,10 @@
+diff --git a/sources/middle-layer/dispatcher/hw_dispatcher.hpp b/sources/middle-layer/dispatcher/hw_dispatcher.hpp
+index 210364e..191c06d 100644
+--- a/sources/middle-layer/dispatcher/hw_dispatcher.hpp
++++ b/sources/middle-layer/dispatcher/hw_dispatcher.hpp
+@@ -73,0 +74,5 @@ public:
++    hw_dispatcher(const hw_dispatcher& other) = delete;
++    hw_dispatcher(hw_dispatcher&& other)      = delete;
++
++    auto operator=(const hw_dispatcher& other) -> hw_dispatcher& = delete;
++    auto operator=(hw_dispatcher&& other) -> hw_dispatcher&      = delete;

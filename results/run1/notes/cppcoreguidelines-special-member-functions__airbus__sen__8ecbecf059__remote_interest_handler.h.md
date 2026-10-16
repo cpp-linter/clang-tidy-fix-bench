@@ -1,0 +1,1 @@
+`InterestsHandler` holds a `std::mutex`, so it was already implicitly non-copyable and non-movable. The copy/move constructors and copy/move assignment operators are now explicitly deleted next to the defaulted destructor. This states the existing semantics and satisfies the rule of five without any behaviour change.

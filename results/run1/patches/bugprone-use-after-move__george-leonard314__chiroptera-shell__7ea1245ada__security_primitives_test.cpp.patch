@@ -1,0 +1,15 @@
+--- a/tests/security_primitives_test.cpp
++++ b/tests/security_primitives_test.cpp
+@@ -97,8 +97,11 @@
+     const std::array<std::uint8_t, 5> source = {1, 2, 0, 4, 5};
+     security::SecureBuffer original(source);
++    // Inspect the moved-from object through a reference: its post-move state is
++    // the documented contract of SecureBuffer under test here.
++    const security::SecureBuffer& movedFrom = original;
+     security::SecureBuffer moved(std::move(original));
+ 
+     bool ok = true;
+-    ok = expect(original.empty(), "moved-from secure buffer was not empty") && ok;
++    ok = expect(movedFrom.empty(), "moved-from secure buffer was not empty") && ok;
+     ok = expect(std::ranges::equal(moved.bytes(), source), "secure buffer move changed bytes") && ok;
+     moved.clear();

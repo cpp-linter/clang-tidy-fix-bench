@@ -1,0 +1,13 @@
+diff --git a/src/parse/uparse_stmt.c b/src/parse/uparse_stmt.c
+index 82072b3..27e854a 100644
+--- a/src/parse/uparse_stmt.c
++++ b/src/parse/uparse_stmt.c
+@@ -184,3 +184,5 @@ UAstNode *parse_block(UParser *p) {
+-        if (sep.type == TOK_SEMI) {
+-            consume(p);
+-        } else if (sep.type == TOK_PIPE) {
++        /* `;` and `|` are both block-statement separators here (REPL-boundary
++         * convention applies inside blocks too). Either consumes one token; a
++         * trailing-separator `; }` / `| }` falls through to the loop guard
++         * which exits on `}` or TOK_EOF (closes PARSE-010). */
++        if (sep.type == TOK_SEMI || sep.type == TOK_PIPE) {

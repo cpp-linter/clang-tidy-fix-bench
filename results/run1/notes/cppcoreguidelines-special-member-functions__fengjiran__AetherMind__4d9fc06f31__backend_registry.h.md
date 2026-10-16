@@ -1,0 +1,1 @@
+`BackendRegistry` already declared its copy (deleted) and move (defaulted) operations, but no destructor. An explicitly defaulted destructor `~BackendRegistry() = default;` has been added to complete the rule of five. It is equivalent to the implicit one, so behaviour does not change.

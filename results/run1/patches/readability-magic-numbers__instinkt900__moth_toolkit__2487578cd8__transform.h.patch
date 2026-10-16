@@ -1,0 +1,10 @@
+--- a/modules/core/include/moth/core/transform.h
++++ b/modules/core/include/moth/core/transform.h
+@@ -109,5 +109,6 @@
+ 
+             float const det = (a * d) - (b * c);
+-            if (std::abs(det) < 1e-8f) {
++            float constexpr kSingularDetEpsilon = 1e-8f;
++            if (std::abs(det) < kSingularDetEpsilon) {
+                 return Identity();
+             }

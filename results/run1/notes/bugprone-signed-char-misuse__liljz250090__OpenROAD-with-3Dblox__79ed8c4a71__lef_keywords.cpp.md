@@ -1,0 +1,1 @@
+`lefGetc()` returned `*lefData->next++` (a `char`) as an `int`. On signed-char platforms a 0xFF byte collided with EOF (-1). The byte is now converted with `static_cast<unsigned char>`, so the getc-style function returns 0..255 for data and EOF only at end of input. This fixes a real bug.

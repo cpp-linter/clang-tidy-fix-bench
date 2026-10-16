@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical (void) cast on remove(fname), same as the human fix."}

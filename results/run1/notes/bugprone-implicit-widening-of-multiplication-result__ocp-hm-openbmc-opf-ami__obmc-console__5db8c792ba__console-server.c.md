@@ -1,0 +1,1 @@
+The constant `buffer_size` was initialised with `128 * 1024`, an `int` multiplication that is then implicitly widened to `size_t`. I changed the first operand to `128ul`, so the multiplication now happens in `unsigned long` (= `size_t`) and no widening is needed. The value (131072) is unchanged.

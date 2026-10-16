@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same static_cast<unsigned char>(tok). The only difference is that the now-stale NOLINTNEXTLINE comment the human removed is left in place."}

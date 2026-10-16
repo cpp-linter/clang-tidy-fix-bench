@@ -1,0 +1,1 @@
+When the work queue accepts the item it takes ownership, so the unique_ptr must give up the pointer via release(), whose result was discarded. A (void) cast is not accepted by this check configuration, so the released pointer is now bound to a [[maybe_unused]] local named owned_by_queue, documenting that the queue owns it. Behaviour is unchanged (no delete, no leak).

@@ -1,0 +1,9 @@
+--- a/expat/xmlwf/xmlwf.c
++++ b/expat/xmlwf/xmlwf.c
+@@ -306,5 +306,5 @@
+   XML_Char *result;
+   int count = 0;
+-  int numBytes;
++  size_t numBytes;
+ 
+   /* Get the length of the string, including terminator */

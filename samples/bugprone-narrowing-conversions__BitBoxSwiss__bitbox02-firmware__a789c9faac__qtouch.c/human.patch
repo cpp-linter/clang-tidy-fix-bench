@@ -1,0 +1,7 @@
+diff --git a/src/qtouch/qtouch.c b/src/qtouch/qtouch.c
+index be9c94b..3c5efdf 100644
+--- a/src/qtouch/qtouch.c
++++ b/src/qtouch/qtouch.c
+@@ -592 +592 @@ uint16_t qtouch_get_sensor_node_signal_filtered(uint16_t sensor_node)
+-        X = X * (1 + DEF_SENSOR_EDGE_WEIGHT);
++        X = (uint16_t)((double)X * (1 + DEF_SENSOR_EDGE_WEIGHT));

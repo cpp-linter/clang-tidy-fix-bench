@@ -1,0 +1,10 @@
+diff --git a/perception/autoware_ground_segmentation/src/scan_ground_filter/node.cpp b/perception/autoware_ground_segmentation/src/scan_ground_filter/node.cpp
+index 488de2d..74b4edb 100644
+--- a/perception/autoware_ground_segmentation/src/scan_ground_filter/node.cpp
++++ b/perception/autoware_ground_segmentation/src/scan_ground_filter/node.cpp
+@@ -249 +249 @@ void ScanGroundFilterComponent::classifyPointCloud(
+-      bool calculate_slope = false;
++      bool calculate_slope = true;
+@@ -267,2 +266,0 @@ void ScanGroundFilterComponent::classifyPointCloud(
+-      } else {
+-        calculate_slope = true;

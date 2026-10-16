@@ -1,0 +1,15 @@
+--- a/tt_stl/tests/test_optional_reference.cpp
++++ b/tt_stl/tests/test_optional_reference.cpp
+@@ -88,4 +88,5 @@
+     int value = 42;
+     optional_reference<int> ref1(value);
++    const optional_reference<int>& moved_from = ref1;
+     optional_reference<int> ref2(std::move(ref1)); // NOLINT(performance-move-const-arg)
+ 
+@@ -93,5 +94,5 @@
+     EXPECT_EQ(*ref2, 42);
+     // Note: ref1 should still be valid after move (it's just a pointer copy)
+-    EXPECT_TRUE(ref1.has_value());
++    EXPECT_TRUE(moved_from.has_value());
+ }
+ 

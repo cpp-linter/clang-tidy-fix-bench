@@ -1,0 +1,8 @@
+--- a/src/mesh/gmsh.cpp
++++ b/src/mesh/gmsh.cpp
+@@ -37,5 +37,4 @@
+       return 3;
+     case 3:  // 4-node quadrangle
+-      return 4;
+     case kTetrahedron4:
+       return 4;

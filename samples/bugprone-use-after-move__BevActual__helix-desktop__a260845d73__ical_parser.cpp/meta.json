@@ -1,0 +1,52 @@
+{
+ "id": "bugprone-use-after-move__BevActual__helix-desktop__a260845d73__ical_parser.cpp",
+ "check": "bugprone-use-after-move",
+ "check_name": "bugprone-use-after-move",
+ "repo": "BevActual/helix-desktop",
+ "sha": "a260845d7329275ef27bdc054a3dc36eb65a644a",
+ "parent": "7887baca17fbb9d28bb63945a70472a2eeea6282",
+ "url": "https://github.com/BevActual/helix-desktop/commit/a260845d7329275ef27bdc054a3dc36eb65a644a",
+ "license": "MIT",
+ "message": "fix: repair use-after-move sites surfaced by bugprone-use-after-move",
+ "file": "src/calendar/ical_parser.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 466,
+   "col": 13,
+   "sev": "warning",
+   "msg": "'event' used after it was moved",
+   "check": "bugprone-use-after-move"
+  },
+  {
+   "line": 469,
+   "col": 64,
+   "sev": "warning",
+   "msg": "'exdates' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 466,
+   "col": 13,
+   "sev": "warning",
+   "msg": "'event' used after it was moved",
+   "check": "bugprone-use-after-move"
+  },
+  {
+   "line": 469,
+   "col": 64,
+   "sev": "warning",
+   "msg": "'exdates' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "errors_before": 9,
+ "human_changed_lines": 4
+}

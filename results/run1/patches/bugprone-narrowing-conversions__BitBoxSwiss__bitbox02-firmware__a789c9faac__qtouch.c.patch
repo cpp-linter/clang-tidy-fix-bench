@@ -1,0 +1,9 @@
+--- a/src/qtouch/qtouch.c
++++ b/src/qtouch/qtouch.c
+@@ -590,5 +590,5 @@
+         (sensor_node == DEF_SCROLLER_OFFSET_0 + DEF_SCROLLER_NUM_CHANNELS - 1) ||
+         (sensor_node == DEF_SCROLLER_OFFSET_1 + DEF_SCROLLER_NUM_CHANNELS - 1)) {
+-        X = X * (1 + DEF_SENSOR_EDGE_WEIGHT);
++        X = (uint16_t)(X * (1 + DEF_SENSOR_EDGE_WEIGHT));
+     }
+     // Saturate out-of-range readings.

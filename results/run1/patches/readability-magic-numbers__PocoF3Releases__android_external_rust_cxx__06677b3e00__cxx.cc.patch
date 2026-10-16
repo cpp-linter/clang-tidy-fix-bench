@@ -1,0 +1,10 @@
+--- a/src/cxx.cc
++++ b/src/cxx.cc
+@@ -243,5 +243,6 @@
+ static_assert(alignof(std::string) <= alignof(void *),
+               "unexpectedly large std::string alignment");
+-static_assert(sizeof(std::string) <= 8 * sizeof(void *),
++static constexpr std::size_t kMaxStringSizeInPointers = 8;
++static_assert(sizeof(std::string) <= kMaxStringSizeInPointers * sizeof(void *),
+               "unexpectedly large std::string size");
+ 

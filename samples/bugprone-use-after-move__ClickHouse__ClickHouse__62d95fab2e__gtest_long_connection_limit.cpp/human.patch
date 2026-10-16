@@ -1,0 +1,7 @@
+diff --git a/src/IO/tests/gtest_long_connection_limit.cpp b/src/IO/tests/gtest_long_connection_limit.cpp
+index 02db195..83865b7 100644
+--- a/src/IO/tests/gtest_long_connection_limit.cpp
++++ b/src/IO/tests/gtest_long_connection_limit.cpp
+@@ -42,0 +43,2 @@ TEST(LongConnectionLimit, MoveTransfersOwnershipWithoutDoubleRelease)
++    /// Intentionally inspect the moved-from slot: its move leaves it defined-empty.
++    // NOLINTNEXTLINE(bugprone-use-after-move,hicpp-invalid-access-moved)

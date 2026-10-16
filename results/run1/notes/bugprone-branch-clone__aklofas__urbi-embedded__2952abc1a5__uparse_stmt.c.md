@@ -1,0 +1,1 @@
+The block statement-separator handling consumed the token in two identical branches, one for TOK_SEMI and one for TOK_PIPE. These were merged into `if (sep.type == TOK_SEMI || sep.type == TOK_PIPE)`, keeping the `else break;`. Behaviour is unchanged.

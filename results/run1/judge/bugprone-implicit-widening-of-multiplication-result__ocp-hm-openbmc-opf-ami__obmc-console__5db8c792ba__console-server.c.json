@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Makes the multiplication unsigned long via a ul suffix, same as the human fix (which suffixed both operands); value unchanged."}

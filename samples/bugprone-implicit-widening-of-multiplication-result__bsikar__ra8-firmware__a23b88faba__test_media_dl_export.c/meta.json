@@ -1,0 +1,40 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__bsikar__ra8-firmware__a23b88faba__test_media_dl_export.c",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "bsikar/ra8-firmware",
+ "sha": "a23b88fabace38e384ecbddbbddf307f34dd05e7",
+ "parent": "336e22fbbd107822e829c7800d355d33864d52fa",
+ "url": "https://github.com/bsikar/ra8-firmware/commit/a23b88fabace38e384ecbddbbddf307f34dd05e7",
+ "license": "MIT",
+ "message": "fix(fleet3): widen two multiplications before adding/indexing, not after",
+ "file": "tools/media_dl/tests/test_media_dl_export.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [
+  "miniz.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 507,
+   "col": 36,
+   "sev": "warning",
+   "msg": "result of multiplication in type 'unsigned int' is used as a pointer offset after an implicit widening conversion to type 'size_t'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 507,
+   "col": 36,
+   "sev": "warning",
+   "msg": "result of multiplication in type 'unsigned int' is used as a pointer offset after an implicit widening conversion to type 'size_t'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

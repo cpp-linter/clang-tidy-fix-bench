@@ -1,0 +1,28 @@
+--- a/src/storage/columns/value_encoding.hpp
++++ b/src/storage/columns/value_encoding.hpp
+@@ -48,8 +48,6 @@
+     std::visit([&](const auto& v) {
+         using T = std::decay_t<decltype(v)>;
+-        if constexpr (std::is_same_v<T, Null>) {
+-            // null: no raw bytes
+-        } else if constexpr (std::is_same_v<T, bool>) {
+-            // bool: no raw bytes, encoded in tag
++        if constexpr (std::is_same_v<T, Null> || std::is_same_v<T, bool>) {
++            // null: no raw bytes; bool: no raw bytes, encoded in tag
+         } else if constexpr (std::is_same_v<T, std::uint64_t>) {
+             encoding::encode_uleb128(v, raw_out);
+@@ -77,6 +75,5 @@
+     auto tag = std::visit([](const auto& v) -> ValueTag {
+         using T = std::decay_t<decltype(v)>;
+-        if constexpr (std::is_same_v<T, Null>)         return ValueTag::null_tag;
+-        else if constexpr (std::is_same_v<T, bool>)    return v ? ValueTag::true_tag : ValueTag::false_tag;
++        if constexpr (std::is_same_v<T, bool>)         return v ? ValueTag::true_tag : ValueTag::false_tag;
+         else if constexpr (std::is_same_v<T, std::uint64_t>) return ValueTag::uint_tag;
+         else if constexpr (std::is_same_v<T, std::int64_t>)  return ValueTag::int_tag;
+@@ -86,5 +83,5 @@
+         else if constexpr (std::is_same_v<T, std::string>)   return ValueTag::utf8_tag;
+         else if constexpr (std::is_same_v<T, Bytes>)         return ValueTag::bytes_tag;
+-        else return ValueTag::null_tag;
++        else return ValueTag::null_tag;  // Null (and anything else)
+     }, sv);
+ 

@@ -1,0 +1,42 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__openbmc__phosphor-debug-collector__7d6d2445da__pldm_utils.hpp",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "cppcoreguidelines-special-member-functions",
+ "repo": "openbmc/phosphor-debug-collector",
+ "sha": "7d6d2445da96a5562eefb567fc3a323ff26b7c1e",
+ "parent": "3b44559f8792611772b9838178e8f8acb127eee8",
+ "url": "https://github.com/openbmc/phosphor-debug-collector/commit/7d6d2445da96a5562eefb567fc3a323ff26b7c1e",
+ "license": "Apache-2.0",
+ "message": "clang:tidy host-transport-extensions Fix warnings",
+ "file": "host-transport-extensions/pldm/common/pldm_utils.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "libpldm/instance-id.h",
+  "libpldm/pldm.h",
+  "libpldm/transport.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 17,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'PLDMInstanceManager' defines a destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 17,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'PLDMInstanceManager' defines a destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "errors_before": 6,
+ "human_changed_lines": 2
+}

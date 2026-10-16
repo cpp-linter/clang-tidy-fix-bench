@@ -1,0 +1,1 @@
+The fake input byte `0xCD` in the example's test buffer was a magic number. I added a local `constexpr uint8_t fake_input_byte = 0xCD;` right before the vector and used it in the initializer, so the buffer content and the program's behaviour are unchanged.

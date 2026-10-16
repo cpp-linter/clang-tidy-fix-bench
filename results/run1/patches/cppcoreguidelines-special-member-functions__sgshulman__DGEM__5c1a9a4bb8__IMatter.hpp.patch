@@ -1,0 +1,14 @@
+--- a/source/IMatter.hpp
++++ b/source/IMatter.hpp
+@@ -9,4 +9,11 @@
+         virtual ~IMatter() = default;
+         virtual double density(Vector3d const& position) const = 0;
++
++    protected:
++        IMatter() = default;
++        IMatter(IMatter const&) = default;
++        IMatter& operator=(IMatter const&) = default;
++        IMatter(IMatter&&) = default;
++        IMatter& operator=(IMatter&&) = default;
+ };
+ 

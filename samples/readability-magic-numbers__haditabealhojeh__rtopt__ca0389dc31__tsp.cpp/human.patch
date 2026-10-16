@@ -1,0 +1,11 @@
+diff --git a/src/problems/tsp/tsp.cpp b/src/problems/tsp/tsp.cpp
+index d356786..9a0a02a 100644
+--- a/src/problems/tsp/tsp.cpp
++++ b/src/problems/tsp/tsp.cpp
+@@ -173,0 +174 @@ std::vector<Index> TSP::raw_solve(unsigned nb_threads,
++    constexpr double sym_ls_ratio = 0.7;
+@@ -182,2 +183,2 @@ std::vector<Index> TSP::raw_solve(unsigned nb_threads,
+-      after_heuristic +
+-      std::chrono::milliseconds(static_cast<unsigned>(0.7 * remaining_ms));
++      after_heuristic + std::chrono::milliseconds(
++                          static_cast<unsigned>(sym_ls_ratio * remaining_ms));

@@ -1,0 +1,8 @@
+diff --git a/libs/kernel/src/bus/remote_interest_handler.h b/libs/kernel/src/bus/remote_interest_handler.h
+index 0a6f297..f183b39 100644
+--- a/libs/kernel/src/bus/remote_interest_handler.h
++++ b/libs/kernel/src/bus/remote_interest_handler.h
+@@ -14,0 +15 @@
++#include "sen/core/base/compiler_macros.h"
+@@ -38,0 +40 @@ public:
++  SEN_NOCOPY_NOMOVE(InterestsHandler)

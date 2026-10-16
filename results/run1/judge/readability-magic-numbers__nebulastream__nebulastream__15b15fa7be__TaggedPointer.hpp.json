@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Adds a private TAG_SHIFT constant and uses it in both pointer() and tag(), so the two places stay in sync and behaviour is unchanged. This is a real fix, where the human only extended the NOLINT."}

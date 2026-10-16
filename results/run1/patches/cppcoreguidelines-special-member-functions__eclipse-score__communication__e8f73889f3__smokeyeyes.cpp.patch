@@ -1,0 +1,12 @@
+--- a/score/mw/com/test/smokeyeyes/smokeyeyes.cpp
++++ b/score/mw/com/test/smokeyeyes/smokeyeyes.cpp
+@@ -137,4 +137,9 @@
+         pthread_barrierattr_destroy(&barrier_attr);
+     }
++
++    SharedState(const SharedState&) = delete;
++    SharedState& operator=(const SharedState&) = delete;
++    SharedState(SharedState&&) = delete;
++    SharedState& operator=(SharedState&&) = delete;
+ 
+     ~SharedState()

@@ -1,0 +1,1 @@
+In the `switch (node_string[pos])`, each case assigned `node_string[pos]` (a `char`) to the `int` `nested_open`, which is an implicit signed char to int conversion. In every case the character is already known from the case label, so the assignment now uses the literal (`'('`, `'['`, `'{'`). This gives the same value with no conversion of a possibly negative char.

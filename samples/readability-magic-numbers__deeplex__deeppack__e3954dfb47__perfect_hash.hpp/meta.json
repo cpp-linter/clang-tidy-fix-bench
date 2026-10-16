@@ -1,0 +1,99 @@
+{
+ "id": "readability-magic-numbers__deeplex__deeppack__e3954dfb47__perfect_hash.hpp",
+ "check": "readability-magic-numbers",
+ "check_name": "cppcoreguidelines-avoid-magic-numbers",
+ "repo": "deeplex/deeppack",
+ "sha": "e3954dfb47ba05b945a9385debbb21f85396cc49",
+ "parent": "d5cc6a1b543d89d74f6c410a7f5048625490787b",
+ "url": "https://github.com/deeplex/deeppack/commit/e3954dfb47ba05b945a9385debbb21f85396cc49",
+ "license": "BSL-1.0",
+ "message": "lint: fix `cppcoreguidelines-avoid-magic-numbers`",
+ "file": "src/dplx/dp/detail/perfect_hash.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "dplx/predef/compiler.h",
+  "dplx/predef/library/std.h",
+  "dplx/predef/version_number.h",
+  "dplx/predef/workaround.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 118,
+   "col": 19,
+   "sev": "warning",
+   "msg": "0xffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 124,
+   "col": 14,
+   "sev": "warning",
+   "msg": "0xffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 124,
+   "col": 32,
+   "sev": "warning",
+   "msg": "0xffffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 130,
+   "col": 14,
+   "sev": "warning",
+   "msg": "0xffffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 130,
+   "col": 34,
+   "sev": "warning",
+   "msg": "0xffff'ffffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 118,
+   "col": 19,
+   "sev": "warning",
+   "msg": "0xffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 124,
+   "col": 14,
+   "sev": "warning",
+   "msg": "0xffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 124,
+   "col": 32,
+   "sev": "warning",
+   "msg": "0xffffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 130,
+   "col": 14,
+   "sev": "warning",
+   "msg": "0xffffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 130,
+   "col": 34,
+   "sev": "warning",
+   "msg": "0xffff'ffffU is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "errors_before": 1,
+ "human_changed_lines": 6
+}

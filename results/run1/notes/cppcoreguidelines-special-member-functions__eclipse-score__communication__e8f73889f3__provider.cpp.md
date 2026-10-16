@@ -1,0 +1,1 @@
+`CyclicEventSender` owns a thread that runs a member function with `this`, and copying was already deleted. The move constructor and move assignment are now explicitly deleted too, because moving would leave the thread pointing at the old object. They were already implicitly unavailable, so behaviour does not change and the rule of five is satisfied.

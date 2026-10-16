@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical to the human fix: the bounds become UINT8_MAX, UINT16_MAX and UINT32_MAX."}

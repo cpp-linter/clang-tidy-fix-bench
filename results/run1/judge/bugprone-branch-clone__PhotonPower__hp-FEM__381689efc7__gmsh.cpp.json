@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Removes the duplicate return 4 so both labels share one body, same as the human fix."}

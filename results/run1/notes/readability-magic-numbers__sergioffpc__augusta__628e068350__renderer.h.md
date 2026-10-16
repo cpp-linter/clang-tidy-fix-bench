@@ -1,0 +1,1 @@
+Added `static constexpr float kDefaultVerticalFov = 0.9F;` (in radians) inside `Camera` and used it as the default member initializer of `vertical_fov`. The default value and the struct layout (a static member takes no storage) stay the same, so behaviour is unchanged.

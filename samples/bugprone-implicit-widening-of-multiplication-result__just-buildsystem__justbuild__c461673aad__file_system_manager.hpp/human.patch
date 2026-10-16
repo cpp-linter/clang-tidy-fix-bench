@@ -1,0 +1,7 @@
+diff --git a/src/buildtool/file_system/file_system_manager.hpp b/src/buildtool/file_system/file_system_manager.hpp
+index d506f4b..39dd3cf 100644
+--- a/src/buildtool/file_system/file_system_manager.hpp
++++ b/src/buildtool/file_system/file_system_manager.hpp
+@@ -1188 +1188 @@ class FileSystemManager {
+-        static constexpr std::size_t kDefaultChunkSize = 1024 * 32;
++        static constexpr std::size_t kDefaultChunkSize = 1024UL * 32;

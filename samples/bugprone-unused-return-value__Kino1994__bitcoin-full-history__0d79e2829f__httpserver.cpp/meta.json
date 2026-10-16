@@ -1,0 +1,47 @@
+{
+ "id": "bugprone-unused-return-value__Kino1994__bitcoin-full-history__0d79e2829f__httpserver.cpp",
+ "check": "bugprone-unused-return-value",
+ "check_name": "bugprone-unused-return-value",
+ "repo": "Kino1994/bitcoin-full-history",
+ "sha": "0d79e2829ff6e08f8dd52e324c65845f4997eb26",
+ "parent": "11f81662e68db4dbbf59b6dee52a1d4b50b32b9d",
+ "url": "https://github.com/Kino1994/bitcoin-full-history/commit/0d79e2829ff6e08f8dd52e324c65845f4997eb26",
+ "license": "MIT",
+ "message": "refactor: Enable clang-tidy bugprone-unused-return-value",
+ "file": "src/httpserver.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "event2/buffer.h",
+  "event2/bufferevent.h",
+  "event2/event.h",
+  "event2/http.h",
+  "event2/http_struct.h",
+  "event2/keyvalq_struct.h",
+  "event2/thread.h",
+  "event2/util.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 333,
+   "col": 13,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "bugprone-unused-return-value"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 333,
+   "col": 13,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "bugprone-unused-return-value"
+  }
+ ],
+ "errors_before": 71,
+ "human_changed_lines": 2
+}

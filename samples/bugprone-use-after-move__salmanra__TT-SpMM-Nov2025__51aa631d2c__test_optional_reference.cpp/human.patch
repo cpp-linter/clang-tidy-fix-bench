@@ -1,0 +1,6 @@
+diff --git a/tt_stl/tests/test_optional_reference.cpp b/tt_stl/tests/test_optional_reference.cpp
+index 2044adb..e45018c 100644
+--- a/tt_stl/tests/test_optional_reference.cpp
++++ b/tt_stl/tests/test_optional_reference.cpp
+@@ -94,0 +95 @@ TEST(OptionalReferenceTest, MoveConstruction) {
++    // NOLINTNEXTLINE(bugprone-use-after-move)

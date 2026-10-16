@@ -1,0 +1,1 @@
+ProxyEvent declared deleted copy operations and user-provided move operations but no destructor. I added `~ProxyEvent() = default;` next to them to complete the rule of five. The defaulted destructor is the same as the implicit one, so behaviour is unchanged.

@@ -1,0 +1,69 @@
+{
+ "id": "bugprone-signed-char-misuse__aldelaro5__dolphin-memory-engine__c840965545__MemViewer.cpp",
+ "check": "bugprone-signed-char-misuse",
+ "check_name": "bugprone-signed-char-misuse",
+ "repo": "aldelaro5/dolphin-memory-engine",
+ "sha": "c8409655451071302659753f1254af86b46be944",
+ "parent": "e4d4d4b28960d834095c3204431648a61272b5c7",
+ "url": "https://github.com/aldelaro5/dolphin-memory-engine/commit/c8409655451071302659753f1254af86b46be944",
+ "license": "MIT",
+ "message": "Address `bugprone-signed-char-misuse` warnings.",
+ "file": "Source/GUI/MemViewer/MemViewer.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "QAbstractScrollArea",
+  "QApplication",
+  "QByteArray",
+  "QCheckBox",
+  "QClipboard",
+  "QColor",
+  "QComboBox",
+  "QDialog",
+  "QElapsedTimer",
+  "QFontDatabase",
+  "QGridLayout",
+  "QGroupBox",
+  "QInputDialog",
+  "QLabel",
+  "QLineEdit",
+  "QList",
+  "QMenu",
+  "QMessageBox",
+  "QMouseEvent",
+  "QPainter",
+  "QPushButton",
+  "QRect",
+  "QRegularExpression",
+  "QScrollBar",
+  "QShortcut",
+  "QSpinBox",
+  "QString",
+  "QTimer",
+  "QVector",
+  "QWidget"
+ ],
+ "warnings_before": [
+  {
+   "line": 955,
+   "col": 24,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 955,
+   "col": 24,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

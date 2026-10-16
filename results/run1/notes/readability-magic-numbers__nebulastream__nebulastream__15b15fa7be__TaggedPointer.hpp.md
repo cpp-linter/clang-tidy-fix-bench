@@ -1,0 +1,1 @@
+The literal 48 is the bit position where the 16-bit tag starts in the tagged pointer. Added a private `static constexpr uintptr_t TAG_SHIFT = 48;` and used it both in `pointer()` (the flagged line, mask `(1ULL << TAG_SHIFT) - 1`) and in `tag()` (`data >> TAG_SHIFT`), so the two places that must agree share one constant. Behaviour is unchanged.

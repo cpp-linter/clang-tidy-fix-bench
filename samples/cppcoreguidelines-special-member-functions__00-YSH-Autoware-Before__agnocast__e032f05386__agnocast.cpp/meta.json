@@ -1,0 +1,41 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__00-YSH-Autoware-Before__agnocast__e032f05386__agnocast.cpp",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "hicpp-special-member-functions",
+ "repo": "00-YSH-Autoware-Before/agnocast",
+ "sha": "e032f053867453f4dcc5ff793d9320a8ffd8b0ef",
+ "parent": "504436d12743eb8ffd1f01b4247896d1181aa69d",
+ "url": "https://github.com/00-YSH-Autoware-Before/agnocast/commit/e032f053867453f4dcc5ff793d9320a8ffd8b0ef",
+ "license": "Apache-2.0",
+ "message": "fix(clang-tidy): hicpp-special-member-functions (#309)",
+ "file": "src/agnocastlib/src/agnocast.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "mqueue.h",
+  "rclcpp/rclcpp.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 166,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'Cleanup' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "hicpp-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 166,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'Cleanup' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "hicpp-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 6
+}

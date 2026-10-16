@@ -1,0 +1,1 @@
+In `n_len_bad`, `QUIC_BN_LIMBS * 8` was computed in `int` and widened to `usz` for the comparison with `n_len`. I cast `QUIC_BN_LIMBS` to `usz` so the product is computed in the wider type. Behaviour is unchanged.

@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__Linductor-alkaid__yori__9708a998f0__environment_capture.cpp",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "Linductor-alkaid/yori",
+ "sha": "9708a998f0d29c1f461a65fe1026d28d6fce3c7a",
+ "parent": "d4357b33b356e05444679e2cc995130a2963286f",
+ "url": "https://github.com/Linductor-alkaid/yori/commit/9708a998f0d29c1f461a65fe1026d28d6fce3c7a",
+ "license": "MIT",
+ "message": "fix(core): widen nanosleep timespec operands for tidy widening check",
+ "file": "src/launch/environment_capture.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 334,
+   "col": 10,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'long' of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 334,
+   "col": 10,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'long' of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

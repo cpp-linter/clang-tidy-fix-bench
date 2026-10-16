@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Deletes the move operations as the human did; the human's extra renames address other checks and are unrelated to this warning."}

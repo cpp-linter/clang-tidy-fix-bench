@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Uses the same 'cancelled' flag restructuring as the human fix, with identical call order and guards."}

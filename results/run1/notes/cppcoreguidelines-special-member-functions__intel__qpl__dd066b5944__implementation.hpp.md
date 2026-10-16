@@ -1,0 +1,1 @@
+`implementation` defaulted all copy and move operations but did not declare a destructor. An explicitly defaulted `~implementation() = default;` has been added. It is not marked constexpr (that would need C++20), but it stays trivial, so the class remains a literal type and the constexpr constructors keep working. Behaviour is unchanged.

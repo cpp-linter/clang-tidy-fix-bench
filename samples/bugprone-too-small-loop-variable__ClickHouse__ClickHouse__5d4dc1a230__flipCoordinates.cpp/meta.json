@@ -1,0 +1,47 @@
+{
+ "id": "bugprone-too-small-loop-variable__ClickHouse__ClickHouse__5d4dc1a230__flipCoordinates.cpp",
+ "check": "bugprone-too-small-loop-variable",
+ "check_name": "bugprone-too-small-loop-variable",
+ "repo": "ClickHouse/ClickHouse",
+ "sha": "5d4dc1a230a591775065aadc7079d2fcc313501c",
+ "parent": "5ac29b514aede33e4dcd3a66a74d7df49c34fc1d",
+ "url": "https://github.com/ClickHouse/ClickHouse/commit/5d4dc1a230a591775065aadc7079d2fcc313501c",
+ "license": "Apache-2.0",
+ "message": "Fix bugprone-too-small-loop-variable in flipCoordinates",
+ "file": "src/Functions/flipCoordinates.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "boost/math/special_functions/fpclassify.hpp",
+  "boost/multiprecision/cpp_bin_float.hpp",
+  "boost/noncopyable.hpp",
+  "boost/smart_ptr/intrusive_ptr.hpp",
+  "boost/smart_ptr/intrusive_ref_counter.hpp",
+  "fmt/format.h",
+  "malloc.h",
+  "miniselect/floyd_rivest_select.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 124,
+   "col": 60,
+   "sev": "warning",
+   "msg": "loop variable has narrower type 'ColumnVariant::Discriminator' than iteration's upper bound 'const size_t'",
+   "check": "bugprone-too-small-loop-variable"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 124,
+   "col": 60,
+   "sev": "warning",
+   "msg": "loop variable has narrower type 'ColumnVariant::Discriminator' than iteration's upper bound 'const size_t'",
+   "check": "bugprone-too-small-loop-variable"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

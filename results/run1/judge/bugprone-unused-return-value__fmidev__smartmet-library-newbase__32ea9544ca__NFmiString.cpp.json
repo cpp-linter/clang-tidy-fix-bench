@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical (void) casts on both setlocale calls."}

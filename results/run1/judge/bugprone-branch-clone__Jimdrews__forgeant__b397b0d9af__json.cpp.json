@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Merges the mutually exclusive bool and string if-constexpr branches instead of the human's bool temporary; conversion behaviour is unchanged and the clone is genuinely removed."}

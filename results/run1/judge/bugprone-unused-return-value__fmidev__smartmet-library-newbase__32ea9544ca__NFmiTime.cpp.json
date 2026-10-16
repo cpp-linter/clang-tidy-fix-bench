@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Replaces time(&aclock) with time_t aclock = time(nullptr), which uses the return value and yields the same result; a clean alternative to the human (void) cast."}

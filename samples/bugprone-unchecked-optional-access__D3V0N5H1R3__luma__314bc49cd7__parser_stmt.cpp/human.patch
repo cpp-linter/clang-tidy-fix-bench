@@ -1,0 +1,10 @@
+diff --git a/core/analysis/parser/parser_stmt.cpp b/core/analysis/parser/parser_stmt.cpp
+index bda4355..55fdb02 100644
+--- a/core/analysis/parser/parser_stmt.cpp
++++ b/core/analysis/parser/parser_stmt.cpp
+@@ -590,0 +591 @@ void Parser::parse_pattern_literal(MatchPattern::PatternData& pattern) {
++            const auto& hi_token = expect(TokenType::IntegerLiteral);
+@@ -592,2 +593 @@ void Parser::parse_pattern_literal(MatchPattern::PatternData& pattern) {
+-            const auto hi =
+-                std::get<std::int64_t>(expect(TokenType::IntegerLiteral).literal.value());
++            const auto hi = std::get<std::int64_t>(*hi_token.literal);

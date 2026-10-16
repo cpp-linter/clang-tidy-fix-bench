@@ -1,0 +1,38 @@
+{
+ "id": "readability-magic-numbers__felixb419__kaad__2911ea786a__exceptions.cpp",
+ "check": "readability-magic-numbers",
+ "check_name": "readability-magic-numbers",
+ "repo": "felixb419/kaad",
+ "sha": "2911ea786a4f68d1d9f2f1ded6ea5eef2cb204da",
+ "parent": "86fbb8e57263a2037e58cd99f7e41b6050f944c6",
+ "url": "https://github.com/felixb419/kaad/commit/2911ea786a4f68d1d9f2f1ded6ea5eef2cb204da",
+ "license": "MIT",
+ "message": "refactor: made max errmsg len a variable [readability-magic-numbers]",
+ "file": "src/exceptions.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 25,
+   "col": 20,
+   "sev": "warning",
+   "msg": "128 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 25,
+   "col": 20,
+   "sev": "warning",
+   "msg": "128 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 5
+}

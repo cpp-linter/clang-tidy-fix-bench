@@ -1,0 +1,42 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__b58aa102db__debug_logging_overhead_tests.cpp",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "konard/VisageDvachevsky-veil-windows-client",
+ "sha": "b58aa102db240f376d32f8158c6038a74967d4c8",
+ "parent": "c52a457a6a9dcd958f0ae127846ad7ab4671553e",
+ "url": "https://github.com/konard/VisageDvachevsky-veil-windows-client/commit/b58aa102db240f376d32f8158c6038a74967d4c8",
+ "license": "Apache-2.0",
+ "message": "Fix implicit widening conversion warning in test",
+ "file": "tests/unit/debug_logging_overhead_tests.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "gtest/gtest.h",
+  "spdlog/common.h",
+  "spdlog/spdlog.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 152,
+   "col": 49,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'std::size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 152,
+   "col": 49,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'std::size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 58,
+ "human_changed_lines": 4
+}

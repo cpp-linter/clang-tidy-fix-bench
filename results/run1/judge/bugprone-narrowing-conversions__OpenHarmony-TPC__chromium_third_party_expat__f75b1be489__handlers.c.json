@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical (int) casts at all five sites."}

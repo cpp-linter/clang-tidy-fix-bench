@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same explicit (uint16_t) cast of the double product; the human's extra (double)X is redundant because the operand is promoted anyway."}

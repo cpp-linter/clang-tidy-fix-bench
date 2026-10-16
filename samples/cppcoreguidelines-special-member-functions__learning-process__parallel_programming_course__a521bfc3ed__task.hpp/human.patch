@@ -1,0 +1,11 @@
+diff --git a/modules/task/include/task.hpp b/modules/task/include/task.hpp
+index 055a974..b6eaf59 100644
+--- a/modules/task/include/task.hpp
++++ b/modules/task/include/task.hpp
+@@ -205,0 +206,6 @@ class Task {
++  Task() = default;
++  Task(const Task &) = delete;
++  Task(Task &&) = delete;
++  Task &operator=(const Task &) = delete;
++  Task &operator=(Task &&) = delete;
++

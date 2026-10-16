@@ -1,0 +1,12 @@
+--- a/src/shell/settings/settings_window.cpp
++++ b/src/shell/settings/settings_window.cpp
+@@ -680,7 +680,6 @@
+   // The inspector takes a per-lane path {"bar", name, <lane>} (same shape the lane-card gear passes);
+   // resolve which lane this widget lives in so it isn't a 2-element path that mislocates the bar name.
+-  openWidgetInspectorEditor(
+-      barWidgetLanePath(m_config->config(), m_selectedBarName, widgetName), std::move(widgetName)
+-  );
++  auto lanePath = barWidgetLanePath(m_config->config(), m_selectedBarName, widgetName);
++  openWidgetInspectorEditor(std::move(lanePath), std::move(widgetName));
+ }
+ 

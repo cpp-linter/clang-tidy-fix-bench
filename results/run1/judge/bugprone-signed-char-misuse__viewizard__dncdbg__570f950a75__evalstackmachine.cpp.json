@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Warning is a false positive (sign extension intended); human used NOLINT, candidate uses static_cast<T2>(+value1) which yields identical values for all instantiations and is commented, a slightly clever but valid alternative."}

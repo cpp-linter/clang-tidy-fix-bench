@@ -1,0 +1,1 @@
+In iesys_compute_bound_entity the loop counter i was UINT16 while the bound is sizeof(bound_entity->name) (size_t). Declared i as size_t instead; it is only used as an index, so behaviour is unchanged for valid sizes.

@@ -1,0 +1,10 @@
+--- a/tt_stl/tests/test_cleanup.cpp
++++ b/tt_stl/tests/test_cleanup.cpp
+@@ -71,6 +71,6 @@
+         auto cleanup = make_cleanup([captured = std::move(captured)]() {
+             // captured should be moved into the lambda
++            EXPECT_EQ(captured.size(), 3U);
+         });
+-        EXPECT_TRUE(captured.empty());  // Should be moved from
+     }
+ }

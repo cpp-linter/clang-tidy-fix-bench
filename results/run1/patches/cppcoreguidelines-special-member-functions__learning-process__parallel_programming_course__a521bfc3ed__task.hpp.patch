@@ -1,0 +1,13 @@
+--- a/modules/task/include/task.hpp
++++ b/modules/task/include/task.hpp
+@@ -204,4 +204,10 @@
+ class Task {
+  public:
++  Task() = default;
++  Task(const Task &) = delete;
++  Task &operator=(const Task &) = delete;
++  Task(Task &&) = delete;
++  Task &operator=(Task &&) = delete;
++
+   /// @brief Validates input data and task attributes before execution.
+   /// @return True if validation is successful.

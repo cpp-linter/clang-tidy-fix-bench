@@ -1,0 +1,52 @@
+{
+ "id": "bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__ical_parser.cpp",
+ "check": "bugprone-use-after-move",
+ "check_name": "bugprone-use-after-move",
+ "repo": "george-leonard314/chiroptera-shell",
+ "sha": "7ea1245ada09f642889f0cc3a86798ce18edd3dd",
+ "parent": "0d2657a3f33fcfdfd698124bed2fee7b3503aa14",
+ "url": "https://github.com/george-leonard314/chiroptera-shell/commit/7ea1245ada09f642889f0cc3a86798ce18edd3dd",
+ "license": "MIT",
+ "message": "fix: repair use-after-move sites surfaced by bugprone-use-after-move",
+ "file": "src/calendar/ical_parser.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 466,
+   "col": 13,
+   "sev": "warning",
+   "msg": "'event' used after it was moved",
+   "check": "bugprone-use-after-move"
+  },
+  {
+   "line": 469,
+   "col": 64,
+   "sev": "warning",
+   "msg": "'exdates' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 466,
+   "col": 13,
+   "sev": "warning",
+   "msg": "'event' used after it was moved",
+   "check": "bugprone-use-after-move"
+  },
+  {
+   "line": 469,
+   "col": 64,
+   "sev": "warning",
+   "msg": "'exdates' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "errors_before": 9,
+ "human_changed_lines": 4
+}

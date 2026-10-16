@@ -1,0 +1,30 @@
+--- a/src/modules/commander/lm_fit.cpp
++++ b/src/modules/commander/lm_fit.cpp
+@@ -56,5 +56,5 @@
+ 
+ 	// Gauss Newton Part common for all kind of extensions including LM
+-	for (uint16_t k = 0; k < samples_collected; k++) {
++	for (unsigned int k = 0; k < samples_collected; k++) {
+ 
+ 		float sphere_jacob[4];
+@@ -119,5 +119,5 @@
+ 
+ 	// Calculate mean squared residuals
+-	for (uint16_t k = 0; k < samples_collected; k++) {
++	for (unsigned int k = 0; k < samples_collected; k++) {
+ 		float A = (params.diag(0)    * (x[k] - fit1_params[1])) + (params.offdiag(0) * (y[k] - fit1_params[2])) +
+ 			  (params.offdiag(1) *
+@@ -189,5 +189,5 @@
+ 
+ 	// Gauss Newton Part common for all kind of extensions including LM
+-	for (uint16_t k = 0; k < samples_collected; k++) {
++	for (unsigned int k = 0; k < samples_collected; k++) {
+ 
+ 		// Calculate Jacobian
+@@ -256,5 +256,5 @@
+ 
+ 	// Calculate mean squared residuals
+-	for (uint16_t k = 0; k < samples_collected; k++) {
++	for (unsigned int k = 0; k < samples_collected; k++) {
+ 		float A = (fit1_params[3]    * (x[k] - fit1_params[0])) + (fit1_params[6] * (y[k] - fit1_params[1])) + (fit1_params[7] *
+ 				(z[k] - fit1_params[2]));

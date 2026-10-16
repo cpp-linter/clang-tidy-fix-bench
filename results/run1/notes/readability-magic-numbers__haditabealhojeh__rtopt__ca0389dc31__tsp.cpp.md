@@ -1,0 +1,1 @@
+The share `0.7` of the remaining time given to the symmetric local search (the "70%" rule of thumb in the comment above it) is now the local `constexpr double sym_time_share = 0.7;`, used in the deadline calculation. The result is unchanged.

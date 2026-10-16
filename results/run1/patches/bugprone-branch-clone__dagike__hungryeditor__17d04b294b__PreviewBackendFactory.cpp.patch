@@ -1,0 +1,8 @@
+--- a/src/preview/PreviewBackendFactory.cpp
++++ b/src/preview/PreviewBackendFactory.cpp
+@@ -27,5 +27,4 @@
+         // Unreachable today: selectedPreviewEngine() only returns this when
+         // isWebView2Available() is true, which it never is yet.
+-        break;
+     case PreviewEngine::QtWebEngine:
+         break;

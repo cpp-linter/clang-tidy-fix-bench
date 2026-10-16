@@ -1,0 +1,11 @@
+diff --git a/src/exceptions.cpp b/src/exceptions.cpp
+index 51c1560..5e47cf1 100644
+--- a/src/exceptions.cpp
++++ b/src/exceptions.cpp
+@@ -23,0 +24 @@ std::string make_graph_errmsg(
++
+@@ -25 +26,3 @@ std::string make_graph_errmsg(
+-    errmsg.reserve(128);
++    const std::size_t max_msg_len = 128;
++    errmsg.reserve(max_msg_len);
++

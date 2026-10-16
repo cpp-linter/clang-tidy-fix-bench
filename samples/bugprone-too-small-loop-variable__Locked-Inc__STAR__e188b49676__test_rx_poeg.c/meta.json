@@ -1,0 +1,40 @@
+{
+ "id": "bugprone-too-small-loop-variable__Locked-Inc__STAR__e188b49676__test_rx_poeg.c",
+ "check": "bugprone-too-small-loop-variable",
+ "check_name": "bugprone-too-small-loop-variable",
+ "repo": "Locked-Inc/STAR",
+ "sha": "e188b49676ceb602cccc397e5f4d3afa317f1426",
+ "parent": "cb29998982eb07b93ac130f137efebc0617878d2",
+ "url": "https://github.com/Locked-Inc/STAR/commit/e188b49676ceb602cccc397e5f4d3afa317f1426",
+ "license": "MIT",
+ "message": "ci: clang-format pass + uint8_t->uint32_t loop var in test_rx_poeg",
+ "file": "star-rx72n-firmware/tests/test_rx_poeg.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [
+  "unity.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 393,
+   "col": 23,
+   "sev": "warning",
+   "msg": "loop variable has narrower type 'uint8_t' than iteration's upper bound 'int'",
+   "check": "bugprone-too-small-loop-variable"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 393,
+   "col": 23,
+   "sev": "warning",
+   "msg": "loop variable has narrower type 'uint8_t' than iteration's upper bound 'int'",
+   "check": "bugprone-too-small-loop-variable"
+  }
+ ],
+ "errors_before": 93,
+ "human_changed_lines": 2
+}

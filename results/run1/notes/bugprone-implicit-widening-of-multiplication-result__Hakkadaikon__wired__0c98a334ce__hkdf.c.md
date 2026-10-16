@@ -1,0 +1,1 @@
+In `expand_ok`, `255 * QUIC_SHA256_DIGEST` was computed in `int` and then widened to `usz` for the comparison with `len`. I cast the first operand to `usz` so the multiplication is done in `usz`. The value (255*32) is the same, so behaviour is unchanged.

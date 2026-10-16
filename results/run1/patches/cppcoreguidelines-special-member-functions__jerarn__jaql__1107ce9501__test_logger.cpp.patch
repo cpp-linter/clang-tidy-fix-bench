@@ -1,0 +1,9 @@
+--- a/tests/unit/infra/test_logger.cpp
++++ b/tests/unit/infra/test_logger.cpp
+@@ -16,4 +16,6 @@
+   LoggerGuard(const LoggerGuard&) = delete;
+   LoggerGuard& operator=(const LoggerGuard&) = delete;
++  LoggerGuard(LoggerGuard&&) = delete;
++  LoggerGuard& operator=(LoggerGuard&&) = delete;
+ 
+   std::string name_;

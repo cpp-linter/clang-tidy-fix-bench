@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-narrowing-conversions__Noorts__DuckIR__5f74a3a16e__common.hpp",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "Noorts/DuckIR",
+ "sha": "5f74a3a16e4f355ed9d2ad37a37ea903649821ef",
+ "parent": "1071e83f070120ce2f386a9a2cdda019b3df3663",
+ "url": "https://github.com/Noorts/DuckIR/commit/5f74a3a16e4f355ed9d2ad37a37ea903649821ef",
+ "license": "MIT",
+ "message": "refactor: address `bugprone-narrowing-conversions` clang-tidy warning",
+ "file": "src/include/pdxearch/common.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 111,
+   "col": 44,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'uint32_t' (aka 'unsigned int') to 'float'",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 111,
+   "col": 44,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'uint32_t' (aka 'unsigned int') to 'float'",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

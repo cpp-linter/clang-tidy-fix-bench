@@ -1,0 +1,1 @@
+`FirstCharToUpper` calls `setlocale` twice: once to switch to the Finnish locale and once to restore "C". It only cares about the side effect and never needs the returned locale string, so both calls are now cast to `(void)`, which cert-err33-c accepts. Behaviour is unchanged.

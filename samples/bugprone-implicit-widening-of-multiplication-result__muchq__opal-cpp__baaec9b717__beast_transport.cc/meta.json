@@ -1,0 +1,53 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__muchq__opal-cpp__baaec9b717__beast_transport.cc",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "muchq/opal-cpp",
+ "sha": "baaec9b717eb555a79dc5d5802830b5dc83fc60d",
+ "parent": "8baf3e01c10d1bbcd8404f2c7de3311376b42187",
+ "url": "https://github.com/muchq/opal-cpp/commit/baaec9b717eb555a79dc5d5802830b5dc83fc60d",
+ "license": "Apache-2.0",
+ "message": "Name the body window constant so its size is computed in size_t",
+ "file": "runtime/src/http/beast_transport.cc",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "boost/asio/buffer.hpp",
+  "boost/asio/executor_work_guard.hpp",
+  "boost/asio/ip/tcp.hpp",
+  "boost/asio/post.hpp",
+  "boost/asio/ssl.hpp",
+  "boost/asio/steady_timer.hpp",
+  "boost/asio/strand.hpp",
+  "boost/asio/thread_pool.hpp",
+  "boost/beast/core.hpp",
+  "boost/beast/http.hpp",
+  "boost/beast/ssl.hpp",
+  "boost/beast/websocket.hpp",
+  "boost/beast/websocket/ssl.hpp",
+  "openssl/ssl.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 2194,
+   "col": 22,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 2194,
+   "col": 22,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 382,
+ "human_changed_lines": 6
+}

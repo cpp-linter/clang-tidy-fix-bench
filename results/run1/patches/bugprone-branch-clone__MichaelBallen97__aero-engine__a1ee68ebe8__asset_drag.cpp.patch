@@ -1,0 +1,21 @@
+--- a/editor/src/asset_drag.cpp
++++ b/editor/src/asset_drag.cpp
+@@ -161,16 +161,7 @@
+             return DropAction::None;
+         // task E.3.3: Audio LEAVES the four-kind refusal group, because it is draggable now and has an
+-        // AssetField row of its own. Its four OLD surfaces are byte-identical: still None everywhere.
++        // AssetField row of its own. Its four OLD surfaces are byte-identical: still None everywhere,
++        // so it shares the composed row below with the non-draggable kinds.
+         case AssetKind::Audio:
+-            switch (surface) {
+-                case DropSurface::HierarchyRow:
+-                case DropSurface::HierarchyVoid:
+-                case DropSurface::Viewport:
+-                case DropSurface::MaterialSlot:
+-                    return DropAction::None;
+-                case DropSurface::AssetField:
+-                    return assetFieldRow();
+-            }
+-            return DropAction::None;
+         // NOT DRAGGABLE -- and they reach assetFieldRow() ANYWAY rather than short-circuiting to None.
+         // That is the whole point of composing the row instead of restating it: the day a script

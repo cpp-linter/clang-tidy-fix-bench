@@ -1,0 +1,9 @@
+--- a/src/rsa/rsa_verify.c
++++ b/src/rsa/rsa_verify.c
+@@ -48,5 +48,5 @@
+ static int n_len_bad(usz n_len)
+ {
+-    if (n_len > QUIC_BN_LIMBS * 8) return 1;
++    if (n_len > (usz)QUIC_BN_LIMBS * 8) return 1;
+     return n_len < 11 + 19 + 32;
+ }

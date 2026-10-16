@@ -1,0 +1,12 @@
+--- a/nes-executable/tests/TestUtils/TestTaskQueue.cpp
++++ b/nes-executable/tests/TestUtils/TestTaskQueue.cpp
+@@ -41,8 +41,5 @@
+     switch (continuationPolicy)
+     {
+-        case ContinuationPolicy::NEVER: {
+-            resultBuffers->at(workerThreadId.getRawValue()).emplace_back(resultBuffer);
+-            break;
+-        }
++        case ContinuationPolicy::NEVER:
+         case ContinuationPolicy::POSSIBLE: {
+             resultBuffers->at(workerThreadId.getRawValue()).emplace_back(resultBuffer);

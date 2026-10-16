@@ -1,0 +1,9 @@
+--- a/src/recvpn/recvpn.c
++++ b/src/recvpn/recvpn.c
+@@ -13,5 +13,5 @@
+     u64 delta = r->largest - pn;
+     if (delta > QUIC_RECVPN_WINDOW) return 0; /* fell out of the window */
+-    return (r->bitmap >> (delta - 1)) & 1u;
++    return (int)((r->bitmap >> (delta - 1)) & 1u);
+ }
+ 

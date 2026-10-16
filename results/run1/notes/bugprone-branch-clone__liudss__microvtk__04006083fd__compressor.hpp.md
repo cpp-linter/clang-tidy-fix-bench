@@ -1,0 +1,1 @@
+In createCompressor, when zlib/lz4 support is not compiled in, the ZLib, LZ4 and default cases all returned nullptr. Each `case` label is now inside its own `#ifdef`, so a case exists only when its compressor is available, and everything else reaches the single `default: return nullptr;`. The result for every configuration is the same as before.

@@ -1,0 +1,7 @@
+diff --git a/sources/middle-layer/analytics/input_stream.hpp b/sources/middle-layer/analytics/input_stream.hpp
+index 91266f5..b9a8a1c 100644
+--- a/sources/middle-layer/analytics/input_stream.hpp
++++ b/sources/middle-layer/analytics/input_stream.hpp
+@@ -47,0 +48,2 @@ public:
++        ~unpack_result_t() = default;
++

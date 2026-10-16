@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical static_cast<double> wrapping at all three sites."}

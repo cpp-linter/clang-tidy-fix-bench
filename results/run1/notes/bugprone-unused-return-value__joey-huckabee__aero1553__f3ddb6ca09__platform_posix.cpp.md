@@ -1,0 +1,1 @@
+`prepare_stdout` ignores SIGPIPE through `::signal`. `prepare_stdout` returns void, and the original code never acted on failure. The call is now cast to `(void)` to show that the result is ignored on purpose, which cert-err33-c accepts. Behaviour is unchanged.

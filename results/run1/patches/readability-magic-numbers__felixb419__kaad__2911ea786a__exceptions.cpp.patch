@@ -1,0 +1,11 @@
+--- a/src/exceptions.cpp
++++ b/src/exceptions.cpp
+@@ -22,6 +22,7 @@
+     std::initializer_list<std::pair<const char *, std::span<const int>>> arrays,
+     std::initializer_list<std::pair<const char *, int>> numbers) {
++    constexpr std::size_t initial_errmsg_capacity = 128;
+     std::string errmsg;
+-    errmsg.reserve(128);
++    errmsg.reserve(initial_errmsg_capacity);
+     errmsg += err_type;
+     errmsg += " in node[";

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same approach of widening the first literal (uintmax_t{100} vs size_t{100}); identical value and behaviour."}

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Defaults the move constructor and deletes move assignment as the human did; the extra noexcept matches the implicit spec for its pointer/POD members."}

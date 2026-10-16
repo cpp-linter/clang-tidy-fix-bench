@@ -1,0 +1,7 @@
+diff --git a/source/stdlib.c b/source/stdlib.c
+index a2a7c97..9f7f498 100644
+--- a/source/stdlib.c
++++ b/source/stdlib.c
+@@ -606 +606 @@ uacpi_i32 uacpi_vsnprintf(
+-                value = (signed char)uacpi_va_arg(vlist, int);
++                value = (uacpi_u64)uacpi_va_arg(vlist, int);

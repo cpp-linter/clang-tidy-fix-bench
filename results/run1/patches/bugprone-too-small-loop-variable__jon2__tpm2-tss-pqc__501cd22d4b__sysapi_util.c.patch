@@ -1,0 +1,9 @@
+--- a/src/tss2-sys/sysapi_util.c
++++ b/src/tss2-sys/sysapi_util.c
+@@ -294,5 +294,5 @@
+     };
+ 
+-    uint8_t i;
++    size_t i;
+ 
+     for (i = 0; i < sizeof(commandArray) / sizeof(COMMAND_HANDLES); i++) {

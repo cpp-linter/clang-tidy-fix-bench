@@ -1,0 +1,1 @@
+The array index `2U * k_tar_member_stride` was multiplied in `unsigned int` and then widened to `size_t` as a pointer offset. Casting the first operand to `size_t` (`(size_t)2U * k_tar_member_stride`) makes the multiplication happen in `size_t`. The offset (2048) and test behaviour are unchanged.

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same (void) cast on ::signal(SIGPIPE, SIG_IGN); the human only added an explanatory comment as well."}

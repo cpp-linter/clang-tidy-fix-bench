@@ -1,0 +1,1 @@
+The expected sizes in the test table (`4 * 1024` and the four `10 * 1024` entries) were `int` products stored into the `size_t expected_size` field. I changed the left operand to `4ul` / `10ul`. The products are now computed in `unsigned long`, which matches the `6ul << 20`-style literals already used in the same table. The values are unchanged.

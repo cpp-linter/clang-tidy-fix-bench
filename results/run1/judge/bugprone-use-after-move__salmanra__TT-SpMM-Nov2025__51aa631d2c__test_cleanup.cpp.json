@@ -1,0 +1,1 @@
+{"verdict": "incorrect", "reason": "Removes the test's assertion that captured is empty after the move and adds a different check inside the lambda, which changes what the test asserts instead of addressing the warning."}

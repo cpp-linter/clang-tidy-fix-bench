@@ -1,0 +1,8 @@
+diff --git a/sources/middle-layer/compression/deflate/implementations/implementation.hpp b/sources/middle-layer/compression/deflate/implementations/implementation.hpp
+index 9dac286..587b1ae 100644
+--- a/sources/middle-layer/compression/deflate/implementations/implementation.hpp
++++ b/sources/middle-layer/compression/deflate/implementations/implementation.hpp
+@@ -23 +23,2 @@ public:
+-    implementation() = delete;
++    implementation()           = delete;
++    ~implementation() noexcept = default;

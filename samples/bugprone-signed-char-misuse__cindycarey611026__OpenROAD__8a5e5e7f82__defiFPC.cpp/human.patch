@@ -1,0 +1,10 @@
+diff --git a/src/odb/src/def/def/defiFPC.cpp b/src/odb/src/def/def/defiFPC.cpp
+index 91e1d08..4a1e957 100644
+--- a/src/odb/src/def/def/defiFPC.cpp
++++ b/src/odb/src/def/def/defiFPC.cpp
+@@ -224 +224 @@ void defiFPC::getPart(int index, int* corner, int* typ, char** name) const
+-      *corner = (int) ((rowOrComp_[index] & 4) ? 'B' : 'T');
++      *corner = static_cast<unsigned char>((rowOrComp_[index] & 4) ? 'B' : 'T');
+@@ -226 +226 @@ void defiFPC::getPart(int index, int* corner, int* typ, char** name) const
+-      *typ = (int) ((rowOrComp_[index] & 2) ? 'R' : 'C');
++      *typ = static_cast<unsigned char>((rowOrComp_[index] & 2) ? 'R' : 'C');

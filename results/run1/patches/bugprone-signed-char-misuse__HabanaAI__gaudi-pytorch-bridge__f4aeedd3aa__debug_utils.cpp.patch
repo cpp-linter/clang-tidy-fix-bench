@@ -1,0 +1,19 @@
+--- a/habana_lazy/debug_utils.cpp
++++ b/habana_lazy/debug_utils.cpp
+@@ -61,13 +61,13 @@
+       switch (node_string[pos]) {
+         case '(':
+-          nested_open = node_string[pos];
++          nested_open = '(';
+           nested_close = ')';
+           break;
+         case '[':
+-          nested_open = node_string[pos];
++          nested_open = '[';
+           nested_close = ']';
+           break;
+         case '{':
+-          nested_open = node_string[pos];
++          nested_open = '{';
+           nested_close = '}';
+           break;

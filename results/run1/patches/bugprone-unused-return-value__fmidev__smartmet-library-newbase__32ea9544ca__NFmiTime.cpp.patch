@@ -1,0 +1,11 @@
+--- a/newbase/NFmiTime.cpp
++++ b/newbase/NFmiTime.cpp
+@@ -980,7 +980,5 @@
+ 
+     struct tm newtime;
+-    time_t aclock;
+-
+-    time(&aclock);
++    time_t aclock = time(nullptr);
+ 
+ #ifdef _MSC_VER

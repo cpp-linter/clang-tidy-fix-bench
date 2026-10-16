@@ -1,0 +1,12 @@
+--- a/sources/middle-layer/dispatcher/hw_dispatcher.hpp
++++ b/sources/middle-layer/dispatcher/hw_dispatcher.hpp
+@@ -73,4 +73,9 @@
+     virtual ~hw_dispatcher() noexcept;
+ 
++    hw_dispatcher(const hw_dispatcher&)                    = delete;
++    auto operator=(const hw_dispatcher&) -> hw_dispatcher& = delete;
++    hw_dispatcher(hw_dispatcher&&)                         = delete;
++    auto operator=(hw_dispatcher&&) -> hw_dispatcher&      = delete;
++
+ protected:
+     hw_dispatcher() noexcept;

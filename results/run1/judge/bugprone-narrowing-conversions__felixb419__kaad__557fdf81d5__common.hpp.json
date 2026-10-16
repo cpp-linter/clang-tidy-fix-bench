@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "ind1/ind2 match the human fix; for ind the candidate keeps int and casts newLen before subtracting, while the human made ind size_t. Both are correct, with the same behaviour inside the loop."}

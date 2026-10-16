@@ -1,0 +1,68 @@
+{
+ "id": "bugprone-signed-char-misuse__viewizard__dncdbg__570f950a75__evalstackmachine.cpp",
+ "check": "bugprone-signed-char-misuse",
+ "check_name": "cert-str34-c",
+ "repo": "viewizard/dncdbg",
+ "sha": "570f950a75c080a0d9b3d41f5dcf1bbd4f279617",
+ "parent": "bb487d1b7a3615bf9e899be97db1ef43d1519767",
+ "url": "https://github.com/viewizard/dncdbg/commit/570f950a75c080a0d9b3d41f5dcf1bbd4f279617",
+ "license": "MIT",
+ "message": "Fix cert-str34-c and cert-dcl37-c.",
+ "file": "src/debugger/evalstackmachine.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "wtypes.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 446,
+   "col": 21,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  },
+  {
+   "line": 446,
+   "col": 21,
+   "sev": "warning",
+   "msg": "'signed char' to 'long long' conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  },
+  {
+   "line": 446,
+   "col": 21,
+   "sev": "warning",
+   "msg": "'signed char' to 'short' conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 446,
+   "col": 21,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  },
+  {
+   "line": 446,
+   "col": 21,
+   "sev": "warning",
+   "msg": "'signed char' to 'long long' conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  },
+  {
+   "line": 446,
+   "col": 21,
+   "sev": "warning",
+   "msg": "'signed char' to 'short' conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  }
+ ],
+ "errors_before": 74,
+ "human_changed_lines": 2
+}

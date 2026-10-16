@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Adds ~BackendRegistry() = default, identical to the human fix."}

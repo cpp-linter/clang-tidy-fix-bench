@@ -1,0 +1,8 @@
+diff --git a/paddle/fluid/framework/device_worker.cc b/paddle/fluid/framework/device_worker.cc
+index 1069c89..579a693 100644
+--- a/paddle/fluid/framework/device_worker.cc
++++ b/paddle/fluid/framework/device_worker.cc
+@@ -249 +249,2 @@ void DeviceWorker::DumpParam(const Scope& scope, const int batch_id) {
+-  int device_id = static_cast<int>(place_.GetDeviceId());
++  int device_id =
++      static_cast<int>(static_cast<unsigned char>(place_.GetDeviceId()));

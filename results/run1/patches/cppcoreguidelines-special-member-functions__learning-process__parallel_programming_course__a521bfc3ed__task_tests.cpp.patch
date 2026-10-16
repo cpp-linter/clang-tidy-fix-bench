@@ -1,0 +1,11 @@
+--- a/modules/task/tests/task_tests.cpp
++++ b/modules/task/tests/task_tests.cpp
+@@ -32,4 +32,8 @@
+     std::filesystem::remove(path_, ec);
+   }
++  ScopedFile(const ScopedFile &) = delete;
++  ScopedFile &operator=(const ScopedFile &) = delete;
++  ScopedFile(ScopedFile &&) = delete;
++  ScopedFile &operator=(ScopedFile &&) = delete;
+ 
+  private:

@@ -1,0 +1,10 @@
+diff --git a/nes-common/include/Util/PlanRenderer.hpp b/nes-common/include/Util/PlanRenderer.hpp
+index 7d65f5635..e039a1d5a 100644
+--- a/nes-common/include/Util/PlanRenderer.hpp
++++ b/nes-common/include/Util/PlanRenderer.hpp
+@@ -508,2 +508 @@ private:
+-                        /// What we want is already there
+-                        break;
++                        [[fallthrough]];
+@@ -510,0 +510 @@ private:
++                        /// What we want is already there

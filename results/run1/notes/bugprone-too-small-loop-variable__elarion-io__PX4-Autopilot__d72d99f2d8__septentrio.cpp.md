@@ -1,0 +1,1 @@
+The baud-rate validation loop used a uint8_t index against a size_t element count (sizeof/sizeof). Changed the loop variable to size_t; behaviour is unchanged. Note: one check run reported 122 compiler errors vs 108 before, but re-running the same edit (and a range-for variant) gave 108 again, so that looked like harness flakiness rather than an error introduced by the edit.

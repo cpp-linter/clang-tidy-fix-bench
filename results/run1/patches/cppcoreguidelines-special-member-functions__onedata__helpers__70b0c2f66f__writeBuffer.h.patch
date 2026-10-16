@@ -1,0 +1,12 @@
+--- a/src/buffering/writeBuffer.h
++++ b/src/buffering/writeBuffer.h
+@@ -75,4 +75,9 @@
+         m_cancelFlushSchedule();
+     }
++
++    WriteBuffer(const WriteBuffer &) = delete;
++    WriteBuffer &operator=(const WriteBuffer &) = delete;
++    WriteBuffer(WriteBuffer &&) = delete;
++    WriteBuffer &operator=(WriteBuffer &&) = delete;
+ 
+     folly::Future<std::size_t> write(

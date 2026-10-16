@@ -1,0 +1,52 @@
+{
+ "id": "bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__alloc_tests.c",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "OpenHarmony-TPC/chromium_third_party_expat",
+ "sha": "f75b1be48909ed0791fbc84998778bb07c7ceed4",
+ "parent": "a23cf2e2ecdd14294b2d1cf5b078909d11cd7553",
+ "url": "https://github.com/OpenHarmony-TPC/chromium_third_party_expat/commit/f75b1be48909ed0791fbc84998778bb07c7ceed4",
+ "license": "MIT",
+ "message": "tests: Address clang-tidy warning bugprone-narrowing-conversions",
+ "file": "expat/tests/alloc_tests.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 326,
+   "col": 26,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 437,
+   "col": 26,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 326,
+   "col": 26,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 437,
+   "col": 26,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

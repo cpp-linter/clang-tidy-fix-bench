@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__b162b094b1__xmlwf.c",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "VanessaRussellbtcmcpv/libexpat",
+ "sha": "b162b094b1d2ea8c7b0f6e02c95d93e8fd9b51b9",
+ "parent": "fb0e44c21cd2b277cf90f9f12205f3c8baf38e22",
+ "url": "https://github.com/VanessaRussellbtcmcpv/libexpat/commit/b162b094b1d2ea8c7b0f6e02c95d93e8fd9b51b9",
+ "license": "MIT",
+ "message": "xmlwf: Address clang-tidy warning bugprone-narrowing-conversions",
+ "file": "expat/xmlwf/xmlwf.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 314,
+   "col": 14,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 314,
+   "col": 14,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

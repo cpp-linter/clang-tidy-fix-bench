@@ -1,0 +1,66 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__eclipse-score__baselibs__2e8c5c7746__data_types.hpp",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "cppcoreguidelines-special-member-functions",
+ "repo": "eclipse-score/baselibs",
+ "sha": "2e8c5c7746b54f3e747fde42d802633180df8e03",
+ "parent": "5f024d06016c3708881127d83674e8373268b08d",
+ "url": "https://github.com/eclipse-score/baselibs/commit/2e8c5c7746b54f3e747fde42d802633180df8e03",
+ "license": "Apache-2.0",
+ "message": "Merge pull request #1782 from swh/account_for_cppcoreguidelines_special_member_functions",
+ "file": "score/language/futurecpp/include/score/private/simd/data_types.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 286,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'basic_mask' defines a non-default destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  },
+  {
+   "line": 636,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'basic_vec' defines a non-default destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  },
+  {
+   "line": 691,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'where_expression' defines a copy constructor and a copy assignment operator but does not define a destructor, a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 286,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'basic_mask' defines a non-default destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  },
+  {
+   "line": 636,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'basic_vec' defines a non-default destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  },
+  {
+   "line": 691,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'where_expression' defines a copy constructor and a copy assignment operator but does not define a destructor, a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 6
+}

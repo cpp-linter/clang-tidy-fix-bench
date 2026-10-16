@@ -1,0 +1,41 @@
+{
+ "id": "bugprone-branch-clone__tenstorrent__tt-umd__edd260e3ab__cluster_descriptor_types.hpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "tenstorrent/tt-umd",
+ "sha": "edd260e3abfc33dc8c4e8d820d941a125bdbc62a",
+ "parent": "77f384173d72ddbff0856bde755d6eae884e1976",
+ "url": "https://github.com/tenstorrent/tt-umd/commit/edd260e3abfc33dc8c4e8d820d941a125bdbc62a",
+ "license": "Apache-2.0",
+ "message": "fix(bugprone-branch-clone): fix clang-tidy violations (#1961)",
+ "file": "device/api/umd/device/types/cluster_descriptor_types.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "fmt/core.h",
+  "fmt/format.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 195,
+   "col": 9,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 195,
+   "col": 9,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 1
+}

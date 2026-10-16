@@ -1,0 +1,11 @@
+--- a/libs/kernel/src/bus/remote_interest_handler.h
++++ b/libs/kernel/src/bus/remote_interest_handler.h
+@@ -37,4 +37,8 @@
+   InterestsHandler() = default;
+   ~InterestsHandler() = default;
++  InterestsHandler(const InterestsHandler&) = delete;
++  InterestsHandler& operator=(const InterestsHandler&) = delete;
++  InterestsHandler(InterestsHandler&&) = delete;
++  InterestsHandler& operator=(InterestsHandler&&) = delete;
+ 
+ public:

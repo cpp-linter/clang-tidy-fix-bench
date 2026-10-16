@@ -1,0 +1,7 @@
+diff --git a/src/odb/src/lef/lef/lef_keywords.cpp b/src/odb/src/lef/lef/lef_keywords.cpp
+index c1e746a..f2aa02b 100644
+--- a/src/odb/src/lef/lef/lef_keywords.cpp
++++ b/src/odb/src/lef/lef/lef_keywords.cpp
+@@ -231 +231 @@ int lefGetc()
+-    int ch = *lefData->next++;
++    int ch = static_cast<unsigned char>(*lefData->next++);

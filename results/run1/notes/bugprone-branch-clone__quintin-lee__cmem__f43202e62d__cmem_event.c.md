@@ -1,0 +1,1 @@
+In the TLSF tier of the allocation path, the `if ((pool->flags & MP_FLAG_THREAD_SAFE) && !pool->is_multi_arena_child)` and its `else` both just called `tlsf_alloc(pool, size)`; the condition had no effect (tlsf_alloc takes care of locking itself, as the identical batch path in the same file also shows). I replaced the if/else with the single call. Behaviour is unchanged.

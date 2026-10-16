@@ -1,0 +1,7 @@
+diff --git a/src/tss2-sys/sysapi_util.c b/src/tss2-sys/sysapi_util.c
+index a551c09..9c17218 100644
+--- a/src/tss2-sys/sysapi_util.c
++++ b/src/tss2-sys/sysapi_util.c
+@@ -296 +296 @@ static int GetNumHandles(TPM2_CC commandCode, bool req)
+-    uint8_t i;
++    size_t i;

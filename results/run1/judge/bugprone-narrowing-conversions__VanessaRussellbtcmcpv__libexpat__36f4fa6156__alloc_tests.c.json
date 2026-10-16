@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical (int) casts on both g_allocation_count assignments."}

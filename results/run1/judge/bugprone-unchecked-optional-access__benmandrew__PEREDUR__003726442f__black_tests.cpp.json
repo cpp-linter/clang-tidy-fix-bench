@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same approach as the human: local result and has_value() && (!)*result in each assertion."}

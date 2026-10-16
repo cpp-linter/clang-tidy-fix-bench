@@ -1,0 +1,23 @@
+--- a/src/dplx/dp/detail/perfect_hash.hpp
++++ b/src/dplx/dp/detail/perfect_hash.hpp
+@@ -116,5 +116,5 @@
+ };
+ template <std::size_t N>
+-    requires(N <= 0xffU)
++    requires(N <= UINT8_MAX)
+ struct least_uint<N>
+ {
+@@ -122,5 +122,5 @@
+ };
+ template <std::size_t N>
+-    requires(0xffU < N && N <= 0xffffU)
++    requires(UINT8_MAX < N && N <= UINT16_MAX)
+ struct least_uint<N>
+ {
+@@ -128,5 +128,5 @@
+ };
+ template <std::size_t N>
+-    requires(0xffffU < N && N <= 0xffff'ffffU)
++    requires(UINT16_MAX < N && N <= UINT32_MAX)
+ struct least_uint<N>
+ {

@@ -1,0 +1,6 @@
+diff --git a/include/aethermind/backend/backend_registry.h b/include/aethermind/backend/backend_registry.h
+index c10d723..8b5b565 100644
+--- a/include/aethermind/backend/backend_registry.h
++++ b/include/aethermind/backend/backend_registry.h
+@@ -20,0 +21 @@ public:
++    ~BackendRegistry() = default;

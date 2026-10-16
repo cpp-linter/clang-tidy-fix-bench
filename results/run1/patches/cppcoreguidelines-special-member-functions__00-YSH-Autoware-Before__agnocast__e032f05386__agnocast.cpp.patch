@@ -1,0 +1,12 @@
+--- a/src/agnocastlib/src/agnocast.cpp
++++ b/src/agnocastlib/src/agnocast.cpp
+@@ -167,4 +167,9 @@
+ {
+ public:
++  Cleanup() = default;
++  Cleanup(const Cleanup &) = delete;
++  Cleanup & operator=(const Cleanup &) = delete;
++  Cleanup(Cleanup &&) = delete;
++  Cleanup & operator=(Cleanup &&) = delete;
+   ~Cleanup() { shutdown_agnocast(); }
+ };

@@ -1,0 +1,1 @@
+The four loops iterating up to the size_t template parameter SIZE used uint8_t counters, which would never terminate for SIZE > 255. They now use size_t. In the two loops computing int index = _head - i, i is explicitly converted to int so the subtraction stays signed exactly as before (index can go negative and is wrapped by SIZE + index).

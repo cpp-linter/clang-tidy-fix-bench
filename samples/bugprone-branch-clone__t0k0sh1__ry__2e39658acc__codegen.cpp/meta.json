@@ -1,0 +1,62 @@
+{
+ "id": "bugprone-branch-clone__t0k0sh1__ry__2e39658acc__codegen.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "t0k0sh1/ry",
+ "sha": "2e39658acc29fc8104f4c82bb36cb50fff21fd5b",
+ "parent": "4eb50c54761fe0d636865a066605f3d01394ce78",
+ "url": "https://github.com/t0k0sh1/ry/commit/2e39658acc29fc8104f4c82bb36cb50fff21fd5b",
+ "license": "MIT",
+ "message": "fix(codegen): silence bugprone-branch-clone on UnaryExpr/AssignStmt arms (#1765)",
+ "file": "src/codegen.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "llvm/ADT/STLFunctionalExtras.h",
+  "llvm/ADT/SmallPtrSet.h",
+  "llvm/ADT/SmallVector.h",
+  "llvm/ExecutionEngine/Orc/ThreadSafeModule.h",
+  "llvm/IR/IRBuilder.h",
+  "llvm/IR/LLVMContext.h",
+  "llvm/IR/Module.h",
+  "llvm/IR/Verifier.h",
+  "llvm/Support/raw_ostream.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 766,
+   "col": 77,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  },
+  {
+   "line": 854,
+   "col": 61,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 766,
+   "col": 77,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  },
+  {
+   "line": 854,
+   "col": 61,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 148,
+ "human_changed_lines": 4
+}

@@ -1,0 +1,7 @@
+diff --git a/include/kraken/client.hpp b/include/kraken/client.hpp
+index e909886..16073a0 100644
+--- a/include/kraken/client.hpp
++++ b/include/kraken/client.hpp
+@@ -122 +122 @@ public:
+-    Subscription subscribe_book(const std::vector<std::string>& symbols, int depth = 10);
++    Subscription subscribe_book(const std::vector<std::string>& symbols, int depth = 10);  // NOLINT(readability-magic-numbers)

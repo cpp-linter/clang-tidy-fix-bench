@@ -1,0 +1,1 @@
+Both switch cases (WebView2 and QtWebEngine) only did `break;`. The redundant `break` after the WebView2 comment was removed so the two labels share one branch; the comment about WebView2 being unreachable for now was kept. Both still fall through to creating the QtWebEngine preview.

@@ -1,0 +1,54 @@
+{
+ "id": "bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__4c1153f85c__node.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "MBilalQ/autoware_towtruck_universe",
+ "sha": "4c1153f85c3e3a44d87f0e0e6f89c56027dae656",
+ "parent": "6524f38d8037282795a4d1b563a14b67280e0fe9",
+ "url": "https://github.com/MBilalQ/autoware_towtruck_universe/commit/4c1153f85c3e3a44d87f0e0e6f89c56027dae656",
+ "license": "Apache-2.0",
+ "message": "fix(autoware_ground_segmentation): fix bugprone-branch-clone (#9648)",
+ "file": "perception/autoware_ground_segmentation/src/scan_ground_filter/node.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "Eigen/Core",
+  "boost/geometry/core/cs.hpp",
+  "boost/geometry/geometries/geometries.hpp",
+  "boost/geometry/geometries/register/point.hpp",
+  "boost/geometry/geometries/register/ring.hpp",
+  "geometry_msgs/msg/point.hpp",
+  "pcl_conversions/pcl_conversions.h",
+  "sensor_msgs/msg/point_cloud2.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 232,
+   "col": 9,
+   "sev": "warning",
+   "msg": "if with identical then and else branches",
+   "check": "bugprone-branch-clone"
+  },
+  {
+   "line": 261,
+   "col": 64,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 261,
+   "col": 64,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

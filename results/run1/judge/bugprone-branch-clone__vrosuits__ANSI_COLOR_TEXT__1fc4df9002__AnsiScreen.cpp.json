@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same change: case 'C' falls through to case 'a', only comment wording differs."}

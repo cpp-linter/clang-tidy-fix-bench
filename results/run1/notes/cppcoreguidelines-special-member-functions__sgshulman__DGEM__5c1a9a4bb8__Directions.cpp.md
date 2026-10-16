@@ -1,0 +1,1 @@
+IcosahedronMesh owns two raw arrays (nodes_ and triangles_) and delete[]s them in its destructor. The implicit copy operations would double-free, which is a real latent bug. The mesh is only built as a local, so I deleted the copy and move constructors and assignment operators.

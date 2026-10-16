@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Human suppressed with NOLINT; the candidate introduces a local named constant for the fake input byte, a correct fix that keeps the data identical."}

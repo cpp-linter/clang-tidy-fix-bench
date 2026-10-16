@@ -1,0 +1,42 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__journalr__score-checklists-test__77e3753d81__proxy_event.h",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "cppcoreguidelines-special-member-functions",
+ "repo": "journalr/score-checklists-test",
+ "sha": "77e3753d814d4b4bd8f9fa9c9bb769c281fcaaca",
+ "parent": "d2ee2ff270e9054f6f9bf247278077f042c6c97f",
+ "url": "https://github.com/journalr/score-checklists-test/commit/77e3753d814d4b4bd8f9fa9c9bb769c281fcaaca",
+ "license": "Apache-2.0",
+ "message": "mw/com: Fix clang-tidy cppcoreguidelines-special-member-functions",
+ "file": "score/mw/com/impl/proxy_event.h",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "score/json/json_parser.h",
+  "score/optional.hpp",
+  "score/result/result.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 54,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'ProxyEvent' defines a copy constructor, a copy assignment operator, a move constructor and a move assignment operator but does not define a destructor",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 54,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'ProxyEvent' defines a copy constructor, a copy assignment operator, a move constructor and a move assignment operator but does not define a destructor",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

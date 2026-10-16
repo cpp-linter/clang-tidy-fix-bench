@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Merges the ':' and 'in' separator conditions into one consume branch; same behaviour as the human's flag-based restructuring."}

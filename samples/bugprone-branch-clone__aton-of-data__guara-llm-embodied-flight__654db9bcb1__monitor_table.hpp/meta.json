@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__aton-of-data__guara-llm-embodied-flight__654db9bcb1__monitor_table.hpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "aton-of-data/guara-llm-embodied-flight",
+ "sha": "654db9bcb165077886fa68273f58dace1cc47eb3",
+ "parent": "113ba84f1073d3e1eadf3a13b7e984610ad49741",
+ "url": "https://github.com/aton-of-data/guara-llm-embodied-flight/commit/654db9bcb165077886fa68273f58dace1cc47eb3",
+ "license": "Apache-2.0",
+ "message": "fix(core): state the invalid-monitor condition once",
+ "file": "core/include/guara_rta/monitor_table.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 117,
+   "col": 71,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 117,
+   "col": 71,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 7
+}

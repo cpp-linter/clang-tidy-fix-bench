@@ -1,0 +1,1 @@
+{"verdict": "incorrect", "reason": "Reads the moved-from mapping through a reference alias to get past hicpp-invalid-access-moved, and also drops the existing cppcheck suppressions; the human only extended the NOLINT lists."}

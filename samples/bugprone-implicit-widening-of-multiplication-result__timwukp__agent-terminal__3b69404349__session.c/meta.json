@@ -1,0 +1,66 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__timwukp__agent-terminal__3b69404349__session.c",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "timwukp/agent-terminal",
+ "sha": "3b69404349073ef97e592f7335716450df7cb0f7",
+ "parent": "4c3ac57ea096b15e6154237e984ecfdc5f492bde",
+ "url": "https://github.com/timwukp/agent-terminal/commit/3b69404349073ef97e592f7335716450df7cb0f7",
+ "license": "MIT",
+ "message": "fix: make STDIN_STAGE_MAX a size_t constant",
+ "file": "src/daemon/session.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 1012,
+   "col": 19,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 1022,
+   "col": 19,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 1022,
+   "col": 42,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 1012,
+   "col": 19,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 1022,
+   "col": 19,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 1022,
+   "col": 42,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

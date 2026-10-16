@@ -1,0 +1,7 @@
+diff --git a/src/server.c b/src/server.c
+index 51cf707..aed3e6d 100644
+--- a/src/server.c
++++ b/src/server.c
+@@ -879 +879 @@ static void setup_signals(sigset_t* sigmask) {
+-    signal(SIGPIPE, SIG_IGN);
++    (void)signal(SIGPIPE, SIG_IGN);

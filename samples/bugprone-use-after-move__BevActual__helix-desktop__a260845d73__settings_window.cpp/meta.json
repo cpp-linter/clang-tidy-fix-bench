@@ -1,0 +1,42 @@
+{
+ "id": "bugprone-use-after-move__BevActual__helix-desktop__a260845d73__settings_window.cpp",
+ "check": "bugprone-use-after-move",
+ "check_name": "bugprone-use-after-move",
+ "repo": "BevActual/helix-desktop",
+ "sha": "a260845d7329275ef27bdc054a3dc36eb65a644a",
+ "parent": "7887baca17fbb9d28bb63945a70472a2eeea6282",
+ "url": "https://github.com/BevActual/helix-desktop/commit/a260845d7329275ef27bdc054a3dc36eb65a644a",
+ "license": "MIT",
+ "message": "fix: repair use-after-move sites surfaced by bugprone-use-after-move",
+ "file": "src/shell/settings/settings_window.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "linux/input-event-codes.h",
+  "toml++/toml.hpp",
+  "xkbcommon/xkbcommon-keysyms.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 683,
+   "col": 64,
+   "sev": "warning",
+   "msg": "'widgetName' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 683,
+   "col": 64,
+   "sev": "warning",
+   "msg": "'widgetName' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "errors_before": 6,
+ "human_changed_lines": 5
+}

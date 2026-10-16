@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Deletes all four copy/move operations on ScopedFile, same as the human fix."}

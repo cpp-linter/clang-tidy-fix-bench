@@ -1,0 +1,44 @@
+--- a/src/codegen.cpp
++++ b/src/codegen.cpp
+@@ -764,5 +764,8 @@
+             collectTestTargetsFromExpr(e->lhs, mocked, spied);
+             collectTestTargetsFromExpr(e->rhs, mocked, spied);
+-        } else if constexpr (std::is_same_v<T, std::unique_ptr<UnaryExpr>>) {
++        } else if constexpr (std::is_same_v<T, std::unique_ptr<UnaryExpr>> ||
++                             std::is_same_v<T, std::unique_ptr<ErrorPropagateExpr>> ||
++                             std::is_same_v<T, std::unique_ptr<AwaitExpr>> ||
++                             std::is_same_v<T, std::unique_ptr<WeakExpr>>) {
+             collectTestTargetsFromExpr(e->operand, mocked, spied);
+         } else if constexpr (std::is_same_v<T, std::unique_ptr<CallExpr>>) {
+@@ -822,10 +825,4 @@
+             collectTestTargetsFromExpr(e->start, mocked, spied);
+             collectTestTargetsFromExpr(e->end, mocked, spied);
+-        } else if constexpr (std::is_same_v<T, std::unique_ptr<ErrorPropagateExpr>>) {
+-            collectTestTargetsFromExpr(e->operand, mocked, spied);
+-        } else if constexpr (std::is_same_v<T, std::unique_ptr<AwaitExpr>>) {
+-            collectTestTargetsFromExpr(e->operand, mocked, spied);
+-        } else if constexpr (std::is_same_v<T, std::unique_ptr<WeakExpr>>) {
+-            collectTestTargetsFromExpr(e->operand, mocked, spied);
+         }
+         // Leaf variants (Number/Float/Bool/String/Regex/Variable/EnumAccess/None) — no recursion.
+@@ -852,10 +849,10 @@
+             for (auto &na : s.named_args)
+                 collectTestTargetsFromExpr(na.value, mocked, spied);
+-        } else if constexpr (std::is_same_v<T, AssignStmt>) {
++        } else if constexpr (std::is_same_v<T, AssignStmt> ||
++                             std::is_same_v<T, ReturnStmt> ||
++                             std::is_same_v<T, TupleDestructStmt>) {
+             collectTestTargetsFromExpr(s.value, mocked, spied);
+         } else if constexpr (std::is_same_v<T, ExprStmt>) {
+             collectTestTargetsFromExpr(s.expr, mocked, spied);
+-        } else if constexpr (std::is_same_v<T, ReturnStmt>) {
+-            collectTestTargetsFromExpr(s.value, mocked, spied);
+         } else if constexpr (std::is_same_v<T, IndexAssignStmt>) {
+             collectTestTargetsFromExpr(s.object, mocked, spied);
+@@ -865,6 +862,4 @@
+         } else if constexpr (std::is_same_v<T, FieldAssignStmt>) {
+             collectTestTargetsFromExpr(s.object, mocked, spied);
+-            collectTestTargetsFromExpr(s.value, mocked, spied);
+-        } else if constexpr (std::is_same_v<T, TupleDestructStmt>) {
+             collectTestTargetsFromExpr(s.value, mocked, spied);
+         } else if constexpr (std::is_same_v<T, ExpectStmt>) {

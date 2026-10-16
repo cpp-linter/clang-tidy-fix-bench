@@ -1,0 +1,9 @@
+diff --git a/include/ctfsm/state_machine.hpp b/include/ctfsm/state_machine.hpp
+index 27b8bf8..b0f9f6d 100644
+--- a/include/ctfsm/state_machine.hpp
++++ b/include/ctfsm/state_machine.hpp
+@@ -236,0 +237,4 @@ class StateMachine<Context, StateList<States...>, Table<Rows...>> {
++    // The two early returns are distinct compile-time rejection reasons (event
++    // mismatch vs. wrong pass of the exact-then-wildcard two-pass dispatch),
++    // kept separate for traceability — not a copy-paste clone.
++    // NOLINTNEXTLINE(bugprone-branch-clone)

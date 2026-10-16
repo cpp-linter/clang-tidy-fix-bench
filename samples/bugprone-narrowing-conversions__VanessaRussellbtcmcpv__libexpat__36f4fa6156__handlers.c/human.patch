@@ -1,0 +1,17 @@
+diff --git a/expat/tests/handlers.c b/expat/tests/handlers.c
+index 9347d6e..4b84446 100644
+--- a/expat/tests/handlers.c
++++ b/expat/tests/handlers.c
+@@ -92,2 +92,2 @@ start_element_event_handler2(void *userData, const XML_Char *name,
+-  StructData_AddItem(storage, name, XML_GetCurrentColumnNumber(g_parser),
+-                     XML_GetCurrentLineNumber(g_parser), STRUCT_START_TAG);
++  StructData_AddItem(storage, name, (int)XML_GetCurrentColumnNumber(g_parser),
++                     (int)XML_GetCurrentLineNumber(g_parser), STRUCT_START_TAG);
+@@ -99,2 +99,2 @@ end_element_event_handler2(void *userData, const XML_Char *name) {
+-  StructData_AddItem(storage, name, XML_GetCurrentColumnNumber(g_parser),
+-                     XML_GetCurrentLineNumber(g_parser), STRUCT_END_TAG);
++  StructData_AddItem(storage, name, (int)XML_GetCurrentColumnNumber(g_parser),
++                     (int)XML_GetCurrentLineNumber(g_parser), STRUCT_END_TAG);
+@@ -1279 +1279 @@ external_entity_duff_loader(XML_Parser parser, const XML_Char *context,
+-    g_allocation_count = i;
++    g_allocation_count = (int)i;

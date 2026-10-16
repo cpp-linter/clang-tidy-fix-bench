@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "All four loops widened to size_t with an explicit int cast keeping the signed index math identical (_head is uint8_t); less thorough than the human cleanup but correct."}

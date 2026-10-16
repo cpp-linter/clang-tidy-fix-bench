@@ -1,0 +1,1 @@
+The AssetKind::Audio case contained an inner surface switch identical to the one shared by Folder/Text/Unknown (None for the four old surfaces, assetFieldRow() for AssetField). Audio's duplicated body was removed and its label now falls into that shared group; the comment was updated to say so. The resulting drop actions are the same.

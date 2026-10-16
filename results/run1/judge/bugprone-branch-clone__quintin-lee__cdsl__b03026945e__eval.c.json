@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Collapses all the len += 2 cases into one body, identical to the human fix."}

@@ -1,0 +1,1 @@
+`place_.GetDeviceId()` returns a signed 8-bit id, which was widened directly to `int`. It is now converted through `static_cast<unsigned char>` before the `int` cast, as the check suggests. Device ids are non-negative small integers, so the printed value is unchanged. `device_id` is only used in the dump output text.

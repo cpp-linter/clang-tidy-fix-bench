@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__aes.c",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "Hakkadaikon/wired",
+ "sha": "31131819adae5987b6b1c59c7670bf7555a637c7",
+ "parent": "e18db00d9f6578957d10e84414e0327f0c93139e",
+ "url": "https://github.com/Hakkadaikon/wired/commit/31131819adae5987b6b1c59c7670bf7555a637c7",
+ "license": "MIT",
+ "message": "fix(crypto): cast before multiplication to avoid implicit widening",
+ "file": "src/aes/aes.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 128,
+   "col": 19,
+   "sev": "warning",
+   "msg": "result of multiplication in type 'int' is used as a pointer offset after an implicit widening conversion to type 'ptrdiff_t'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 128,
+   "col": 19,
+   "sev": "warning",
+   "msg": "result of multiplication in type 'int' is used as a pointer offset after an implicit widening conversion to type 'ptrdiff_t'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

@@ -1,0 +1,11 @@
+--- a/sources/core-sw/dispatcher/dispatcher.hpp
++++ b/sources/core-sw/dispatcher/dispatcher.hpp
+@@ -96,4 +96,8 @@
+     auto operator=(const kernels_dispatcher& other) -> kernels_dispatcher& = delete;
+ 
++    kernels_dispatcher(kernels_dispatcher&& other) = delete;
++
++    auto operator=(kernels_dispatcher&& other) -> kernels_dispatcher& = delete;
++
+     ~kernels_dispatcher() = default;
+ 

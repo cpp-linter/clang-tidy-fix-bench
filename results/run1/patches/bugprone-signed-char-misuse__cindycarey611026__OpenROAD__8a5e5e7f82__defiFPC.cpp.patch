@@ -1,0 +1,12 @@
+--- a/src/odb/src/def/def/defiFPC.cpp
++++ b/src/odb/src/def/def/defiFPC.cpp
+@@ -222,7 +222,7 @@
+     // 2 for row   0 for comps
+     if (corner)
+-      *corner = (int) ((rowOrComp_[index] & 4) ? 'B' : 'T');
++      *corner = (rowOrComp_[index] & 4) ? int('B') : int('T');
+     if (typ)
+-      *typ = (int) ((rowOrComp_[index] & 2) ? 'R' : 'C');
++      *typ = (rowOrComp_[index] & 2) ? int('R') : int('C');
+     if (name)
+       *name = names_[index];

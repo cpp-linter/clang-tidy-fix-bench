@@ -1,0 +1,16 @@
+--- a/firmware/products/skyblip_go/pages/radar.cpp
++++ b/firmware/products/skyblip_go/pages/radar.cpp
+@@ -445,5 +445,5 @@
+         if (!inside_ring(at.right, at.ahead)) return;
+         const int64_t out = at.right * at.right + at.ahead * at.ahead;
+-        if (out < kMinuteClearPx * kMinuteClearPx) {
++        if (out < static_cast<int64_t>(kMinuteClearPx) * kMinuteClearPx) {
+             pen.lift();
+             continue;
+@@ -452,5 +452,5 @@
+         pen.to(x, y);
+         if (step % kStepsPerMinute != 0) continue;
+-        if (out <= kBallClearR * kBallClearR) minute_ball(fb, x, y);
++        if (out <= static_cast<int64_t>(kBallClearR) * kBallClearR) minute_ball(fb, x, y);
+     }
+ }

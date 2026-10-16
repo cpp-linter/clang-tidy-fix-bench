@@ -1,0 +1,1 @@
+The default order-book depth `10` in `subscribe_book()` is now a public `static constexpr int kDefaultBookDepth = 10;` member of `KrakenClient`, declared just above the method and used as the default argument. Callers get the same default, and the API now exposes it by name.

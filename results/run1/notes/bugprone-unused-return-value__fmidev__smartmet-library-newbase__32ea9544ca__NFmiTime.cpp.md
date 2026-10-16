@@ -1,0 +1,1 @@
+`time(&aclock)` filled `aclock` through the out-parameter and threw away the identical return value. It is replaced by the initialisation `time_t aclock = time(nullptr);`, so the return value is used and the result is the same.

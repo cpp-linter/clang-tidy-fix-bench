@@ -1,0 +1,17 @@
+diff --git a/src/parse/uparse_stmt.c b/src/parse/uparse_stmt.c
+index df599b3..72ba9ce 100644
+--- a/src/parse/uparse_stmt.c
++++ b/src/parse/uparse_stmt.c
+@@ -1032,6 +1032,4 @@ UAstNode *parse_for(UParser *p) {
+-    if (sep_tok.type == TOK_COLON) {
+-        consume(p);
+-    } else if (sep_tok.type == TOK_IDENT &&
+-               ident_equals(sep_tok.u.str.start, sep_tok.u.str.len, "in", 2)) {
+-        consume(p);
+-    } else {
++    const int sep_is_colon = (sep_tok.type == TOK_COLON);
++    const int sep_is_in    = (sep_tok.type == TOK_IDENT &&
++                              ident_equals(sep_tok.u.str.start, sep_tok.u.str.len, "in", 2));
++    if (!sep_is_colon && !sep_is_in) {
+@@ -1041,0 +1040 @@ UAstNode *parse_for(UParser *p) {
++    consume(p);

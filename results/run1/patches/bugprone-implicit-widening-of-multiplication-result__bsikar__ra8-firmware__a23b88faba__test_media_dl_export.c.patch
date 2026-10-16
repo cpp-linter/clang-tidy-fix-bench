@@ -1,0 +1,9 @@
+--- a/tools/media_dl/tests/test_media_dl_export.c
++++ b/tools/media_dl/tests/test_media_dl_export.c
+@@ -505,5 +505,5 @@
+   TEST_ASSERT(strcmp((const char*)&tar[k_tar_member_stride], "page_002.jpg") == 0);
+   TEST_ASSERT(tar[k_tar_member_stride + k_tar_data_offset] == (uint8_t)'b');
+-  TEST_ASSERT(strcmp((const char*)&tar[2U * k_tar_member_stride], "ComicInfo.xml") == 0);
++  TEST_ASSERT(strcmp((const char*)&tar[(size_t)2U * k_tar_member_stride], "ComicInfo.xml") == 0);
+   const char* xml = (const char*)&tar[(2U * k_tar_member_stride) + k_tar_data_offset];
+   TEST_ASSERT(strstr(xml, "<PageCount>2</PageCount>") != nullptr);

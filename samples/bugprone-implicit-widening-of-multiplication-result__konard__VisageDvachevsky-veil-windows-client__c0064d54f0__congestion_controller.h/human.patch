@@ -1,0 +1,13 @@
+diff --git a/src/transport/mux/congestion_controller.h b/src/transport/mux/congestion_controller.h
+index 526b580..9909e0f 100644
+--- a/src/transport/mux/congestion_controller.h
++++ b/src/transport/mux/congestion_controller.h
+@@ -20 +20 @@ struct CongestionConfig {
+-  std::size_t initial_cwnd{10 * 1400};  // 10 MSS (RFC 6928)
++  std::size_t initial_cwnd{static_cast<std::size_t>(10) * 1400};  // 10 MSS (RFC 6928)
+@@ -26 +26 @@ struct CongestionConfig {
+-  std::size_t max_cwnd{64 * 1024 * 1024};  // 64 MB
++  std::size_t max_cwnd{static_cast<std::size_t>(64) * 1024 * 1024};  // 64 MB
+@@ -29 +29 @@ struct CongestionConfig {
+-  std::size_t initial_ssthresh{64 * 1024 * 1024};
++  std::size_t initial_ssthresh{static_cast<std::size_t>(64) * 1024 * 1024};

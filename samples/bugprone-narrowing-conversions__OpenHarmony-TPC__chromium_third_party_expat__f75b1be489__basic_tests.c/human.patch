@@ -1,0 +1,10 @@
+diff --git a/expat/tests/basic_tests.c b/expat/tests/basic_tests.c
+index e813df8..129db1d 100644
+--- a/expat/tests/basic_tests.c
++++ b/expat/tests/basic_tests.c
+@@ -415 +415 @@ START_TEST(test_utf16_le_epilog_newline) {
+-  if (_XML_Parse_SINGLE_BYTES(g_parser, text, first_chunk_bytes, XML_FALSE)
++  if (_XML_Parse_SINGLE_BYTES(g_parser, text, (int)first_chunk_bytes, XML_FALSE)
+@@ -421 +421 @@ START_TEST(test_utf16_le_epilog_newline) {
+-                                 sizeof(text) - first_chunk_bytes - 1,
++                                 (int)(sizeof(text) - first_chunk_bytes - 1),

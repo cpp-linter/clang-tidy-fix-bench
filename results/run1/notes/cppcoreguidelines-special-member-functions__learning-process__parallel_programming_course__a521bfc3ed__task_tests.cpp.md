@@ -1,0 +1,1 @@
+ScopedFile is an RAII helper that removes a file in its destructor. A copy or move would remove the file early or twice, so I deleted the copy and move constructors and assignment operators. Existing tests only construct it in place, so behaviour is unchanged.

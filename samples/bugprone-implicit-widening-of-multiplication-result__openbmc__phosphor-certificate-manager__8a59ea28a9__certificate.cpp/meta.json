@@ -1,0 +1,48 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__openbmc__phosphor-certificate-manager__8a59ea28a9__certificate.cpp",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "openbmc/phosphor-certificate-manager",
+ "sha": "8a59ea28a9759d0b4e2ce7a996253fd7e2eb5302",
+ "parent": "1c1497a5d54311226494210a9e12e762ad6af729",
+ "url": "https://github.com/openbmc/phosphor-certificate-manager/commit/8a59ea28a9759d0b4e2ce7a996253fd7e2eb5302",
+ "license": "Apache-2.0",
+ "message": "clang-tidy: Enable bugprone-implicit-widening-of",
+ "file": "certificate.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "config.h",
+  "openssl/ossl_typ.h",
+  "openssl/x509.h",
+  "sdbusplus/server/object.hpp",
+  "sdeventplus/source/event.hpp",
+  "sdeventplus/source/io.hpp",
+  "xyz/openbmc_project/Certs/Certificate/server.hpp",
+  "xyz/openbmc_project/Certs/Replace/server.hpp",
+  "xyz/openbmc_project/Object/Delete/server.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 552,
+   "col": 42,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'const uint64_t' (aka 'const unsigned long long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 552,
+   "col": 42,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'const uint64_t' (aka 'const unsigned long long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

@@ -1,0 +1,12 @@
+diff --git a/core/include/guara_rta/monitor_table.hpp b/core/include/guara_rta/monitor_table.hpp
+index 5a8d010..69ac694 100644
+--- a/core/include/guara_rta/monitor_table.hpp
++++ b/core/include/guara_rta/monitor_table.hpp
+@@ -117,6 +117 @@ public:
+-      if (s.expected && (stale || s.malformed || !s.inputs_complete)) {
+-        out.invalid = true;
+-        if (out.first_invalid_id == nullptr) {
+-          out.first_invalid_id = s.id.data();
+-        }
+-      } else if (s.malformed) {
++      if ((s.expected && (stale || !s.inputs_complete)) || s.malformed) {

@@ -1,0 +1,9 @@
+--- a/score/mw/com/impl/proxy_event.h
++++ b/score/mw/com/impl/proxy_event.h
+@@ -107,4 +107,6 @@
+     ProxyEvent(ProxyEvent&& other) noexcept;
+     ProxyEvent& operator=(ProxyEvent&& other) & noexcept;
++
++    ~ProxyEvent() = default;
+ 
+     /**

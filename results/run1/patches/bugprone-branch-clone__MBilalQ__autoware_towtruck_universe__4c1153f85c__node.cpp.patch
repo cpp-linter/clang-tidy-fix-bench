@@ -1,0 +1,14 @@
+--- a/perception/autoware_ground_segmentation/src/scan_ground_filter/node.cpp
++++ b/perception/autoware_ground_segmentation/src/scan_ground_filter/node.cpp
+@@ -258,8 +258,7 @@
+         calculate_slope = false;
+       } else if (
+-        (point_label_prev == PointLabel::NON_GROUND) &&
+-        (std::abs(height_from_obj) >= split_height_distance_)) {
+-        calculate_slope = true;
+-      } else if (is_point_close_to_prev && std::abs(height_from_gnd) < split_height_distance_) {
++        !((point_label_prev == PointLabel::NON_GROUND) &&
++          (std::abs(height_from_obj) >= split_height_distance_)) &&
++        is_point_close_to_prev && std::abs(height_from_gnd) < split_height_distance_) {
+         // close to the previous point, set point follow label
+         point_label_curr = PointLabel::POINT_FOLLOW;

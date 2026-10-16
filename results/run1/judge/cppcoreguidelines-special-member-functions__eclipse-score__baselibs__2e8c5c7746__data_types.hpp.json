@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Same move deletions as the human for basic_mask and basic_vec. For where_expression it deletes the moves and defaults the destructor instead of relocating the NOLINT; this is harmless because the copies were already deleted and the moves were not declared, though it departs from the human's choice to follow the standard literally."}

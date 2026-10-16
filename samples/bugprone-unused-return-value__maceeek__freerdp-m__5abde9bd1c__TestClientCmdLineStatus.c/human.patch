@@ -1,0 +1,15 @@
+diff --git a/client/common/test/TestClientCmdLineStatus.c b/client/common/test/TestClientCmdLineStatus.c
+index 38175d9..f06a41f 100644
+--- a/client/common/test/TestClientCmdLineStatus.c
++++ b/client/common/test/TestClientCmdLineStatus.c
+@@ -46 +46 @@ int TestClientCmdLineStatus(int argc, char* argv[])
+-			fprintf(stderr, "Test %zu: expected print status, got %d\n", i, status);
++			(void)fprintf(stderr, "Test %zu: expected print status, got %d\n", i, status);
+@@ -55,2 +55,2 @@ int TestClientCmdLineStatus(int argc, char* argv[])
+-				fprintf(stderr, "Test %zu: expected status %d, got %d\n", i,
+-				        tests[i].expected_status, status);
++				(void)fprintf(stderr, "Test %zu: expected status %d, got %d\n", i,
++				              tests[i].expected_status, status);
+@@ -61 +61 @@ int TestClientCmdLineStatus(int argc, char* argv[])
+-				fprintf(stderr, "Test %zu: unexpected ListMonitors setting\n", i);
++				(void)fprintf(stderr, "Test %zu: unexpected ListMonitors setting\n", i);

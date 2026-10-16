@@ -1,0 +1,7 @@
+diff --git a/include/kaad/graph/common.hpp b/include/kaad/graph/common.hpp
+index a2053fa..ac887ef 100644
+--- a/include/kaad/graph/common.hpp
++++ b/include/kaad/graph/common.hpp
+@@ -97 +97 @@ inline void along_dim_metadata_impl(Tensor &A, Tensor &C, int dim,
+-        A_offset[i] = A.shape()[i] * strideA[i];
++        A_offset[i] = static_cast<std::size_t>(A.shape()[i]) * strideA[i];

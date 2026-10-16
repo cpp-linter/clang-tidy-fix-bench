@@ -1,0 +1,38 @@
+{
+ "id": "readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__tsp.cpp",
+ "check": "readability-magic-numbers",
+ "check_name": "cppcoreguidelines-avoid-magic-numbers",
+ "repo": "haditabealhojeh/rtopt",
+ "sha": "ca0389dc31f05b053be0fdae74e62353dc1fd00e",
+ "parent": "5b3a4d83fcbd8c81bdd759042d5957869a794e09",
+ "url": "https://github.com/haditabealhojeh/rtopt/commit/ca0389dc31f05b053be0fdae74e62353dc1fd00e",
+ "license": "BSD-2-Clause",
+ "message": "Use cppcoreguidelines-avoid-magic-numbers.",
+ "file": "src/problems/tsp/tsp.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 183,
+   "col": 55,
+   "sev": "warning",
+   "msg": "0.7 is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 183,
+   "col": 55,
+   "sev": "warning",
+   "msg": "0.7 is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 5
+}

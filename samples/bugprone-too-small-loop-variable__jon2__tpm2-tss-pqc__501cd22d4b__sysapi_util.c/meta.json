@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__sysapi_util.c",
+ "check": "bugprone-too-small-loop-variable",
+ "check_name": "bugprone-too-small-loop-variable",
+ "repo": "jon2/tpm2-tss-pqc",
+ "sha": "501cd22d4b060b15cb6e3c36cd95a5b870151d54",
+ "parent": "70f8a3528c05023c00483d78597cd3b666a7ae04",
+ "url": "https://github.com/jon2/tpm2-tss-pqc/commit/501cd22d4b060b15cb6e3c36cd95a5b870151d54",
+ "license": "BSD-2-Clause",
+ "message": "clang-tidy: fix bugprone-too-small-loop-variable",
+ "file": "src/tss2-sys/sysapi_util.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 298,
+   "col": 17,
+   "sev": "warning",
+   "msg": "loop variable has narrower type 'uint8_t' than iteration's upper bound '__size_t'",
+   "check": "bugprone-too-small-loop-variable"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 298,
+   "col": 17,
+   "sev": "warning",
+   "msg": "loop variable has narrower type 'uint8_t' than iteration's upper bound '__size_t'",
+   "check": "bugprone-too-small-loop-variable"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

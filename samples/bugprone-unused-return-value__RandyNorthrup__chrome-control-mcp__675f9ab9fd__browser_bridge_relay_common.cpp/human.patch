@@ -1,0 +1,7 @@
+diff --git a/src/browser_bridge_relay_common.cpp b/src/browser_bridge_relay_common.cpp
+index 2d2f4aa..8bbdaa0 100644
+--- a/src/browser_bridge_relay_common.cpp
++++ b/src/browser_bridge_relay_common.cpp
+@@ -232 +232 @@ void watchForBrowserExit() {
+-        std::fflush(nullptr);
++        static_cast<void>(std::fflush(nullptr));

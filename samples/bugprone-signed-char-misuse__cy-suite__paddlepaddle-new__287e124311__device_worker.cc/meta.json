@@ -1,0 +1,42 @@
+{
+ "id": "bugprone-signed-char-misuse__cy-suite__paddlepaddle-new__287e124311__device_worker.cc",
+ "check": "bugprone-signed-char-misuse",
+ "check_name": "bugprone-signed-char-misuse",
+ "repo": "cy-suite/paddlepaddle-new",
+ "sha": "287e1243118b7ac0920cb1e9969a2dd88cf45a10",
+ "parent": "017038fb6a87cbd1f8a69b0845802ab20ed060f8",
+ "url": "https://github.com/cy-suite/paddlepaddle-new/commit/287e1243118b7ac0920cb1e9969a2dd88cf45a10",
+ "license": "Apache-2.0",
+ "message": "\u3010Hackathon 6th Fundable Projects 2 No.8\u3011 bugprone-signed-char-misuse-final (#64607)",
+ "file": "paddle/fluid/framework/device_worker.cc",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "absl/container/flat_hash_map.h",
+  "absl/types/variant.h",
+  "glog/logging.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 249,
+   "col": 36,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 249,
+   "col": 36,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 3
+}

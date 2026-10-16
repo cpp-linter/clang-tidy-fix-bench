@@ -1,0 +1,7 @@
+diff --git a/src/aes/aes.c b/src/aes/aes.c
+index 3a75bb0..4daf2b1 100644
+--- a/src/aes/aes.c
++++ b/src/aes/aes.c
+@@ -128 +128 @@ void quic_aes128_encrypt(const quic_aes128 *a,
+-    round_last(s, a->rk + 4 * QUIC_AES_ROUNDS);
++    round_last(s, a->rk + (usz)4 * QUIC_AES_ROUNDS);

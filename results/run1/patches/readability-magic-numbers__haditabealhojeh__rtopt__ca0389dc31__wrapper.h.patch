@@ -1,0 +1,10 @@
+--- a/src/routing/wrapper.h
++++ b/src/routing/wrapper.h
+@@ -37,5 +37,6 @@
+ 
+   static UserCost round_cost(double value) {
+-    return static_cast<UserCost>(value + 0.5);
++    constexpr double rounding_offset = 0.5;
++    return static_cast<UserCost>(value + rounding_offset);
+   }
+ 

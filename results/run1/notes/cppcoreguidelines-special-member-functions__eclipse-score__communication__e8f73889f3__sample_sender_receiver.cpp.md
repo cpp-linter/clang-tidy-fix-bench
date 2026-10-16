@@ -1,0 +1,1 @@
+`TestDestructor` is a scope guard that calls `request_stop()` in its destructor and is only ever constructed as a local. Its copy/move constructors and copy/move assignment operators are now deleted, so a copy can never trigger an extra stop request. Usage and behaviour are unchanged.

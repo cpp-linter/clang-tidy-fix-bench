@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__change_op_columns.hpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "homer6/automerge-cpp",
+ "sha": "0eb979ac444b78cc0b1b3a2672eb03c70a8f78d1",
+ "parent": "d5e66dd431b506ea7b3e0e7f30e29270b80f66fb",
+ "url": "https://github.com/homer6/automerge-cpp/commit/0eb979ac444b78cc0b1b3a2672eb03c70a8f78d1",
+ "license": "MIT",
+ "message": " All 274 tests pass. All 4 clang-tidy fixes compile and work correctly:",
+ "file": "src/storage/columns/change_op_columns.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 286,
+   "col": 97,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 286,
+   "col": 97,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

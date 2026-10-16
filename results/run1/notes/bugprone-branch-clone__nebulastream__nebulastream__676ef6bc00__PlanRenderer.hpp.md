@@ -1,0 +1,1 @@
+In the `BranchCase::ParentLast` inner switch, the `case PARENT_LAST_BRANCH:` branch (reached also by fallthrough from `PARENT_MIDDLE_BRANCH`) and the `default:` branch both only did `break;`. I merged `case PARENT_LAST_BRANCH:` with `default:` so they share one body, keeping the explanatory comment. Behaviour is unchanged: all those characters are still left as they are.

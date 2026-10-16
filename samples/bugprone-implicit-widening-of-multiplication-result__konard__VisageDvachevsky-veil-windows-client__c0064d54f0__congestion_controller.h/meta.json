@@ -1,0 +1,66 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__c0064d54f0__congestion_controller.h",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "konard/VisageDvachevsky-veil-windows-client",
+ "sha": "c0064d54f08c48dcde23a1fdc314e726b18356f3",
+ "parent": "0599e0923b89076d1f28ec25f1bff0fcbd57f705",
+ "url": "https://github.com/konard/VisageDvachevsky-veil-windows-client/commit/c0064d54f08c48dcde23a1fdc314e726b18356f3",
+ "license": "Apache-2.0",
+ "message": "Fix clang-tidy implicit widening conversion warnings",
+ "file": "src/transport/mux/congestion_controller.h",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 20,
+   "col": 28,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'std::size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 26,
+   "col": 24,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'std::size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 29,
+   "col": 32,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'std::size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 20,
+   "col": 28,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'std::size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 26,
+   "col": 24,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'std::size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 29,
+   "col": 32,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'std::size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 6
+}

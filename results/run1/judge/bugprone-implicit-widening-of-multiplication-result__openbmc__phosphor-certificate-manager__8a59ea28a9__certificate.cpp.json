@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Computes 86400 in unsigned long long instead of int; the human wrote the literal 86400 and made it constexpr. Same value and type either way."}

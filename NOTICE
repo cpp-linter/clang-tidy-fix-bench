@@ -1,0 +1,1036 @@
+clang-tidy-fix-bench
+Copyright 2026 The cpp-linter authors
+
+The scripts in scripts/ are licensed under the Apache License 2.0 (see LICENSE).
+
+Each directory under samples/ contains source code copied from a third-party
+open-source repository (before.*, after.*, human.patch). That code remains under
+its original license and copyright, listed below per sample. The candidate
+patches under results/ are derived from the same files and carry the same license
+as the sample they modify.
+
+samples/bugprone-branch-clone__BitConcepts__arbiter__ad61bed2e1__arbiter_action.c/
+  repository: https://github.com/BitConcepts/arbiter
+  commit:     https://github.com/BitConcepts/arbiter/commit/ad61bed2e11cf25d74ba653ab8a8ee0ec8df1a7e
+  file:       lib/arbiter_action.c
+  license:    MIT
+
+samples/bugprone-branch-clone__Jimdrews__forgeant__b397b0d9af__json.cpp/
+  repository: https://github.com/Jimdrews/forgeant
+  commit:     https://github.com/Jimdrews/forgeant/commit/b397b0d9af9011ee702f100f3b7a8020bdc621fe
+  file:       src/json/json.cpp
+  license:    MIT
+
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__413805a073__smooth_stop.cpp/
+  repository: https://github.com/MBilalQ/autoware_towtruck_universe
+  commit:     https://github.com/MBilalQ/autoware_towtruck_universe/commit/413805a0738e4b8aecb190d08bf7eaeafe7f8eaf
+  file:       control/autoware_pid_longitudinal_controller/src/smooth_stop.cpp
+  license:    Apache-2.0
+
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__4c1153f85c__node.cpp/
+  repository: https://github.com/MBilalQ/autoware_towtruck_universe
+  commit:     https://github.com/MBilalQ/autoware_towtruck_universe/commit/4c1153f85c3e3a44d87f0e0e6f89c56027dae656
+  file:       perception/autoware_ground_segmentation/src/scan_ground_filter/node.cpp
+  license:    Apache-2.0
+
+samples/bugprone-branch-clone__MichaelBallen97__aero-engine__a1ee68ebe8__asset_drag.cpp/
+  repository: https://github.com/MichaelBallen97/aero-engine
+  commit:     https://github.com/MichaelBallen97/aero-engine/commit/a1ee68ebe8a6f2d0a185ed2b4e715c557735f69c
+  file:       editor/src/asset_drag.cpp
+  license:    MIT
+
+samples/bugprone-branch-clone__PhotonPower__hp-FEM__381689efc7__gmsh.cpp/
+  repository: https://github.com/PhotonPower/hp-FEM
+  commit:     https://github.com/PhotonPower/hp-FEM/commit/381689efc790491ded39dbcf289f2018141ee7d3
+  file:       src/mesh/gmsh.cpp
+  license:    MIT
+
+samples/bugprone-branch-clone__aklofas__urbi-embedded__17a9040285__uparse_stmt.c/
+  repository: https://github.com/aklofas/urbi-embedded
+  commit:     https://github.com/aklofas/urbi-embedded/commit/17a9040285a0b33a8a8d0ec5c4f1ba766b63be84
+  file:       src/parse/uparse_stmt.c
+  license:    BSD-3-Clause
+
+samples/bugprone-branch-clone__aklofas__urbi-embedded__2952abc1a5__uparse_stmt.c/
+  repository: https://github.com/aklofas/urbi-embedded
+  commit:     https://github.com/aklofas/urbi-embedded/commit/2952abc1a51eab382cb9378a36f7672b1c42dceb
+  file:       src/parse/uparse_stmt.c
+  license:    BSD-3-Clause
+
+samples/bugprone-branch-clone__aklofas__urbi-embedded__44da26eeca__uvm_op_overload.c/
+  repository: https://github.com/aklofas/urbi-embedded
+  commit:     https://github.com/aklofas/urbi-embedded/commit/44da26eeca7ed828b5b875f01120d46ba9ce3c05
+  file:       src/vm/uvm_op_overload.c
+  license:    BSD-3-Clause
+
+samples/bugprone-branch-clone__aton-of-data__guara-llm-embodied-flight__654db9bcb1__monitor_table.hpp/
+  repository: https://github.com/aton-of-data/guara-llm-embodied-flight
+  commit:     https://github.com/aton-of-data/guara-llm-embodied-flight/commit/654db9bcb165077886fa68273f58dace1cc47eb3
+  file:       core/include/guara_rta/monitor_table.hpp
+  license:    Apache-2.0
+
+samples/bugprone-branch-clone__bansan85__ntfs-browser__ec6a43498b__fake-ntfs-image.cpp/
+  repository: https://github.com/bansan85/ntfs-browser
+  commit:     https://github.com/bansan85/ntfs-browser/commit/ec6a43498b19d92b2451fb98add6a4394d0ea82d
+  file:       NTFSLibTests/unit-tests/fake-ntfs-image.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-branch-clone__dagike__hungryeditor__17d04b294b__PreviewBackendFactory.cpp/
+  repository: https://github.com/dagike/hungryeditor
+  commit:     https://github.com/dagike/hungryeditor/commit/17d04b294b690222122ab93e5adf80ebedab8101
+  file:       src/preview/PreviewBackendFactory.cpp
+  license:    MIT
+
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__change_op_columns.hpp/
+  repository: https://github.com/homer6/automerge-cpp
+  commit:     https://github.com/homer6/automerge-cpp/commit/0eb979ac444b78cc0b1b3a2672eb03c70a8f78d1
+  file:       src/storage/columns/change_op_columns.hpp
+  license:    MIT
+
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__value_encoding.hpp/
+  repository: https://github.com/homer6/automerge-cpp
+  commit:     https://github.com/homer6/automerge-cpp/commit/0eb979ac444b78cc0b1b3a2672eb03c70a8f78d1
+  file:       src/storage/columns/value_encoding.hpp
+  license:    MIT
+
+samples/bugprone-branch-clone__liudss__microvtk__04006083fd__compressor.hpp/
+  repository: https://github.com/liudss/microvtk
+  commit:     https://github.com/liudss/microvtk/commit/04006083fd3156ee275d15a1ed7cf3171708a929
+  file:       include/microvtk/core/compressor.hpp
+  license:    MIT
+
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__PlanRenderer.hpp/
+  repository: https://github.com/nebulastream/nebulastream
+  commit:     https://github.com/nebulastream/nebulastream/commit/676ef6bc00d85f2ff3c79e7179d8c24f61ccc52b
+  file:       nes-common/include/Util/PlanRenderer.hpp
+  license:    Apache-2.0
+
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__TestTaskQueue.cpp/
+  repository: https://github.com/nebulastream/nebulastream
+  commit:     https://github.com/nebulastream/nebulastream/commit/676ef6bc00d85f2ff3c79e7179d8c24f61ccc52b
+  file:       nes-executable/tests/TestUtils/TestTaskQueue.cpp
+  license:    Apache-2.0
+
+samples/bugprone-branch-clone__nicknad__Wslc.Testcontainers__56a91e9955__log_line.cpp/
+  repository: https://github.com/nicknad/Wslc.Testcontainers
+  commit:     https://github.com/nicknad/Wslc.Testcontainers/commit/56a91e9955559f90c6bbabfdc2a05a30f4c0aff7
+  file:       cpp/src/log_line.cpp
+  license:    MIT
+
+samples/bugprone-branch-clone__omardev29__raylib_multiplatform__4458ec78c9__controls.cpp/
+  repository: https://github.com/omardev29/raylib_multiplatform
+  commit:     https://github.com/omardev29/raylib_multiplatform/commit/4458ec78c95c33a6bde3fadcb4b36821990a5004
+  file:       src/rmp/ui/controls.cpp
+  license:    MIT
+
+samples/bugprone-branch-clone__quintin-lee__cdsl__b03026945e__eval.c/
+  repository: https://github.com/quintin-lee/cdsl
+  commit:     https://github.com/quintin-lee/cdsl/commit/b03026945e6f3650134c8afcfa653b924f85292f
+  file:       src/vm/eval.c
+  license:    MIT
+
+samples/bugprone-branch-clone__quintin-lee__cmem__f43202e62d__cmem_event.c/
+  repository: https://github.com/quintin-lee/cmem
+  commit:     https://github.com/quintin-lee/cmem/commit/f43202e62d38d9dcfad7d69aab04fcac77a0aac1
+  file:       src/cmem_event.c
+  license:    MIT
+
+samples/bugprone-branch-clone__rxdu__ctfsm__a2be430882__state_machine.hpp/
+  repository: https://github.com/rxdu/ctfsm
+  commit:     https://github.com/rxdu/ctfsm/commit/a2be4308823e3426497bdba244024e9fe5cfc0f5
+  file:       include/ctfsm/state_machine.hpp
+  license:    Apache-2.0
+
+samples/bugprone-branch-clone__t0k0sh1__ry__2e39658acc__codegen.cpp/
+  repository: https://github.com/t0k0sh1/ry
+  commit:     https://github.com/t0k0sh1/ry/commit/2e39658acc29fc8104f4c82bb36cb50fff21fd5b
+  file:       src/codegen.cpp
+  license:    MIT
+
+samples/bugprone-branch-clone__tenstorrent__tt-umd__edd260e3ab__cluster_descriptor_types.hpp/
+  repository: https://github.com/tenstorrent/tt-umd
+  commit:     https://github.com/tenstorrent/tt-umd/commit/edd260e3abfc33dc8c4e8d820d941a125bdbc62a
+  file:       device/api/umd/device/types/cluster_descriptor_types.hpp
+  license:    Apache-2.0
+
+samples/bugprone-branch-clone__vrosuits__ANSI_COLOR_TEXT__1fc4df9002__AnsiScreen.cpp/
+  repository: https://github.com/vrosuits/ANSI_COLOR_TEXT
+  commit:     https://github.com/vrosuits/ANSI_COLOR_TEXT/commit/1fc4df9002e73baeb53f93111ede151b89e7007e
+  file:       src/AnsiScreen.cpp
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__hkdf.c/
+  repository: https://github.com/Hakkadaikon/wired
+  commit:     https://github.com/Hakkadaikon/wired/commit/0c98a334ce4e85097e28fd53d3a0370b03f24a6a
+  file:       src/hkdf/hkdf.c
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__rsa_verify.c/
+  repository: https://github.com/Hakkadaikon/wired
+  commit:     https://github.com/Hakkadaikon/wired/commit/0c98a334ce4e85097e28fd53d3a0370b03f24a6a
+  file:       src/rsa/rsa_verify.c
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__aes.c/
+  repository: https://github.com/Hakkadaikon/wired
+  commit:     https://github.com/Hakkadaikon/wired/commit/31131819adae5987b6b1c59c7670bf7555a637c7
+  file:       src/aes/aes.c
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__modexp.c/
+  repository: https://github.com/Hakkadaikon/wired
+  commit:     https://github.com/Hakkadaikon/wired/commit/31131819adae5987b6b1c59c7670bf7555a637c7
+  file:       src/bignum/modexp.c
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__Linductor-alkaid__yori__9708a998f0__environment_capture.cpp/
+  repository: https://github.com/Linductor-alkaid/yori
+  commit:     https://github.com/Linductor-alkaid/yori/commit/9708a998f0d29c1f461a65fe1026d28d6fce3c7a
+  file:       src/launch/environment_capture.cpp
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__RyAnPr1Me__omscript__2ae9db9066__compiler.cpp/
+  repository: https://github.com/RyAnPr1Me/omscript
+  commit:     https://github.com/RyAnPr1Me/omscript/commit/2ae9db90663f039601d2149f6b4a5db77a938daa
+  file:       src/compiler.cpp
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__bsikar__ra8-firmware__a23b88faba__test_media_dl_export.c/
+  repository: https://github.com/bsikar/ra8-firmware
+  commit:     https://github.com/bsikar/ra8-firmware/commit/a23b88fabace38e384ecbddbbddf307f34dd05e7
+  file:       tools/media_dl/tests/test_media_dl_export.c
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__cityjson__duckdb-cityjson__3671e4d890__temporal_parser.cpp/
+  repository: https://github.com/cityjson/duckdb-cityjson
+  commit:     https://github.com/cityjson/duckdb-cityjson/commit/3671e4d89040eabbf7debf985151ffb9380f0b1f
+  file:       src/cityjson/temporal_parser.cpp
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__fcatuhe__skyblip__2d10838bb6__radar.cpp/
+  repository: https://github.com/fcatuhe/skyblip
+  commit:     https://github.com/fcatuhe/skyblip/commit/2d10838bb6c14244ebba5273ebab8a6f5dee9b4b
+  file:       firmware/products/skyblip_go/pages/radar.cpp
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__binary_flex.hpp/
+  repository: https://github.com/felixb419/kaad
+  commit:     https://github.com/felixb419/kaad/commit/400e6731ef3848694c662a785a8f9fa7ed7df9ca
+  file:       include/kaad/graph/nodes/binary_flex.hpp
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__common.hpp/
+  repository: https://github.com/felixb419/kaad
+  commit:     https://github.com/felixb419/kaad/commit/400e6731ef3848694c662a785a8f9fa7ed7df9ca
+  file:       include/kaad/graph/common.hpp
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__iterator_impl.hpp/
+  repository: https://github.com/felixb419/kaad
+  commit:     https://github.com/felixb419/kaad/commit/400e6731ef3848694c662a785a8f9fa7ed7df9ca
+  file:       include/kaad/tensor/iterator_impl.hpp
+  license:    MIT
+
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__bytestream_utils.hpp/
+  repository: https://github.com/just-buildsystem/justbuild
+  commit:     https://github.com/just-buildsystem/justbuild/commit/c461673aad0970bc89f6336c966d2305eaae0dbb
+  file:       src/buildtool/execution_api/common/bytestream_utils.hpp
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__capabilities_server.cpp/
+  repository: https://github.com/just-buildsystem/justbuild
+  commit:     https://github.com/just-buildsystem/justbuild/commit/c461673aad0970bc89f6336c966d2305eaae0dbb
+  file:       src/buildtool/execution_api/execution_service/capabilities_server.cpp
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__file_system_manager.hpp/
+  repository: https://github.com/just-buildsystem/justbuild
+  commit:     https://github.com/just-buildsystem/justbuild/commit/c461673aad0970bc89f6336c966d2305eaae0dbb
+  file:       src/buildtool/file_system/file_system_manager.hpp
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__message_limits.hpp/
+  repository: https://github.com/just-buildsystem/justbuild
+  commit:     https://github.com/just-buildsystem/justbuild/commit/c461673aad0970bc89f6336c966d2305eaae0dbb
+  file:       src/buildtool/execution_api/common/message_limits.hpp
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__4d83936fb1__hardware_crypto_tests.cpp/
+  repository: https://github.com/konard/VisageDvachevsky-veil-windows-client
+  commit:     https://github.com/konard/VisageDvachevsky-veil-windows-client/commit/4d83936fb1e2bec2a2d3a8f0519e129a5da70b04
+  file:       tests/unit/hardware_crypto_tests.cpp
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__b58aa102db__debug_logging_overhead_tests.cpp/
+  repository: https://github.com/konard/VisageDvachevsky-veil-windows-client
+  commit:     https://github.com/konard/VisageDvachevsky-veil-windows-client/commit/b58aa102db240f376d32f8158c6038a74967d4c8
+  file:       tests/unit/debug_logging_overhead_tests.cpp
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__c0064d54f0__congestion_controller.h/
+  repository: https://github.com/konard/VisageDvachevsky-veil-windows-client
+  commit:     https://github.com/konard/VisageDvachevsky-veil-windows-client/commit/c0064d54f08c48dcde23a1fdc314e726b18356f3
+  file:       src/transport/mux/congestion_controller.h
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__muchq__opal-cpp__baaec9b717__beast_transport.cc/
+  repository: https://github.com/muchq/opal-cpp
+  commit:     https://github.com/muchq/opal-cpp/commit/baaec9b717eb555a79dc5d5802830b5dc83fc60d
+  file:       runtime/src/http/beast_transport.cc
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__console-server.c/
+  repository: https://github.com/ocp-hm-openbmc-opf-ami/obmc-console
+  commit:     https://github.com/ocp-hm-openbmc-opf-ami/obmc-console/commit/5db8c792ba479829ff4feb4e3a0ad7b682767ab1
+  file:       console-server.c
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__log-handler.c/
+  repository: https://github.com/ocp-hm-openbmc-opf-ami/obmc-console
+  commit:     https://github.com/ocp-hm-openbmc-opf-ami/obmc-console/commit/5db8c792ba479829ff4feb4e3a0ad7b682767ab1
+  file:       log-handler.c
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__test-config-parse-logsize.c/
+  repository: https://github.com/ocp-hm-openbmc-opf-ami/obmc-console
+  commit:     https://github.com/ocp-hm-openbmc-opf-ami/obmc-console/commit/5db8c792ba479829ff4feb4e3a0ad7b682767ab1
+  file:       test/test-config-parse-logsize.c
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__openbmc__phosphor-certificate-manager__8a59ea28a9__certificate.cpp/
+  repository: https://github.com/openbmc/phosphor-certificate-manager
+  commit:     https://github.com/openbmc/phosphor-certificate-manager/commit/8a59ea28a9759d0b4e2ce7a996253fd7e2eb5302
+  file:       certificate.cpp
+  license:    Apache-2.0
+
+samples/bugprone-implicit-widening-of-multiplication-result__timwukp__agent-terminal__3b69404349__session.c/
+  repository: https://github.com/timwukp/agent-terminal
+  commit:     https://github.com/timwukp/agent-terminal/commit/3b69404349073ef97e592f7335716450df7cb0f7
+  file:       src/daemon/session.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__BitBoxSwiss__bitbox02-firmware__a789c9faac__qtouch.c/
+  repository: https://github.com/BitBoxSwiss/bitbox02-firmware
+  commit:     https://github.com/BitBoxSwiss/bitbox02-firmware/commit/a789c9faac86295854601b85c4e577e3d2e92529
+  file:       src/qtouch/qtouch.c
+  license:    Apache-2.0
+
+samples/bugprone-narrowing-conversions__Hakkadaikon__wired__f2aa67c47b__recvpn.c/
+  repository: https://github.com/Hakkadaikon/wired
+  commit:     https://github.com/Hakkadaikon/wired/commit/f2aa67c47ba1699db0046e6d0b34d82fc779afe3
+  file:       src/recvpn/recvpn.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__Jgocunha__neat-dnfs__b19e39a8ce__solution.cpp/
+  repository: https://github.com/Jgocunha/neat-dnfs
+  commit:     https://github.com/Jgocunha/neat-dnfs/commit/b19e39a8ce43d380d9a742c16f49fcd3cae4bf69
+  file:       neat-dnfs/src/neat/solution.cpp
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__Noorts__DuckIR__5f74a3a16e__common.hpp/
+  repository: https://github.com/Noorts/DuckIR
+  commit:     https://github.com/Noorts/DuckIR/commit/5f74a3a16e4f355ed9d2ad37a37ea903649821ef
+  file:       src/include/pdxearch/common.hpp
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__00c427d2f5__xmlwf.c/
+  repository: https://github.com/OpenHarmony-TPC/chromium_third_party_expat
+  commit:     https://github.com/OpenHarmony-TPC/chromium_third_party_expat/commit/00c427d2f5c1b5b6dc4b3469113b9fe472bc7952
+  file:       expat/xmlwf/xmlwf.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__alloc_tests.c/
+  repository: https://github.com/OpenHarmony-TPC/chromium_third_party_expat
+  commit:     https://github.com/OpenHarmony-TPC/chromium_third_party_expat/commit/f75b1be48909ed0791fbc84998778bb07c7ceed4
+  file:       expat/tests/alloc_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__basic_tests.c/
+  repository: https://github.com/OpenHarmony-TPC/chromium_third_party_expat
+  commit:     https://github.com/OpenHarmony-TPC/chromium_third_party_expat/commit/f75b1be48909ed0791fbc84998778bb07c7ceed4
+  file:       expat/tests/basic_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__handlers.c/
+  repository: https://github.com/OpenHarmony-TPC/chromium_third_party_expat
+  commit:     https://github.com/OpenHarmony-TPC/chromium_third_party_expat/commit/f75b1be48909ed0791fbc84998778bb07c7ceed4
+  file:       expat/tests/handlers.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__alloc_tests.c/
+  repository: https://github.com/VanessaRussellbtcmcpv/libexpat
+  commit:     https://github.com/VanessaRussellbtcmcpv/libexpat/commit/36f4fa61567da85a449153ff2bb51bbe5442efcb
+  file:       expat/tests/alloc_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__basic_tests.c/
+  repository: https://github.com/VanessaRussellbtcmcpv/libexpat
+  commit:     https://github.com/VanessaRussellbtcmcpv/libexpat/commit/36f4fa61567da85a449153ff2bb51bbe5442efcb
+  file:       expat/tests/basic_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__handlers.c/
+  repository: https://github.com/VanessaRussellbtcmcpv/libexpat
+  commit:     https://github.com/VanessaRussellbtcmcpv/libexpat/commit/36f4fa61567da85a449153ff2bb51bbe5442efcb
+  file:       expat/tests/handlers.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__misc_tests.c/
+  repository: https://github.com/VanessaRussellbtcmcpv/libexpat
+  commit:     https://github.com/VanessaRussellbtcmcpv/libexpat/commit/36f4fa61567da85a449153ff2bb51bbe5442efcb
+  file:       expat/tests/misc_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__nsalloc_tests.c/
+  repository: https://github.com/VanessaRussellbtcmcpv/libexpat
+  commit:     https://github.com/VanessaRussellbtcmcpv/libexpat/commit/36f4fa61567da85a449153ff2bb51bbe5442efcb
+  file:       expat/tests/nsalloc_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__b162b094b1__xmlwf.c/
+  repository: https://github.com/VanessaRussellbtcmcpv/libexpat
+  commit:     https://github.com/VanessaRussellbtcmcpv/libexpat/commit/b162b094b1d2ea8c7b0f6e02c95d93e8fd9b51b9
+  file:       expat/xmlwf/xmlwf.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__46ebf6f474__spline_interpolation_points_2d.cpp/
+  repository: https://github.com/autowarefoundation/autoware_core
+  commit:     https://github.com/autowarefoundation/autoware_core/commit/46ebf6f4749a61d78ac8ee6e89821f0acf39c3b9
+  file:       common/autoware_interpolation/src/spline_interpolation_points_2d.cpp
+  license:    Apache-2.0
+
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__c6ba5f2fe0__predicted_path_utils.cpp/
+  repository: https://github.com/autowarefoundation/autoware_core
+  commit:     https://github.com/autowarefoundation/autoware_core/commit/c6ba5f2fe07ee1767fa659e4ac5e8f4a6d9a30ad
+  file:       common/autoware_object_recognition_utils/src/predicted_path_utils.cpp
+  license:    Apache-2.0
+
+samples/bugprone-narrowing-conversions__felixb419__kaad__557fdf81d5__common.hpp/
+  repository: https://github.com/felixb419/kaad
+  commit:     https://github.com/felixb419/kaad/commit/557fdf81d501adc414749194f487769721911e04
+  file:       include/kaad/graph/common.hpp
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__libexpat__libexpat__0c5b205a01__xmlwf.c/
+  repository: https://github.com/libexpat/libexpat
+  commit:     https://github.com/libexpat/libexpat/commit/0c5b205a013ac576ea19579fa3d7d3bf812c62e3
+  file:       expat/xmlwf/xmlwf.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__alloc_tests.c/
+  repository: https://github.com/libexpat/libexpat
+  commit:     https://github.com/libexpat/libexpat/commit/94cceb228c0bda936a3eb3b88419c79b2e031729
+  file:       expat/tests/alloc_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__basic_tests.c/
+  repository: https://github.com/libexpat/libexpat
+  commit:     https://github.com/libexpat/libexpat/commit/94cceb228c0bda936a3eb3b88419c79b2e031729
+  file:       expat/tests/basic_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__handlers.c/
+  repository: https://github.com/libexpat/libexpat
+  commit:     https://github.com/libexpat/libexpat/commit/94cceb228c0bda936a3eb3b88419c79b2e031729
+  file:       expat/tests/handlers.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__misc_tests.c/
+  repository: https://github.com/libexpat/libexpat
+  commit:     https://github.com/libexpat/libexpat/commit/94cceb228c0bda936a3eb3b88419c79b2e031729
+  file:       expat/tests/misc_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__nsalloc_tests.c/
+  repository: https://github.com/libexpat/libexpat
+  commit:     https://github.com/libexpat/libexpat/commit/94cceb228c0bda936a3eb3b88419c79b2e031729
+  file:       expat/tests/nsalloc_tests.c
+  license:    MIT
+
+samples/bugprone-narrowing-conversions__rv355__openvino-bevfusion-ops__5c0967b990__solve_buffer_memory.cpp/
+  repository: https://github.com/rv355/openvino-bevfusion-ops
+  commit:     https://github.com/rv355/openvino-bevfusion-ops/commit/5c0967b990bf8392b97ed15d864c9b3b368a6c24
+  file:       src/common/snippets/src/lowered/pass/solve_buffer_memory.cpp
+  license:    Apache-2.0
+
+samples/bugprone-narrowing-conversions__thus__simpleconfig__9ff815d978__sconf.c/
+  repository: https://github.com/thus/simpleconfig
+  commit:     https://github.com/thus/simpleconfig/commit/9ff815d9789bbb22900f228a3079a1d2b0641b1f
+  file:       src/sconf.c
+  license:    MIT
+
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__d0d7b8afad__lexer.cpp/
+  repository: https://github.com/HabanaAI/gaudi-pytorch-bridge
+  commit:     https://github.com/HabanaAI/gaudi-pytorch-bridge/commit/d0d7b8afadf15fe263dc733b941964419689836e
+  file:       python_packages/habana_frameworks/torch/jit/csrc/jit_fork/frontend/lexer.cpp
+  license:    Apache-2.0
+
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__f4aeedd3aa__debug_utils.cpp/
+  repository: https://github.com/HabanaAI/gaudi-pytorch-bridge
+  commit:     https://github.com/HabanaAI/gaudi-pytorch-bridge/commit/f4aeedd3aa1bd8410eb394085d2c3812edfb6fc5
+  file:       habana_lazy/debug_utils.cpp
+  license:    Apache-2.0
+
+samples/bugprone-signed-char-misuse__aldelaro5__dolphin-memory-engine__c840965545__MemViewer.cpp/
+  repository: https://github.com/aldelaro5/dolphin-memory-engine
+  commit:     https://github.com/aldelaro5/dolphin-memory-engine/commit/c8409655451071302659753f1254af86b46be944
+  file:       Source/GUI/MemViewer/MemViewer.cpp
+  license:    MIT
+
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__def_keywords.cpp/
+  repository: https://github.com/cindycarey611026/OpenROAD
+  commit:     https://github.com/cindycarey611026/OpenROAD/commit/8a5e5e7f82b3c9670aba3af01737808a930cbed8
+  file:       src/odb/src/def/def/def_keywords.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defiFPC.cpp/
+  repository: https://github.com/cindycarey611026/OpenROAD
+  commit:     https://github.com/cindycarey611026/OpenROAD/commit/8a5e5e7f82b3c9670aba3af01737808a930cbed8
+  file:       src/odb/src/def/def/defiFPC.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defrData.cpp/
+  repository: https://github.com/cindycarey611026/OpenROAD
+  commit:     https://github.com/cindycarey611026/OpenROAD/commit/8a5e5e7f82b3c9670aba3af01737808a930cbed8
+  file:       src/odb/src/def/def/defrData.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lef_keywords.cpp/
+  repository: https://github.com/cindycarey611026/OpenROAD
+  commit:     https://github.com/cindycarey611026/OpenROAD/commit/8a5e5e7f82b3c9670aba3af01737808a930cbed8
+  file:       src/odb/src/lef/lef/lef_keywords.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lefiDebug.cpp/
+  repository: https://github.com/cindycarey611026/OpenROAD
+  commit:     https://github.com/cindycarey611026/OpenROAD/commit/8a5e5e7f82b3c9670aba3af01737808a930cbed8
+  file:       src/odb/src/lef/lef/lefiDebug.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__cy-suite__paddlepaddle-new__287e124311__device_worker.cc/
+  repository: https://github.com/cy-suite/paddlepaddle-new
+  commit:     https://github.com/cy-suite/paddlepaddle-new/commit/287e1243118b7ac0920cb1e9969a2dd88cf45a10
+  file:       paddle/fluid/framework/device_worker.cc
+  license:    Apache-2.0
+
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__def_keywords.cpp/
+  repository: https://github.com/liljz250090/OpenROAD-with-3Dblox
+  commit:     https://github.com/liljz250090/OpenROAD-with-3Dblox/commit/79ed8c4a713733c7af2d0d080b3cde1fdbc21fd7
+  file:       src/odb/src/def/def/def_keywords.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defiFPC.cpp/
+  repository: https://github.com/liljz250090/OpenROAD-with-3Dblox
+  commit:     https://github.com/liljz250090/OpenROAD-with-3Dblox/commit/79ed8c4a713733c7af2d0d080b3cde1fdbc21fd7
+  file:       src/odb/src/def/def/defiFPC.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defrData.cpp/
+  repository: https://github.com/liljz250090/OpenROAD-with-3Dblox
+  commit:     https://github.com/liljz250090/OpenROAD-with-3Dblox/commit/79ed8c4a713733c7af2d0d080b3cde1fdbc21fd7
+  file:       src/odb/src/def/def/defrData.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lef_keywords.cpp/
+  repository: https://github.com/liljz250090/OpenROAD-with-3Dblox
+  commit:     https://github.com/liljz250090/OpenROAD-with-3Dblox/commit/79ed8c4a713733c7af2d0d080b3cde1fdbc21fd7
+  file:       src/odb/src/lef/lef/lef_keywords.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lefiDebug.cpp/
+  repository: https://github.com/liljz250090/OpenROAD-with-3Dblox
+  commit:     https://github.com/liljz250090/OpenROAD-with-3Dblox/commit/79ed8c4a713733c7af2d0d080b3cde1fdbc21fd7
+  file:       src/odb/src/lef/lef/lefiDebug.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-signed-char-misuse__thus__simpleconfig__6f6407f228__opts.c/
+  repository: https://github.com/thus/simpleconfig
+  commit:     https://github.com/thus/simpleconfig/commit/6f6407f228b5abebefa93a9ababdf42495b0009e
+  file:       src/opts.c
+  license:    MIT
+
+samples/bugprone-signed-char-misuse__uACPI__uACPI__abc6e6b3b8__stdlib.c/
+  repository: https://github.com/uACPI/uACPI
+  commit:     https://github.com/uACPI/uACPI/commit/abc6e6b3b8f9d5141fcaa5f24667240167b9cf5f
+  file:       source/stdlib.c
+  license:    MIT
+
+samples/bugprone-signed-char-misuse__viewizard__dncdbg__570f950a75__evalstackmachine.cpp/
+  repository: https://github.com/viewizard/dncdbg
+  commit:     https://github.com/viewizard/dncdbg/commit/570f950a75c080a0d9b3d41f5dcf1bbd4f279617
+  file:       src/debugger/evalstackmachine.cpp
+  license:    MIT
+
+samples/bugprone-too-small-loop-variable__ClickHouse__ClickHouse__5d4dc1a230__flipCoordinates.cpp/
+  repository: https://github.com/ClickHouse/ClickHouse
+  commit:     https://github.com/ClickHouse/ClickHouse/commit/5d4dc1a230a591775065aadc7079d2fcc313501c
+  file:       src/Functions/flipCoordinates.cpp
+  license:    Apache-2.0
+
+samples/bugprone-too-small-loop-variable__Locked-Inc__STAR__e188b49676__test_rx_poeg.c/
+  repository: https://github.com/Locked-Inc/STAR
+  commit:     https://github.com/Locked-Inc/STAR/commit/e188b49676ceb602cccc397e5f4d3afa317f1426
+  file:       star-rx72n-firmware/tests/test_rx_poeg.c
+  license:    MIT
+
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__GyroFFT.cpp/
+  repository: https://github.com/elarion-io/PX4-Autopilot
+  commit:     https://github.com/elarion-io/PX4-Autopilot/commit/d72d99f2d8f7318402c0ab20d8e2cfb20f46b81d
+  file:       src/modules/gyro_fft/GyroFFT.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__RingBuffer.hpp/
+  repository: https://github.com/elarion-io/PX4-Autopilot
+  commit:     https://github.com/elarion-io/PX4-Autopilot/commit/d72d99f2d8f7318402c0ab20d8e2cfb20f46b81d
+  file:       src/modules/sensors/vehicle_optical_flow/RingBuffer.hpp
+  license:    BSD-3-Clause
+
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__lm_fit.cpp/
+  repository: https://github.com/elarion-io/PX4-Autopilot
+  commit:     https://github.com/elarion-io/PX4-Autopilot/commit/d72d99f2d8f7318402c0ab20d8e2cfb20f46b81d
+  file:       src/modules/commander/lm_fit.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__septentrio.cpp/
+  repository: https://github.com/elarion-io/PX4-Autopilot
+  commit:     https://github.com/elarion-io/PX4-Autopilot/commit/d72d99f2d8f7318402c0ab20d8e2cfb20f46b81d
+  file:       src/drivers/gnss/septentrio/septentrio.cpp
+  license:    BSD-3-Clause
+
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__esys_iutil.c/
+  repository: https://github.com/jon2/tpm2-tss-pqc
+  commit:     https://github.com/jon2/tpm2-tss-pqc/commit/501cd22d4b060b15cb6e3c36cd95a5b870151d54
+  file:       src/tss2-esys/esys_iutil.c
+  license:    BSD-2-Clause
+
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__sysapi_util.c/
+  repository: https://github.com/jon2/tpm2-tss-pqc
+  commit:     https://github.com/jon2/tpm2-tss-pqc/commit/501cd22d4b060b15cb6e3c36cd95a5b870151d54
+  file:       src/tss2-sys/sysapi_util.c
+  license:    BSD-2-Clause
+
+samples/bugprone-unchecked-optional-access__D3V0N5H1R3__luma__314bc49cd7__parser_stmt.cpp/
+  repository: https://github.com/D3V0N5H1R3/luma
+  commit:     https://github.com/D3V0N5H1R3/luma/commit/314bc49cd7c690474964bc5d478ab203dcf60122
+  file:       core/analysis/parser/parser_stmt.cpp
+  license:    MIT
+
+samples/bugprone-unchecked-optional-access__benmandrew__PEREDUR__003726442f__black_tests.cpp/
+  repository: https://github.com/benmandrew/PEREDUR
+  commit:     https://github.com/benmandrew/PEREDUR/commit/003726442f40b8da28486ca8dd3a9aba0fd1a7e7
+  file:       test/runner/black_tests.cpp
+  license:    MIT
+
+samples/bugprone-unused-return-value__AurumCoinOrg__AurumCoin__a789ffb931__httpserver.cpp/
+  repository: https://github.com/AurumCoinOrg/AurumCoin
+  commit:     https://github.com/AurumCoinOrg/AurumCoin/commit/a789ffb931d5c224d43dd0b84c4e60064a532953
+  file:       src/httpserver.cpp
+  license:    MIT
+
+samples/bugprone-unused-return-value__BigcoinBGC__bigcoin__8372cdedb6__httpserver.cpp/
+  repository: https://github.com/BigcoinBGC/bigcoin
+  commit:     https://github.com/BigcoinBGC/bigcoin/commit/8372cdedb651bfe5912af53ad94b5f3640865c72
+  file:       src/httpserver.cpp
+  license:    MIT
+
+samples/bugprone-unused-return-value__GlomarGadaffi__pocket-dial__34aead5ae2__SipTrunk.cpp/
+  repository: https://github.com/GlomarGadaffi/pocket-dial
+  commit:     https://github.com/GlomarGadaffi/pocket-dial/commit/34aead5ae2dcdf00d7aed5e8446b0bbb17aad209
+  file:       src/SIP/SipTrunk.cpp
+  license:    Apache-2.0
+
+samples/bugprone-unused-return-value__Kino1994__bitcoin-full-history__0d79e2829f__httpserver.cpp/
+  repository: https://github.com/Kino1994/bitcoin-full-history
+  commit:     https://github.com/Kino1994/bitcoin-full-history/commit/0d79e2829ff6e08f8dd52e324c65845f4997eb26
+  file:       src/httpserver.cpp
+  license:    MIT
+
+samples/bugprone-unused-return-value__RandyNorthrup__chrome-control-mcp__675f9ab9fd__browser_bridge_relay_common.cpp/
+  repository: https://github.com/RandyNorthrup/chrome-control-mcp
+  commit:     https://github.com/RandyNorthrup/chrome-control-mcp/commit/675f9ab9fda6bb687b889b41da421b216b186808
+  file:       src/browser_bridge_relay_common.cpp
+  license:    MIT
+
+samples/bugprone-unused-return-value__cppservergit__evhttp-apiserver__75bae79ba5__server.c/
+  repository: https://github.com/cppservergit/evhttp-apiserver
+  commit:     https://github.com/cppservergit/evhttp-apiserver/commit/75bae79ba5090e6b53ca8a7941e9da8e3a2bb61a
+  file:       src/server.c
+  license:    BSD-3-Clause
+
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiString.cpp/
+  repository: https://github.com/fmidev/smartmet-library-newbase
+  commit:     https://github.com/fmidev/smartmet-library-newbase/commit/32ea9544ca6197b263df5e990b4eaab293012c62
+  file:       newbase/NFmiString.cpp
+  license:    MIT
+
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiTime.cpp/
+  repository: https://github.com/fmidev/smartmet-library-newbase
+  commit:     https://github.com/fmidev/smartmet-library-newbase/commit/32ea9544ca6197b263df5e990b4eaab293012c62
+  file:       newbase/NFmiTime.cpp
+  license:    MIT
+
+samples/bugprone-unused-return-value__fmidev__smartmet-plugin-wms__410691f297__Handler.cpp/
+  repository: https://github.com/fmidev/smartmet-plugin-wms
+  commit:     https://github.com/fmidev/smartmet-plugin-wms/commit/410691f2974063b8a73476dcb6f0e299b9827974
+  file:       wms/wms/Handler.cpp
+  license:    MIT
+
+samples/bugprone-unused-return-value__joey-huckabee__aero1553__f3ddb6ca09__platform_posix.cpp/
+  repository: https://github.com/joey-huckabee/aero1553
+  commit:     https://github.com/joey-huckabee/aero1553/commit/f3ddb6ca0978a7e2391ef3192f3fca8fbe7f8553
+  file:       cpp/src/platform_posix.cpp
+  license:    Apache-2.0
+
+samples/bugprone-unused-return-value__maceeek__freerdp-m__5abde9bd1c__TestClientCmdLineStatus.c/
+  repository: https://github.com/maceeek/freerdp-m
+  commit:     https://github.com/maceeek/freerdp-m/commit/5abde9bd1c9682f19cff9d52455545e0d15edb92
+  file:       client/common/test/TestClientCmdLineStatus.c
+  license:    Apache-2.0
+
+samples/bugprone-unused-return-value__trainberks-maker__bitstar-core__faa23738fc__httpserver.cpp/
+  repository: https://github.com/trainberks-maker/bitstar-core
+  commit:     https://github.com/trainberks-maker/bitstar-core/commit/faa23738fc2576e412edb04a4004fab537a3098e
+  file:       src/httpserver.cpp
+  license:    MIT
+
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__ical_parser.cpp/
+  repository: https://github.com/BevActual/helix-desktop
+  commit:     https://github.com/BevActual/helix-desktop/commit/a260845d7329275ef27bdc054a3dc36eb65a644a
+  file:       src/calendar/ical_parser.cpp
+  license:    MIT
+
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__security_primitives_test.cpp/
+  repository: https://github.com/BevActual/helix-desktop
+  commit:     https://github.com/BevActual/helix-desktop/commit/a260845d7329275ef27bdc054a3dc36eb65a644a
+  file:       tests/security_primitives_test.cpp
+  license:    MIT
+
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__settings_window.cpp/
+  repository: https://github.com/BevActual/helix-desktop
+  commit:     https://github.com/BevActual/helix-desktop/commit/a260845d7329275ef27bdc054a3dc36eb65a644a
+  file:       src/shell/settings/settings_window.cpp
+  license:    MIT
+
+samples/bugprone-use-after-move__ClickHouse__ClickHouse__62d95fab2e__gtest_long_connection_limit.cpp/
+  repository: https://github.com/ClickHouse/ClickHouse
+  commit:     https://github.com/ClickHouse/ClickHouse/commit/62d95fab2efa944975dff68ccc49c1931d65006b
+  file:       src/IO/tests/gtest_long_connection_limit.cpp
+  license:    Apache-2.0
+
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__ical_parser.cpp/
+  repository: https://github.com/george-leonard314/chiroptera-shell
+  commit:     https://github.com/george-leonard314/chiroptera-shell/commit/7ea1245ada09f642889f0cc3a86798ce18edd3dd
+  file:       src/calendar/ical_parser.cpp
+  license:    MIT
+
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__security_primitives_test.cpp/
+  repository: https://github.com/george-leonard314/chiroptera-shell
+  commit:     https://github.com/george-leonard314/chiroptera-shell/commit/7ea1245ada09f642889f0cc3a86798ce18edd3dd
+  file:       tests/security_primitives_test.cpp
+  license:    MIT
+
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__settings_window.cpp/
+  repository: https://github.com/george-leonard314/chiroptera-shell
+  commit:     https://github.com/george-leonard314/chiroptera-shell/commit/7ea1245ada09f642889f0cc3a86798ce18edd3dd
+  file:       src/shell/settings/settings_window.cpp
+  license:    MIT
+
+samples/bugprone-use-after-move__osmcode__libosmium__5f15163041__test_memory_mapping.cpp/
+  repository: https://github.com/osmcode/libosmium
+  commit:     https://github.com/osmcode/libosmium/commit/5f151630411d34451f33875cdc1c8706359646b3
+  file:       test/t/util/test_memory_mapping.cpp
+  license:    BSL-1.0
+
+samples/bugprone-use-after-move__riciadavinci__sequelite-cpp__11e8704137__test_database.cpp/
+  repository: https://github.com/riciadavinci/sequelite-cpp
+  commit:     https://github.com/riciadavinci/sequelite-cpp/commit/11e87041370448ebb9435cbc6dbb4b2a0cbd3532
+  file:       tests/test_database.cpp
+  license:    MIT
+
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_cleanup.cpp/
+  repository: https://github.com/salmanra/TT-SpMM-Nov2025
+  commit:     https://github.com/salmanra/TT-SpMM-Nov2025/commit/51aa631d2c2ce76333579f92f59838c143e9e75e
+  file:       tt_stl/tests/test_cleanup.cpp
+  license:    Apache-2.0
+
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_optional_reference.cpp/
+  repository: https://github.com/salmanra/TT-SpMM-Nov2025
+  commit:     https://github.com/salmanra/TT-SpMM-Nov2025/commit/51aa631d2c2ce76333579f92f59838c143e9e75e
+  file:       tt_stl/tests/test_optional_reference.cpp
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__00-YSH-Autoware-Before__agnocast__e032f05386__agnocast.cpp/
+  repository: https://github.com/00-YSH-Autoware-Before/agnocast
+  commit:     https://github.com/00-YSH-Autoware-Before/agnocast/commit/e032f053867453f4dcc5ff793d9320a8ffd8b0ef
+  file:       src/agnocastlib/src/agnocast.cpp
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__airbus__sen__8ecbecf059__remote_interest_handler.h/
+  repository: https://github.com/airbus/sen
+  commit:     https://github.com/airbus/sen/commit/8ecbecf059a4baf12d0e1a53ba091faa62741489
+  file:       libs/kernel/src/bus/remote_interest_handler.h
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__eclipse-score__baselibs__2e8c5c7746__data_types.hpp/
+  repository: https://github.com/eclipse-score/baselibs
+  commit:     https://github.com/eclipse-score/baselibs/commit/2e8c5c7746b54f3e747fde42d802633180df8e03
+  file:       score/language/futurecpp/include/score/private/simd/data_types.hpp
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__provider.cpp/
+  repository: https://github.com/eclipse-score/communication
+  commit:     https://github.com/eclipse-score/communication/commit/e8f73889f334f5d616644f2e3818d7405283dc88
+  file:       score/mw/com/test/partial_restart/provider_restart/provider.cpp
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__sample_sender_receiver.cpp/
+  repository: https://github.com/eclipse-score/communication
+  commit:     https://github.com/eclipse-score/communication/commit/e8f73889f334f5d616644f2e3818d7405283dc88
+  file:       score/mw/com/test/common_test_resources/sample_sender_receiver.cpp
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__smokeyeyes.cpp/
+  repository: https://github.com/eclipse-score/communication
+  commit:     https://github.com/eclipse-score/communication/commit/e8f73889f334f5d616644f2e3818d7405283dc88
+  file:       score/mw/com/test/smokeyeyes/smokeyeyes.cpp
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__fengjiran__AetherMind__4d9fc06f31__backend_registry.h/
+  repository: https://github.com/fengjiran/AetherMind
+  commit:     https://github.com/fengjiran/AetherMind/commit/4d9fc06f31bf294346bf118152cb4a215cd8f47e
+  file:       include/aethermind/backend/backend_registry.h
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__dispatcher.hpp/
+  repository: https://github.com/intel/qpl
+  commit:     https://github.com/intel/qpl/commit/dd066b59442843da47741d5e5fac245e6e911756
+  file:       sources/core-sw/dispatcher/dispatcher.hpp
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__hw_dispatcher.hpp/
+  repository: https://github.com/intel/qpl
+  commit:     https://github.com/intel/qpl/commit/dd066b59442843da47741d5e5fac245e6e911756
+  file:       sources/middle-layer/dispatcher/hw_dispatcher.hpp
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__implementation.hpp/
+  repository: https://github.com/intel/qpl
+  commit:     https://github.com/intel/qpl/commit/dd066b59442843da47741d5e5fac245e6e911756
+  file:       sources/middle-layer/compression/deflate/implementations/implementation.hpp
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__inflate_state.hpp/
+  repository: https://github.com/intel/qpl
+  commit:     https://github.com/intel/qpl/commit/dd066b59442843da47741d5e5fac245e6e911756
+  file:       sources/middle-layer/compression/inflate/inflate_state.hpp
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__input_stream.hpp/
+  repository: https://github.com/intel/qpl
+  commit:     https://github.com/intel/qpl/commit/dd066b59442843da47741d5e5fac245e6e911756
+  file:       sources/middle-layer/analytics/input_stream.hpp
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__jerarn__jaql__1107ce9501__test_logger.cpp/
+  repository: https://github.com/jerarn/jaql
+  commit:     https://github.com/jerarn/jaql/commit/1107ce9501fe95460ee19009524e01022790438d
+  file:       tests/unit/infra/test_logger.cpp
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__joshpeterson__binarily__ed2e4889ad__binary_reader.h/
+  repository: https://github.com/joshpeterson/binarily
+  commit:     https://github.com/joshpeterson/binarily/commit/ed2e4889add19e0115753b71555d81cb6ff15025
+  file:       src/binary_reader.h
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__journalr__score-checklists-test__77e3753d81__proxy_event.h/
+  repository: https://github.com/journalr/score-checklists-test
+  commit:     https://github.com/journalr/score-checklists-test/commit/77e3753d814d4b4bd8f9fa9c9bb769c281fcaaca
+  file:       score/mw/com/impl/proxy_event.h
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task.hpp/
+  repository: https://github.com/learning-process/parallel_programming_course
+  commit:     https://github.com/learning-process/parallel_programming_course/commit/a521bfc3ed201194f62de55378039d4d21945bbd
+  file:       modules/task/include/task.hpp
+  license:    BSD-3-Clause
+
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task_tests.cpp/
+  repository: https://github.com/learning-process/parallel_programming_course
+  commit:     https://github.com/learning-process/parallel_programming_course/commit/a521bfc3ed201194f62de55378039d4d21945bbd
+  file:       modules/task/tests/task_tests.cpp
+  license:    BSD-3-Clause
+
+samples/cppcoreguidelines-special-member-functions__lefebvre__mqces__bf880afb2d__parallel.hpp/
+  repository: https://github.com/lefebvre/mqces
+  commit:     https://github.com/lefebvre/mqces/commit/bf880afb2d4a0446578071b57a60095e4a9700fd
+  file:       mqces/detail/parallel.hpp
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__bufferAgent.h/
+  repository: https://github.com/onedata/helpers
+  commit:     https://github.com/onedata/helpers/commit/70b0c2f66f24323e9d1df7c9ca32813fb7ae4b98
+  file:       src/buffering/bufferAgent.h
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__writeBuffer.h/
+  repository: https://github.com/onedata/helpers
+  commit:     https://github.com/onedata/helpers/commit/70b0c2f66f24323e9d1df7c9ca32813fb7ae4b98
+  file:       src/buffering/writeBuffer.h
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__openbmc__phosphor-debug-collector__7d6d2445da__pldm_utils.hpp/
+  repository: https://github.com/openbmc/phosphor-debug-collector
+  commit:     https://github.com/openbmc/phosphor-debug-collector/commit/7d6d2445da96a5562eefb567fc3a323ff26b7c1e
+  file:       host-transport-extensions/pldm/common/pldm_utils.hpp
+  license:    Apache-2.0
+
+samples/cppcoreguidelines-special-member-functions__ralfkonrad__ql_performance_testing__3ffeee386f__TestSuiteFixture.hpp/
+  repository: https://github.com/ralfkonrad/ql_performance_testing
+  commit:     https://github.com/ralfkonrad/ql_performance_testing/commit/3ffeee386fc14ed64e5b30c37d27d4ae08367b61
+  file:       rke/testsuite/TestSuiteFixture.hpp
+  license:    MIT
+
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__Directions.cpp/
+  repository: https://github.com/sgshulman/DGEM
+  commit:     https://github.com/sgshulman/DGEM/commit/5c1a9a4bb899e68889e50578fddd3591cbc78754
+  file:       source/Directions.cpp
+  license:    BSD-2-Clause
+
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__IMatter.hpp/
+  repository: https://github.com/sgshulman/DGEM
+  commit:     https://github.com/sgshulman/DGEM/commit/5c1a9a4bb899e68889e50578fddd3591cbc78754
+  file:       source/IMatter.hpp
+  license:    BSD-2-Clause
+
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__MatterArrayTests.cpp/
+  repository: https://github.com/sgshulman/DGEM
+  commit:     https://github.com/sgshulman/DGEM/commit/5c1a9a4bb899e68889e50578fddd3591cbc78754
+  file:       source/tests/MatterArrayTests.cpp
+  license:    BSD-2-Clause
+
+samples/readability-magic-numbers__Hahn-Schickard__IODD-Model__93ee8199f4__main.cpp/
+  repository: https://github.com/Hahn-Schickard/IODD-Model
+  commit:     https://github.com/Hahn-Schickard/IODD-Model/commit/93ee8199f428c5ad3ef5d75dc1ff41059402bf4f
+  file:       sources/Example/main.cpp
+  license:    Apache-2.0
+
+samples/readability-magic-numbers__Keyrim__drone-mark4__e6686f5fd9__attitude_estimator.cpp/
+  repository: https://github.com/Keyrim/drone-mark4
+  commit:     https://github.com/Keyrim/drone-mark4/commit/e6686f5fd99273e86b0966e8ca0fcbd79c481436
+  file:       software/components/flight-core/src/estimator/attitude_estimator.cpp
+  license:    MIT
+
+samples/readability-magic-numbers__PocoF3Releases__android_external_rust_cxx__06677b3e00__cxx.cc/
+  repository: https://github.com/PocoF3Releases/android_external_rust_cxx
+  commit:     https://github.com/PocoF3Releases/android_external_rust_cxx/commit/06677b3e003a179c0fa73efa67dbfb5dce81ed99
+  file:       src/cxx.cc
+  license:    Apache-2.0
+
+samples/readability-magic-numbers__SwuduSusuwu__SusuLib__407b6a0686__ClassIo.cxx/
+  repository: https://github.com/SwuduSusuwu/SusuLib
+  commit:     https://github.com/SwuduSusuwu/SusuLib/commit/407b6a0686e6529e90817cc8a4ec9dbd8aa49719
+  file:       cxx/ClassIo.cxx
+  license:    Apache-2.0
+
+samples/readability-magic-numbers__deeplex__deeppack__e3954dfb47__perfect_hash.hpp/
+  repository: https://github.com/deeplex/deeppack
+  commit:     https://github.com/deeplex/deeppack/commit/e3954dfb47ba05b945a9385debbb21f85396cc49
+  file:       src/dplx/dp/detail/perfect_hash.hpp
+  license:    BSL-1.0
+
+samples/readability-magic-numbers__ekkus93__esp32-macro-keyboard__fe70b72cd4__device_controls_logic.c/
+  repository: https://github.com/ekkus93/esp32-macro-keyboard
+  commit:     https://github.com/ekkus93/esp32-macro-keyboard/commit/fe70b72cd46a50365589ae3d7c096f54ae8dca4c
+  file:       firmware/components/device_controls/device_controls_logic.c
+  license:    Apache-2.0
+
+samples/readability-magic-numbers__felixb419__kaad__2911ea786a__exceptions.cpp/
+  repository: https://github.com/felixb419/kaad
+  commit:     https://github.com/felixb419/kaad/commit/2911ea786a4f68d1d9f2f1ded6ea5eef2cb204da
+  file:       src/exceptions.cpp
+  license:    MIT
+
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__check_tensor.hpp/
+  repository: https://github.com/felixb419/kaad
+  commit:     https://github.com/felixb419/kaad/commit/73f753c90b57bda43031f6a92f242044cd238641
+  file:       tests/check_tensor.hpp
+  license:    MIT
+
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__kernels.hpp/
+  repository: https://github.com/felixb419/kaad
+  commit:     https://github.com/felixb419/kaad/commit/73f753c90b57bda43031f6a92f242044cd238641
+  file:       include/kaad/functions/kernels.hpp
+  license:    MIT
+
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__local_search.cpp/
+  repository: https://github.com/haditabealhojeh/rtopt
+  commit:     https://github.com/haditabealhojeh/rtopt/commit/ca0389dc31f05b053be0fdae74e62353dc1fd00e
+  file:       src/algorithms/local_search/local_search.cpp
+  license:    BSD-2-Clause
+
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__tsp.cpp/
+  repository: https://github.com/haditabealhojeh/rtopt
+  commit:     https://github.com/haditabealhojeh/rtopt/commit/ca0389dc31f05b053be0fdae74e62353dc1fd00e
+  file:       src/problems/tsp/tsp.cpp
+  license:    BSD-2-Clause
+
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__wrapper.h/
+  repository: https://github.com/haditabealhojeh/rtopt
+  commit:     https://github.com/haditabealhojeh/rtopt/commit/ca0389dc31f05b053be0fdae74e62353dc1fd00e
+  file:       src/routing/wrapper.h
+  license:    BSD-2-Clause
+
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__angle.h/
+  repository: https://github.com/instinkt900/moth_toolkit
+  commit:     https://github.com/instinkt900/moth_toolkit/commit/2487578cd802d600081c89cd5ea86ffd77ec49a1
+  file:       modules/core/include/moth/core/angle.h
+  license:    MIT
+
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__transform.h/
+  repository: https://github.com/instinkt900/moth_toolkit
+  commit:     https://github.com/instinkt900/moth_toolkit/commit/2487578cd802d600081c89cd5ea86ffd77ec49a1
+  file:       modules/core/include/moth/core/transform.h
+  license:    MIT
+
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__client.hpp/
+  repository: https://github.com/kgsahil/kraken-sdk
+  commit:     https://github.com/kgsahil/kraken-sdk/commit/d39a936438203adfce13e81834b8f28cad2e9961
+  file:       include/kraken/client.hpp
+  license:    MIT
+
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__connection_config.hpp/
+  repository: https://github.com/kgsahil/kraken-sdk
+  commit:     https://github.com/kgsahil/kraken-sdk/commit/d39a936438203adfce13e81834b8f28cad2e9961
+  file:       include/kraken/connection_config.hpp
+  license:    MIT
+
+samples/readability-magic-numbers__nebulastream__nebulastream__15b15fa7be__TaggedPointer.hpp/
+  repository: https://github.com/nebulastream/nebulastream
+  commit:     https://github.com/nebulastream/nebulastream/commit/15b15fa7beab0144e95b3251989ef290c0b0d0a2
+  file:       nes-memory/TaggedPointer.hpp
+  license:    Apache-2.0
+
+samples/readability-magic-numbers__rogy-AquaLab__omniboat_robokit__55640b7881__schneider_model.cpp/
+  repository: https://github.com/rogy-AquaLab/omniboat_robokit
+  commit:     https://github.com/rogy-AquaLab/omniboat_robokit/commit/55640b7881e53c14155c5fd1bc7fe4b2e1ec4de6
+  file:       src/schneider_model.cpp
+  license:    Apache-2.0
+
+samples/readability-magic-numbers__scholar-of-artifice__game-dice-cpp__db61709e30__StaticProbabilityTable.h/
+  repository: https://github.com/scholar-of-artifice/game-dice-cpp
+  commit:     https://github.com/scholar-of-artifice/game-dice-cpp/commit/db61709e302627d68bd809dd2fadabb55e0099f4
+  file:       src/StaticProbabilityTable.h
+  license:    MIT
+
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__main.cpp/
+  repository: https://github.com/sergioffpc/augusta
+  commit:     https://github.com/sergioffpc/augusta/commit/628e0683505036f604a3323d6a1a76d4c8ba5932
+  file:       src/client/main.cpp
+  license:    MIT
+
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__renderer.h/
+  repository: https://github.com/sergioffpc/augusta
+  commit:     https://github.com/sergioffpc/augusta/commit/628e0683505036f604a3323d6a1a76d4c8ba5932
+  file:       src/modules/renderer/include/augusta/renderer.h
+  license:    MIT

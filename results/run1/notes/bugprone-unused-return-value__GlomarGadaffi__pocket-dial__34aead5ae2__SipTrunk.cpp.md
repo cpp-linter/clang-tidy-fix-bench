@@ -1,0 +1,1 @@
+The std::snprintf calls that copy config strings into the fixed-size SipRegistrationClient::Config buffers ignored the return value. Truncation to the buffer size is the intended behaviour (snprintf always NUL-terminates), so the results are now explicitly discarded with (void) casts, which cert-err33-c accepts as a deliberate choice. No behaviour change.

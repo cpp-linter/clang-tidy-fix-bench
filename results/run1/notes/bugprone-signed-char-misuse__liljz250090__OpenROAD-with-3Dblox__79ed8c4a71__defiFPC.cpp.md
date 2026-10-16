@@ -1,0 +1,1 @@
+`getPart` computed `(int)(cond ? 'B' : 'T')`. The conditional has type `char`, so the check reported a signed char to int conversion. The branches are now `int('B')` / `int('T')` (and `int('R')` / `int('C')`), so the conditional is already `int` and no char-typed expression is widened. The returned values are identical.

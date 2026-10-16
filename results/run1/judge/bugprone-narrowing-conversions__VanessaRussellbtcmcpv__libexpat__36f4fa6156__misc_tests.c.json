@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Retypes the loop counter and its small constant bound as int instead of casting at the assignment; i is only compared with 0 and the bound, so behaviour is identical and the narrowing goes away cleanly."}

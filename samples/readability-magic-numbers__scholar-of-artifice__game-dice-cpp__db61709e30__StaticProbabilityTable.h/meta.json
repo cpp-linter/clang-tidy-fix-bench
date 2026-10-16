@@ -1,0 +1,38 @@
+{
+ "id": "readability-magic-numbers__scholar-of-artifice__game-dice-cpp__db61709e30__StaticProbabilityTable.h",
+ "check": "readability-magic-numbers",
+ "check_name": "cppcoreguidelines-avoid-magic-numbers",
+ "repo": "scholar-of-artifice/game-dice-cpp",
+ "sha": "db61709e302627d68bd809dd2fadabb55e0099f4",
+ "parent": "1db53f4fb88007616d6d96c7a4832512f42cc596",
+ "url": "https://github.com/scholar-of-artifice/game-dice-cpp/commit/db61709e302627d68bd809dd2fadabb55e0099f4",
+ "license": "MIT",
+ "message": "fix - error: 16 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers,-warnings-as-errors]",
+ "file": "src/StaticProbabilityTable.h",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 91,
+   "col": 39,
+   "sev": "warning",
+   "msg": "16 is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 91,
+   "col": 39,
+   "sev": "warning",
+   "msg": "16 is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 3
+}

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Replaces the identical if/else with a single tlsf_alloc call, same as the human fix."}

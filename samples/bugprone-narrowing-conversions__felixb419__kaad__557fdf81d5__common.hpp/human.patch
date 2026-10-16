@@ -1,0 +1,12 @@
+diff --git a/include/kaad/graph/common.hpp b/include/kaad/graph/common.hpp
+index ac887ef..fb26024 100644
+--- a/include/kaad/graph/common.hpp
++++ b/include/kaad/graph/common.hpp
+@@ -34 +34 @@ inline bool combine_matrix(const int *shape1, std::size_t rank1,
+-    int ind = newLen - 3;
++    std::size_t ind = newLen - 3;
+@@ -36,2 +36,2 @@ inline bool combine_matrix(const int *shape1, std::size_t rank1,
+-        int ind1 = rank1 - i;
+-        int ind2 = rank2 - i;
++        int ind1 = static_cast<int>(rank1) - i;
++        int ind2 = static_cast<int>(rank2) - i;

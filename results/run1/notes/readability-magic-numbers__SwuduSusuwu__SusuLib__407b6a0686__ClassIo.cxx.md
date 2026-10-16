@@ -1,0 +1,1 @@
+The expected hex length `6` for the 3-char test string "uwu" was a magic number (the 2 and 4 used in nearby lines are on the check's ignore list). I introduced `const size_t uwuHexSz = 6;` with a comment saying that 3 chars produce 6 hexits, and passed it to `classIoHexOsSzTest`. The test does the same thing as before.

@@ -1,0 +1,14 @@
+diff --git a/tests/check_tensor.hpp b/tests/check_tensor.hpp
+index 4a5ab38..42b2337 100644
+--- a/tests/check_tensor.hpp
++++ b/tests/check_tensor.hpp
+@@ -25,6 +25,3 @@ inline bool check_tensor(const char *label, const kaad::Tensor &tensor,
+-    static kaad::Scalar abs_tol = 1e-6;
+-    static kaad::Scalar rel_tol = 1e-6;
+-    if constexpr (std::same_as<kaad::Scalar, double>) {
+-        abs_tol = 1e-12;
+-        rel_tol = 1e-12;
+-    }
++    constexpr bool scalar_is_double = std::same_as<kaad::Scalar, double>;
++    constexpr kaad::Scalar abs_tol = scalar_is_double ? 1e-12 : 1e-6;
++    constexpr kaad::Scalar rel_tol = scalar_is_double ? 1e-12 : 1e-6;

@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Names the float and double tolerances and keeps the existing static and if-constexpr structure. The human instead rewrote it as constexpr ternaries; both give the same tolerances."}

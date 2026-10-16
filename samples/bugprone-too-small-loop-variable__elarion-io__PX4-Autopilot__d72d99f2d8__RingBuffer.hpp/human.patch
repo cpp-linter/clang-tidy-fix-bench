@@ -1,0 +1,41 @@
+diff --git a/src/modules/sensors/vehicle_optical_flow/RingBuffer.hpp b/src/modules/sensors/vehicle_optical_flow/RingBuffer.hpp
+index 591088b..faae7ef 100644
+--- a/src/modules/sensors/vehicle_optical_flow/RingBuffer.hpp
++++ b/src/modules/sensors/vehicle_optical_flow/RingBuffer.hpp
+@@ -79,3 +79,3 @@ public:
+-		for (uint8_t i = 0; i < SIZE; i++) {
+-			int index = (_head - i);
+-			index = index < 0 ? SIZE + index : index;
++		for (size_t i = 0; i < SIZE; i++) {
++			int index = static_cast<int>(_head) - static_cast<int>(i);
++			index = index < 0 ? static_cast<int>(SIZE) + index : index;
+@@ -101,3 +101,3 @@ public:
+-		for (uint8_t i = 0; i < SIZE; i++) {
+-			int index = (_head - i);
+-			index = index < 0 ? SIZE + index : index;
++		for (size_t i = 0; i < SIZE; i++) {
++			int index = static_cast<int>(_head) - static_cast<int>(i);
++			index = index < 0 ? static_cast<int>(SIZE) + index : index;
+@@ -116 +116 @@ public:
+-					_tail = (index + 1) % SIZE;
++					_tail = (index + 1) % static_cast<int>(SIZE);
+@@ -140 +140 @@ public:
+-		for (uint8_t i = 0; i < SIZE; i++) {
++		for (size_t i = 0; i < SIZE; i++) {
+@@ -142 +142 @@ public:
+-			uint8_t index = (_tail + i) % SIZE;
++			size_t index = (_tail + i) % SIZE;
+@@ -150 +150 @@ public:
+-				if (index == _head) {
++				if (index == (size_t)_head) {
+@@ -197 +197 @@ public:
+-	uint8_t entries() const
++	size_t entries() const
+@@ -199 +199 @@ public:
+-		int count = 0;
++		size_t count = 0;
+@@ -201,2 +201,2 @@ public:
+-		for (uint8_t i = 0; i < SIZE; i++) {
+-			if (_buffer[i].time_us != 0) {
++		for (const auto &item : _buffer) {
++			if (item.time_us != 0) {

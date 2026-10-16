@@ -1,0 +1,7 @@
+diff --git a/src/buildtool/execution_api/common/bytestream_utils.hpp b/src/buildtool/execution_api/common/bytestream_utils.hpp
+index 672ae01..232c672 100644
+--- a/src/buildtool/execution_api/common/bytestream_utils.hpp
++++ b/src/buildtool/execution_api/common/bytestream_utils.hpp
+@@ -34 +34 @@ class ByteStreamUtils final {
+-    static constexpr std::size_t kChunkSize = 64 * 1024;
++    static constexpr std::size_t kChunkSize = 64UL * 1024;

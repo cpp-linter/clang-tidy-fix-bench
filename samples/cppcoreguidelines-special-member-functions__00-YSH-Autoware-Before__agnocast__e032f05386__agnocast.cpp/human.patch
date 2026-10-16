@@ -1,0 +1,11 @@
+diff --git a/src/agnocastlib/src/agnocast.cpp b/src/agnocastlib/src/agnocast.cpp
+index 272dbdb..73c3651 100644
+--- a/src/agnocastlib/src/agnocast.cpp
++++ b/src/agnocastlib/src/agnocast.cpp
+@@ -168,0 +169,6 @@ public:
++  Cleanup(const Cleanup &) = delete;
++  Cleanup & operator=(const Cleanup &) = delete;
++  Cleanup(Cleanup &&) = delete;
++  Cleanup & operator=(Cleanup &&) = delete;
++
++  Cleanup() = default;

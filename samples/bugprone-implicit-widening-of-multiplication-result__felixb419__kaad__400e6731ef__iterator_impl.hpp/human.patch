@@ -1,0 +1,7 @@
+diff --git a/include/kaad/tensor/iterator_impl.hpp b/include/kaad/tensor/iterator_impl.hpp
+index ae880ab..ffaa89a 100644
+--- a/include/kaad/tensor/iterator_impl.hpp
++++ b/include/kaad/tensor/iterator_impl.hpp
+@@ -37 +37 @@ template <bool isConst> class iterator_impl {
+-        std::size_t idx = 0;
++        int idx = 0;

@@ -1,0 +1,10 @@
+--- a/paddle/fluid/framework/device_worker.cc
++++ b/paddle/fluid/framework/device_worker.cc
+@@ -247,5 +247,6 @@
+ void DeviceWorker::DumpParam(const Scope& scope, const int batch_id) {
+   std::ostringstream os;
+-  int device_id = static_cast<int>(place_.GetDeviceId());
++  int device_id = static_cast<int>(
++      static_cast<unsigned char>(place_.GetDeviceId()));
+   for (auto& param : *dump_param_) {
+     os.str("");

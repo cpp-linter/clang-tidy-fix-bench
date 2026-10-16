@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Line/column casts match the human fix. For the loop it changes the counter and bound to int instead of casting; i is only compared with 0 and the int bound 10, so behaviour is identical and the types now match g_allocation_count."}

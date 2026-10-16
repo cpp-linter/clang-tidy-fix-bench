@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same 180.0f constant placed beside kPi in the anonymous namespace and used in both conversions. Only the indentation is off."}

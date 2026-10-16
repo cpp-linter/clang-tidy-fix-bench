@@ -1,0 +1,9 @@
+--- a/host-transport-extensions/pldm/common/pldm_utils.hpp
++++ b/host-transport-extensions/pldm/common/pldm_utils.hpp
+@@ -20,4 +20,6 @@
+     PLDMInstanceManager(const PLDMInstanceManager&) = delete;
+     PLDMInstanceManager& operator=(const PLDMInstanceManager&) = delete;
++    PLDMInstanceManager(PLDMInstanceManager&&) = delete;
++    PLDMInstanceManager& operator=(PLDMInstanceManager&&) = delete;
+ 
+     PLDMInstanceManager();

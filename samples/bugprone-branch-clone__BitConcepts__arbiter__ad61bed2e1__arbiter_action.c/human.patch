@@ -1,0 +1,14 @@
+diff --git a/lib/arbiter_action.c b/lib/arbiter_action.c
+index 889ede1..0ffc823 100644
+--- a/lib/arbiter_action.c
++++ b/lib/arbiter_action.c
+@@ -50,5 +49,0 @@ int ARBITER_dispatch_actions(const struct ARBITER_model *model,
+-			LOG_INF("Action [log]: %s",
+-				action->name ? action->name : "unnamed");
+-			dispatched++;
+-			break;
+-
+@@ -56 +51,2 @@ int ARBITER_dispatch_actions(const struct ARBITER_model *model,
+-			LOG_INF("Action [notify]: %s",
++			LOG_INF("Action [%s]: %s",
++				action->type == ARBITER_ACTION_LOG ? "log" : "notify",

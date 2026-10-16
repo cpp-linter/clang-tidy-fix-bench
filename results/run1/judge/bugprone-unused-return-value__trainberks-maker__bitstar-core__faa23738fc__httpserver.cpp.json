@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Binds item.release() to a [[maybe_unused]] variable just like the human fix; only the variable name and auto* spelling differ."}

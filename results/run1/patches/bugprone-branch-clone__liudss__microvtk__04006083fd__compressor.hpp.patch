@@ -1,0 +1,23 @@
+--- a/include/microvtk/core/compressor.hpp
++++ b/include/microvtk/core/compressor.hpp
+@@ -74,17 +74,13 @@
+ inline std::unique_ptr<Compressor> createCompressor(CompressionType type) {
+   switch (type) {
++#ifdef MICROVTK_HAS_ZLIB
+     case CompressionType::ZLib:
+-#ifdef MICROVTK_HAS_ZLIB
+       return std::make_unique<ZlibCompressor>();
+-#else
+-      return nullptr;
+ #endif
++#ifdef MICROVTK_HAS_LZ4
+     case CompressionType::LZ4:
+-#ifdef MICROVTK_HAS_LZ4
+       return std::make_unique<Lz4Compressor>();
+-#else
+-      return nullptr;
+ #endif
+-    default:
++    default:  // unknown, or support not compiled in
+       return nullptr;
+   }

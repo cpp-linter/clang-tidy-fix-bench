@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Adds a defaulted default constructor and deletes copy/move operations, identical to the human fix."}

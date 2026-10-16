@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-signed-char-misuse__thus__simpleconfig__6f6407f228__opts.c",
+ "check": "bugprone-signed-char-misuse",
+ "check_name": "cert-str34-c",
+ "repo": "thus/simpleconfig",
+ "sha": "6f6407f228b5abebefa93a9ababdf42495b0009e",
+ "parent": "dbde5e8c7c0967b36284c3ebe7d1174a595b81d9",
+ "url": "https://github.com/thus/simpleconfig/commit/6f6407f228b5abebefa93a9ababdf42495b0009e",
+ "license": "MIT",
+ "message": "Fix warning from clang-tidy",
+ "file": "src/opts.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 114,
+   "col": 28,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 114,
+   "col": 28,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

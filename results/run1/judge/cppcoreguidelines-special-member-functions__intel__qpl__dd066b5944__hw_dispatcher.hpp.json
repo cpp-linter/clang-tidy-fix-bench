@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Deletes all four copy/move operations on the singleton, same as the human fix; only parameter names and ordering differ."}

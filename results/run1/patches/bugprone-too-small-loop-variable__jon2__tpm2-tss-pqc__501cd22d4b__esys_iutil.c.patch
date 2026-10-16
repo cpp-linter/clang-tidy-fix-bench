@@ -1,0 +1,9 @@
+--- a/src/tss2-esys/esys_iutil.c
++++ b/src/tss2-esys/esys_iutil.c
+@@ -1054,5 +1054,5 @@
+                            const TPM2B_AUTH * auth, TPM2B_NAME * bound_entity)
+ {
+-    UINT16 i;
++    size_t i;
+     UINT16 j = 0;
+     *bound_entity = *name;

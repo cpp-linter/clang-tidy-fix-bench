@@ -1,0 +1,7 @@
+diff --git a/certificate.cpp b/certificate.cpp
+index 5e4ef9c..0ff3ad5 100644
+--- a/certificate.cpp
++++ b/certificate.cpp
+@@ -552 +552 @@ void Certificate::populateProperties(X509& cert)
+-    static const uint64_t dayToSeconds = 24 * 60 * 60;
++    constexpr uint64_t dayToSeconds = 86400; // 24 * 60 * 60

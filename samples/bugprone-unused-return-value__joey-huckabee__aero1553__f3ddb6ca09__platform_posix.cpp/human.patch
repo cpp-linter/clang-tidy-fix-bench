@@ -1,0 +1,12 @@
+diff --git a/cpp/src/platform_posix.cpp b/cpp/src/platform_posix.cpp
+index ae1b1e2..17d3142 100644
+--- a/cpp/src/platform_posix.cpp
++++ b/cpp/src/platform_posix.cpp
+@@ -468 +468,6 @@ void prepare_stdout() {
+-    ::signal(SIGPIPE, SIG_IGN);
++    //
++    // The result is discarded deliberately. signal() fails only for an invalid
++    // signal number (EINVAL), and SIGPIPE is valid on every POSIX system; were
++    // it ever to fail, the disposition would stay at its default, which is the
++    // behaviour this call improves on rather than a new failure to report.
++    (void)::signal(SIGPIPE, SIG_IGN);

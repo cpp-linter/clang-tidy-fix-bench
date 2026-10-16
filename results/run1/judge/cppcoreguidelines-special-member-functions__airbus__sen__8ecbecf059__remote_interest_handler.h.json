@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Explicitly deletes the copy and move operations, which is what the human's SEN_NOCOPY_NOMOVE macro does; the class was already non-copyable because of its mutex."}

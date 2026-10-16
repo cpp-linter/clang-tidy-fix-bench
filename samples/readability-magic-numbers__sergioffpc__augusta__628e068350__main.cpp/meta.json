@@ -1,0 +1,44 @@
+{
+ "id": "readability-magic-numbers__sergioffpc__augusta__628e068350__main.cpp",
+ "check": "readability-magic-numbers",
+ "check_name": "readability-magic-numbers",
+ "repo": "sergioffpc/augusta",
+ "sha": "628e0683505036f604a3323d6a1a76d4c8ba5932",
+ "parent": "a4fd7f8ba5fc9d9e1a006f71b9287a53cd2ec4a1",
+ "url": "https://github.com/sergioffpc/augusta/commit/628e0683505036f604a3323d6a1a76d4c8ba5932",
+ "license": "MIT",
+ "message": "ci(client): lint the client and Renderer with the full clang-tidy profile",
+ "file": "src/client/main.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "glm/ext/quaternion_trigonometric.hpp",
+  "glm/geometric.hpp",
+  "glm/glm.hpp",
+  "glm/gtc/matrix_transform.hpp",
+  "glm/gtc/quaternion.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 90,
+   "col": 59,
+   "sev": "warning",
+   "msg": "10 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 90,
+   "col": 59,
+   "sev": "warning",
+   "msg": "10 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "errors_before": 10,
+ "human_changed_lines": 4
+}

@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Merges the two empty case labels, keeping the switch and its comment, where the human replaced the switch with a Q_ASSERT; behaviour is unchanged and the fix is clean."}

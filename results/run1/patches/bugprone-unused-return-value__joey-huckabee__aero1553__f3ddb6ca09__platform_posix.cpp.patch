@@ -1,0 +1,9 @@
+--- a/cpp/src/platform_posix.cpp
++++ b/cpp/src/platform_posix.cpp
+@@ -466,5 +466,5 @@
+     // classification takes over. This is what Rust's runtime and CPython do
+     // before main.
+-    ::signal(SIGPIPE, SIG_IGN);
++    (void)::signal(SIGPIPE, SIG_IGN);
+ }
+ 

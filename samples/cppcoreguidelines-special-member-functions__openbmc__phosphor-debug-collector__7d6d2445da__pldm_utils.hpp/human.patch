@@ -1,0 +1,7 @@
+diff --git a/host-transport-extensions/pldm/common/pldm_utils.hpp b/host-transport-extensions/pldm/common/pldm_utils.hpp
+index 68f68c5..25633e8 100644
+--- a/host-transport-extensions/pldm/common/pldm_utils.hpp
++++ b/host-transport-extensions/pldm/common/pldm_utils.hpp
+@@ -21,0 +22,2 @@ class PLDMInstanceManager
++    PLDMInstanceManager(PLDMInstanceManager&&) noexcept = default;
++    PLDMInstanceManager& operator=(PLDMInstanceManager&&) noexcept = default;

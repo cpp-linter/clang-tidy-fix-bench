@@ -1,0 +1,1 @@
+LoggerGuard is an RAII guard that drops a spdlog logger in its destructor and already deleted copying. I also deleted the move constructor and move assignment, so the guard can never be moved and drop the same logger twice. Nothing moves it, so behaviour is unchanged.

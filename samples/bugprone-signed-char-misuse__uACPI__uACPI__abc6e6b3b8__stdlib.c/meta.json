@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-signed-char-misuse__uACPI__uACPI__abc6e6b3b8__stdlib.c",
+ "check": "bugprone-signed-char-misuse",
+ "check_name": "bugprone-signed-char-misuse",
+ "repo": "uACPI/uACPI",
+ "sha": "abc6e6b3b8f9d5141fcaa5f24667240167b9cf5f",
+ "parent": "3e61edf15454f1d4e6714e24d89b26e2f16642e6",
+ "url": "https://github.com/uACPI/uACPI/commit/abc6e6b3b8f9d5141fcaa5f24667240167b9cf5f",
+ "license": "MIT",
+ "message": "stdlib: fix 'bugprone-signed-char-misuse' in %hhd",
+ "file": "source/stdlib.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 606,
+   "col": 25,
+   "sev": "warning",
+   "msg": "'signed char' to 'uacpi_u64' (aka 'unsigned long long') conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 606,
+   "col": 25,
+   "sev": "warning",
+   "msg": "'signed char' to 'uacpi_u64' (aka 'unsigned long long') conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

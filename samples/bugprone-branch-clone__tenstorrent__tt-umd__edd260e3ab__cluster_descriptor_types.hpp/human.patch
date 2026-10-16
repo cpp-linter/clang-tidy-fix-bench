@@ -1,0 +1,6 @@
+diff --git a/device/api/umd/device/types/cluster_descriptor_types.hpp b/device/api/umd/device/types/cluster_descriptor_types.hpp
+index 8cb4eda..cd1dab5 100644
+--- a/device/api/umd/device/types/cluster_descriptor_types.hpp
++++ b/device/api/umd/device/types/cluster_descriptor_types.hpp
+@@ -196 +195,0 @@ inline uint32_t get_number_of_chips_from_board_type(const BoardType board_type)
+-            return 1;

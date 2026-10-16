@@ -1,0 +1,11 @@
+--- a/src/IO/tests/gtest_long_connection_limit.cpp
++++ b/src/IO/tests/gtest_long_connection_limit.cpp
+@@ -40,6 +40,7 @@
+     EXPECT_EQ(limit->getActiveCount(), 1u);
+ 
++    const LongConnectionSlot & moved_from = a;
+     LongConnectionSlot moved = std::move(a);
+-    EXPECT_FALSE(static_cast<bool>(a));   /// moved-from holds nothing
++    EXPECT_FALSE(static_cast<bool>(moved_from));   /// moved-from holds nothing
+     EXPECT_TRUE(static_cast<bool>(moved));
+     EXPECT_EQ(limit->getActiveCount(), 1u);   /// still exactly one unit held

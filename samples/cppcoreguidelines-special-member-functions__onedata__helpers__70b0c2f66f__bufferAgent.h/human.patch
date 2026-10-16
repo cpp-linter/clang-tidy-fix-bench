@@ -1,0 +1,10 @@
+diff --git a/src/buffering/bufferAgent.h b/src/buffering/bufferAgent.h
+index 7460c3d..61b66f7 100644
+--- a/src/buffering/bufferAgent.h
++++ b/src/buffering/bufferAgent.h
+@@ -113,0 +114,5 @@ public:
++    BufferedFileHandle(const BufferedFileHandle &) = delete;
++    BufferedFileHandle &operator=(const BufferedFileHandle &) = delete;
++    BufferedFileHandle(BufferedFileHandle &&) = default;
++    BufferedFileHandle &operator=(BufferedFileHandle &&) = default;
++

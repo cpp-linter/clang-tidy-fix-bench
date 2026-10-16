@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Adds a defaulted destructor like the human fix; it lacks 'override', which is only a style difference with no semantic effect."}

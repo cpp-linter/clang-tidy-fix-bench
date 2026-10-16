@@ -1,0 +1,7 @@
+diff --git a/src/recvpn/recvpn.c b/src/recvpn/recvpn.c
+index 391a121..2360741 100644
+--- a/src/recvpn/recvpn.c
++++ b/src/recvpn/recvpn.c
+@@ -15 +15 @@ static int below_seen(const quic_recvpn *r, u64 pn)
+-    return (r->bitmap >> (delta - 1)) & 1u;
++    return (int)((r->bitmap >> (delta - 1)) & 1u);

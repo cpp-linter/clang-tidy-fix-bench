@@ -1,0 +1,1 @@
+BufferedFileHandle releases its reserved buffer memory through the memory-limit guard in its destructor. A copy would release that reservation twice. It is used through shared pointers as a FileHandle and is never copied, so I deleted the copy and move constructors and assignment operators right after the destructor.

@@ -1,0 +1,10 @@
+diff --git a/src/client/main.cpp b/src/client/main.cpp
+index 1d5c7be..6f520a9 100644
+--- a/src/client/main.cpp
++++ b/src/client/main.cpp
+@@ -75,0 +76,2 @@ constexpr auto kReplayListPatience = std::chrono::seconds(10);
++// How often it pumps the connection while it waits.
++constexpr auto kReplayListPollInterval = std::chrono::milliseconds(10);
+@@ -90 +92 @@ augusta::application::Outcome ListReplays(const augusta::config::ClientConfig& f
+-    std::this_thread::sleep_for(std::chrono::milliseconds(10));
++    std::this_thread::sleep_for(kReplayListPollInterval);

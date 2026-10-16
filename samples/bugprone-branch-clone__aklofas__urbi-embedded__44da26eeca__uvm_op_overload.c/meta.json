@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__aklofas__urbi-embedded__44da26eeca__uvm_op_overload.c",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "aklofas/urbi-embedded",
+ "sha": "44da26eeca7ed828b5b875f01120d46ba9ce3c05",
+ "parent": "47975d0d708da8206141f5ae3e488540d2ca5717",
+ "url": "https://github.com/aklofas/urbi-embedded/commit/44da26eeca7ed828b5b875f01120d46ba9ce3c05",
+ "license": "BSD-3-Clause",
+ "message": "vm: fix bugprone-branch-clone in vm_cmp_method_fallback bool coerce",
+ "file": "src/vm/uvm_op_overload.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 268,
+   "col": 43,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 268,
+   "col": 43,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 10
+}

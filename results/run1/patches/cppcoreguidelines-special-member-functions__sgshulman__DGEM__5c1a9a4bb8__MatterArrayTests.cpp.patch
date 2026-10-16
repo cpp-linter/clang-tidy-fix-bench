@@ -1,0 +1,11 @@
+--- a/source/tests/MatterArrayTests.cpp
++++ b/source/tests/MatterArrayTests.cpp
+@@ -12,4 +12,8 @@
+ 
+             ~MatterStub() override = default;
++            MatterStub(MatterStub const&) = delete;
++            MatterStub& operator=(MatterStub const&) = delete;
++            MatterStub(MatterStub&&) = delete;
++            MatterStub& operator=(MatterStub&&) = delete;
+ 
+             double density(Vector3d const& /*position*/) const override

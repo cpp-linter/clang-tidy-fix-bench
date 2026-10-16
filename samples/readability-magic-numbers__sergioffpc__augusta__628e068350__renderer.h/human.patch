@@ -1,0 +1,24 @@
+diff --git a/src/modules/renderer/include/augusta/renderer.h b/src/modules/renderer/include/augusta/renderer.h
+index 711c2b4..4bc1dd0 100644
+--- a/src/modules/renderer/include/augusta/renderer.h
++++ b/src/modules/renderer/include/augusta/renderer.h
+@@ -106,0 +107,3 @@ struct SceneMesh {
++  /// The light grey a mesh is drawn in unless given a color.
++  static constexpr float kDefaultGrey = 0.8F;
++
+@@ -108 +111 @@ struct SceneMesh {
+-  math::Vec3 color{0.8F, 0.8F, 0.8F};
++  math::Vec3 color{kDefaultGrey, kDefaultGrey, kDefaultGrey};
+@@ -114 +117,8 @@ struct Camera {
+-  math::Vec3 position{0.0F, 1.7F, 5.0F};
++  /// Where an unset camera stands: at a standing player's eye height, 5 m back
++  /// from the origin it looks at.
++  static constexpr float kDefaultEyeHeight = 1.7F;
++  static constexpr float kDefaultDistance = 5.0F;
++  /// An unset camera's vertical field of view, in radians (about 52 degrees).
++  static constexpr float kDefaultVerticalFov = 0.9F;
++
++  math::Vec3 position{0.0F, kDefaultEyeHeight, kDefaultDistance};
+@@ -117 +127 @@ struct Camera {
+-  float vertical_fov = 0.9F;
++  float vertical_fov = kDefaultVerticalFov;

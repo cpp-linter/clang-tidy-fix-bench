@@ -1,0 +1,43 @@
+--- a/src/schneider_model.cpp
++++ b/src/schneider_model.cpp
+@@ -75,8 +75,13 @@
+     q[1] = 0;
+ 
+-    if (abs(x_d[0]) > 0.4F || abs(x_d[1]) > 0.4F) {
++    // ジョイコンの不感帯と、回転を指示するボリュームの範囲
++    constexpr float joy_dead_zone = 0.4F;
++    constexpr float volume_lower = 0.4F;
++    constexpr float volume_upper = 0.7F;
++
++    if (abs(x_d[0]) > joy_dead_zone || abs(x_d[1]) > joy_dead_zone) {
+         cal_q();
+         set_q();
+-    } else if (volume_ < 0.4F || 0.7F < volume_) {
++    } else if (volume_ < volume_lower || volume_upper < volume_) {
+         rotate();
+         phi = 0;
+@@ -135,4 +140,5 @@
+     }
+ 
++    constexpr double convergence_threshold = 1e-3;
+     led(2);
+     for (int i = 0; i < trial_num; i++) {
+@@ -140,5 +146,5 @@
+ 
+         double diff = pow(x[0] - x_d[0], 2) + pow(x[1] - x_d[1], 2) + pow(x[2] - x_d[2], 2);
+-        if (diff < 1e-3) {
++        if (diff < convergence_threshold) {
+             break;
+         }
+@@ -167,8 +173,9 @@
+ void Schneider::set_q() {
+     using std::abs;
+-    if (abs(this->q[0] <= 0.4F)) {
++    constexpr float motor_threshold = 0.4F;
++    if (abs(this->q[0] <= motor_threshold)) {
+         this->q[0] = 0;
+     }
+-    if (abs(this->q[1] <= 0.4F)) {
++    if (abs(this->q[1] <= motor_threshold)) {
+         this->q[1] = 0;
+     }

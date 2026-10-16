@@ -1,0 +1,8 @@
+--- a/cpp/src/log_line.cpp
++++ b/cpp/src/log_line.cpp
+@@ -25,5 +25,4 @@
+         return "stderr";
+     case LogSource::System:
+-        return "system";
+     default:
+         // LogSource is a public enum, so callers can supply values outside the enumerator set.

@@ -1,0 +1,7 @@
+diff --git a/src/hkdf/hkdf.c b/src/hkdf/hkdf.c
+index 6833c76..46e6f8b 100644
+--- a/src/hkdf/hkdf.c
++++ b/src/hkdf/hkdf.c
+@@ -35 +35 @@ static int expand_ok(usz info_len, usz len)
+-    return len <= 255 * QUIC_SHA256_DIGEST && info_len <= 256;
++    return len <= (usz)255 * QUIC_SHA256_DIGEST && info_len <= 256;

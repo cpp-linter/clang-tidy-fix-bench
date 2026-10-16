@@ -1,0 +1,52 @@
+{
+ "id": "bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__d0d7b8afad__lexer.cpp",
+ "check": "bugprone-signed-char-misuse",
+ "check_name": "cert-str34-c",
+ "repo": "HabanaAI/gaudi-pytorch-bridge",
+ "sha": "d0d7b8afadf15fe263dc733b941964419689836e",
+ "parent": "aa64ff28815d764b22ed707fb7e2c96e0ed2f014",
+ "url": "https://github.com/HabanaAI/gaudi-pytorch-bridge/commit/d0d7b8afadf15fe263dc733b941964419689836e",
+ "license": "Apache-2.0",
+ "message": " Fix clang-tidy cert-str34-c check (#2975)",
+ "file": "python_packages/habana_frameworks/torch/jit/csrc/jit_fork/frontend/lexer.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "absl/strings/str_format.h",
+  "c10/macros/Macros.h",
+  "c10/util/C++17.h",
+  "c10/util/Exception.h",
+  "fmt/compile.h",
+  "fmt/ostream.h",
+  "fmt/ranges.h",
+  "generated/env_flags/env_flags_generated.h",
+  "hl_logger/hllog.hpp",
+  "synapse_api.h",
+  "torch/csrc/Export.h",
+  "torch/csrc/api/include/torch/version.h",
+  "torch/csrc/jit/frontend/strtod.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 90,
+   "col": 46,
+   "sev": "warning",
+   "msg": "'signed char' to 'mapped_type' (aka 'int') conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 90,
+   "col": 46,
+   "sev": "warning",
+   "msg": "'signed char' to 'mapped_type' (aka 'int') conversion; consider casting to 'unsigned char' first.",
+   "check": "cert-str34-c"
+  }
+ ],
+ "errors_before": 8,
+ "human_changed_lines": 3
+}

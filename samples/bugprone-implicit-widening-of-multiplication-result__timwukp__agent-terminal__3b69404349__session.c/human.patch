@@ -1,0 +1,7 @@
+diff --git a/src/daemon/session.c b/src/daemon/session.c
+index 70de091..740bf46 100644
+--- a/src/daemon/session.c
++++ b/src/daemon/session.c
+@@ -1003 +1003 @@ void session_detach(session *s, struct client *c) {
+-#define STDIN_STAGE_MAX (256 * 1024)
++#define STDIN_STAGE_MAX ((size_t)256 * 1024)

@@ -1,0 +1,9 @@
+--- a/src/buildtool/execution_api/common/bytestream_utils.hpp
++++ b/src/buildtool/execution_api/common/bytestream_utils.hpp
+@@ -32,5 +32,5 @@
+   public:
+     // Chunk size for uploads (default size used by BuildBarn)
+-    static constexpr std::size_t kChunkSize = 64 * 1024;
++    static constexpr std::size_t kChunkSize = std::size_t{64} * 1024;
+ 
+     /// \brief Create a read request for the bytestream service to be

@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__vrosuits__ANSI_COLOR_TEXT__1fc4df9002__AnsiScreen.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "vrosuits/ANSI_COLOR_TEXT",
+ "sha": "1fc4df9002e73baeb53f93111ede151b89e7007e",
+ "parent": "1a0151341cd45c75fad745793ed8310cdaecc253",
+ "url": "https://github.com/vrosuits/ANSI_COLOR_TEXT/commit/1fc4df9002e73baeb53f93111ede151b89e7007e",
+ "license": "Apache-2.0",
+ "message": "Clear the clang-tidy findings in AnsiScreen and AiClient",
+ "file": "src/AnsiScreen.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 304,
+   "col": 25,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 304,
+   "col": 25,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

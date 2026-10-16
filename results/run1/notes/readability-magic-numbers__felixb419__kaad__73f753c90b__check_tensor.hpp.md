@@ -1,0 +1,1 @@
+The tolerance literals `1e-6` (float) and `1e-12` (double Scalar) were magic numbers. I added local `constexpr kaad::Scalar float_tol = 1e-6;` and `double_tol = 1e-12;` and used them to initialize and override the static `abs_tol`/`rel_tol`. The values and the `if constexpr` logic are unchanged.

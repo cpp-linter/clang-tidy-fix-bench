@@ -1,0 +1,1 @@
+The four sample loops used uint16_t counters compared against the unsigned int samples_collected; with more than 65535 samples they would loop forever. The counters are now unsigned int to match the bound; no other change.

@@ -1,0 +1,1 @@
+In `modmul` and `quic_bn_modexp`, the loop start `QUIC_BN_LIMBS * 64` was computed in `int` and widened to `usz` for the loop variable. I cast `QUIC_BN_LIMBS` to `usz` in both places so the bit count is computed in `usz`. Behaviour is unchanged.

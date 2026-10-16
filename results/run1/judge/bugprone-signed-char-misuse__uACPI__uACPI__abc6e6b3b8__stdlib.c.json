@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Keeps %hhd truncation and makes the intended sign extension explicit via uacpi_i64, preserving prior behaviour; the human dropped the signed-char narrowing instead, but the candidate's version is correct and arguably more faithful to %hh semantics."}

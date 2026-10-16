@@ -1,0 +1,40 @@
+--- a/include/kaad/functions/kernels.hpp
++++ b/include/kaad/functions/kernels.hpp
+@@ -78,4 +78,9 @@
+ 
+ /**
++ * @brief Multiple of machine epsilon used as tolerance by the kernels.
++ */
++inline constexpr int epsilon_scale = 1000;
++
++/**
+  * @brief Binary kernel for division.
+  * @note In most applications @ref safe_Div is preferable.
+@@ -86,5 +91,5 @@
+ 
+     inline static T epsilon =
+-        static_cast<T>(1000) * std::numeric_limits<T>::epsilon();
++        static_cast<T>(epsilon_scale) * std::numeric_limits<T>::epsilon();
+ 
+     /**
+@@ -112,5 +117,5 @@
+ 
+     inline static T epsilon =
+-        static_cast<T>(1000) * std::numeric_limits<T>::epsilon();
++        static_cast<T>(epsilon_scale) * std::numeric_limits<T>::epsilon();
+ 
+     static constexpr T max_finite = std::numeric_limits<T>::max();
+@@ -295,5 +300,5 @@
+ 
+     inline static T epsilon =
+-        static_cast<T>(1000) * std::numeric_limits<T>::epsilon();
++        static_cast<T>(epsilon_scale) * std::numeric_limits<T>::epsilon();
+     /**
+      * @brief C = sqrt(lhs)
+@@ -318,5 +323,5 @@
+ 
+     inline static T epsilon =
+-        static_cast<T>(1000) * std::numeric_limits<T>::epsilon();
++        static_cast<T>(epsilon_scale) * std::numeric_limits<T>::epsilon();
+     /**
+      * @brief C = log(lhs)

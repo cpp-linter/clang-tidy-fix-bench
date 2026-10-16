@@ -1,0 +1,9 @@
+--- a/src/httpserver.cpp
++++ b/src/httpserver.cpp
+@@ -331,5 +331,5 @@
+         assert(g_work_queue);
+         if (g_work_queue->Enqueue(item.get())) {
+-            item.release(); /* if true, queue took ownership */
++            [[maybe_unused]] HTTPWorkItem* owned_by_queue = item.release(); /* if true, queue took ownership */
+         } else {
+             LogWarning("Request rejected because http work queue depth exceeded, it can be increased with the -rpcworkqueue= setting");

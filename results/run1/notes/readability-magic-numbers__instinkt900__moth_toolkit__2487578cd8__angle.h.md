@@ -1,0 +1,1 @@
+`DegToRad` and `RadToDeg` both used the literal `180.0f`. I added `constexpr float kHalfTurnDegrees = 180.0f;` next to the existing `kPi`/`kTwoPi` constants in the anonymous namespace and used it in both functions. The conversions are numerically identical.

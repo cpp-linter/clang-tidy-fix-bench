@@ -1,0 +1,68 @@
+{
+ "id": "bugprone-unused-return-value__maceeek__freerdp-m__5abde9bd1c__TestClientCmdLineStatus.c",
+ "check": "bugprone-unused-return-value",
+ "check_name": "cert-err33-c",
+ "repo": "maceeek/freerdp-m",
+ "sha": "5abde9bd1c9682f19cff9d52455545e0d15edb92",
+ "parent": "63db6044c60290298a2e558260020079adca27fb",
+ "url": "https://github.com/maceeek/freerdp-m/commit/5abde9bd1c9682f19cff9d52455545e0d15edb92",
+ "license": "Apache-2.0",
+ "message": "[client,common] fix cert-err33-c in unit test",
+ "file": "client/common/test/TestClientCmdLineStatus.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [
+  "winpr/config.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 46,
+   "col": 4,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 55,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 61,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 46,
+   "col": 4,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 55,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 61,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 8
+}

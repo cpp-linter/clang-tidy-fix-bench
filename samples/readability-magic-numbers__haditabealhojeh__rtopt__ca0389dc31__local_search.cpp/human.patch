@@ -1,0 +1,13 @@
+diff --git a/src/algorithms/local_search/local_search.cpp b/src/algorithms/local_search/local_search.cpp
+index 7c5d3cb..9fa8c29 100644
+--- a/src/algorithms/local_search/local_search.cpp
++++ b/src/algorithms/local_search/local_search.cpp
+@@ -1154,0 +1155 @@ void LocalSearch<Route,
++    constexpr unsigned min_intra_cross_exchange_size = 5;
+@@ -1157 +1158 @@ void LocalSearch<Route,
+-          _sol[s_t.first].size() < 5) {
++          _sol[s_t.first].size() < min_intra_cross_exchange_size) {
+@@ -1901 +1902,2 @@ void LocalSearch<Route,
+-      try_job_additions(_all_routes, 1.5);
++      constexpr double refill_regret = 1.5;
++      try_job_additions(_all_routes, refill_regret);

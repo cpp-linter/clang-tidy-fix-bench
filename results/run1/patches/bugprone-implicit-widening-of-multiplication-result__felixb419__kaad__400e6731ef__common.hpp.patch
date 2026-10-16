@@ -1,0 +1,9 @@
+--- a/include/kaad/graph/common.hpp
++++ b/include/kaad/graph/common.hpp
+@@ -95,5 +95,5 @@
+     A_offset.resize(D);
+     for (std::size_t i = 0; i < D; i++) {
+-        A_offset[i] = A.shape()[i] * strideA[i];
++        A_offset[i] = static_cast<std::size_t>(A.shape()[i]) * strideA[i];
+     }
+ }

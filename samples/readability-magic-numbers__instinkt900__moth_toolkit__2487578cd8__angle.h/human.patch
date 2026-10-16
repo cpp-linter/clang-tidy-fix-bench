@@ -1,0 +1,13 @@
+diff --git a/modules/core/include/moth/core/angle.h b/modules/core/include/moth/core/angle.h
+index f9bdfb9..8345f35 100644
+--- a/modules/core/include/moth/core/angle.h
++++ b/modules/core/include/moth/core/angle.h
+@@ -10,0 +11,2 @@ namespace moth::core {
++        /// Degrees in a half turn, the scale factor between the two units.
++        constexpr float kDegreesPerHalfTurn = 180.0f;
+@@ -18 +20 @@ namespace moth::core {
+-        return degrees * (kPi / 180.0f);
++        return degrees * (kPi / kDegreesPerHalfTurn);
+@@ -23 +25 @@ namespace moth::core {
+-        return radians * (180.0f / kPi);
++        return radians * (kDegreesPerHalfTurn / kPi);

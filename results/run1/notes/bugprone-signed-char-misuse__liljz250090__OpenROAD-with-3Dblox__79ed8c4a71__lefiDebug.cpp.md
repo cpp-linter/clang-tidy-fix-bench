@@ -1,0 +1,1 @@
+In `upperCase`, `int i = (int)*place` indexed the 256-entry `lefiShift` table. A byte >= 0x80 produced a negative, out-of-bounds index. The index is now computed as `static_cast<unsigned char>(*place)`, which keeps it in 0..255. This fixes a real out-of-bounds read.

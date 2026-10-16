@@ -1,0 +1,1 @@
+The 10 ms sleep in `ListReplays`'s polling loop is now a named constant, `kReplayListPollInterval = std::chrono::milliseconds(10)`, declared next to the existing `kReplayListPatience` constant in the same style. The loop calls `sleep_for(kReplayListPollInterval)`. Behaviour is unchanged.

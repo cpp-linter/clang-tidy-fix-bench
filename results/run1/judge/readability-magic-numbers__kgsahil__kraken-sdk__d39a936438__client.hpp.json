@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Replaces the default depth 10 with a public static constexpr kDefaultBookDepth member, which keeps the default. This is a real fix, where the human only added a NOLINT."}

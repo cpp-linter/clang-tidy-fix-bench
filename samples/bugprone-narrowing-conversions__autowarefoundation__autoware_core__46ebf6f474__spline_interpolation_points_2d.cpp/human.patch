@@ -1,0 +1,7 @@
+diff --git a/common/autoware_interpolation/src/spline_interpolation_points_2d.cpp b/common/autoware_interpolation/src/spline_interpolation_points_2d.cpp
+index 07c999a..505b0bf 100644
+--- a/common/autoware_interpolation/src/spline_interpolation_points_2d.cpp
++++ b/common/autoware_interpolation/src/spline_interpolation_points_2d.cpp
+@@ -325 +325 @@ void SplineInterpolationPoints2d::extendLinearlyForward(
+-    const double new_s = s_end + (i + 1) * delta_s;
++    const double new_s = s_end + static_cast<double>(i + 1) * delta_s;

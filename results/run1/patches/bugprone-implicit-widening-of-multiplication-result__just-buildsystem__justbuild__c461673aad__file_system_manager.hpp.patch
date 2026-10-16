@@ -1,0 +1,9 @@
+--- a/src/buildtool/file_system/file_system_manager.hpp
++++ b/src/buildtool/file_system/file_system_manager.hpp
+@@ -1186,5 +1186,5 @@
+     /// \ref ErrorToString.
+     class LowLevel {
+-        static constexpr std::size_t kDefaultChunkSize = 1024 * 32;
++        static constexpr std::size_t kDefaultChunkSize = std::size_t{1024} * 32;
+         static constexpr int kWriteFlags =
+             O_WRONLY | O_CREAT | O_TRUNC;           // NOLINT

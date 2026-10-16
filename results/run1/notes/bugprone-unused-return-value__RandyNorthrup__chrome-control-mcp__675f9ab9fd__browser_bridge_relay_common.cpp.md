@@ -1,0 +1,1 @@
+The `std::fflush(nullptr)` just before `std::_Exit(0)` is a best-effort flush: the process exits right after, so nothing useful can be done if it fails. The call is now cast to `(void)` to show that the result is ignored on purpose, which cert-err33-c accepts. Behaviour is unchanged.

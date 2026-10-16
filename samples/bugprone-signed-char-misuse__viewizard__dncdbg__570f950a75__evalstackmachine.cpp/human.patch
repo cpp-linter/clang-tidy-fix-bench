@@ -1,0 +1,7 @@
+diff --git a/src/debugger/evalstackmachine.cpp b/src/debugger/evalstackmachine.cpp
+index 115fcb3..e262e70 100644
+--- a/src/debugger/evalstackmachine.cpp
++++ b/src/debugger/evalstackmachine.cpp
+@@ -446 +446 @@ HRESULT ImplicitCastElemType(ICorDebugValue *pValue1, ICorDebugValue *pValue2, b
+-    T2 value2 = (T2)value1;
++    T2 value2 = (T2)value1; // NOLINT(cert-str34-c)

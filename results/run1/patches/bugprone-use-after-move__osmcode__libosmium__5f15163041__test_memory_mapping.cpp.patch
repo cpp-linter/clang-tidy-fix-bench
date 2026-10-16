@@ -1,0 +1,48 @@
+--- a/test/t/util/test_memory_mapping.cpp
++++ b/test/t/util/test_memory_mapping.cpp
+@@ -46,8 +46,9 @@
+ 
+     REQUIRE(!!mapping1);
++    osmium::MemoryMapping& moved_from = mapping1; // checking our own moved-from state
+     osmium::MemoryMapping mapping2{std::move(mapping1)};
+     REQUIRE(!!mapping2);
+-    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move) okay here, we are checking our own code
+-    mapping1.unmap(); // NOLINT(clang-analyzer-cplusplus.Move) okay here, we are checking our own code
++    REQUIRE(!moved_from);
++    moved_from.unmap(); // NOLINT(clang-analyzer-cplusplus.Move) okay here, we are checking our own code
+ 
+     const auto* addr2 = mapping2.get_addr<int>();
+@@ -68,8 +69,8 @@
+     *addr1 = 42;
+ 
++    const auto& moved_from = mapping1; // checking our own moved-from state
+     mapping2 = std::move(mapping1);
+     REQUIRE(!!mapping2);
+-    // cppcheck-suppress accessMoved
+-    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move) okay here, we are checking our own code
++    REQUIRE(!moved_from);
+ 
+     const auto* addr2 = mapping2.get_addr<int>();
+@@ -272,8 +273,9 @@
+ 
+     REQUIRE(!!mapping1);
++    osmium::TypedMemoryMapping<uint32_t>& moved_from = mapping1; // checking our own moved-from state
+     osmium::TypedMemoryMapping<uint32_t> mapping2{std::move(mapping1)};
+     REQUIRE(!!mapping2);
+-    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move) okay here, we are checking our own code
+-    mapping1.unmap(); // NOLINT(clang-analyzer-cplusplus.Move) okay here, we are checking our own code
++    REQUIRE(!moved_from);
++    moved_from.unmap(); // NOLINT(clang-analyzer-cplusplus.Move) okay here, we are checking our own code
+ 
+     const auto* const addr2 = mapping2.begin();
+@@ -294,8 +296,8 @@
+     *addr1 = 42;
+ 
++    const auto& moved_from = mapping1; // checking our own moved-from state
+     mapping2 = std::move(mapping1);
+     REQUIRE(!!mapping2);
+-    // cppcheck-suppress accessMoved
+-    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move) okay here, we are checking our own code
++    REQUIRE(!moved_from);
+ 
+     const auto* const addr2 = mapping2.begin();

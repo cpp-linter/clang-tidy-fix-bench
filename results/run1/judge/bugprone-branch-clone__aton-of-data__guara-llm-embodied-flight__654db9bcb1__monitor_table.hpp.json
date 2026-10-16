@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same || merge as the human fix; it keeps a redundant s.malformed inside the first clause, but the logic is identical."}

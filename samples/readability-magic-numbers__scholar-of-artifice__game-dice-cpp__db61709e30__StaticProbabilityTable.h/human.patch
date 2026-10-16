@@ -1,0 +1,8 @@
+diff --git a/src/StaticProbabilityTable.h b/src/StaticProbabilityTable.h
+index 83e80e0..e01c784 100644
+--- a/src/StaticProbabilityTable.h
++++ b/src/StaticProbabilityTable.h
+@@ -91 +91,2 @@ class StaticProbabilityTable {
+-    if constexpr (NumberOfOutcomes <= 16) {
++    constexpr std::size_t linear_search_threshold{16};
++    if constexpr (NumberOfOutcomes <= linear_search_threshold) {

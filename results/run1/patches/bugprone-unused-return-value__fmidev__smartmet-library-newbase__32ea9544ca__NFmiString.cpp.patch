@@ -1,0 +1,16 @@
+--- a/newbase/NFmiString.cpp
++++ b/newbase/NFmiString.cpp
+@@ -951,5 +951,5 @@
+     if (theUpperIndex < fLength)
+     {
+-      setlocale(LC_ALL, "Finnish");
++      (void)setlocale(LC_ALL, "Finnish");
+       NFmiString theLetter(fChar);
+ #ifndef UNIX
+@@ -961,5 +961,5 @@
+ #endif
+       fChar[theUpperIndex] = theChar[theUpperIndex];
+-      setlocale(LC_ALL, "C");
++      (void)setlocale(LC_ALL, "C");
+     }
+   }

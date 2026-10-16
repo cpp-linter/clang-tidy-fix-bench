@@ -1,0 +1,35 @@
+--- a/firmware/components/device_controls/device_controls_logic.c
++++ b/firmware/components/device_controls/device_controls_logic.c
+@@ -29,17 +29,28 @@
+ 
+ bool device_controls_indicator_on(device_indicator_state_t state, uint32_t elapsed_ms) {
++    const uint32_t booting_period_ms = 1000U;
++    const uint32_t booting_on_ms = 250U;
++    const uint32_t executing_period_ms = 200U;
++    const uint32_t executing_on_ms = 100U;
++    const uint32_t degraded_first_off_ms = 250U;
++    const uint32_t degraded_second_on_ms = 500U;
++    const uint32_t degraded_second_off_ms = 750U;
++    const uint32_t fatal_period_ms = 500U;
++    const uint32_t fatal_on_ms = 250U;
++
+     switch (state) {
+     case DEVICE_INDICATOR_READY:
+         return true;
+     case DEVICE_INDICATOR_BOOTING:
+-        return (elapsed_ms % 1000U) < 250U;
++        return (elapsed_ms % booting_period_ms) < booting_on_ms;
+     case DEVICE_INDICATOR_EXECUTING:
+-        return (elapsed_ms % 200U) < 100U;
++        return (elapsed_ms % executing_period_ms) < executing_on_ms;
+     case DEVICE_INDICATOR_DEGRADED: {
+         const uint32_t position = elapsed_ms % 2000U;
+-        return position < 250U || (position >= 500U && position < 750U);
++        return position < degraded_first_off_ms ||
++               (position >= degraded_second_on_ms && position < degraded_second_off_ms);
+     }
+     case DEVICE_INDICATOR_FATAL:
+-        return (elapsed_ms % 500U) < 250U;
++        return (elapsed_ms % fatal_period_ms) < fatal_on_ms;
+     default:
+         return false;

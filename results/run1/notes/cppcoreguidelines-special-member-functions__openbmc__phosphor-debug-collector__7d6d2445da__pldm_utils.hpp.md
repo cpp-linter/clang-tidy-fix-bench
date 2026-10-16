@@ -1,0 +1,1 @@
+PLDMInstanceManager already deleted copying and has a destructor that tears down the PLDM instance ID database. I also deleted the move constructor and move assignment, so the manager stays a non-movable single owner of that resource. This completes the rule of five without changing behaviour.

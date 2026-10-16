@@ -1,0 +1,18 @@
+--- a/tests/check_tensor.hpp
++++ b/tests/check_tensor.hpp
+@@ -23,9 +23,11 @@
+                          std::span<const int> shape_correct,
+                          std::span<const kaad::Scalar> elements_correct) {
+-    static kaad::Scalar abs_tol = 1e-6;
+-    static kaad::Scalar rel_tol = 1e-6;
++    constexpr kaad::Scalar float_tol = 1e-6;
++    constexpr kaad::Scalar double_tol = 1e-12;
++    static kaad::Scalar abs_tol = float_tol;
++    static kaad::Scalar rel_tol = float_tol;
+     if constexpr (std::same_as<kaad::Scalar, double>) {
+-        abs_tol = 1e-12;
+-        rel_tol = 1e-12;
++        abs_tol = double_tol;
++        rel_tol = double_tol;
+     }
+ 

@@ -1,0 +1,7 @@
+diff --git a/tests/unit/hardware_crypto_tests.cpp b/tests/unit/hardware_crypto_tests.cpp
+index 9fc18bf..fe4e0f8 100644
+--- a/tests/unit/hardware_crypto_tests.cpp
++++ b/tests/unit/hardware_crypto_tests.cpp
+@@ -366 +366 @@ TEST(HardwareCryptoTests, LargeDataEncryption) {
+-  const std::size_t size = 1024 * 1024;
++  const std::size_t size = static_cast<std::size_t>(1024) * 1024;

@@ -1,0 +1,1 @@
+`A.shape()[i] * strideA[i]` multiplied two `int`s and then stored the result in the `std::size_t` vector `A_offset`. Casting the shape to `std::size_t` first performs the multiplication in the destination type, which avoids `int` overflow for large tensors. Results are otherwise unchanged.

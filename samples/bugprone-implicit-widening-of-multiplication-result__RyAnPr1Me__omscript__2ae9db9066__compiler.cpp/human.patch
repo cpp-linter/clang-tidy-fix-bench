@@ -1,0 +1,7 @@
+diff --git a/src/compiler.cpp b/src/compiler.cpp
+index ea7560d..716afa9 100644
+--- a/src/compiler.cpp
++++ b/src/compiler.cpp
+@@ -63 +63 @@ void Compiler::compile(const std::string& sourceFile, const std::string& outputF
+-    if (fileSize > 100 * 1024 * 1024) { // 100MB limit
++    if (fileSize > size_t{100} * 1024 * 1024) { // 100MB limit

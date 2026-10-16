@@ -1,0 +1,9 @@
+--- a/src/aes/aes.c
++++ b/src/aes/aes.c
+@@ -126,5 +126,5 @@
+     add_round_key(s, a->rk);
+     for (usz r = 1; r < QUIC_AES_ROUNDS; r++) round_full(s, a->rk + 4 * r);
+-    round_last(s, a->rk + 4 * QUIC_AES_ROUNDS);
++    round_last(s, a->rk + (usz)4 * QUIC_AES_ROUNDS);
+     copy16(out, s);
+ }

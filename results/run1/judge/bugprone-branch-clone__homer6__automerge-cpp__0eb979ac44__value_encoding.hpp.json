@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "The first clone gets the same Null||bool merge. For the second, the candidate removes the explicit Null branch and keeps the else returning null_tag, where the human kept Null and made the else a static_assert. Output is identical, but the exhaustiveness check is lost."}

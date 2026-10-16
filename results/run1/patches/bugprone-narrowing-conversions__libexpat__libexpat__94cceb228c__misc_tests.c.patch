@@ -1,0 +1,20 @@
+--- a/expat/tests/misc_tests.c
++++ b/expat/tests/misc_tests.c
+@@ -66,6 +66,6 @@
+ START_TEST(test_misc_alloc_create_parser) {
+   XML_Memory_Handling_Suite memsuite = {duff_allocator, realloc, free};
+-  unsigned int i;
+-  const unsigned int max_alloc_count = 10;
++  int i;
++  const int max_alloc_count = 10;
+ 
+   /* Something this simple shouldn't need more than 10 allocations */
+@@ -86,6 +86,6 @@
+ START_TEST(test_misc_alloc_create_parser_with_encoding) {
+   XML_Memory_Handling_Suite memsuite = {duff_allocator, realloc, free};
+-  unsigned int i;
+-  const unsigned int max_alloc_count = 10;
++  int i;
++  const int max_alloc_count = 10;
+ 
+   /* Try several levels of allocation */

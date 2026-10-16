@@ -1,0 +1,10 @@
+diff --git a/src/odb/src/def/def/defrData.cpp b/src/odb/src/def/def/defrData.cpp
+index b32bf6a..f0b306f 100644
+--- a/src/odb/src/def/def/defrData.cpp
++++ b/src/odb/src/def/def/defrData.cpp
+@@ -204 +204 @@ const char* defrData::upperCase(const char* str)
+-    int i = (int) *place;
++    int i = static_cast<unsigned char>(*place);
+@@ -246 +246 @@ int defrData::validateMaskShiftInput(const char* shiftMask,
+-    int curShift = shiftMask[i];
++    int curShift = static_cast<unsigned char>(shiftMask[i]);

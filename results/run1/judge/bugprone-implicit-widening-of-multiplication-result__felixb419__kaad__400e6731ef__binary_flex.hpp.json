@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical static_cast<std::size_t> on the shape operand; only line wrapping differs."}

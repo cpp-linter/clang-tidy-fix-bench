@@ -1,0 +1,42 @@
+{
+ "id": "bugprone-unused-return-value__RandyNorthrup__chrome-control-mcp__675f9ab9fd__browser_bridge_relay_common.cpp",
+ "check": "bugprone-unused-return-value",
+ "check_name": "cert-err33-c",
+ "repo": "RandyNorthrup/chrome-control-mcp",
+ "sha": "675f9ab9fda6bb687b889b41da421b216b186808",
+ "parent": "c2d0f1b169d5a095caf6bcf660d1fe89030edd28",
+ "url": "https://github.com/RandyNorthrup/chrome-control-mcp/commit/675f9ab9fda6bb687b889b41da421b216b186808",
+ "license": "MIT",
+ "message": "Let the live browser suites fail the build",
+ "file": "src/browser_bridge_relay_common.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "QJsonObject",
+  "QString",
+  "QtGlobal"
+ ],
+ "warnings_before": [
+  {
+   "line": 232,
+   "col": 9,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 232,
+   "col": 9,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

@@ -1,0 +1,9 @@
+--- a/src/include/pdxearch/common.hpp
++++ b/src/include/pdxearch/common.hpp
+@@ -109,5 +109,5 @@
+ 		local_proportion_horizontal_dim = 0.25;
+ 	}
+-	auto horizontal_d = static_cast<uint32_t>(num_dimensions * local_proportion_horizontal_dim);
++	auto horizontal_d = static_cast<uint32_t>(static_cast<float>(num_dimensions) * local_proportion_horizontal_dim);
+ 	auto vertical_d = static_cast<uint32_t>(num_dimensions - horizontal_d);
+ 	if (horizontal_d % H_DIM_SIZE > 0) {

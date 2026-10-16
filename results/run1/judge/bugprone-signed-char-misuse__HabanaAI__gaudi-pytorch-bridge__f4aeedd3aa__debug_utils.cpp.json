@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Assigns the case-label literal ('(', '[', '{') instead of casting node_string[pos]; the value is provably the same in each case and no signed-char conversion of runtime data remains."}

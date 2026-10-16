@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same change: loop variable widened from uint8_t to uint32_t."}

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical static_cast<int64_t> on the sign factor; only line wrapping differs."}

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "System now shares default's 'system' return; the human removed the label entirely, so behaviour is identical."}

@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__quintin-lee__cmem__f43202e62d__cmem_event.c",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "quintin-lee/cmem",
+ "sha": "f43202e62d38d9dcfad7d69aab04fcac77a0aac1",
+ "parent": "05e619afc30fa23d24201107874251e9c085c606",
+ "url": "https://github.com/quintin-lee/cmem/commit/f43202e62d38d9dcfad7d69aab04fcac77a0aac1",
+ "license": "MIT",
+ "message": "fix: \ud83d\udd27 eliminate bugprone-branch-clone and readability-identifier-length warnings",
+ "file": "src/cmem_event.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 2197,
+   "col": 9,
+   "sev": "warning",
+   "msg": "if with identical then and else branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 2197,
+   "col": 9,
+   "sev": "warning",
+   "msg": "if with identical then and else branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 7
+}

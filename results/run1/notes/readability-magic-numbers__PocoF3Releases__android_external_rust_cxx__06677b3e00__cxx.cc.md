@@ -1,0 +1,1 @@
+The `static_assert` on `sizeof(std::string)` used a bare `8` as its limit in pointer-sized words. I gave it a name, `static constexpr std::size_t kMaxStringSizeInPointers = 8;`, declared just above the assertion and used in it. The compile-time check is unchanged.

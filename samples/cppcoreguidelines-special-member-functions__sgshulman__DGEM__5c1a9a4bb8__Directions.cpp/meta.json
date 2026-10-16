@@ -1,0 +1,38 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__Directions.cpp",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "hicpp-special-member-functions",
+ "repo": "sgshulman/DGEM",
+ "sha": "5c1a9a4bb899e68889e50578fddd3591cbc78754",
+ "parent": "6995cd900c60fef892fc4f51fe60e6aacbf69a09",
+ "url": "https://github.com/sgshulman/DGEM/commit/5c1a9a4bb899e68889e50578fddd3591cbc78754",
+ "license": "BSD-2-Clause",
+ "message": "[clang-tidy] Fix clang-tidy hicpp-special-member-functions warning",
+ "file": "source/Directions.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 115,
+   "col": 11,
+   "sev": "warning",
+   "msg": "class 'IcosahedronMesh' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "hicpp-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 115,
+   "col": 11,
+   "sev": "warning",
+   "msg": "class 'IcosahedronMesh' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "hicpp-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 6
+}

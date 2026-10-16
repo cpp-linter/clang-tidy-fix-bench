@@ -1,0 +1,19 @@
+diff --git a/src/vm/eval.c b/src/vm/eval.c
+index 03e4fba..0fbbf51 100644
+--- a/src/vm/eval.c
++++ b/src/vm/eval.c
+@@ -110,2 +109,0 @@ json_escape_len(const char* s)
+-			len += 2;
+-			break;
+@@ -113,2 +110,0 @@ json_escape_len(const char* s)
+-			len += 2;
+-			break;
+@@ -116,2 +111,0 @@ json_escape_len(const char* s)
+-			len += 2;
+-			break;
+@@ -119,2 +112,0 @@ json_escape_len(const char* s)
+-			len += 2;
+-			break;
+@@ -122,2 +113,0 @@ json_escape_len(const char* s)
+-			len += 2;
+-			break;

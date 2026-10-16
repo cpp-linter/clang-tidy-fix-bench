@@ -1,0 +1,7 @@
+diff --git a/src/launch/environment_capture.cpp b/src/launch/environment_capture.cpp
+index f9e10e4..43b52a2 100644
+--- a/src/launch/environment_capture.cpp
++++ b/src/launch/environment_capture.cpp
+@@ -334 +334 @@ std::optional<std::string> probe_python_version(const std::string& executable) {
+-      0, 2 * 1000 * 1000
++      0, 2L * 1000L * 1000L

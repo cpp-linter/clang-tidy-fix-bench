@@ -1,0 +1,1 @@
+`asciiByte` was computed as `(int)asciiStr[0]`, so bytes >= 0x80 sign-extended to negative values. It is now `static_cast<unsigned char>(asciiStr[0])`. Non-printable/high bytes are still replaced by '.' because the existing `> 0x7E` test now catches them, rather than the `< 0x20` test catching negative values. The output is unchanged and the value is in the correct 0..255 range.

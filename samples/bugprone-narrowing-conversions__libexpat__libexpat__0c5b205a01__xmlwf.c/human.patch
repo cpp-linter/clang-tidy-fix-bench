@@ -1,0 +1,7 @@
+diff --git a/expat/xmlwf/xmlwf.c b/expat/xmlwf/xmlwf.c
+index 7c0a8cd..ec7e51c 100644
+--- a/expat/xmlwf/xmlwf.c
++++ b/expat/xmlwf/xmlwf.c
+@@ -308 +308 @@ xcsdup(const XML_Char *s) {
+-  int numBytes;
++  size_t numBytes;

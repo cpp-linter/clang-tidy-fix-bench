@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same approach as the human fix: the blink-pattern literals become named millisecond constants. They are function-local const variables instead of macros, and the timing is identical."}

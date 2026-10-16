@@ -1,0 +1,8 @@
+diff --git a/sources/core-sw/dispatcher/dispatcher.hpp b/sources/core-sw/dispatcher/dispatcher.hpp
+index 79ad7c3..2b69d33 100644
+--- a/sources/core-sw/dispatcher/dispatcher.hpp
++++ b/sources/core-sw/dispatcher/dispatcher.hpp
+@@ -94,0 +95 @@ public:
++    kernels_dispatcher(kernels_dispatcher&& other)      = delete;
+@@ -96,0 +98 @@ public:
++    auto operator=(kernels_dispatcher&& other) -> kernels_dispatcher&      = delete;

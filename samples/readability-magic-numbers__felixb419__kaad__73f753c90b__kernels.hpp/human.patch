@@ -1,0 +1,16 @@
+diff --git a/include/kaad/functions/kernels.hpp b/include/kaad/functions/kernels.hpp
+index 505fc47..0eacf4d 100644
+--- a/include/kaad/functions/kernels.hpp
++++ b/include/kaad/functions/kernels.hpp
+@@ -87 +87 @@ template <typename T> struct Div {
+-    inline static T epsilon =
++    const static T epsilon =
+@@ -113 +113 @@ template <typename T> struct Pow {
+-    inline static T epsilon =
++    const static T epsilon =
+@@ -296 +296 @@ template <typename T> struct Sqrt {
+-    inline static T epsilon =
++    const static T epsilon =
+@@ -319 +319 @@ template <typename T> struct Log {
+-    inline static T epsilon =
++    const static T epsilon =

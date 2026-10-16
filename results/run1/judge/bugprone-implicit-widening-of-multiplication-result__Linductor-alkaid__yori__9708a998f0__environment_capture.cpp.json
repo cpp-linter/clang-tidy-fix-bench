@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Uses 2L as the first factor so the product is computed in long, same as the human's 2L*1000L*1000L."}

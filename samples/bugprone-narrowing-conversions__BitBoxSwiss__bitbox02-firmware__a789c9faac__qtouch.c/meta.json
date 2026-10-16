@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-narrowing-conversions__BitBoxSwiss__bitbox02-firmware__a789c9faac__qtouch.c",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "BitBoxSwiss/bitbox02-firmware",
+ "sha": "a789c9faac86295854601b85c4e577e3d2e92529",
+ "parent": "2afb27d0e96ab120ccbb5fffd02ab823786f3476",
+ "url": "https://github.com/BitBoxSwiss/bitbox02-firmware/commit/a789c9faac86295854601b85c4e577e3d2e92529",
+ "license": "Apache-2.0",
+ "message": "qtouch: fix bugprone-narrowing-conversions error",
+ "file": "src/qtouch/qtouch.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 592,
+   "col": 13,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'double' to 'uint16_t' (aka 'unsigned short')",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 592,
+   "col": 13,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'double' to 'uint16_t' (aka 'unsigned short')",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 1,
+ "human_changed_lines": 2
+}

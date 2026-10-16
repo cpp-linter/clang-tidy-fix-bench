@@ -1,0 +1,7 @@
+diff --git a/tools/media_dl/tests/test_media_dl_export.c b/tools/media_dl/tests/test_media_dl_export.c
+index 01820a4d..24811cd2 100644
+--- a/tools/media_dl/tests/test_media_dl_export.c
++++ b/tools/media_dl/tests/test_media_dl_export.c
+@@ -507 +507 @@ RA8_INTERNAL static void internal_test_export_cbt_structure(void)
+-  TEST_ASSERT(strcmp((const char*)&tar[2U * k_tar_member_stride], "ComicInfo.xml") == 0);
++  TEST_ASSERT(strcmp((const char*)&tar[(size_t)2U * k_tar_member_stride], "ComicInfo.xml") == 0);

@@ -1,0 +1,9 @@
+--- a/python_packages/habana_frameworks/torch/jit/csrc/jit_fork/frontend/lexer.cpp
++++ b/python_packages/habana_frameworks/torch/jit/csrc/jit_fork/frontend/lexer.cpp
+@@ -88,5 +88,5 @@
+     for (char tok : std::string(valid_single_char_tokens))
+       // NOLINTNEXTLINE(bugprone-signed-char-misuse)
+-      ret_str_to_kind[std::string(1, tok)] = tok;
++      ret_str_to_kind[std::string(1, tok)] = static_cast<unsigned char>(tok);
+ #define DEFINE_CASE(tok, _, str) \
+   if (!std::string(str).empty()) \

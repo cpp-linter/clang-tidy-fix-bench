@@ -1,0 +1,34 @@
+--- a/src/modules/sensors/vehicle_optical_flow/RingBuffer.hpp
++++ b/src/modules/sensors/vehicle_optical_flow/RingBuffer.hpp
+@@ -77,6 +77,6 @@
+ 	{
+ 		// start looking from newest observation data
+-		for (uint8_t i = 0; i < SIZE; i++) {
+-			int index = (_head - i);
++		for (size_t i = 0; i < SIZE; i++) {
++			int index = (_head - static_cast<int>(i));
+ 			index = index < 0 ? SIZE + index : index;
+ 
+@@ -99,6 +99,6 @@
+ 	{
+ 		// start looking from newest observation data
+-		for (uint8_t i = 0; i < SIZE; i++) {
+-			int index = (_head - i);
++		for (size_t i = 0; i < SIZE; i++) {
++			int index = (_head - static_cast<int>(i));
+ 			index = index < 0 ? SIZE + index : index;
+ 
+@@ -138,5 +138,5 @@
+ 		}
+ 
+-		for (uint8_t i = 0; i < SIZE; i++) {
++		for (size_t i = 0; i < SIZE; i++) {
+ 
+ 			uint8_t index = (_tail + i) % SIZE;
+@@ -199,5 +199,5 @@
+ 		int count = 0;
+ 
+-		for (uint8_t i = 0; i < SIZE; i++) {
++		for (size_t i = 0; i < SIZE; i++) {
+ 			if (_buffer[i].time_us != 0) {
+ 				count++;

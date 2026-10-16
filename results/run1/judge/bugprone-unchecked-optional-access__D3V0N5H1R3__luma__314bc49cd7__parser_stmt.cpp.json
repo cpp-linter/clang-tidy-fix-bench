@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Stores the optional, checks it explicitly and throws bad_optional_access exactly as .value() would, so behaviour is unchanged; differs from the human's unchecked deref but is a correct, honest fix."}

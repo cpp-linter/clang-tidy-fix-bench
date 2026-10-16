@@ -1,0 +1,45 @@
+{
+ "id": "bugprone-narrowing-conversions__Jgocunha__neat-dnfs__b19e39a8ce__solution.cpp",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "Jgocunha/neat-dnfs",
+ "sha": "b19e39a8ce43d380d9a742c16f49fcd3cae4bf69",
+ "parent": "a38928a82be5d2c82bbdc979ee255d9bd436f071",
+ "url": "https://github.com/Jgocunha/neat-dnfs/commit/b19e39a8ce43d380d9a742c16f49fcd3cae4bf69",
+ "license": "MIT",
+ "message": "fix/moveGaussianStimulusContinuously-narrowing-conversion",
+ "file": "neat-dnfs/src/neat/solution.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "dnf_composer/elements/gauss_kernel.h",
+  "dnf_composer/elements/mexican_hat_kernel.h",
+  "dnf_composer/elements/oscillatory_kernel.h",
+  "elements/element_factory.h",
+  "imgui-platform-kit/log_window.h",
+  "nlohmann/json.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 1188,
+   "col": 40,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 1188,
+   "col": 40,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 78,
+ "human_changed_lines": 2
+}

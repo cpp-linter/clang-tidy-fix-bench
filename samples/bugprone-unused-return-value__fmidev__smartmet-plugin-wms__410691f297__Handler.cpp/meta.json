@@ -1,0 +1,44 @@
+{
+ "id": "bugprone-unused-return-value__fmidev__smartmet-plugin-wms__410691f297__Handler.cpp",
+ "check": "bugprone-unused-return-value",
+ "check_name": "cert-err33-c",
+ "repo": "fmidev/smartmet-plugin-wms",
+ "sha": "410691f2974063b8a73476dcb6f0e299b9827974",
+ "parent": "05bd1c5a5af5dd1ad544314402bfc6d5f11584ee",
+ "url": "https://github.com/fmidev/smartmet-plugin-wms/commit/410691f2974063b8a73476dcb6f0e299b9827974",
+ "license": "MIT",
+ "message": "Ignore return values explicitly where they do not matter, no functional changes",
+ "file": "wms/wms/Handler.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "json/json.h",
+  "libconfig.h++",
+  "macgyver/DateTime.h",
+  "macgyver/LocalDateTime.h",
+  "macgyver/TimeZones.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 1375,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 1375,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

@@ -1,0 +1,41 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task_tests.cpp",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "cppcoreguidelines-special-member-functions",
+ "repo": "learning-process/parallel_programming_course",
+ "sha": "a521bfc3ed201194f62de55378039d4d21945bbd",
+ "parent": "5c0d7a6d23e2de5c4fdbfb82fd01d835c411fa29",
+ "url": "https://github.com/learning-process/parallel_programming_course/commit/a521bfc3ed201194f62de55378039d4d21945bbd",
+ "license": "BSD-3-Clause",
+ "message": "Fix cppcoreguidelines-special-member-functions clang-tidy remarks (#830)",
+ "file": "modules/task/tests/task_tests.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "gtest/gtest.h",
+  "libenvpp/env.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 27,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'ScopedFile' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 27,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'ScopedFile' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 5
+}

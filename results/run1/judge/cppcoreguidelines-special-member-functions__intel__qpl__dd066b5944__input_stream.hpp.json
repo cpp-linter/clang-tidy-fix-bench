@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Adds a defaulted destructor (noexcept is implicit anyway), same as the human fix."}

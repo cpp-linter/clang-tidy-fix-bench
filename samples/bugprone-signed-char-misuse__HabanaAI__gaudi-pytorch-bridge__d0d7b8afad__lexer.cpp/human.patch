@@ -1,0 +1,8 @@
+diff --git a/python_packages/habana_frameworks/torch/jit/csrc/jit_fork/frontend/lexer.cpp b/python_packages/habana_frameworks/torch/jit/csrc/jit_fork/frontend/lexer.cpp
+index 3abb028..0418765 100644
+--- a/python_packages/habana_frameworks/torch/jit/csrc/jit_fork/frontend/lexer.cpp
++++ b/python_packages/habana_frameworks/torch/jit/csrc/jit_fork/frontend/lexer.cpp
+@@ -89,2 +89 @@ C10_EXPORT int stringToKind(const std::string& str) {
+-      // NOLINTNEXTLINE(bugprone-signed-char-misuse)
+-      ret_str_to_kind[std::string(1, tok)] = tok;
++      ret_str_to_kind[std::string(1, tok)] = static_cast<unsigned char>(tok);

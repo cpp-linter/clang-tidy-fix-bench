@@ -1,0 +1,38 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__airbus__sen__8ecbecf059__remote_interest_handler.h",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "hicpp-special-member-functions",
+ "repo": "airbus/sen",
+ "sha": "8ecbecf059a4baf12d0e1a53ba091faa62741489",
+ "parent": "0f00e5eb050111a0089e78d05c072960c35011de",
+ "url": "https://github.com/airbus/sen/commit/8ecbecf059a4baf12d0e1a53ba091faa62741489",
+ "license": "Apache-2.0",
+ "message": "fix(kernel): declare InterestsHandler non-copyable (#347)",
+ "file": "libs/kernel/src/bus/remote_interest_handler.h",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 34,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'InterestsHandler' defines a default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "hicpp-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 34,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'InterestsHandler' defines a default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "hicpp-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

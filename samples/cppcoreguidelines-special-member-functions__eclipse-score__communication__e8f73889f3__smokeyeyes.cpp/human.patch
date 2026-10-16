@@ -1,0 +1,12 @@
+diff --git a/score/mw/com/test/smokeyeyes/smokeyeyes.cpp b/score/mw/com/test/smokeyeyes/smokeyeyes.cpp
+index 0386d0e..7a6da31 100644
+--- a/score/mw/com/test/smokeyeyes/smokeyeyes.cpp
++++ b/score/mw/com/test/smokeyeyes/smokeyeyes.cpp
+@@ -139,0 +140,7 @@ struct SharedState
++    // Not copyable/movable: `barrier_` is an OS resource tied to this object's address (it is placed directly
++    // into shared memory via placement-new), so copying or moving it would not be meaningful.
++    SharedState(const SharedState&) = delete;
++    SharedState& operator=(const SharedState&) = delete;
++    SharedState(SharedState&&) = delete;
++    SharedState& operator=(SharedState&&) = delete;
++

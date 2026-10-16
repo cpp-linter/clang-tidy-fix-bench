@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Merges PARENT_LAST_BRANCH into default, the same effect as the human's [[fallthrough]] into default."}

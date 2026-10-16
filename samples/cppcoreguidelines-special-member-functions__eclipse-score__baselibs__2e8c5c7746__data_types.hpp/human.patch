@@ -1,0 +1,16 @@
+diff --git a/score/language/futurecpp/include/score/private/simd/data_types.hpp b/score/language/futurecpp/include/score/private/simd/data_types.hpp
+index 7f875aa..33da77a 100644
+--- a/score/language/futurecpp/include/score/private/simd/data_types.hpp
++++ b/score/language/futurecpp/include/score/private/simd/data_types.hpp
+@@ -293,0 +294 @@ public:
++    basic_mask(basic_mask&&) = delete;
+@@ -294,0 +296 @@ public:
++    basic_mask& operator=(basic_mask&&) = delete;
+@@ -644,0 +647 @@ public:
++    basic_vec(basic_vec&&) = delete;
+@@ -645,0 +649 @@ public:
++    basic_vec& operator=(basic_vec&&) = delete;
+@@ -689 +692,0 @@ inline basic_vec<T, Abi> SCORE_LANGUAGE_FUTURECPP_SIMD_ALWAYS_INLINE clamp(const
+-// NOLINTNEXTLINE(cppcoreguidelines-special-member-functions) Follows literaly the C++ standard
+@@ -690,0 +694 @@ template <typename M, typename T>
++// NOLINTNEXTLINE(cppcoreguidelines-special-member-functions) Follows literaly the C++ standard

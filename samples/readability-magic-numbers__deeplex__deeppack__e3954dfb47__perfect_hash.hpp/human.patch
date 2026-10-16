@@ -1,0 +1,13 @@
+diff --git a/src/dplx/dp/detail/perfect_hash.hpp b/src/dplx/dp/detail/perfect_hash.hpp
+index d7a6842..d84eaac 100644
+--- a/src/dplx/dp/detail/perfect_hash.hpp
++++ b/src/dplx/dp/detail/perfect_hash.hpp
+@@ -118 +118 @@ template <std::size_t N>
+-    requires(N <= 0xffU)
++    requires(N <= UINT8_MAX)
+@@ -124 +124 @@ template <std::size_t N>
+-    requires(0xffU < N && N <= 0xffffU)
++    requires(UINT8_MAX < N && N <= UINT16_MAX)
+@@ -130 +130 @@ template <std::size_t N>
+-    requires(0xffffU < N && N <= 0xffff'ffffU)
++    requires(UINT16_MAX < N && N <= UINT32_MAX)

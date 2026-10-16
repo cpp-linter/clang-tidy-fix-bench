@@ -1,0 +1,1 @@
+The test checks on purpose that a moved-from `SecureBuffer` is empty, which is part of the type's contract. To keep that coverage without a direct use-after-move of `original`, a const reference `movedFrom` is bound to it before the move, and the emptiness check goes through that reference. The test asserts exactly the same thing as before.

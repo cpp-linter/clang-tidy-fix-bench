@@ -1,0 +1,41 @@
+{
+ "id": "bugprone-narrowing-conversions__autowarefoundation__autoware_core__46ebf6f474__spline_interpolation_points_2d.cpp",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "autowarefoundation/autoware_core",
+ "sha": "46ebf6f4749a61d78ac8ee6e89821f0acf39c3b9",
+ "parent": "14592a9ed535a1599ce346726e570de41a86fd69",
+ "url": "https://github.com/autowarefoundation/autoware_core/commit/46ebf6f4749a61d78ac8ee6e89821f0acf39c3b9",
+ "license": "Apache-2.0",
+ "message": "fix(autoware_interpolation): fix bugprone-narrowing-conversions warnings (#935)",
+ "file": "common/autoware_interpolation/src/spline_interpolation_points_2d.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "Eigen/Core",
+  "autoware_utils_geometry/geometry.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 325,
+   "col": 34,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 325,
+   "col": 34,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 26,
+ "human_changed_lines": 2
+}

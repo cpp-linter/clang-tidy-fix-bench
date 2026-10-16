@@ -1,0 +1,1 @@
+`static const uint64_t dayToSeconds = 24 * 60 * 60;` multiplied in `int` and then widened to `uint64_t`. I changed the first literal to `24ULL`, so the whole product is computed in `unsigned long long` (the type behind `uint64_t`). The value (86400) and the later `days * dayToSeconds` computation are unchanged.

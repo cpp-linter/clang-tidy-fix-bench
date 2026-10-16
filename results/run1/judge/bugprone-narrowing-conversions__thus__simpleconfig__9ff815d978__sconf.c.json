@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same (int)strlen(name) casts at both call sites; only line wrapping differs."}

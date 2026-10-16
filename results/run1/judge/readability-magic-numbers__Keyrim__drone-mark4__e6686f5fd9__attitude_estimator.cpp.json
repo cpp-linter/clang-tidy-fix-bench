@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Replaces 2.0f with a local constexpr constant across the quaternion formulas; arithmetic is identical, though it misindents one line and lengthens lines past the formatter width, which clang-format would fix."}

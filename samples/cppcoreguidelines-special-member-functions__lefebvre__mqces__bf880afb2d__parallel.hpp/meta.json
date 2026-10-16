@@ -1,0 +1,38 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__lefebvre__mqces__bf880afb2d__parallel.hpp",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "cppcoreguidelines-special-member-functions",
+ "repo": "lefebvre/mqces",
+ "sha": "bf880afb2d4a0446578071b57a60095e4a9700fd",
+ "parent": "88ac4c25086904aeb8ad3677a31e75b2c8fab381",
+ "url": "https://github.com/lefebvre/mqces/commit/bf880afb2d4a0446578071b57a60095e4a9700fd",
+ "license": "Apache-2.0",
+ "message": "Fix clang-tidy errors in the parallel_for nesting guard",
+ "file": "mqces/detail/parallel.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 22,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'ParallelForBody' defines a non-default destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 22,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'ParallelForBody' defines a non-default destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 15
+}

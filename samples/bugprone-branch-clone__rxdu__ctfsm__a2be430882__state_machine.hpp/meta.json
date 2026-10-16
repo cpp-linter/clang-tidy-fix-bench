@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__rxdu__ctfsm__a2be430882__state_machine.hpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "rxdu/ctfsm",
+ "sha": "a2be4308823e3426497bdba244024e9fe5cfc0f5",
+ "parent": "46f1ecf51a97280bbb79368855e6bbf9ad3b314c",
+ "url": "https://github.com/rxdu/ctfsm/commit/a2be4308823e3426497bdba244024e9fe5cfc0f5",
+ "license": "Apache-2.0",
+ "message": "refactor: address clang-tidy findings",
+ "file": "include/ctfsm/state_machine.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 237,
+   "col": 47,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 237,
+   "col": 47,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

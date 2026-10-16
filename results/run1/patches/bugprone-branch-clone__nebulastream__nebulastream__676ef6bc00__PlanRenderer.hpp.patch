@@ -1,0 +1,11 @@
+--- a/nes-common/include/Util/PlanRenderer.hpp
++++ b/nes-common/include/Util/PlanRenderer.hpp
+@@ -506,7 +506,6 @@
+                         [[fallthrough]];
+                     case PARENT_LAST_BRANCH:
+-                        /// What we want is already there
+-                        break;
+                     default:
++                        /// What we want is already there (or nothing to do)
+                         break;
+                 }

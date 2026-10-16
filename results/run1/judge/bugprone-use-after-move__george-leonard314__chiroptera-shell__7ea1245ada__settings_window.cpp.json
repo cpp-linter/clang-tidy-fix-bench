@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Computes the lane path into a local before moving widgetName, the same change the human made."}

@@ -1,0 +1,11 @@
+--- a/src/binary_reader.h
++++ b/src/binary_reader.h
+@@ -11,4 +11,8 @@
+   explicit BinaryReader(const char* file_path);
+   ~BinaryReader();
++  BinaryReader(const BinaryReader&) = delete;
++  BinaryReader& operator=(const BinaryReader&) = delete;
++  BinaryReader(BinaryReader&&) = delete;
++  BinaryReader& operator=(BinaryReader&&) = delete;
+ 
+   bool Exists() const;

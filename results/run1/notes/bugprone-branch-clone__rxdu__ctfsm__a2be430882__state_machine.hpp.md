@@ -1,0 +1,1 @@
+In `TryRow`, the first two `if constexpr` branches (event does not match the row; wrong specificity for this pass) both `return false;`. I combined their conditions with `||` into one `if constexpr` and moved the two explanations into a comment. Both conditions are compile-time constants, so the same rows are skipped and behaviour is unchanged.
