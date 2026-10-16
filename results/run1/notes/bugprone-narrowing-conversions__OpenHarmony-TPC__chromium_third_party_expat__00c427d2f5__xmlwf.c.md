@@ -1,0 +1,1 @@
+In `xcsdup`, `numBytes` was an `int` holding `count * sizeof(XML_Char)`, which is a `size_t` expression. `numBytes` is only passed to `malloc` and `memcpy`, and both take `size_t`. I changed the declaration to `size_t numBytes;`, which removes the narrowing and the later sign conversions back to `size_t` without any cast. Behaviour is unchanged.

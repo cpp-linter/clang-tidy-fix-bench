@@ -1,0 +1,10 @@
+diff --git a/src/modules/gyro_fft/GyroFFT.cpp b/src/modules/gyro_fft/GyroFFT.cpp
+index bd794f0..6d0f905 100644
+--- a/src/modules/gyro_fft/GyroFFT.cpp
++++ b/src/modules/gyro_fft/GyroFFT.cpp
+@@ -442 +442 @@ void GyroFFT::FindPeaks(const hrt_abstime &timestamp_sample, int axis, q15_t *ff
+-	for (uint16_t fft_index = 2; fft_index < _imu_gyro_fft_len; fft_index += 2) {
++	for (size_t fft_index = 2; fft_index < static_cast<size_t>(_imu_gyro_fft_len); fft_index += 2) {
+@@ -449 +449 @@ void GyroFFT::FindPeaks(const hrt_abstime &timestamp_sample, int axis, q15_t *ff
+-		int bin_index = fft_index / 2;
++		size_t bin_index = fft_index / 2;

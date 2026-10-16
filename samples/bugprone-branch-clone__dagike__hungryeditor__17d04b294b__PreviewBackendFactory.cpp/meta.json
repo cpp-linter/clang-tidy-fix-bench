@@ -1,0 +1,43 @@
+{
+ "id": "bugprone-branch-clone__dagike__hungryeditor__17d04b294b__PreviewBackendFactory.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "dagike/hungryeditor",
+ "sha": "17d04b294b690222122ab93e5adf80ebedab8101",
+ "parent": "71681593b1eb6e449fd05ca00fed7170a15493cd",
+ "url": "https://github.com/dagike/hungryeditor/commit/17d04b294b690222122ab93e5adf80ebedab8101",
+ "license": "MIT",
+ "message": "fix: clang-tidy and release-benchmark CI failures",
+ "file": "src/preview/PreviewBackendFactory.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "QObject",
+  "QString",
+  "QUrl",
+  "QVariant"
+ ],
+ "warnings_before": [
+  {
+   "line": 26,
+   "col": 5,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 26,
+   "col": 5,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 4,
+ "human_changed_lines": 13
+}

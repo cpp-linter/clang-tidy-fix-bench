@@ -1,0 +1,16 @@
+diff --git a/test/t/util/test_memory_mapping.cpp b/test/t/util/test_memory_mapping.cpp
+index e3c12c0..24dfbd4 100644
+--- a/test/t/util/test_memory_mapping.cpp
++++ b/test/t/util/test_memory_mapping.cpp
+@@ -50 +50 @@ TEST_CASE("Anonymous mapping: moving a memory mapping should work") {
+-    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move) okay here, we are checking our own code
++    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move,hicpp-invalid-access-moved) okay here, we are checking our own code
+@@ -73 +73 @@ TEST_CASE("Anonymous mapping: move assignment should work") {
+-    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move) okay here, we are checking our own code
++    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move,hicpp-invalid-access-moved) okay here, we are checking our own code
+@@ -276 +276 @@ TEST_CASE("Typed anonymous mapping: moving a memory mapping should work") {
+-    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move) okay here, we are checking our own code
++    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move,hicpp-invalid-access-moved) okay here, we are checking our own code
+@@ -299 +299 @@ TEST_CASE("Typed anonymous mapping: move assignment should work") {
+-    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move) okay here, we are checking our own code
++    REQUIRE(!mapping1); // NOLINT(bugprone-use-after-move,misc-use-after-move,hicpp-invalid-access-moved) okay here, we are checking our own code

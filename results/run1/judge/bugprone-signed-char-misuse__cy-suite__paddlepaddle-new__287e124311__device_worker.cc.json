@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical static_cast<int>(static_cast<unsigned char>(...)); only line wrapping differs."}

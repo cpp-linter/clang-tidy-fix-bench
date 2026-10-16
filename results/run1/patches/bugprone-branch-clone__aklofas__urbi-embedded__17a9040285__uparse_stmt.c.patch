@@ -1,0 +1,14 @@
+--- a/src/parse/uparse_stmt.c
++++ b/src/parse/uparse_stmt.c
+@@ -1030,8 +1030,7 @@
+     /* Separator: `:` or `in`. */
+     UToken sep_tok = peek(p);
+-    if (sep_tok.type == TOK_COLON) {
+-        consume(p);
+-    } else if (sep_tok.type == TOK_IDENT &&
+-               ident_equals(sep_tok.u.str.start, sep_tok.u.str.len, "in", 2)) {
++    if (sep_tok.type == TOK_COLON ||
++        (sep_tok.type == TOK_IDENT &&
++         ident_equals(sep_tok.u.str.start, sep_tok.u.str.len, "in", 2))) {
+         consume(p);
+     } else {

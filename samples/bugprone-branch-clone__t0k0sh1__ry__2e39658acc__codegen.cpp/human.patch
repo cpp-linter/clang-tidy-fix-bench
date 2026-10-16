@@ -1,0 +1,10 @@
+diff --git a/src/codegen.cpp b/src/codegen.cpp
+index 6e52d05..4184be6 100644
+--- a/src/codegen.cpp
++++ b/src/codegen.cpp
+@@ -766 +766 @@ static void collectTestTargetsFromExpr(const ExprPtr &expr,
+-        } else if constexpr (std::is_same_v<T, std::unique_ptr<UnaryExpr>>) {
++        } else if constexpr (std::is_same_v<T, std::unique_ptr<UnaryExpr>>) { // NOLINT(bugprone-branch-clone)
+@@ -854 +854 @@ static void collectTestTargetsFromStmt(const StmtNode &stmt,
+-        } else if constexpr (std::is_same_v<T, AssignStmt>) {
++        } else if constexpr (std::is_same_v<T, AssignStmt>) { // NOLINT(bugprone-branch-clone)

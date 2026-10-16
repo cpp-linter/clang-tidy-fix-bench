@@ -1,0 +1,1 @@
+In `operator*` the element index `cords_[i] * stride_[i]` was computed in `int` and then added to the `std::size_t` accumulator `idx`. Casting the coordinate to `std::size_t` first makes the product be computed in `size_t`, which avoids `int` overflow for large tensors. Results are otherwise unchanged.

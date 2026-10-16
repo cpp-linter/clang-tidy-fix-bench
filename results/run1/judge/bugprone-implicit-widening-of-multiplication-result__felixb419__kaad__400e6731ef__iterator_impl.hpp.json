@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Human changed the size_t accumulator to int; candidate keeps size_t idx and casts the coordinate, computing the product in size_t with the same modular result, a valid fix."}

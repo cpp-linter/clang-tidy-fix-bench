@@ -1,0 +1,24 @@
+diff --git a/src/schneider_model.cpp b/src/schneider_model.cpp
+index d3d7812..603d0cf 100644
+--- a/src/schneider_model.cpp
++++ b/src/schneider_model.cpp
+@@ -77 +77,6 @@ void Schneider::one_step() {
+-    if (abs(x_d[0]) > 0.4F || abs(x_d[1]) > 0.4F) {
++    const bool joyEffective
++        = abs(x_d[0]) > joyEffectiveRangeMin || abs(x_d[1]) > joyEffectiveRangeMin;
++    const bool volumeEffective
++        = volumeEffectiveRange[0] < volume_ && volume_ < volumeEffectiveRange[1];
++
++    if (joyEffective) {
+@@ -80 +85 @@ void Schneider::one_step() {
+-    } else if (volume_ < 0.4F || 0.7F < volume_) {
++    } else if (volumeEffective) {
+@@ -142 +147 @@ void Schneider::cal_q() {
+-        if (diff < 1e-3) {
++        if (diff < diffEffectiveRangeMin) {
+@@ -169 +174 @@ void Schneider::set_q() {
+-    if (abs(this->q[0] <= 0.4F)) {
++    if (abs(this->q[0] <= joyEffectiveRangeMin)) {
+@@ -172 +177 @@ void Schneider::set_q() {
+-    if (abs(this->q[1] <= 0.4F)) {
++    if (abs(this->q[1] <= joyEffectiveRangeMin)) {

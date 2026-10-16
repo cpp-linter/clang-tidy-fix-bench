@@ -1,0 +1,1 @@
+{"verdict": "incorrect", "reason": "Binds a reference to the object before the move and reads it through the alias after the move; this only dodges the checker while still using the moved-from object, rather than an honest suppression or a real change."}

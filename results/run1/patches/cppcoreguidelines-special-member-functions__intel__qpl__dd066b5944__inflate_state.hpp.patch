@@ -1,0 +1,11 @@
+--- a/sources/middle-layer/compression/inflate/inflate_state.hpp
++++ b/sources/middle-layer/compression/inflate/inflate_state.hpp
+@@ -166,4 +166,8 @@
+ 
+     inflate_state& operator=(const inflate_state&) = delete;
++
++    inflate_state(inflate_state&&) noexcept = default;
++
++    inflate_state& operator=(inflate_state&&) = delete;
+ 
+     ~inflate_state() { this->execution_state_ptr->aecs_index ^= 1U; }

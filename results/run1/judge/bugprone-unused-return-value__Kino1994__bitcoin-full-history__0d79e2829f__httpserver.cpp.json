@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Binds the released pointer to a [[maybe_unused]] auto* local, same as the human fix apart from the name."}

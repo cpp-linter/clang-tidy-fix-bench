@@ -1,0 +1,11 @@
+diff --git a/nes-executable/tests/TestUtils/TestTaskQueue.cpp b/nes-executable/tests/TestUtils/TestTaskQueue.cpp
+index bc7738134..68e3905e8 100644
+--- a/nes-executable/tests/TestUtils/TestTaskQueue.cpp
++++ b/nes-executable/tests/TestUtils/TestTaskQueue.cpp
+@@ -43,4 +43,2 @@ bool TestPipelineExecutionContext::emitBuffer(const TupleBuffer& resultBuffer, c
+-        case ContinuationPolicy::NEVER: {
+-            resultBuffers->at(workerThreadId.getRawValue()).emplace_back(resultBuffer);
+-            break;
+-        }
++        case ContinuationPolicy::NEVER:
++            [[fallthrough]];

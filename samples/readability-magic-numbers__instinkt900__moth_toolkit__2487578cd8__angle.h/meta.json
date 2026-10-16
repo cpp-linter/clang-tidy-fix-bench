@@ -1,0 +1,52 @@
+{
+ "id": "readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__angle.h",
+ "check": "readability-magic-numbers",
+ "check_name": "cppcoreguidelines-avoid-magic-numbers",
+ "repo": "instinkt900/moth_toolkit",
+ "sha": "2487578cd802d600081c89cd5ea86ffd77ec49a1",
+ "parent": "e843f95c28a7c9c541c3fe25d72933cbdf1b364a",
+ "url": "https://github.com/instinkt900/moth_toolkit/commit/2487578cd802d600081c89cd5ea86ffd77ec49a1",
+ "license": "MIT",
+ "message": "fix(core): name the constants clang-tidy flagged as magic numbers",
+ "file": "modules/core/include/moth/core/angle.h",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 18,
+   "col": 33,
+   "sev": "warning",
+   "msg": "180.0f is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 23,
+   "col": 27,
+   "sev": "warning",
+   "msg": "180.0f is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 18,
+   "col": 33,
+   "sev": "warning",
+   "msg": "180.0f is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  },
+  {
+   "line": 23,
+   "col": 27,
+   "sev": "warning",
+   "msg": "180.0f is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 6
+}

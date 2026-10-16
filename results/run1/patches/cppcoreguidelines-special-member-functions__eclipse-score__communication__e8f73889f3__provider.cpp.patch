@@ -1,0 +1,9 @@
+--- a/score/mw/com/test/partial_restart/provider_restart/provider.cpp
++++ b/score/mw/com/test/partial_restart/provider_restart/provider.cpp
+@@ -48,4 +48,6 @@
+     CyclicEventSender(const CyclicEventSender& other) = delete;
+     CyclicEventSender& operator=(const CyclicEventSender& rhs) = delete;
++    CyclicEventSender(CyclicEventSender&& other) = delete;
++    CyclicEventSender& operator=(CyclicEventSender&& rhs) = delete;
+ 
+     void Start()

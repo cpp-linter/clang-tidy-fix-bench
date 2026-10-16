@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__BitConcepts__arbiter__ad61bed2e1__arbiter_action.c",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "BitConcepts/arbiter",
+ "sha": "ad61bed2e11cf25d74ba653ab8a8ee0ec8df1a7e",
+ "parent": "bab0feab45ff53192954edc3269239577e09a1e3",
+ "url": "https://github.com/BitConcepts/arbiter/commit/ad61bed2e11cf25d74ba653ab8a8ee0ec8df1a7e",
+ "license": "MIT",
+ "message": "fix: CI failures \u2014 clang-tidy (kernel.h for unlikely, branch-clone suppression), ruff import sort, merge duplicate action switch cases",
+ "file": "lib/arbiter_action.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 49,
+   "col": 3,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 49,
+   "col": 3,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 8
+}

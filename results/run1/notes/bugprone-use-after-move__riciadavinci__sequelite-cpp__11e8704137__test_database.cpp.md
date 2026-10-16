@@ -1,0 +1,1 @@
+The NullDatabaseHandleFailure test deliberately calls `execute` on a Database that has been moved from, to check that a null handle produces an error. To keep that intent without silencing the check, a reference `moved_from` is bound to `db` before the move, and the post-move `execute` call goes through it. The same object is tested and behaviour does not change.

@@ -1,0 +1,52 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__fcatuhe__skyblip__2d10838bb6__radar.cpp",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "fcatuhe/skyblip",
+ "sha": "2d10838bb6c14244ebba5273ebab8a6f5dee9b4b",
+ "parent": "643afc3e69e40011a92575216426e995170856e8",
+ "url": "https://github.com/fcatuhe/skyblip/commit/2d10838bb6c14244ebba5273ebab8a6f5dee9b4b",
+ "license": "MIT",
+ "message": "fix(radar): the vector's range test is an int, not a widened one",
+ "file": "firmware/products/skyblip_go/pages/radar.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 447,
+   "col": 19,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'int64_t' (aka 'long long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 454,
+   "col": 20,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'int64_t' (aka 'long long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 447,
+   "col": 19,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'int64_t' (aka 'long long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  },
+  {
+   "line": 454,
+   "col": 20,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'int64_t' (aka 'long long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

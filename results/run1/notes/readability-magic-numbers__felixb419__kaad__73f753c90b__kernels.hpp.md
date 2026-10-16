@@ -1,0 +1,1 @@
+Four kernels (Div, Pow, Sqrt, Log) computed their `epsilon` as `static_cast<T>(1000) * std::numeric_limits<T>::epsilon()`. I added one documented namespace-level constant, `inline constexpr int epsilon_scale = 1000;`, just before `Div`, and used `static_cast<T>(epsilon_scale)` in all four places. Every kernel ends up with the same epsilon as before.

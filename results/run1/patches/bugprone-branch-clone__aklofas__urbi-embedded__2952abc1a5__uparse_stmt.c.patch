@@ -1,0 +1,11 @@
+--- a/src/parse/uparse_stmt.c
++++ b/src/parse/uparse_stmt.c
+@@ -182,7 +182,5 @@
+          * silently accepted (closes PARSE-010). */
+         UToken sep = peek(p);
+-        if (sep.type == TOK_SEMI) {
+-            consume(p);
+-        } else if (sep.type == TOK_PIPE) {
++        if (sep.type == TOK_SEMI || sep.type == TOK_PIPE) {
+             consume(p);
+         } else {

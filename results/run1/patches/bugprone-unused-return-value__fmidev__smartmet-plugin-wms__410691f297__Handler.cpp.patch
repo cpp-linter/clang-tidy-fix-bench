@@ -1,0 +1,9 @@
+--- a/wms/wms/Handler.cpp
++++ b/wms/wms/Handler.cpp
+@@ -1373,5 +1373,5 @@
+ 
+     // Removing the animation file
+-    remove(fname);
++    (void)remove(fname);
+   }
+ 

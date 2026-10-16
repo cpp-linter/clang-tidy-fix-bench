@@ -1,0 +1,1 @@
+When the overload result is coerced to bool, the UVAL_INT and UVAL_BOOL branches both did `*out_bool = (result.v.i != 0);`. They were merged into one branch whose condition tests both kinds with `||`. Behaviour is unchanged.

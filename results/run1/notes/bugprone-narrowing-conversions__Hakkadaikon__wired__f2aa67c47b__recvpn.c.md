@@ -1,0 +1,1 @@
+`below_seen` returns `int`, but its expression `(r->bitmap >> (delta - 1)) & 1u` has type `u64`. Because of the `& 1u` mask the value can only be 0 or 1, so converting it to `int` is always safe. I added an explicit `(int)` cast on the masked result to make that intent clear. Behaviour is unchanged.

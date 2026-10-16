@@ -1,0 +1,1 @@
+`GETC()` returned `*next++` (a `char`) as an `int`. On signed-char platforms a 0xFF byte became -1, which is indistinguishable from EOF, and other high bytes became negative. The byte is now read through `static_cast<unsigned char>`, so the function returns 0..255 for data and EOF only at end of input, as the getc contract expects. This fixes a real bug.

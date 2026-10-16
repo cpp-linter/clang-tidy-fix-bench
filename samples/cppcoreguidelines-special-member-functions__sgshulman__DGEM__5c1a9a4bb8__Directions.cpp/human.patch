@@ -1,0 +1,11 @@
+diff --git a/source/Directions.cpp b/source/Directions.cpp
+index 17d01bc..f5581a2 100644
+--- a/source/Directions.cpp
++++ b/source/Directions.cpp
+@@ -137,0 +138,6 @@ namespace
++            IcosahedronMesh(IcosahedronMesh const& other) = delete;
++            IcosahedronMesh(IcosahedronMesh&& other) = delete;
++
++            IcosahedronMesh& operator=(IcosahedronMesh const& other) = delete;
++            IcosahedronMesh& operator=(IcosahedronMesh&& other) = delete;
++

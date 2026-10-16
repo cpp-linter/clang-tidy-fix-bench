@@ -1,0 +1,1 @@
+Each test called .value() on the std::optional<bool> returned by check_satisfiability. The result is now stored in a local and the assertion checks result.has_value() before dereferencing (has_value() && *result, or && !*result for unsatisfiable cases). An empty result now fails the test assertion instead of throwing bad_optional_access, which is the proper behaviour for a test.

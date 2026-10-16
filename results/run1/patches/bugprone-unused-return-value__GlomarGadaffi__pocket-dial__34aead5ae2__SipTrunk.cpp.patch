@@ -1,0 +1,19 @@
+--- a/src/SIP/SipTrunk.cpp
++++ b/src/SIP/SipTrunk.cpp
+@@ -845,11 +845,11 @@
+ 	{
+ 		SipRegistrationClient::Config rc;
+-		std::snprintf(rc.registrarHost, sizeof(rc.registrarHost), "%s", _cfg.host);
++		(void)std::snprintf(rc.registrarHost, sizeof(rc.registrarHost), "%s", _cfg.host);
+ 		rc.registrarPort = _cfg.port;
+-		std::snprintf(rc.domain,   sizeof(rc.domain),   "%s", _cfg.host);
+-		std::snprintf(rc.aorUser,  sizeof(rc.aorUser),  "%s", _cfg.fromUser);
+-		std::snprintf(rc.authUser, sizeof(rc.authUser), "%s",
++		(void)std::snprintf(rc.domain,   sizeof(rc.domain),   "%s", _cfg.host);
++		(void)std::snprintf(rc.aorUser,  sizeof(rc.aorUser),  "%s", _cfg.fromUser);
++		(void)std::snprintf(rc.authUser, sizeof(rc.authUser), "%s",
+ 			_cfg.authUser[0] ? _cfg.authUser : _cfg.fromUser);
+-		std::snprintf(rc.localIp,  sizeof(rc.localIp),  "%s", _env.localIp().c_str());
++		(void)std::snprintf(rc.localIp,  sizeof(rc.localIp),  "%s", _env.localIp().c_str());
+ 		rc.localPort = static_cast<uint16_t>(_env.serverPort());
+ 		if (!_reg.configure(rc, _secret)) return;

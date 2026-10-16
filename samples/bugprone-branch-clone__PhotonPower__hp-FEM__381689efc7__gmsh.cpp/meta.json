@@ -1,0 +1,43 @@
+{
+ "id": "bugprone-branch-clone__PhotonPower__hp-FEM__381689efc7__gmsh.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "PhotonPower/hp-FEM",
+ "sha": "381689efc790491ded39dbcf289f2018141ee7d3",
+ "parent": "5ab801b1a24df8d26d728920f25c49eabe4ed574",
+ "url": "https://github.com/PhotonPower/hp-FEM/commit/381689efc790491ded39dbcf289f2018141ee7d3",
+ "license": "MIT",
+ "message": "chore(tidy): allow single-line statement bodies, merge identical switch cases",
+ "file": "src/mesh/gmsh.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "Eigen/Core",
+  "Eigen/SparseCore",
+  "fmt/format.h",
+  "spdlog/spdlog.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 38,
+   "col": 5,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 38,
+   "col": 5,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 20,
+ "human_changed_lines": 1
+}

@@ -1,0 +1,8 @@
+diff --git a/src/cityjson/temporal_parser.cpp b/src/cityjson/temporal_parser.cpp
+index ef486e6..50a3a4c 100644
+--- a/src/cityjson/temporal_parser.cpp
++++ b/src/cityjson/temporal_parser.cpp
+@@ -122 +122,2 @@ int64_t ParseTimestampString(const std::string &timestamp_str) {
+-			    (static_cast<int64_t>(tz_hour) * 60 + (tz_hour < 0 ? -1 : 1) * tz_minute) * 60LL * 1000000LL;
++			    (static_cast<int64_t>(tz_hour) * 60 + static_cast<int64_t>(tz_hour < 0 ? -1 : 1) * tz_minute) * 60LL *
++			    1000000LL;

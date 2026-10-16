@@ -1,0 +1,9 @@
+--- a/src/odb/src/lef/lef/lefiDebug.cpp
++++ b/src/odb/src/lef/lef/lefiDebug.cpp
+@@ -138,5 +138,5 @@
+   to = lefData->shiftBuf;
+   while (*place) {
+-    int i = (int) *place;
++    int i = static_cast<unsigned char>(*place);
+     place++;
+     *to++ = lefiShift[i];

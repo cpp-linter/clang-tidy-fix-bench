@@ -1,0 +1,11 @@
+--- a/score/mw/com/test/common_test_resources/sample_sender_receiver.cpp
++++ b/score/mw/com/test/common_test_resources/sample_sender_receiver.cpp
+@@ -247,4 +247,8 @@
+   public:
+     TestDestructor(score::cpp::stop_source& stop_source) : stop_source_{stop_source} {}
++    TestDestructor(const TestDestructor&) = delete;
++    TestDestructor& operator=(const TestDestructor&) = delete;
++    TestDestructor(TestDestructor&&) = delete;
++    TestDestructor& operator=(TestDestructor&&) = delete;
+     ~TestDestructor()
+     {

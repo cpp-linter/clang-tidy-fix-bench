@@ -1,0 +1,10 @@
+diff --git a/modules/core/include/moth/core/transform.h b/modules/core/include/moth/core/transform.h
+index 60120d1..049b1f9 100644
+--- a/modules/core/include/moth/core/transform.h
++++ b/modules/core/include/moth/core/transform.h
+@@ -109,0 +110,2 @@ namespace moth::core {
++            // Below this the linear part is treated as singular and has no inverse.
++            constexpr float kSingularDeterminant = 1e-8f;
+@@ -111 +113 @@ namespace moth::core {
+-            if (std::abs(det) < 1e-8f) {
++            if (std::abs(det) < kSingularDeterminant) {

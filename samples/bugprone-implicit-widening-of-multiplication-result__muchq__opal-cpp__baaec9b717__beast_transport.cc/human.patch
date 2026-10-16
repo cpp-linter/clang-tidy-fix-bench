@@ -1,0 +1,11 @@
+diff --git a/runtime/src/http/beast_transport.cc b/runtime/src/http/beast_transport.cc
+index 01e6497..68c1d85 100644
+--- a/runtime/src/http/beast_transport.cc
++++ b/runtime/src/http/beast_transport.cc
+@@ -2194 +2194,5 @@ struct BeastHttpClient::State {
+-    std::array<char, 16 * 1024> scratch;
++    // The window each read fills before its piece goes to the sink (or into
++    // the buffered body): large enough that a megabyte is not a syscall
++    // storm, small enough to sit on the stack without a thought.
++    constexpr std::size_t kBodyWindowBytes = std::size_t{16} * 1024;
++    std::array<char, kBodyWindowBytes> scratch;

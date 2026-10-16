@@ -1,0 +1,52 @@
+{
+ "id": "bugprone-narrowing-conversions__thus__simpleconfig__9ff815d978__sconf.c",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "thus/simpleconfig",
+ "sha": "9ff815d9789bbb22900f228a3079a1d2b0641b1f",
+ "parent": "3238f5b2b828e679ac1d2da5aa37c2bdbd88dae7",
+ "url": "https://github.com/thus/simpleconfig/commit/9ff815d9789bbb22900f228a3079a1d2b0641b1f",
+ "license": "MIT",
+ "message": "Fix warnings from clang-tidy",
+ "file": "src/sconf.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 282,
+   "col": 64,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 321,
+   "col": 44,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 282,
+   "col": 64,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 321,
+   "col": 44,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 6
+}

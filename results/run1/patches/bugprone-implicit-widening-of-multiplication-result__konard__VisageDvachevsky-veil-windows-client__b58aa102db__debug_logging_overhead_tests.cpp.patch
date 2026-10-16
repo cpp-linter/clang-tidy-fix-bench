@@ -1,0 +1,9 @@
+--- a/tests/unit/debug_logging_overhead_tests.cpp
++++ b/tests/unit/debug_logging_overhead_tests.cpp
+@@ -150,5 +150,5 @@
+     std::vector<std::uint8_t> plaintext(30);
+     for (std::size_t i = 0; i < plaintext.size(); ++i) {
+-      plaintext[i] = static_cast<std::uint8_t>((msg * 30 + i) & 0xFF);
++      plaintext[i] = static_cast<std::uint8_t>((static_cast<std::size_t>(msg) * 30 + i) & 0xFF);
+     }
+ 

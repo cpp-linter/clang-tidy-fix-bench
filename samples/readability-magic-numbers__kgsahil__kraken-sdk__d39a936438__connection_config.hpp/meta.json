@@ -1,0 +1,94 @@
+{
+ "id": "readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__connection_config.hpp",
+ "check": "readability-magic-numbers",
+ "check_name": "readability-magic-numbers",
+ "repo": "kgsahil/kraken-sdk",
+ "sha": "d39a936438203adfce13e81834b8f28cad2e9961",
+ "parent": "e57f8673c61404d7e093304aadcad1a8b23e54f6",
+ "url": "https://github.com/kgsahil/kraken-sdk/commit/d39a936438203adfce13e81834b8f28cad2e9961",
+ "license": "MIT",
+ "message": "Fix clang-tidy errors and warnings",
+ "file": "include/kraken/connection_config.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 18,
+   "col": 47,
+   "sev": "warning",
+   "msg": "10000 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 19,
+   "col": 44,
+   "sev": "warning",
+   "msg": "30000 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 20,
+   "col": 45,
+   "sev": "warning",
+   "msg": "10000 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 21,
+   "col": 40,
+   "sev": "warning",
+   "msg": "30 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 22,
+   "col": 39,
+   "sev": "warning",
+   "msg": "10 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 18,
+   "col": 47,
+   "sev": "warning",
+   "msg": "10000 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 19,
+   "col": 44,
+   "sev": "warning",
+   "msg": "30000 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 20,
+   "col": 45,
+   "sev": "warning",
+   "msg": "10000 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 21,
+   "col": 40,
+   "sev": "warning",
+   "msg": "30 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 22,
+   "col": 39,
+   "sev": "warning",
+   "msg": "10 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 19
+}

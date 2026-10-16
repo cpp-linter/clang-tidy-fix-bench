@@ -1,0 +1,1 @@
+`default_logsize` was initialised with `16 * 1024`, an `int` product that is implicitly widened to `size_t`. I made the first operand `16ul`, so the product is computed in `unsigned long` (= `size_t`). The value is unchanged.

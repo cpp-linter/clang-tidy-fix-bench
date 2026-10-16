@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Checks signal() against SIG_ERR and logs with the file's existing LOG_WARN while continuing startup; stronger than the human (void) cast and behaviour-preserving on success."}

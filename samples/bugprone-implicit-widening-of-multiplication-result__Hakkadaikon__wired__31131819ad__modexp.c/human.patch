@@ -1,0 +1,10 @@
+diff --git a/src/bignum/modexp.c b/src/bignum/modexp.c
+index 6db5dfc..42c554f 100644
+--- a/src/bignum/modexp.c
++++ b/src/bignum/modexp.c
+@@ -71 +71 @@ static void modmul(quic_bn *r, const quic_bn *a, const quic_bn *b,
+-    for (usz i = QUIC_BN_LIMBS * 64; i > 0; i--)
++    for (usz i = (usz)QUIC_BN_LIMBS * 64; i > 0; i--)
+@@ -81 +81 @@ void quic_bn_modexp(quic_bn *out, const quic_bn *base,
+-    for (usz i = QUIC_BN_LIMBS * 64; i > 0; i--) {
++    for (usz i = (usz)QUIC_BN_LIMBS * 64; i > 0; i--) {

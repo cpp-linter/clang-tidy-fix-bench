@@ -1,0 +1,20 @@
+--- a/expat/tests/nsalloc_tests.c
++++ b/expat/tests/nsalloc_tests.c
+@@ -80,6 +80,6 @@
+                      "  <e xmlns=''/>\n"
+                      "</doc>";
+-  unsigned int i;
+-  const unsigned int max_alloc_count = 30;
++  int i;
++  const int max_alloc_count = 30;
+ 
+   for (i = 0; i < max_alloc_count; i++) {
+@@ -513,6 +513,6 @@
+         "  <e xmlns='' />\n"
+         "</doc>";
+-  unsigned i;
+-  const unsigned max_realloc_count = 10;
++  int i;
++  const int max_realloc_count = 10;
+ 
+   /* First, do a full parse that will leave bindings around */

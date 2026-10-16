@@ -1,0 +1,1 @@
+`kernels_dispatcher` is a singleton reached through `get_instance()`, with deleted copy operations and a defaulted destructor. The move constructor and move assignment operator are now also explicitly deleted, matching the existing style. They were already not implicitly declared, so behaviour is unchanged.

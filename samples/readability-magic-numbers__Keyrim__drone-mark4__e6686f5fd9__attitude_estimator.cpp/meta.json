@@ -1,0 +1,94 @@
+{
+ "id": "readability-magic-numbers__Keyrim__drone-mark4__e6686f5fd9__attitude_estimator.cpp",
+ "check": "readability-magic-numbers",
+ "check_name": "readability-magic-numbers",
+ "repo": "Keyrim/drone-mark4",
+ "sha": "e6686f5fd99273e86b0966e8ca0fcbd79c481436",
+ "parent": "2ec2bba21744d56d87222e632617f26a1148cc51",
+ "url": "https://github.com/Keyrim/drone-mark4/commit/e6686f5fd99273e86b0966e8ca0fcbd79c481436",
+ "license": "MIT",
+ "message": "style: satisfy clang-tidy on the telemetry additions",
+ "file": "software/components/flight-core/src/estimator/attitude_estimator.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 92,
+   "col": 26,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 96,
+   "col": 24,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 96,
+   "col": 63,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 99,
+   "col": 24,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 99,
+   "col": 63,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 92,
+   "col": 26,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 96,
+   "col": 24,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 96,
+   "col": 63,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 99,
+   "col": 24,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 99,
+   "col": 63,
+   "sev": "warning",
+   "msg": "2.0f is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 17
+}

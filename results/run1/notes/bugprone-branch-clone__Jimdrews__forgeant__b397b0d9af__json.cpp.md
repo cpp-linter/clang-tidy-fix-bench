@@ -1,0 +1,1 @@
+In the generic-to-Json visitor, the `bool` and `std::string` `if constexpr` branches both just `return Json{val};`. They were merged into one branch with condition `is_same_v<T, bool> || is_same_v<T, std::string>` and the separate string branch removed. The conditions are mutually exclusive type tests, so the resulting conversion is identical.

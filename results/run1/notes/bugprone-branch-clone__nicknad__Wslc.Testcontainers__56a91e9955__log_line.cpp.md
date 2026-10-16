@@ -1,0 +1,1 @@
+In `SourceName`, `case LogSource::System:` and `default:` both returned "system". I merged the `System` label into the `default` branch, keeping the comment about out-of-range enum values. Behaviour is unchanged.

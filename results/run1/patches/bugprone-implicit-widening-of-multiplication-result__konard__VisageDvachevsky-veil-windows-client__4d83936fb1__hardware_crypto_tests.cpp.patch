@@ -1,0 +1,9 @@
+--- a/tests/unit/hardware_crypto_tests.cpp
++++ b/tests/unit/hardware_crypto_tests.cpp
+@@ -364,5 +364,5 @@
+ 
+   // Create large plaintext (1MB)
+-  const std::size_t size = 1024 * 1024;
++  const std::size_t size = std::size_t{1024} * 1024;
+   std::vector<std::uint8_t> plaintext(size);
+   for (std::size_t i = 0; i < size; ++i) {

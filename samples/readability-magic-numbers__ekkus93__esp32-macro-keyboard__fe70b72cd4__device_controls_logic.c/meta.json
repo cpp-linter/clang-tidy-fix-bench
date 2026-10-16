@@ -1,0 +1,150 @@
+{
+ "id": "readability-magic-numbers__ekkus93__esp32-macro-keyboard__fe70b72cd4__device_controls_logic.c",
+ "check": "readability-magic-numbers",
+ "check_name": "readability-magic-numbers",
+ "repo": "ekkus93/esp32-macro-keyboard",
+ "sha": "fe70b72cd46a50365589ae3d7c096f54ae8dca4c",
+ "parent": "6eab57bb37c12f4139d07471d77066b7678017d2",
+ "url": "https://github.com/ekkus93/esp32-macro-keyboard/commit/fe70b72cd46a50365589ae3d7c096f54ae8dca4c",
+ "license": "Apache-2.0",
+ "message": "refactor(firmware): name magic-number constants + guard cJSON derefs",
+ "file": "firmware/components/device_controls/device_controls_logic.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 35,
+   "col": 30,
+   "sev": "warning",
+   "msg": "1000U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 35,
+   "col": 39,
+   "sev": "warning",
+   "msg": "250U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 37,
+   "col": 30,
+   "sev": "warning",
+   "msg": "200U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 37,
+   "col": 38,
+   "sev": "warning",
+   "msg": "100U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 40,
+   "col": 27,
+   "sev": "warning",
+   "msg": "250U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 40,
+   "col": 48,
+   "sev": "warning",
+   "msg": "500U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 40,
+   "col": 67,
+   "sev": "warning",
+   "msg": "750U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 43,
+   "col": 30,
+   "sev": "warning",
+   "msg": "500U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 43,
+   "col": 38,
+   "sev": "warning",
+   "msg": "250U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 35,
+   "col": 30,
+   "sev": "warning",
+   "msg": "1000U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 35,
+   "col": 39,
+   "sev": "warning",
+   "msg": "250U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 37,
+   "col": 30,
+   "sev": "warning",
+   "msg": "200U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 37,
+   "col": 38,
+   "sev": "warning",
+   "msg": "100U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 40,
+   "col": 27,
+   "sev": "warning",
+   "msg": "250U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 40,
+   "col": 48,
+   "sev": "warning",
+   "msg": "500U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 40,
+   "col": 67,
+   "sev": "warning",
+   "msg": "750U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 43,
+   "col": 30,
+   "sev": "warning",
+   "msg": "500U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 43,
+   "col": 38,
+   "sev": "warning",
+   "msg": "250U is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 24
+}

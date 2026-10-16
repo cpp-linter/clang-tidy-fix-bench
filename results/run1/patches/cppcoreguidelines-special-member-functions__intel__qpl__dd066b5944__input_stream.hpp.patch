@@ -1,0 +1,9 @@
+--- a/sources/middle-layer/analytics/input_stream.hpp
++++ b/sources/middle-layer/analytics/input_stream.hpp
+@@ -53,4 +53,6 @@
+ 
+         auto operator=(unpack_result_t&& other) noexcept -> unpack_result_t& = default;
++
++        ~unpack_result_t() noexcept = default;
+     };
+ 

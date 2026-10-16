@@ -1,0 +1,8 @@
+diff --git a/include/kaad/graph/nodes/binary_flex.hpp b/include/kaad/graph/nodes/binary_flex.hpp
+index b8cf7fe..5561ec6 100644
+--- a/include/kaad/graph/nodes/binary_flex.hpp
++++ b/include/kaad/graph/nodes/binary_flex.hpp
+@@ -73 +73,2 @@ template <class Kernel> class Node_binary_flex : public INode {
+-            this->C_offset[i] = value.shape()[i] * this->value_stride[i];
++            this->C_offset[i] = static_cast<std::size_t>(value.shape()[i]) *
++                                this->value_stride[i];

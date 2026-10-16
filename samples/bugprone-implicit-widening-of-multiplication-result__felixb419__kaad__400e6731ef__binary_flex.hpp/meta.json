@@ -1,0 +1,40 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__binary_flex.hpp",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "felixb419/kaad",
+ "sha": "400e6731ef3848694c662a785a8f9fa7ed7df9ca",
+ "parent": "ae8bf34fffcb39a964a2c405be8cc4b354725126",
+ "url": "https://github.com/felixb419/kaad/commit/400e6731ef3848694c662a785a8f9fa7ed7df9ca",
+ "license": "MIT",
+ "message": "fix: [bugprone-implicit-widening-of-multiplication-result]",
+ "file": "include/kaad/graph/nodes/binary_flex.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "bits/utility.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 73,
+   "col": 33,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'value_type' (aka 'unsigned long') of a multiplication performed in type 'value_type' (aka 'int')",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 73,
+   "col": 33,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'value_type' (aka 'unsigned long') of a multiplication performed in type 'value_type' (aka 'int')",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 3
+}

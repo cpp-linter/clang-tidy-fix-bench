@@ -1,0 +1,9 @@
+--- a/certificate.cpp
++++ b/certificate.cpp
+@@ -550,5 +550,5 @@
+     ASN1_TIME_set_string(epoch.get(), "19700101000000Z");
+ 
+-    static const uint64_t dayToSeconds = 24 * 60 * 60;
++    static const uint64_t dayToSeconds = 24ULL * 60 * 60;
+     ASN1_TIME* notAfter = X509_get_notAfter(&cert);
+     ASN1_TIME_diff(&days, &secs, epoch.get(), notAfter);

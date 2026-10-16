@@ -1,0 +1,10 @@
+diff --git a/modules/task/tests/task_tests.cpp b/modules/task/tests/task_tests.cpp
+index de15abc..a275546 100644
+--- a/modules/task/tests/task_tests.cpp
++++ b/modules/task/tests/task_tests.cpp
+@@ -29,0 +30,5 @@ class ScopedFile {
++  ScopedFile(const ScopedFile &) = delete;
++  ScopedFile(ScopedFile &&) = delete;
++  ScopedFile &operator=(const ScopedFile &) = delete;
++  ScopedFile &operator=(ScopedFile &&) = delete;
++

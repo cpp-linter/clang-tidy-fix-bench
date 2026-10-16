@@ -1,0 +1,12 @@
+--- a/src/vm/uvm_op_overload.c
++++ b/src/vm/uvm_op_overload.c
+@@ -266,7 +266,6 @@
+ 
+     /* Coerce result to bool.  int/bool non-zero → true; nil/void → false. */
+-    if (result.kind == (uint8_t)UVAL_INT) {
+-        *out_bool = (result.v.i != 0);
+-    } else if (result.kind == (uint8_t)UVAL_BOOL) {
++    if (result.kind == (uint8_t)UVAL_INT
++            || result.kind == (uint8_t)UVAL_BOOL) {
+         *out_bool = (result.v.i != 0);
+     } else if (result.kind == (uint8_t)UVAL_NIL

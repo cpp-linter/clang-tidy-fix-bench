@@ -1,0 +1,10 @@
+--- a/cxx/ClassIo.cxx
++++ b/cxx/ClassIo.cxx
+@@ -188,5 +188,6 @@
+ 	classIoHexOsSzTest("", 0, true /* test that `value.empty()` produces 0 hexits */);
+ 	classIoHexOsSzTest("22", 4, true /* test that 2 chars produces 4 hexits */);
+-	classIoHexOsSzTest("uwu", 6, true /* test that 3 chars produces 6 hexits */);
++	const size_t uwuHexSz = 6; /* 3 chars produce 6 hexits */
++	classIoHexOsSzTest("uwu", uwuHexSz, true /* test that 3 chars produces 6 hexits */);
+ 	classIoHexOsSzTest(std::string({'\0'}), 2, false /* test that char == 0x00 produces 2 hexits */);
+ 	classIoHexOsSzTest("\010", 2, false /* test that char <= 0x10 produces 2 hexits */);

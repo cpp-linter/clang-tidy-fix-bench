@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same fix of widening the four loop counters, using unsigned int (the bound's type) instead of size_t."}

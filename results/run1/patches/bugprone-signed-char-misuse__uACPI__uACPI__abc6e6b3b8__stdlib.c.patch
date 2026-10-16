@@ -1,0 +1,9 @@
+--- a/source/stdlib.c
++++ b/source/stdlib.c
+@@ -604,5 +604,5 @@
+         if (consume(&fmt, "hh")) {
+             if (consume(&fmt, "d") || consume(&fmt, "i")) {
+-                value = (signed char)uacpi_va_arg(vlist, int);
++                value = (uacpi_i64)(signed char)uacpi_va_arg(vlist, int);
+                 fm.is_signed = UACPI_TRUE;
+             } else if (consume_one_of(&fmt, "oxXu", &flag)) {

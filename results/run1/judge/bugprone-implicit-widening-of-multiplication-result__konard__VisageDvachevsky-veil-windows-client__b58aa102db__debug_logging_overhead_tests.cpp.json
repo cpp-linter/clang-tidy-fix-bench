@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Human changed the loop variable to size_t; candidate casts msg to size_t at the multiplication, giving identical bytes with a more local change."}

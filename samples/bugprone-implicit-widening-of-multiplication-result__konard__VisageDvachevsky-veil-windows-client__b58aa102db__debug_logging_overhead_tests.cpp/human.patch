@@ -1,0 +1,10 @@
+diff --git a/tests/unit/debug_logging_overhead_tests.cpp b/tests/unit/debug_logging_overhead_tests.cpp
+index d71fb17..79914a7 100644
+--- a/tests/unit/debug_logging_overhead_tests.cpp
++++ b/tests/unit/debug_logging_overhead_tests.cpp
+@@ -149 +149 @@ TEST_F(DebugLoggingOverheadTest,
+-  for (int msg = 0; msg < 3; ++msg) {
++  for (std::size_t msg = 0; msg < 3; ++msg) {
+@@ -152 +152 @@ TEST_F(DebugLoggingOverheadTest,
+-      plaintext[i] = static_cast<std::uint8_t>((msg * 30 + i) & 0xFF);
++      plaintext[i] = static_cast<std::uint8_t>((msg * 30U + i) & 0xFFU);

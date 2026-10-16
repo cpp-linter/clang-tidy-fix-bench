@@ -1,0 +1,1 @@
+The MoveConstruction test deliberately checks that an optional_reference is still engaged after being "moved" (moving it is just a pointer copy). To keep that check without using the moved-from variable name, a const reference `moved_from` is bound to `ref1` before the move, and the final `EXPECT_TRUE` goes through it. The same object is tested and behaviour does not change.

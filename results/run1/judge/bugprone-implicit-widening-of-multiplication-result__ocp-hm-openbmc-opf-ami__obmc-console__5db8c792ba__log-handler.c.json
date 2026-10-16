@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same ul-suffix approach as the human fix; product computed in unsigned long with an unchanged value."}

@@ -1,0 +1,7 @@
+diff --git a/src/tss2-esys/esys_iutil.c b/src/tss2-esys/esys_iutil.c
+index 42b55c4..3b5b90a 100644
+--- a/src/tss2-esys/esys_iutil.c
++++ b/src/tss2-esys/esys_iutil.c
+@@ -1056 +1056 @@ iesys_compute_bound_entity(const TPM2B_NAME * name,
+-    UINT16 i;
++    size_t i;

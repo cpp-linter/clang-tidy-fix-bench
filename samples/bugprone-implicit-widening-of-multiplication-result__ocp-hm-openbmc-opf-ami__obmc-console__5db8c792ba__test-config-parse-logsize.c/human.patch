@@ -1,0 +1,16 @@
+diff --git a/test/test-config-parse-logsize.c b/test/test-config-parse-logsize.c
+index 482932e..9bd4f79 100644
+--- a/test/test-config-parse-logsize.c
++++ b/test/test-config-parse-logsize.c
+@@ -24 +24 @@ void test_config_parse_logsize(void)
+-		{ "4k", 4 * 1024, 0 },
++		{ "4k", 4ul * 1024ul, 0 },
+@@ -29,4 +29,4 @@ void test_config_parse_logsize(void)
+-		{ " 10k", 10 * 1024, 0 }, /* Leading spaces trimmed */
+-		{ "10k ", 10 * 1024, 0 }, /* Trailing spaces trimmed */
+-		{ "\r\t10k \r\t", 10 * 1024, 0 }, /* Spaces trimmed */
+-		{ " 10 kB ", 10 * 1024, 0 }, /* Spaces trimmed */
++		{ " 10k", 10ul * 1024ul, 0 }, /* Leading spaces trimmed */
++		{ "10k ", 10ul * 1024ul, 0 }, /* Trailing spaces trimmed */
++		{ "\r\t10k \r\t", 10ul * 1024ul, 0 }, /* Spaces trimmed */
++		{ " 10 kB ", 10ul * 1024ul, 0 }, /* Spaces trimmed */

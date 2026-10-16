@@ -1,0 +1,8 @@
+diff --git a/src/routing/wrapper.h b/src/routing/wrapper.h
+index 4ef2b0c..f41b5ef 100644
+--- a/src/routing/wrapper.h
++++ b/src/routing/wrapper.h
+@@ -39 +39,2 @@ protected:
+-    return static_cast<UserCost>(value + 0.5);
++    constexpr double round_increment = 0.5;
++    return static_cast<UserCost>(value + round_increment);

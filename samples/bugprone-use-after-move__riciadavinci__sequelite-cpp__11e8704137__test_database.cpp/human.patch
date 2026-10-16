@@ -1,0 +1,7 @@
+diff --git a/tests/test_database.cpp b/tests/test_database.cpp
+index a590c7a..ec61635 100644
+--- a/tests/test_database.cpp
++++ b/tests/test_database.cpp
+@@ -155 +155 @@ TEST(DatabaseExecutionTest, NullDatabaseHandleFailure) {
+-    auto result = db.execute("CREATE TABLE test (id INT);");
++    auto result = db.execute("CREATE TABLE test (id INT);"); // NOLINT(bugprone-use-after-move)

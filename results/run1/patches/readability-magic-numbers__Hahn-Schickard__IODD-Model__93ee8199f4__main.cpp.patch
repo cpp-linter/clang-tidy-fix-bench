@@ -1,0 +1,10 @@
+--- a/sources/Example/main.cpp
++++ b/sources/Example/main.cpp
+@@ -165,5 +165,6 @@
+     }
+ 
+-    vector<uint8_t> bytes = {0x00, 0xCD}; // fake input date
++    constexpr uint8_t fake_input_byte = 0xCD;
++    vector<uint8_t> bytes = {0x00, fake_input_byte}; // fake input date
+     auto descriptor = repo->getDescriptor("310", "375");
+     auto menu = descriptor->getObserverUI()->getMenu("M_MR_SR_Observe_C");

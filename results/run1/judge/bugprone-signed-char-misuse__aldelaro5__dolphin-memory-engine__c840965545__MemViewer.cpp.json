@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same conversion through unsigned char (only const and brace-init differ); the >0x7E/<0x20 filtering result is unchanged."}

@@ -1,0 +1,40 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__fengjiran__AetherMind__4d9fc06f31__backend_registry.h",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "cppcoreguidelines-special-member-functions",
+ "repo": "fengjiran/AetherMind",
+ "sha": "4d9fc06f31bf294346bf118152cb4a215cd8f47e",
+ "parent": "4b5f1688318dd8f129c3580a8862fbad73869313",
+ "url": "https://github.com/fengjiran/AetherMind/commit/4d9fc06f31bf294346bf118152cb4a215cd8f47e",
+ "license": "Apache-2.0",
+ "message": "style(backend): add AM_NODISCARD and default destructor",
+ "file": "include/aethermind/backend/backend_registry.h",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "spdlog/spdlog.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 14,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'BackendRegistry' defines a copy constructor, a copy assignment operator, a move constructor and a move assignment operator but does not define a destructor",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 14,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'BackendRegistry' defines a copy constructor, a copy assignment operator, a move constructor and a move assignment operator but does not define a destructor",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 1
+}

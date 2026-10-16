@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-narrowing-conversions__libexpat__libexpat__0c5b205a01__xmlwf.c",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "libexpat/libexpat",
+ "sha": "0c5b205a013ac576ea19579fa3d7d3bf812c62e3",
+ "parent": "57a7643252b8afc34da124315e4194a942d804ea",
+ "url": "https://github.com/libexpat/libexpat/commit/0c5b205a013ac576ea19579fa3d7d3bf812c62e3",
+ "license": "MIT",
+ "message": "xmlwf: Address clang-tidy warning bugprone-narrowing-conversions",
+ "file": "expat/xmlwf/xmlwf.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 314,
+   "col": 14,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 314,
+   "col": 14,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

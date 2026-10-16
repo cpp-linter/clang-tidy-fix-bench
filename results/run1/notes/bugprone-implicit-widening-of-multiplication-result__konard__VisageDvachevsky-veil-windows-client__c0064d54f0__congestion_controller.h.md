@@ -1,0 +1,1 @@
+The default initialisers `10 * 1400`, `64 * 1024 * 1024` (max_cwnd) and `64 * 1024 * 1024` (initial_ssthresh) were computed in `int` and then widened to the `std::size_t` members. Making the first factor `std::size_t{...}` evaluates each product in `std::size_t`. All default values are unchanged.

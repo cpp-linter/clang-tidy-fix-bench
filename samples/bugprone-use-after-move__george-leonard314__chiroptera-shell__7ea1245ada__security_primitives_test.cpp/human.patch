@@ -1,0 +1,7 @@
+diff --git a/tests/security_primitives_test.cpp b/tests/security_primitives_test.cpp
+index ca3bfed..967310f 100644
+--- a/tests/security_primitives_test.cpp
++++ b/tests/security_primitives_test.cpp
+@@ -101,0 +102,2 @@ namespace {
++    // Asserting the moved-from buffer is wiped is the point of this check.
++    // NOLINTNEXTLINE(bugprone-use-after-move)

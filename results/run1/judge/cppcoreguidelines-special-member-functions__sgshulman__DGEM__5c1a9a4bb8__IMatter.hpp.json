@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Uses the protected-defaulted idiom for a polymorphic interface instead of public deletes; it keeps derived classes' copy/move behaviour unchanged, prevents slicing, and is a sound, mergeable fix."}

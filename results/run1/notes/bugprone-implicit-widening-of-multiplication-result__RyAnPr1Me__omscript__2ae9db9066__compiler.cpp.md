@@ -1,0 +1,1 @@
+The 100MB file-size limit `100 * 1024 * 1024` was computed in `int` and then widened to `uintmax_t` for the comparison with `std::filesystem::file_size`. Making the first operand `std::uintmax_t{100}` performs the whole multiplication in the target type; the value (104857600) and behaviour are unchanged.

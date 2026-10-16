@@ -1,0 +1,9 @@
+--- a/mqces/detail/parallel.hpp
++++ b/mqces/detail/parallel.hpp
+@@ -26,4 +26,6 @@
+   ParallelForBody(const ParallelForBody&) = delete;
+   ParallelForBody& operator=(const ParallelForBody&) = delete;
++  ParallelForBody(ParallelForBody&&) = delete;
++  ParallelForBody& operator=(ParallelForBody&&) = delete;
+ };
+ 

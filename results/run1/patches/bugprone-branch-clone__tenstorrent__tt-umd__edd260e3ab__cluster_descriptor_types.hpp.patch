@@ -1,0 +1,8 @@
+--- a/device/api/umd/device/types/cluster_descriptor_types.hpp
++++ b/device/api/umd/device/types/cluster_descriptor_types.hpp
+@@ -194,5 +194,4 @@
+             return 2;
+         case BoardType::P100:
+-            return 1;
+         case BoardType::P150:
+             return 1;

@@ -1,0 +1,1 @@
+Three expressions multiplied the double time_step by a size_t index (path_idx, path_idx - 1, and i), implicitly converting size_t to double. Each index is now wrapped in static_cast<double>(...), making the conversion explicit. path_idx starts at 1, so path_idx - 1 never wraps; the computed times are identical.

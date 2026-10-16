@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Deletes the move operations where the human defaulted them; the class has no members and its destructor tears down a global DB, so non-movable is a sound choice and nothing moves it."}

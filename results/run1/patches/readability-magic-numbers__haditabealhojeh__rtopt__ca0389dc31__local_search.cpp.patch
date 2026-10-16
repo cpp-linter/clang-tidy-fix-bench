@@ -1,0 +1,20 @@
+--- a/src/algorithms/local_search/local_search.cpp
++++ b/src/algorithms/local_search/local_search.cpp
+@@ -1153,7 +1153,8 @@
+ 
+     // IntraCrossExchange stuff
++    constexpr std::size_t intra_cross_exchange_min_route_size = 5;
+     for (const auto& s_t : s_t_pairs) {
+       if (s_t.first != s_t.second or best_priorities[s_t.first] > 0 or
+-          _sol[s_t.first].size() < 5) {
++          _sol[s_t.first].size() < intra_cross_exchange_min_route_size) {
+         continue;
+       }
+@@ -1899,5 +1900,6 @@
+ 
+       // Refill jobs.
+-      try_job_additions(_all_routes, 1.5);
++      constexpr double refill_regret_coeff = 1.5;
++      try_job_additions(_all_routes, refill_regret_coeff);
+ 
+       // Update everything except what has already been updated in

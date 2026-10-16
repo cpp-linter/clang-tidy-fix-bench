@@ -1,0 +1,80 @@
+{
+ "id": "readability-magic-numbers__felixb419__kaad__73f753c90b__check_tensor.hpp",
+ "check": "readability-magic-numbers",
+ "check_name": "readability-magic-numbers",
+ "repo": "felixb419/kaad",
+ "sha": "73f753c90b57bda43031f6a92f242044cd238641",
+ "parent": "c4593851582ffcfb5f2b6bf18b17b85d04fb8c87",
+ "url": "https://github.com/felixb419/kaad/commit/73f753c90b57bda43031f6a92f242044cd238641",
+ "license": "MIT",
+ "message": "refactor: [readability-magic-numbers]",
+ "file": "tests/check_tensor.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 25,
+   "col": 35,
+   "sev": "warning",
+   "msg": "1e-6 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 26,
+   "col": 35,
+   "sev": "warning",
+   "msg": "1e-6 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 28,
+   "col": 19,
+   "sev": "warning",
+   "msg": "1e-12 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 29,
+   "col": 19,
+   "sev": "warning",
+   "msg": "1e-12 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 25,
+   "col": 35,
+   "sev": "warning",
+   "msg": "1e-6 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 26,
+   "col": 35,
+   "sev": "warning",
+   "msg": "1e-6 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 28,
+   "col": 19,
+   "sev": "warning",
+   "msg": "1e-12 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 29,
+   "col": 19,
+   "sev": "warning",
+   "msg": "1e-12 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 9
+}

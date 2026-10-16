@@ -1,0 +1,14 @@
+--- a/core/include/guara_rta/monitor_table.hpp
++++ b/core/include/guara_rta/monitor_table.hpp
+@@ -115,10 +115,5 @@
+       const bool seen = s.t_recv_s > -std::numeric_limits<double>::infinity();
+       const bool stale = !seen || t_s - s.t_recv_s > max_age_s_;
+-      if (s.expected && (stale || s.malformed || !s.inputs_complete)) {
+-        out.invalid = true;
+-        if (out.first_invalid_id == nullptr) {
+-          out.first_invalid_id = s.id.data();
+-        }
+-      } else if (s.malformed) {
++      if ((s.expected && (stale || s.malformed || !s.inputs_complete)) || s.malformed) {
+         out.invalid = true;
+         if (out.first_invalid_id == nullptr) {

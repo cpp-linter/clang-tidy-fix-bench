@@ -1,0 +1,41 @@
+{
+ "id": "bugprone-branch-clone__bansan85__ntfs-browser__ec6a43498b__fake-ntfs-image.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "bansan85/ntfs-browser",
+ "sha": "ec6a43498b19d92b2451fb98add6a4394d0ea82d",
+ "parent": "283b1580ed473f6117b1ab26cee108d475d745ec",
+ "url": "https://github.com/bansan85/ntfs-browser/commit/ec6a43498b19d92b2451fb98add6a4394d0ea82d",
+ "license": "BSD-3-Clause",
+ "message": "refactor: merge identical upcase branches",
+ "file": "NTFSLibTests/unit-tests/fake-ntfs-image.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "gsl/narrow",
+  "ntfs-browser/export.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 3568,
+   "col": 5,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 3568,
+   "col": 5,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 9
+}

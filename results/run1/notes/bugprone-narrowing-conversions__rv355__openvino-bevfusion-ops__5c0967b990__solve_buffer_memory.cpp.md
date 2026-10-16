@@ -1,0 +1,1 @@
+utils::div_up(box.size, byte_alignment) mixes the int64_t box size with the unsigned byte_alignment, so its result type is unsigned long long, which was implicitly narrowed back into the int64_t Box::size. The result is now converted explicitly with static_cast<int64_t>(...). Buffer sizes are non-negative and far below INT64_MAX, so the value is unchanged.

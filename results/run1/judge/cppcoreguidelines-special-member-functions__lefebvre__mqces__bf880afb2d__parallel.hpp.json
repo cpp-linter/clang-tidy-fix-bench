@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Deletes the move operations exactly as the human did; the human's thread_local-to-function change is unrelated to this warning."}

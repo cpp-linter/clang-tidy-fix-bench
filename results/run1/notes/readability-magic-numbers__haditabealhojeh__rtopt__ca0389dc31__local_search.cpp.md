@@ -1,0 +1,1 @@
+Two literals were magic numbers. The minimum route size `5` for IntraCrossExchange is now `constexpr std::size_t intra_cross_exchange_min_route_size = 5;`, declared just before that loop. The regret coefficient `1.5` passed to `try_job_additions` during the refill step is now `constexpr double refill_regret_coeff = 1.5;`. Behaviour is unchanged.

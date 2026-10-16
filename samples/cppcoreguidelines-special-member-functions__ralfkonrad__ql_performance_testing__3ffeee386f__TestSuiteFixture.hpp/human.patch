@@ -1,0 +1,8 @@
+diff --git a/rke/testsuite/TestSuiteFixture.hpp b/rke/testsuite/TestSuiteFixture.hpp
+index 9406043..5a0f7da 100644
+--- a/rke/testsuite/TestSuiteFixture.hpp
++++ b/rke/testsuite/TestSuiteFixture.hpp
+@@ -15,2 +15 @@ namespace RKE::QL::External {
+-    class TestSuiteFixture {
+-        // NOLINT(cppcoreguidelines-special-member-functions)
++    class TestSuiteFixture { // NOLINT(cppcoreguidelines-special-member-functions)

@@ -1,0 +1,9 @@
+--- a/console-server.c
++++ b/console-server.c
+@@ -83,5 +83,5 @@
+ 
+ /* size of the shared backlog ringbuffer */
+-const size_t buffer_size = 128 * 1024;
++const size_t buffer_size = 128ul * 1024;
+ 
+ /* state shared with the signal handler */

@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "The four (int) casts are identical to the human fix. For the allocation loop the candidate changes i/max_alloc_count to int instead of casting; this is correct and keeps behaviour."}

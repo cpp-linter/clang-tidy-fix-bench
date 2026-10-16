@@ -1,0 +1,47 @@
+{
+ "id": "bugprone-unused-return-value__trainberks-maker__bitstar-core__faa23738fc__httpserver.cpp",
+ "check": "bugprone-unused-return-value",
+ "check_name": "bugprone-unused-return-value",
+ "repo": "trainberks-maker/bitstar-core",
+ "sha": "faa23738fc2576e412edb04a4004fab537a3098e",
+ "parent": "fa114be27b17ed32c1d9a7106f313a0df8755fa2",
+ "url": "https://github.com/trainberks-maker/bitstar-core/commit/faa23738fc2576e412edb04a4004fab537a3098e",
+ "license": "MIT",
+ "message": "refactor: Enable clang-tidy bugprone-unused-return-value",
+ "file": "src/httpserver.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "event2/buffer.h",
+  "event2/bufferevent.h",
+  "event2/event.h",
+  "event2/http.h",
+  "event2/http_struct.h",
+  "event2/keyvalq_struct.h",
+  "event2/thread.h",
+  "event2/util.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 333,
+   "col": 13,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "bugprone-unused-return-value"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 333,
+   "col": 13,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "bugprone-unused-return-value"
+  }
+ ],
+ "errors_before": 71,
+ "human_changed_lines": 2
+}

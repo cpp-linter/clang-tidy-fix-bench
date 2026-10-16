@@ -1,0 +1,1 @@
+MatterStub is a test stub with a const data member, used only through std::make_shared. I deleted its copy and move constructors and assignment operators next to the defaulted override destructor. This completes the rule of five without affecting the tests.

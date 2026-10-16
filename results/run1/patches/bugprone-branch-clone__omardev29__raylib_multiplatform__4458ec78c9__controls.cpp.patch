@@ -1,0 +1,25 @@
+--- a/src/rmp/ui/controls.cpp
++++ b/src/rmp/ui/controls.cpp
+@@ -358,10 +358,11 @@
+     bool changed = false;
+     const bool field_clicked = clicked(id, over);
+-    if (st->flag && has_focus && detail::take_cancel()) {
+-        st->flag = false; // Escape or B: closed, and nothing picked
+-    } else if (field_clicked) {
++    // Escape or B on an open list: closed, and nothing picked. A click on the
++    // field, Accept, or a release somewhere else entirely then do not count.
++    const bool cancelled = st->flag && has_focus && detail::take_cancel();
++    if (field_clicked && !cancelled) {
+         st->flag = !st->flag;
+         st->i = *selected;
+-    } else if (has_focus && detail::take_activate()) {
++    } else if (!cancelled && has_focus && detail::take_activate()) {
+         if (st->flag) {
+             // Accept picks what the list was walked to, as a click would.
+@@ -373,5 +374,5 @@
+             st->i = *selected;
+         }
+-    } else if (st->flag && detail::pointer_released() && !over_any_item) {
++    } else if (cancelled || (st->flag && detail::pointer_released() && !over_any_item)) {
+         // Released somewhere else entirely. An open list that will not go away
+         // when you click past it is the single most irritating thing a dropdown

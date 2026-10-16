@@ -1,0 +1,24 @@
+diff --git a/test/runner/black_tests.cpp b/test/runner/black_tests.cpp
+index e235ae7..956d0fb 100644
+--- a/test/runner/black_tests.cpp
++++ b/test/runner/black_tests.cpp
+@@ -0,0 +1,2 @@
++#include <optional>
++
+@@ -9 +11,2 @@ void test_satisfiable_simple() {
+-    expect(checker.check_satisfiability("F p").value(),
++    const std::optional<bool> result = checker.check_satisfiability("F p");
++    expect(result.has_value() && *result,
+@@ -15 +18,2 @@ void test_unsatisfiable_contradiction() {
+-    expect(!checker.check_satisfiability("p & !p").value(),
++    const std::optional<bool> result = checker.check_satisfiability("p & !p");
++    expect(result.has_value() && !*result,
+@@ -21 +25,2 @@ void test_satisfiable_ltl() {
+-    expect(checker.check_satisfiability("G F p").value(),
++    const std::optional<bool> result = checker.check_satisfiability("G F p");
++    expect(result.has_value() && *result,
+@@ -27 +32,3 @@ void test_unsatisfiable_ltl() {
+-    expect(!checker.check_satisfiability("G !p & F p").value(),
++    const std::optional<bool> result =
++        checker.check_satisfiability("G !p & F p");
++    expect(result.has_value() && !*result,

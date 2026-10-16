@@ -1,0 +1,7 @@
+diff --git a/src/common/snippets/src/lowered/pass/solve_buffer_memory.cpp b/src/common/snippets/src/lowered/pass/solve_buffer_memory.cpp
+index 14dd0a5..235c095 100644
+--- a/src/common/snippets/src/lowered/pass/solve_buffer_memory.cpp
++++ b/src/common/snippets/src/lowered/pass/solve_buffer_memory.cpp
+@@ -122 +122 @@ std::vector<ov::MemorySolver::Box> SolveBufferMemory::init_boxes(const Buffers&
+-        box.size = utils::div_up(box.size, byte_alignment);
++        box.size = static_cast<int64_t>(utils::div_up(box.size, byte_alignment));

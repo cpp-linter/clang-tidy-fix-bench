@@ -1,0 +1,7 @@
+diff --git a/log-handler.c b/log-handler.c
+index 4e2425f..233f41f 100644
+--- a/log-handler.c
++++ b/log-handler.c
+@@ -46 +46 @@ static const char *default_filename = LOCALSTATEDIR "/log/obmc-console.log";
+-static const size_t default_logsize = 16 * 1024;
++static const size_t default_logsize = 16ul * 1024ul;

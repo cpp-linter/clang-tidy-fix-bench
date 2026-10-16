@@ -1,0 +1,7 @@
+diff --git a/firmware/products/skyblip_go/pages/radar.cpp b/firmware/products/skyblip_go/pages/radar.cpp
+index b5c1001..9319e0c 100644
+--- a/firmware/products/skyblip_go/pages/radar.cpp
++++ b/firmware/products/skyblip_go/pages/radar.cpp
+@@ -446 +446 @@ void own_vector(ui::Canvas& fb, const RadarSnapshot& snap, int16_t track) {
+-        const int64_t out = at.right * at.right + at.ahead * at.ahead;
++        const int32_t out = at.right * at.right + at.ahead * at.ahead;

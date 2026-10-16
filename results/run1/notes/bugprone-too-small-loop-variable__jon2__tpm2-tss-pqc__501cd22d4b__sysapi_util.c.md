@@ -1,0 +1,1 @@
+The lookup loop over commandArray used a uint8_t counter against a size_t element count; if the table ever grew past 255 entries the loop would wrap forever. Declared i as size_t; it is only used as an array index.

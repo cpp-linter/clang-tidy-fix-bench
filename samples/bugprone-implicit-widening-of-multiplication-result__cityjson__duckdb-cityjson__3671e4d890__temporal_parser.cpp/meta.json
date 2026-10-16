@@ -1,0 +1,41 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__cityjson__duckdb-cityjson__3671e4d890__temporal_parser.cpp",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "cityjson/duckdb-cityjson",
+ "sha": "3671e4d89040eabbf7debf985151ffb9380f0b1f",
+ "parent": "404ec66f7b54b70af6967fe7f3cbc402ef782902",
+ "url": "https://github.com/cityjson/duckdb-cityjson/commit/3671e4d89040eabbf7debf985151ffb9380f0b1f",
+ "license": "MIT",
+ "message": "style: widen the tz_minute sign multiplication explicitly for clang-tidy",
+ "file": "src/cityjson/temporal_parser.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "duckdb.hpp",
+  "duckdb/common/types/time.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 122,
+   "col": 46,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'int64_t' (aka 'long long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 122,
+   "col": 46,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'int64_t' (aka 'long long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 18,
+ "human_changed_lines": 3
+}

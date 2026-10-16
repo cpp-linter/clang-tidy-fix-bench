@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Combines the two compile-time return-false conditions with || in one if constexpr; this is semantically identical and a real fix, where the human suppressed the warning with NOLINT."}

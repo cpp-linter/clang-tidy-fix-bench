@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Human suppressed with NOLINT; candidate merges the disjoint is_same_v branches that all recurse into the same member, which genuinely removes the clones and preserves behaviour."}

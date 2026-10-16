@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical (unsigned char) cast on opts_short, matching the human fix."}

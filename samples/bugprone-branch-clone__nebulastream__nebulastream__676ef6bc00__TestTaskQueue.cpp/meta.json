@@ -1,0 +1,49 @@
+{
+ "id": "bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__TestTaskQueue.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "nebulastream/nebulastream",
+ "sha": "676ef6bc00d85f2ff3c79e7179d8c24f61ccc52b",
+ "parent": "6d1a5d4834ffe9aa5a6e48e7331c6054e8478198",
+ "url": "https://github.com/nebulastream/nebulastream/commit/676ef6bc00d85f2ff3c79e7179d8c24f61ccc52b",
+ "license": "Apache-2.0",
+ "message": "fix(Clang-Tidy): Merge identical switch branches",
+ "file": "nes-executable/tests/TestUtils/TestTaskQueue.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "cpptrace/basic.hpp",
+  "cpptrace/cpptrace.hpp",
+  "cpptrace/exceptions.hpp",
+  "fmt/core.h",
+  "fmt/format.h",
+  "fmt/ostream.h",
+  "fmt/std.h",
+  "spdlog/fwd.h",
+  "spdlog/logger.h",
+  "spdlog/mdc.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 43,
+   "col": 9,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 43,
+   "col": 9,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 6
+}

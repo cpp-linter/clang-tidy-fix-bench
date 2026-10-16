@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "std::size_t{N} first factor in all three initialisers, same as the human's static_cast."}

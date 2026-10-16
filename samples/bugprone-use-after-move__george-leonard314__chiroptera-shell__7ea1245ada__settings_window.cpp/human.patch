@@ -1,0 +1,10 @@
+diff --git a/src/shell/settings/settings_window.cpp b/src/shell/settings/settings_window.cpp
+index 7b4318d..93bc601 100644
+--- a/src/shell/settings/settings_window.cpp
++++ b/src/shell/settings/settings_window.cpp
+@@ -682,3 +682,2 @@ void SettingsWindow::maybeOpenPendingWidgetInspector() {
+-  openWidgetInspectorEditor(
+-      barWidgetLanePath(m_config->config(), m_selectedBarName, widgetName), std::move(widgetName)
+-  );
++  std::vector<std::string> lanePath = barWidgetLanePath(m_config->config(), m_selectedBarName, widgetName);
++  openWidgetInspectorEditor(std::move(lanePath), std::move(widgetName));

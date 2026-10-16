@@ -1,0 +1,1 @@
+`long_opts[i].val` (an `int` that getopt_long returns when the long option matches) was set from the `char` field `opts_short`, which sign-extends on signed-char platforms. It is now assigned `(unsigned char)entry->opts_short`. This matches how getopt reports option characters, and ASCII option letters keep the same value.

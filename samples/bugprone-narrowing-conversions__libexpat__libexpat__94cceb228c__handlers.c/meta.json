@@ -1,0 +1,94 @@
+{
+ "id": "bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__handlers.c",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "libexpat/libexpat",
+ "sha": "94cceb228c0bda936a3eb3b88419c79b2e031729",
+ "parent": "2ae87fa5830d49ea5f134005b208c7183c0fa0cc",
+ "url": "https://github.com/libexpat/libexpat/commit/94cceb228c0bda936a3eb3b88419c79b2e031729",
+ "license": "MIT",
+ "message": "tests: Address clang-tidy warning bugprone-narrowing-conversions",
+ "file": "expat/tests/handlers.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 92,
+   "col": 37,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'XML_Size' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 93,
+   "col": 22,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'XML_Size' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 99,
+   "col": 37,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'XML_Size' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 100,
+   "col": 22,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'XML_Size' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 1279,
+   "col": 26,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 92,
+   "col": 37,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'XML_Size' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 93,
+   "col": 22,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'XML_Size' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 99,
+   "col": 37,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'XML_Size' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 100,
+   "col": 22,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'XML_Size' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 1279,
+   "col": 26,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'unsigned int' to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 10
+}

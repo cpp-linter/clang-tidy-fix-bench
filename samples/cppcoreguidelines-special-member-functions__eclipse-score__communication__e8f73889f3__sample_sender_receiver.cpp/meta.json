@@ -1,0 +1,55 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__sample_sender_receiver.cpp",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "cppcoreguidelines-special-member-functions",
+ "repo": "eclipse-score/communication",
+ "sha": "e8f73889f334f5d616644f2e3818d7405283dc88",
+ "parent": "69785612a2bdc667c697a7fcf5561c66a5d67299",
+ "url": "https://github.com/eclipse-score/communication/commit/e8f73889f334f5d616644f2e3818d7405283dc88",
+ "license": "Apache-2.0",
+ "message": "fix(clang-tidy): resolve cppcoreguidelines-special-member-functions findings",
+ "file": "score/mw/com/test/common_test_resources/sample_sender_receiver.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "score/assert.hpp",
+  "score/blank.hpp",
+  "score/concurrency/atomic_indirector.h",
+  "score/concurrency/notification.h",
+  "score/filesystem/path.h",
+  "score/language/safecpp/safe_math/safe_math.h",
+  "score/language/safecpp/string_view/zstring_view.h",
+  "score/memory/data_type_size_info.h",
+  "score/memory_resource.hpp",
+  "score/mw/log/log_types.h",
+  "score/mw/log/logging.h",
+  "score/overload.hpp",
+  "score/quality/compiler_warnings/warnings.h",
+  "score/result/result.h",
+  "score/span.hpp",
+  "score/utils/static_destruction_guard.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 245,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'TestDestructor' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 245,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'TestDestructor' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

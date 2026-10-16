@@ -1,0 +1,9 @@
+--- a/src/opts.c
++++ b/src/opts.c
+@@ -112,5 +112,5 @@
+ 
+         long_opts[i].name = entry->opts_long;
+-        long_opts[i].val = entry->opts_short;
++        long_opts[i].val = (unsigned char)entry->opts_short;
+ 
+         switch (entry->type)

@@ -1,0 +1,75 @@
+{
+ "id": "bugprone-narrowing-conversions__autowarefoundation__autoware_core__c6ba5f2fe0__predicted_path_utils.cpp",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "autowarefoundation/autoware_core",
+ "sha": "c6ba5f2fe07ee1767fa659e4ac5e8f4a6d9a30ad",
+ "parent": "65af5c924b9d54c816f9c9ab5d7fcb70b245368b",
+ "url": "https://github.com/autowarefoundation/autoware_core/commit/c6ba5f2fe07ee1767fa659e4ac5e8f4a6d9a30ad",
+ "license": "Apache-2.0",
+ "message": "fix(autoware_object_recognition_utils): fix bugprone-narrowing-convertions warnings (#924)",
+ "file": "common/autoware_object_recognition_utils/src/predicted_path_utils.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "Eigen/Core",
+  "autoware_perception_msgs/msg/predicted_path.hpp",
+  "autoware_utils_geometry/geometry.hpp",
+  "boost/optional.hpp",
+  "geometry_msgs/msg/pose.hpp",
+  "geometry_msgs/msg/quaternion.hpp",
+  "tf2/utils.hpp",
+  "tf2_geometry_msgs/tf2_geometry_msgs.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 39,
+   "col": 47,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 40,
+   "col": 57,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 65,
+   "col": 36,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 39,
+   "col": 47,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 40,
+   "col": 57,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 65,
+   "col": 36,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'size_t' (aka 'unsigned long') to 'double'",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 28,
+ "human_changed_lines": 6
+}

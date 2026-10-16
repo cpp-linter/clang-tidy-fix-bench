@@ -1,0 +1,1 @@
+`hw_dispatcher` is a singleton (`get_instance()`, protected constructor) with a user-declared virtual destructor. The copy/move constructors and copy/move assignment operators are now explicitly deleted. This prevents the singleton from being accidentally copied and satisfies the rule of five, and no existing code depends on copying it.

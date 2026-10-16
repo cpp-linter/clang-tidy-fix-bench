@@ -1,0 +1,7 @@
+diff --git a/src/drivers/gnss/septentrio/septentrio.cpp b/src/drivers/gnss/septentrio/septentrio.cpp
+index 8cd7187..bffc940 100644
+--- a/src/drivers/gnss/septentrio/septentrio.cpp
++++ b/src/drivers/gnss/septentrio/septentrio.cpp
+@@ -440 +440 @@ SeptentrioDriver *SeptentrioDriver::instantiate(int argc, char *argv[], Instance
+-	for (uint8_t i = 0; i < sizeof(k_supported_baud_rates) / sizeof(k_supported_baud_rates[0]); i++) {
++	for (size_t i = 0; i < sizeof(k_supported_baud_rates) / sizeof(k_supported_baud_rates[0]); i++) {

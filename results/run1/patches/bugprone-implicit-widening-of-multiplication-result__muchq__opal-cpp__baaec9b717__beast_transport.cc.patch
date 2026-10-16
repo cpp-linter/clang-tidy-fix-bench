@@ -1,0 +1,9 @@
+--- a/runtime/src/http/beast_transport.cc
++++ b/runtime/src/http/beast_transport.cc
+@@ -2192,5 +2192,5 @@
+     }
+ 
+-    std::array<char, 16 * 1024> scratch;
++    std::array<char, std::size_t{16} * 1024> scratch;
+     while (!parser.is_done()) {
+       parser.get().body().data = scratch.data();

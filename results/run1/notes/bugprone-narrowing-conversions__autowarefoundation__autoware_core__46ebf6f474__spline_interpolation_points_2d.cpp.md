@@ -1,0 +1,1 @@
+The extrapolated knot position s_end + (i + 1) * delta_s implicitly converted the size_t index (i + 1) to double. The index is now converted explicitly with static_cast<double>(i + 1), making the intended integer-to-floating conversion visible; the computed values are identical.

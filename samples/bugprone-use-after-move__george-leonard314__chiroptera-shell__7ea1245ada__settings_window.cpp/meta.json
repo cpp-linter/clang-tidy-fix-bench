@@ -1,0 +1,42 @@
+{
+ "id": "bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__settings_window.cpp",
+ "check": "bugprone-use-after-move",
+ "check_name": "bugprone-use-after-move",
+ "repo": "george-leonard314/chiroptera-shell",
+ "sha": "7ea1245ada09f642889f0cc3a86798ce18edd3dd",
+ "parent": "0d2657a3f33fcfdfd698124bed2fee7b3503aa14",
+ "url": "https://github.com/george-leonard314/chiroptera-shell/commit/7ea1245ada09f642889f0cc3a86798ce18edd3dd",
+ "license": "MIT",
+ "message": "fix: repair use-after-move sites surfaced by bugprone-use-after-move",
+ "file": "src/shell/settings/settings_window.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "linux/input-event-codes.h",
+  "toml++/toml.hpp",
+  "xkbcommon/xkbcommon-keysyms.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 683,
+   "col": 64,
+   "sev": "warning",
+   "msg": "'widgetName' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 683,
+   "col": 64,
+   "sev": "warning",
+   "msg": "'widgetName' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "errors_before": 6,
+ "human_changed_lines": 5
+}

@@ -1,0 +1,1 @@
+In the CSI dispatch switch, `case 'C'` (CUF) and `case 'a'` (HPR) both called `scr.moveRight(firstParam(body, 1))`. I merged the two labels into one branch and kept the HPR note in the comment. Behaviour is unchanged.

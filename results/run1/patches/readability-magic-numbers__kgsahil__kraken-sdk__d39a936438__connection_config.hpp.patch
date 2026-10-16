@@ -1,0 +1,23 @@
+--- a/include/kraken/connection_config.hpp
++++ b/include/kraken/connection_config.hpp
+@@ -16,9 +16,15 @@
+ /// Configures various timeouts for WebSocket connection operations.
+ struct ConnectionTimeouts {
+-    std::chrono::milliseconds connect_timeout{10000};  ///< Connection establishment timeout (default: 10s)
+-    std::chrono::milliseconds read_timeout{30000};     ///< Read operation timeout (default: 30s)
+-    std::chrono::milliseconds write_timeout{10000};    ///< Write operation timeout (default: 10s)
+-    std::chrono::seconds ping_interval{30};           ///< WebSocket ping interval (default: 30s)
+-    std::chrono::seconds pong_timeout{10};             ///< Pong response timeout (default: 10s)
++    static constexpr int kDefaultConnectTimeoutMs = 10000;
++    static constexpr int kDefaultReadTimeoutMs = 30000;
++    static constexpr int kDefaultWriteTimeoutMs = 10000;
++    static constexpr int kDefaultPingIntervalSec = 30;
++    static constexpr int kDefaultPongTimeoutSec = 10;
++
++    std::chrono::milliseconds connect_timeout{kDefaultConnectTimeoutMs};  ///< Connection establishment timeout (default: 10s)
++    std::chrono::milliseconds read_timeout{kDefaultReadTimeoutMs};     ///< Read operation timeout (default: 30s)
++    std::chrono::milliseconds write_timeout{kDefaultWriteTimeoutMs};    ///< Write operation timeout (default: 10s)
++    std::chrono::seconds ping_interval{kDefaultPingIntervalSec};           ///< WebSocket ping interval (default: 30s)
++    std::chrono::seconds pong_timeout{kDefaultPongTimeoutSec};             ///< Pong response timeout (default: 10s)
+ };
+ 

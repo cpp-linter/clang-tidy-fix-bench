@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Moves each case label inside its #ifdef so disabled compressors reach default; this is a real fix with identical results in every configuration, unlike the human's NOLINT suppression."}

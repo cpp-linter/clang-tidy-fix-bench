@@ -1,0 +1,8 @@
+--- a/include/aethermind/backend/backend_registry.h
++++ b/include/aethermind/backend/backend_registry.h
+@@ -19,4 +19,5 @@
+     BackendRegistry(BackendRegistry&&) noexcept = default;
+     BackendRegistry& operator=(BackendRegistry&&) noexcept = default;
++    ~BackendRegistry() = default;
+ 
+     void RegisterFactory(DeviceType type, std::unique_ptr<BackendFactory> factory);

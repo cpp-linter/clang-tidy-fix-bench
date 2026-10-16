@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Identical change from uint8_t to size_t."}

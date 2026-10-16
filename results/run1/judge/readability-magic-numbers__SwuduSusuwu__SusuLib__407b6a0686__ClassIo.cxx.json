@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Human derived the expected sizes from sizeof; the candidate names the flagged 6 as a commented local const, which keeps the test assertion identical and fixes the warning."}

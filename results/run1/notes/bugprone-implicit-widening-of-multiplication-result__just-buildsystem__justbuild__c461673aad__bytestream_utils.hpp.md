@@ -1,0 +1,1 @@
+`kChunkSize = 64 * 1024` was computed in `int` and then widened to `std::size_t`. Writing it as `std::size_t{64} * 1024` makes the constant expression be evaluated in the declared type. The value is unchanged.

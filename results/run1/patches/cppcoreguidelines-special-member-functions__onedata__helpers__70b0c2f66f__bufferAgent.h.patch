@@ -1,0 +1,12 @@
+--- a/src/buffering/bufferAgent.h
++++ b/src/buffering/bufferAgent.h
+@@ -121,4 +121,9 @@
+     }
+ 
++    BufferedFileHandle(const BufferedFileHandle &) = delete;
++    BufferedFileHandle &operator=(const BufferedFileHandle &) = delete;
++    BufferedFileHandle(BufferedFileHandle &&) = delete;
++    BufferedFileHandle &operator=(BufferedFileHandle &&) = delete;
++
+     folly::Future<folly::IOBufQueue> read(
+         const off_t offset, const std::size_t size) override

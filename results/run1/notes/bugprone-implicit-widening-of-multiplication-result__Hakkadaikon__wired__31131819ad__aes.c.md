@@ -1,0 +1,1 @@
+In `quic_aes128_encrypt`, the last-round key offset `4 * QUIC_AES_ROUNDS` was computed in `int` and then widened to a pointer offset. I cast the `4` to `usz` so the offset is computed in a pointer-sized type, matching the `4 * r` (with `usz r`) used one line above. Behaviour is unchanged.

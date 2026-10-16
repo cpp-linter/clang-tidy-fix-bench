@@ -1,0 +1,10 @@
+diff --git a/expat/tests/misc_tests.c b/expat/tests/misc_tests.c
+index 9e974f2..47ed9c7 100644
+--- a/expat/tests/misc_tests.c
++++ b/expat/tests/misc_tests.c
+@@ -73 +73 @@ START_TEST(test_misc_alloc_create_parser) {
+-    g_allocation_count = i;
++    g_allocation_count = (int)i;
+@@ -93 +93 @@ START_TEST(test_misc_alloc_create_parser_with_encoding) {
+-    g_allocation_count = i;
++    g_allocation_count = (int)i;

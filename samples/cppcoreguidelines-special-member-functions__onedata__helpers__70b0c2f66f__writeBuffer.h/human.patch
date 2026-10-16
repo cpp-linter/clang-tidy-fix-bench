@@ -1,0 +1,10 @@
+diff --git a/src/buffering/writeBuffer.h b/src/buffering/writeBuffer.h
+index 76c5a73..ea3d716 100644
+--- a/src/buffering/writeBuffer.h
++++ b/src/buffering/writeBuffer.h
+@@ -71,0 +72,5 @@ public:
++    WriteBuffer(const WriteBuffer &) = delete;
++    WriteBuffer &operator=(const WriteBuffer &) = delete;
++    WriteBuffer(WriteBuffer &&) = delete;
++    WriteBuffer &operator=(WriteBuffer &&) = delete;
++

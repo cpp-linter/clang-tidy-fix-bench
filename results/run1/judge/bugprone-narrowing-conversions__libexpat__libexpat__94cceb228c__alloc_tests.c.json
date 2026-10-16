@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Changes the loop counter and its bound from unsigned to int instead of casting at the assignment; values stay 0..N, comparisons are unchanged, and this matches the int counters already used by the other tests in the file."}

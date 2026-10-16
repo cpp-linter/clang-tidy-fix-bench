@@ -1,0 +1,58 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__writeBuffer.h",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "hicpp-special-member-functions",
+ "repo": "onedata/helpers",
+ "sha": "70b0c2f66f24323e9d1df7c9ca32813fb7ae4b98",
+ "parent": "7540fa594c59ade98dd24fd056728280c46e24cc",
+ "url": "https://github.com/onedata/helpers/commit/70b0c2f66f24323e9d1df7c9ca32813fb7ae4b98",
+ "license": "MIT",
+ "message": "VFS-8240 Fixed hicpp-special-member-functions warnings",
+ "file": "src/buffering/writeBuffer.h",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "boost/algorithm/string.hpp",
+  "boost/current_function.hpp",
+  "boost/range/adaptor/map.hpp",
+  "folly/Conv.h",
+  "folly/init/Init.h",
+  "folly/io/IOBufQueue.h",
+  "folly/io/async/SSLOptions.h",
+  "glog/logging.h",
+  "openssl/ssl.h",
+  "spdlog/fmt/ostr.h",
+  "spdlog/sinks/basic_file_sink.h",
+  "spdlog/sinks/rotating_file_sink.h",
+  "spdlog/spdlog.h",
+  "wangle/bootstrap/ClientBootstrap.h",
+  "wangle/channel/AsyncSocketHandler.h",
+  "wangle/channel/EventBaseHandler.h",
+  "wangle/codec/ByteToMessageDecoder.h",
+  "wangle/codec/LineBasedFrameDecoder.h",
+  "wangle/codec/StringCodec.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 50,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'WriteBuffer' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "hicpp-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 50,
+   "col": 7,
+   "sev": "warning",
+   "msg": "class 'WriteBuffer' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "hicpp-special-member-functions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 5
+}

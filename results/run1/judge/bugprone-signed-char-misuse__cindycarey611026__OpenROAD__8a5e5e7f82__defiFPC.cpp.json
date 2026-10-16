@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Makes the conditional's branches int('B')/int('T') etc. instead of casting through unsigned char; the values are the same ASCII codes and no char-to-int widening remains."}

@@ -1,0 +1,15 @@
+--- a/src/modules/renderer/include/augusta/renderer.h
++++ b/src/modules/renderer/include/augusta/renderer.h
+@@ -112,8 +112,11 @@
+ /// axis with +Y up, before rotation is applied.
+ struct Camera {
++  /// Default vertical field of view, in radians (about 52 degrees).
++  static constexpr float kDefaultVerticalFov = 0.9F;
++
+   math::Vec3 position{0.0F, 1.7F, 5.0F};
+   math::Quat rotation{1.0F, 0.0F, 0.0F, 0.0F};
+   /// Vertical field of view, in radians.
+-  float vertical_fov = 0.9F;
++  float vertical_fov = kDefaultVerticalFov;
+ };
+ 

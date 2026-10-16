@@ -1,0 +1,1 @@
+art_insert and art_search take the key length as int, but it was passed strlen(name), a size_t. Explicit (int) casts were added at both call sites; dictionary key names are short config identifiers so the length always fits in int, and behaviour is unchanged.

@@ -1,0 +1,38 @@
+{
+ "id": "readability-magic-numbers__PocoF3Releases__android_external_rust_cxx__06677b3e00__cxx.cc",
+ "check": "readability-magic-numbers",
+ "check_name": "cppcoreguidelines-avoid-magic-numbers",
+ "repo": "PocoF3Releases/android_external_rust_cxx",
+ "sha": "06677b3e003a179c0fa73efa67dbfb5dce81ed99",
+ "parent": "16bcd38cb905ca1c37a788e25a9b7ac8ef8cbf8c",
+ "url": "https://github.com/PocoF3Releases/android_external_rust_cxx/commit/06677b3e003a179c0fa73efa67dbfb5dce81ed99",
+ "license": "Apache-2.0",
+ "message": "Resolve cppcoreguidelines-avoid-magic-numbers",
+ "file": "src/cxx.cc",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 245,
+   "col": 38,
+   "sev": "warning",
+   "msg": "8 is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 245,
+   "col": 38,
+   "sev": "warning",
+   "msg": "8 is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 5
+}

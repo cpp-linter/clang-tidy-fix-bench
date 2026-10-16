@@ -1,0 +1,16 @@
+--- a/src/sconf.c
++++ b/src/sconf.c
+@@ -280,5 +280,5 @@
+     }
+ 
+-    if (art_insert(&parent->dictionary, (unsigned char *)name, strlen(name),
++    if (art_insert(&parent->dictionary, (unsigned char *)name, (int)strlen(name),
+                    node) != NULL) {
+         sconf_err_set(err, "inserting node into dict failed");
+@@ -319,5 +319,5 @@
+     *node = (struct SConfNode *)art_search(&parent->dictionary,
+                                            (unsigned char *)name,
+-                                           strlen(name));
++                                           (int)strlen(name));
+ 
+     return 0;

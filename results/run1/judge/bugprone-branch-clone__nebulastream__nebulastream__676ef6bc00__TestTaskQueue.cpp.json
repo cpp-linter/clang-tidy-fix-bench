@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "NEVER falls into POSSIBLE as in the human fix; only the explicit [[fallthrough]] is omitted, which is not needed for adjacent labels."}

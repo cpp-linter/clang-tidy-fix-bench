@@ -1,0 +1,12 @@
+diff --git a/src/sconf.c b/src/sconf.c
+index de10730..4805137 100644
+--- a/src/sconf.c
++++ b/src/sconf.c
+@@ -282,2 +282,2 @@ int sconf_node_dict_insert(const char *name, struct SConfNode *parent,
+-    if (art_insert(&parent->dictionary, (unsigned char *)name, strlen(name),
+-                   node) != NULL) {
++    if (art_insert(&parent->dictionary, (unsigned char *)name,
++                   (int)strlen(name), node) != NULL) {
+@@ -321 +321 @@ int sconf_node_dict_search(const char *name, struct SConfNode *parent,
+-                                           strlen(name));
++                                           (int)strlen(name));

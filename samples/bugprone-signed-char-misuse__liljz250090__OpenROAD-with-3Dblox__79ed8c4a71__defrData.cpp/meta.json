@@ -1,0 +1,52 @@
+{
+ "id": "bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defrData.cpp",
+ "check": "bugprone-signed-char-misuse",
+ "check_name": "bugprone-signed-char-misuse",
+ "repo": "liljz250090/OpenROAD-with-3Dblox",
+ "sha": "79ed8c4a713733c7af2d0d080b3cde1fdbc21fd7",
+ "parent": "77b155f88e270b03732ccd59fe41d50516bf3ce7",
+ "url": "https://github.com/liljz250090/OpenROAD-with-3Dblox/commit/79ed8c4a713733c7af2d0d080b3cde1fdbc21fd7",
+ "license": "BSD-3-Clause",
+ "message": "odb: fix bugprone-signed-char-misuse clang-tidy warnings",
+ "file": "src/odb/src/def/def/defrData.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 204,
+   "col": 19,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  },
+  {
+   "line": 246,
+   "col": 20,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 204,
+   "col": 19,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  },
+  {
+   "line": 246,
+   "col": 20,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

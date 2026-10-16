@@ -1,0 +1,9 @@
+diff --git a/src/storage/columns/change_op_columns.hpp b/src/storage/columns/change_op_columns.hpp
+index 7ea48d0..fdd90fb 100644
+--- a/src/storage/columns/change_op_columns.hpp
++++ b/src/storage/columns/change_op_columns.hpp
+@@ -286,3 +286 @@ inline auto decode_change_ops(const std::vector<RawColumn>& columns,
+-        if (!*obj_actor_val || (*obj_counter_val && **obj_counter_val == 0 && !*obj_actor_val)) {
+-            op.obj = ObjId{};  // root
+-        } else if (*obj_actor_val && *obj_counter_val) {
++        if (*obj_actor_val && *obj_counter_val) {

@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__MichaelBallen97__aero-engine__a1ee68ebe8__asset_drag.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "MichaelBallen97/aero-engine",
+ "sha": "a1ee68ebe8a6f2d0a185ed2b4e715c557735f69c",
+ "parent": "f4f42d63c8280452ecb6de59bbb778d2398ace9b",
+ "url": "https://github.com/MichaelBallen97/aero-engine/commit/a1ee68ebe8a6f2d0a185ed2b4e715c557735f69c",
+ "license": "MIT",
+ "message": "refactor(editor): merge the four refusing kinds into one matrix arm",
+ "file": "editor/src/asset_drag.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 164,
+   "col": 9,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 164,
+   "col": 9,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 28
+}

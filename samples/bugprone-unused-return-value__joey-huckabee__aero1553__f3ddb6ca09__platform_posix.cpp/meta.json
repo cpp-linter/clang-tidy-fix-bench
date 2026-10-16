@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-unused-return-value__joey-huckabee__aero1553__f3ddb6ca09__platform_posix.cpp",
+ "check": "bugprone-unused-return-value",
+ "check_name": "cert-err33-c",
+ "repo": "joey-huckabee/aero1553",
+ "sha": "f3ddb6ca0978a7e2391ef3192f3fca8fbe7f8553",
+ "parent": "55e9da280455fbcf1c5ea83ec5c919ae5f1dc59d",
+ "url": "https://github.com/joey-huckabee/aero1553/commit/f3ddb6ca0978a7e2391ef3192f3fca8fbe7f8553",
+ "license": "Apache-2.0",
+ "message": "fix(cpp): discard signal()'s result explicitly for clang-tidy",
+ "file": "cpp/src/platform_posix.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 468,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 468,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 7
+}

@@ -1,0 +1,43 @@
+{
+ "id": "bugprone-unused-return-value__cppservergit__evhttp-apiserver__75bae79ba5__server.c",
+ "check": "bugprone-unused-return-value",
+ "check_name": "cert-err33-c",
+ "repo": "cppservergit/evhttp-apiserver",
+ "sha": "75bae79ba5090e6b53ca8a7941e9da8e3a2bb61a",
+ "parent": "12255b8228f34d0eaa2b055216f414cd94f3278f",
+ "url": "https://github.com/cppservergit/evhttp-apiserver/commit/75bae79ba5090e6b53ca8a7941e9da8e3a2bb61a",
+ "license": "BSD-3-Clause",
+ "message": "Fix cert-err33-c warning by casting signal to void",
+ "file": "src/server.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [
+  "event2/http.h",
+  "json-c/json.h",
+  "sql.h",
+  "sqlext.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 879,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 879,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

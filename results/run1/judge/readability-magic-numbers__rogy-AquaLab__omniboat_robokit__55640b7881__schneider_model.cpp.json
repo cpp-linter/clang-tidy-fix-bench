@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Names every flagged literal with function-local constexpr constants and keeps the existing behaviour. The human fix also inverted the volume condition, which is a separate logic change the warning did not call for."}

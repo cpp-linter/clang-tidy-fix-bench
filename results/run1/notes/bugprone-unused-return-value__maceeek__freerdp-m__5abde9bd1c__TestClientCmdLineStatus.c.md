@@ -1,0 +1,1 @@
+The three `fprintf(stderr, ...)` diagnostics in the test only report a failure that is already recorded in `rc`. If printing fails, the test's outcome does not change, so each call is now cast to `(void)`, which cert-err33-c accepts. Behaviour is unchanged.

@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Uses static constexpr int members inside the struct, where the human used chrono-typed constants in an anonymous namespace. The defaults and the aggregate behaviour are unchanged, and int-to-duration brace initialization is valid."}

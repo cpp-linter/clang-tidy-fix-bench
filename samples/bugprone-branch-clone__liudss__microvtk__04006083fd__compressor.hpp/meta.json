@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__liudss__microvtk__04006083fd__compressor.hpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "liudss/microvtk",
+ "sha": "04006083fd3156ee275d15a1ed7cf3171708a929",
+ "parent": "c31fcd4d784405ad8dcc5f92fd861e611f54fc10",
+ "url": "https://github.com/liudss/microvtk/commit/04006083fd3156ee275d15a1ed7cf3171708a929",
+ "license": "MIT",
+ "message": "docs: update directory structure and adapter details; fix clang-tidy warning",
+ "file": "include/microvtk/core/compressor.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 76,
+   "col": 5,
+   "sev": "warning",
+   "msg": "switch has 3 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 76,
+   "col": 5,
+   "sev": "warning",
+   "msg": "switch has 3 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

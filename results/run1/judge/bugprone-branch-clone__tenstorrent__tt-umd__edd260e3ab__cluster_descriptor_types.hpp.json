@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same change: drops the duplicate 'return 1' so P100 falls through to the P150 branch."}

@@ -1,0 +1,13 @@
+--- a/tests/test_database.cpp
++++ b/tests/test_database.cpp
+@@ -150,8 +150,9 @@
+     ASSERT_TRUE(db);
+     
++    Database& moved_from = db;
+     Database db_moved_to(std::move(db));
+     ASSERT_TRUE(db_moved_to);
+ 
+-    auto result = db.execute("CREATE TABLE test (id INT);");
++    auto result = moved_from.execute("CREATE TABLE test (id INT);");
+     EXPECT_FALSE(result.ok());
+     EXPECT_FALSE(result.message.empty());

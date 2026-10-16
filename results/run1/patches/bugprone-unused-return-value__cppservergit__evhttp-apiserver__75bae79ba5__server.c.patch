@@ -1,0 +1,11 @@
+--- a/src/server.c
++++ b/src/server.c
+@@ -877,5 +877,7 @@
+ 
+ static void setup_signals(sigset_t* sigmask) {
+-    signal(SIGPIPE, SIG_IGN);
++    if (signal(SIGPIPE, SIG_IGN) == SIG_ERR) {
++        LOG_WARN("Could not ignore SIGPIPE");
++    }
+     
+     sigemptyset(sigmask);

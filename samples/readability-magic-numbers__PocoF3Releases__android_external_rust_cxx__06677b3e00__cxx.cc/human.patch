@@ -1,0 +1,12 @@
+diff --git a/src/cxx.cc b/src/cxx.cc
+index ecc3668..122f6a5 100644
+--- a/src/cxx.cc
++++ b/src/cxx.cc
+@@ -242,0 +243,2 @@ void cxxbridge1$unique_ptr$std$string$drop(
++namespace {
++const size_t kMaxExpectedWordsInString = 8;
+@@ -245 +247 @@ static_assert(alignof(std::string) <= alignof(void *),
+-static_assert(sizeof(std::string) <= 8 * sizeof(void *),
++static_assert(sizeof(std::string) <= kMaxExpectedWordsInString * sizeof(void *),
+@@ -246,0 +249 @@ static_assert(sizeof(std::string) <= 8 * sizeof(void *),
++}

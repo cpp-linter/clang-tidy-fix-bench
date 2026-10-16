@@ -1,0 +1,9 @@
+--- a/src/debugger/evalstackmachine.cpp
++++ b/src/debugger/evalstackmachine.cpp
+@@ -444,5 +444,5 @@
+     ToRelease<ICorDebugGenericValue> pGenericValue2;
+     IfFailRet(pValue2->QueryInterface(IID_ICorDebugGenericValue, (LPVOID *)&pGenericValue2));
+-    T2 value2 = (T2)value1;
++    T2 value2 = static_cast<T2>(+value1); // unary + promotes, keeping sign extension for int8_t
+     return pGenericValue2->SetValue(&value2);
+ }

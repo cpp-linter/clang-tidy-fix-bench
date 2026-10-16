@@ -1,0 +1,94 @@
+{
+ "id": "bugprone-unused-return-value__GlomarGadaffi__pocket-dial__34aead5ae2__SipTrunk.cpp",
+ "check": "bugprone-unused-return-value",
+ "check_name": "cert-err33-c",
+ "repo": "GlomarGadaffi/pocket-dial",
+ "sha": "34aead5ae2dcdf00d7aed5e8446b0bbb17aad209",
+ "parent": "91269f239c5be8ded7ecb67e54ee4fd0ad6394f3",
+ "url": "https://github.com/GlomarGadaffi/pocket-dial/commit/34aead5ae2dcdf00d7aed5e8446b0bbb17aad209",
+ "license": "Apache-2.0",
+ "message": "fix(tidy): bring the clang-tidy safety ratchet back to baseline (#697) (#729)",
+ "file": "src/SIP/SipTrunk.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 847,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 849,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 850,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 851,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 853,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 847,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 849,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 850,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 851,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  },
+  {
+   "line": 853,
+   "col": 3,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "errors_before": 3,
+ "human_changed_lines": 12
+}

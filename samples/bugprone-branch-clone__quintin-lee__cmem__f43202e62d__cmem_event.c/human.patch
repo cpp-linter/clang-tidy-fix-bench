@@ -1,0 +1,12 @@
+diff --git a/src/cmem_event.c b/src/cmem_event.c
+index 0340916..2cfaeff 100644
+--- a/src/cmem_event.c
++++ b/src/cmem_event.c
+@@ -2197,5 +2197,2 @@ void *mp_alloc_internal(memory_pool_t *pool, size_t size)
+-        if ((pool->flags & MP_FLAG_THREAD_SAFE) && !pool->is_multi_arena_child) {
+-            ptr = tlsf_alloc(pool, size);
+-        } else {
+-            ptr = tlsf_alloc(pool, size);
+-        }
++        ptr = tlsf_alloc(pool, size);
++

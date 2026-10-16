@@ -1,0 +1,9 @@
+--- a/Source/GUI/MemViewer/MemViewer.cpp
++++ b/Source/GUI/MemViewer/MemViewer.cpp
+@@ -953,5 +953,5 @@
+       m_updatedRawMemoryData + ((rowIndex * m_numColumns) + columnIndex),
+       Common::MemType::type_string, 1, Common::MemBase::base_none, true);
+-  int asciiByte = (int)asciiStr[0];
++  int asciiByte = static_cast<unsigned char>(asciiStr[0]);
+   if (asciiByte > 0x7E || asciiByte < 0x20)
+     asciiStr = ".";

@@ -1,0 +1,9 @@
+diff --git a/src/Functions/flipCoordinates.cpp b/src/Functions/flipCoordinates.cpp
+index fab1ce712bb..f0f7e613481 100644
+--- a/src/Functions/flipCoordinates.cpp
++++ b/src/Functions/flipCoordinates.cpp
+@@ -119 +119,3 @@ private:
+-        const size_t num_variants = column_variant->getNumVariants();
++        /// A `Variant` may declare at most `ColumnVariant::MAX_NESTED_COLUMNS` alternatives, which is
++        /// `Discriminator`'s maximum, so the count always fits a `Discriminator`.
++        const auto num_variants = static_cast<ColumnVariant::Discriminator>(column_variant->getNumVariants());

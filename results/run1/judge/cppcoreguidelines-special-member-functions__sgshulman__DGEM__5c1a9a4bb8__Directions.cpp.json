@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Deletes all four copy/move operations on the raw-array owner, same as the human fix."}

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same local constexpr constants for the minimum route size 5 and the regret coefficient 1.5. Only the names and the integer type differ."}

@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Deletes moves where the human defaulted them; the class is only used via make_shared and never moved, and a deleted move is arguably safer given the destructor releases the memory reservation."}

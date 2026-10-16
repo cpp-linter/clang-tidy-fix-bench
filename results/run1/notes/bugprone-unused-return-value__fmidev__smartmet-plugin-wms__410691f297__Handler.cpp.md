@@ -1,0 +1,1 @@
+Deleting the temporary animation file after its contents have been read into the response is best effort: if `remove` fails, the request has still succeeded. The call is now cast to `(void)` to show that the result is ignored on purpose, which cert-err33-c accepts. Behaviour is unchanged.

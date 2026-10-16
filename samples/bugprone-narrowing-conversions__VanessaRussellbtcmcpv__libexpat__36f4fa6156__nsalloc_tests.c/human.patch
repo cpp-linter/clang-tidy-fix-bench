@@ -1,0 +1,10 @@
+diff --git a/expat/tests/nsalloc_tests.c b/expat/tests/nsalloc_tests.c
+index ec88586..48520f4 100644
+--- a/expat/tests/nsalloc_tests.c
++++ b/expat/tests/nsalloc_tests.c
+@@ -86 +86 @@ START_TEST(test_nsalloc_xmlns) {
+-    g_allocation_count = i;
++    g_allocation_count = (int)i;
+@@ -526 +526 @@ START_TEST(test_nsalloc_realloc_binding_uri) {
+-    g_reallocation_count = i;
++    g_reallocation_count = (int)i;

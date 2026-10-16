@@ -1,0 +1,29 @@
+--- a/expat/tests/handlers.c
++++ b/expat/tests/handlers.c
+@@ -90,6 +90,6 @@
+   StructData *storage = (StructData *)userData;
+   UNUSED_P(attr);
+-  StructData_AddItem(storage, name, XML_GetCurrentColumnNumber(g_parser),
+-                     XML_GetCurrentLineNumber(g_parser), STRUCT_START_TAG);
++  StructData_AddItem(storage, name, (int)XML_GetCurrentColumnNumber(g_parser),
++                     (int)XML_GetCurrentLineNumber(g_parser), STRUCT_START_TAG);
+ }
+ 
+@@ -97,6 +97,6 @@
+ end_element_event_handler2(void *userData, const XML_Char *name) {
+   StructData *storage = (StructData *)userData;
+-  StructData_AddItem(storage, name, XML_GetCurrentColumnNumber(g_parser),
+-                     XML_GetCurrentLineNumber(g_parser), STRUCT_END_TAG);
++  StructData_AddItem(storage, name, (int)XML_GetCurrentColumnNumber(g_parser),
++                     (int)XML_GetCurrentLineNumber(g_parser), STRUCT_END_TAG);
+ }
+ 
+@@ -1269,6 +1269,6 @@
+                             const XML_Char *publicId) {
+   XML_Parser new_parser;
+-  unsigned int i;
+-  const unsigned int max_alloc_count = 10;
++  int i;
++  const int max_alloc_count = 10;
+ 
+   UNUSED_P(base);

@@ -1,0 +1,1 @@
+In FindPeaks the FFT bin loop used a uint16_t index against the int32_t _imu_gyro_fft_len. Changed the loop variable to int32_t so it matches the bound type (as the neighbouring loops using int already do); indexing and arithmetic are unchanged.

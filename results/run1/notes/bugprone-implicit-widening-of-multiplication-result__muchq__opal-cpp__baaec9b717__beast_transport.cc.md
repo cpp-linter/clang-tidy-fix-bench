@@ -1,0 +1,1 @@
+The size argument of the scratch buffer `std::array<char, 16 * 1024>` was computed in `int` and then widened to `std::size_t` (the template parameter type). Writing it as `std::size_t{16} * 1024` evaluates it in `std::size_t`, which also matches the style already used in the file (e.g. `kOverLimitDrainBudgetBytes`). The buffer size is unchanged.

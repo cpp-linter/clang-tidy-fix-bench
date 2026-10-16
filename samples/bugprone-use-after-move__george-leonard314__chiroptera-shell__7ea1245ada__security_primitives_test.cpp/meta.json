@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__security_primitives_test.cpp",
+ "check": "bugprone-use-after-move",
+ "check_name": "bugprone-use-after-move",
+ "repo": "george-leonard314/chiroptera-shell",
+ "sha": "7ea1245ada09f642889f0cc3a86798ce18edd3dd",
+ "parent": "0d2657a3f33fcfdfd698124bed2fee7b3503aa14",
+ "url": "https://github.com/george-leonard314/chiroptera-shell/commit/7ea1245ada09f642889f0cc3a86798ce18edd3dd",
+ "license": "MIT",
+ "message": "fix: repair use-after-move sites surfaced by bugprone-use-after-move",
+ "file": "tests/security_primitives_test.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 102,
+   "col": 17,
+   "sev": "warning",
+   "msg": "'original' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 102,
+   "col": 17,
+   "sev": "warning",
+   "msg": "'original' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "errors_before": 2,
+ "human_changed_lines": 2
+}

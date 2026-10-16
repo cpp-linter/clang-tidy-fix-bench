@@ -1,0 +1,45 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__RyAnPr1Me__omscript__2ae9db9066__compiler.cpp",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "RyAnPr1Me/omscript",
+ "sha": "2ae9db90663f039601d2149f6b4a5db77a938daa",
+ "parent": "7f40b0d4159eafdd5e606e0b2322781bbedab17a",
+ "url": "https://github.com/RyAnPr1Me/omscript/commit/2ae9db90663f039601d2149f6b4a5db77a938daa",
+ "license": "MIT",
+ "message": "Fix all clang-tidy warnings",
+ "file": "src/compiler.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "llvm/ADT/SmallVector.h",
+  "llvm/IR/IRBuilder.h",
+  "llvm/IR/LLVMContext.h",
+  "llvm/IR/Module.h",
+  "llvm/IR/Value.h",
+  "llvm/Support/Program.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 63,
+   "col": 20,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'uintmax_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 63,
+   "col": 20,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'uintmax_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 9,
+ "human_changed_lines": 2
+}

@@ -1,0 +1,9 @@
+--- a/log-handler.c
++++ b/log-handler.c
+@@ -44,5 +44,5 @@
+ 
+ static const char *default_filename = LOCALSTATEDIR "/log/obmc-console.log";
+-static const size_t default_logsize = 16 * 1024;
++static const size_t default_logsize = 16ul * 1024;
+ 
+ static struct log_handler *to_log_handler(struct handler *handler)

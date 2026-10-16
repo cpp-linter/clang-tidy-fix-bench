@@ -1,0 +1,1 @@
+The single-character token loop stored each `char tok` straight into the `int`-valued `str_to_kind` map, sign-extending it. The value is now converted through `static_cast<unsigned char>(tok)`. All valid single-char tokens are ASCII, so the stored kinds stay the same, and the conversion can no longer go negative.

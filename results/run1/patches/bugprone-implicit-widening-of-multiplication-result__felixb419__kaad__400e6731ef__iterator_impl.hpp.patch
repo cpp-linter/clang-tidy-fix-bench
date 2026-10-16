@@ -1,0 +1,9 @@
+--- a/include/kaad/tensor/iterator_impl.hpp
++++ b/include/kaad/tensor/iterator_impl.hpp
+@@ -37,5 +37,5 @@
+         std::size_t idx = 0;
+         for (std::size_t i = 0; i < this->origin_.rank(); i++) {
+-            idx += this->cords_[i] * this->stride_[i];
++            idx += static_cast<std::size_t>(this->cords_[i]) * this->stride_[i];
+         }
+         return this->origin_.data()[idx];

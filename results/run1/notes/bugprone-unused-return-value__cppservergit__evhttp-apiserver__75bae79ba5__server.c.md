@@ -1,0 +1,1 @@
+In `setup_signals`, the result of `signal(SIGPIPE, SIG_IGN)` was ignored. The code now compares it against `SIG_ERR` and, on failure, logs a warning with the file's existing `LOG_WARN` macro. Startup still continues as before, but a failure to ignore SIGPIPE is no longer silent.

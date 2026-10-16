@@ -1,0 +1,1 @@
+`kDefaultChunkSize = 1024 * 32` was computed in `int` and then widened to `std::size_t`. Writing it as `std::size_t{1024} * 32` makes the multiplication happen in the declared type. The value is unchanged.

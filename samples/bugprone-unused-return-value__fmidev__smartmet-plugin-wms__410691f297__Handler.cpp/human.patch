@@ -1,0 +1,7 @@
+diff --git a/wms/wms/Handler.cpp b/wms/wms/Handler.cpp
+index 432f90b..83415d4 100644
+--- a/wms/wms/Handler.cpp
++++ b/wms/wms/Handler.cpp
+@@ -1375 +1375 @@ QueryStatus Handler::wmsGenerateProduct(Dali::State &theState,
+-    remove(fname);
++    (void)remove(fname);

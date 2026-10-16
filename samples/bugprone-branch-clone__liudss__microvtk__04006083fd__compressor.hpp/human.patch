@@ -1,0 +1,7 @@
+diff --git a/include/microvtk/core/compressor.hpp b/include/microvtk/core/compressor.hpp
+index b61e55a..24a2595 100644
+--- a/include/microvtk/core/compressor.hpp
++++ b/include/microvtk/core/compressor.hpp
+@@ -76 +76 @@ inline std::unique_ptr<Compressor> createCompressor(CompressionType type) {
+-    case CompressionType::ZLib:
++    case CompressionType::ZLib:  // NOLINT(bugprone-branch-clone)

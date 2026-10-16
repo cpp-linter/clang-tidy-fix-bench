@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same kReplayListPollInterval constant next to kReplayListPatience; essentially identical to the human fix."}

@@ -1,0 +1,9 @@
+--- a/src/launch/environment_capture.cpp
++++ b/src/launch/environment_capture.cpp
+@@ -332,5 +332,5 @@
+     }
+     struct timespec pause {
+-      0, 2 * 1000 * 1000
++      0, 2L * 1000 * 1000
+     };
+     ::nanosleep(&pause, nullptr);

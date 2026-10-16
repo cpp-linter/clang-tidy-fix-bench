@@ -1,0 +1,1 @@
+The for-loop separator check had two branches that both just `consume(p)`: one for `:` and one for the `in` identifier. They were merged into one condition joined by `||`. Accepted inputs and the error path are unchanged.

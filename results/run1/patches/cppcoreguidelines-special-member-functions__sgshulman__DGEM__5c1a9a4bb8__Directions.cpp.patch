@@ -1,0 +1,12 @@
+--- a/source/Directions.cpp
++++ b/source/Directions.cpp
+@@ -135,4 +135,9 @@
+                 delete[] triangles_;
+             }
++
++            IcosahedronMesh(IcosahedronMesh const&) = delete;
++            IcosahedronMesh& operator=(IcosahedronMesh const&) = delete;
++            IcosahedronMesh(IcosahedronMesh&&) = delete;
++            IcosahedronMesh& operator=(IcosahedronMesh&&) = delete;
+ 
+             Vector3d* points() const

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Explicitly deletes the move constructor and move assignment, identical to the human fix."}

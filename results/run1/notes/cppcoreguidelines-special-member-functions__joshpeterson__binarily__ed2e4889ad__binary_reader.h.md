@@ -1,0 +1,1 @@
+BinaryReader owns a raw FILE* and closes it in its user-declared destructor. An implicit copy would make two objects close the same handle, which is a double fclose. I deleted the copy constructor, copy assignment, move constructor and move assignment. The class is non-copyable and non-movable, the safe choice for a handle owner, and it keeps current usage working.

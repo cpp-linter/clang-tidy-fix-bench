@@ -1,0 +1,20 @@
+--- a/expat/tests/alloc_tests.c
++++ b/expat/tests/alloc_tests.c
+@@ -317,6 +317,6 @@
+                      "<doc>&entity;</doc>";
+   char foo_text[] = "<!ELEMENT doc (#PCDATA)*>";
+-  unsigned int i;
+-  const unsigned int max_alloc_count = 15;
++  int i;
++  const int max_alloc_count = 15;
+ 
+   for (i = 0; i < max_alloc_count; i++) {
+@@ -431,6 +431,6 @@
+                      "<!DOCTYPE test [<!ENTITY foo 'bar'>]>\n"
+                      "<test a='&foo;'/>";
+-  unsigned int i;
+-  const unsigned int max_alloc_count = 20;
++  int i;
++  const int max_alloc_count = 20;
+ 
+   for (i = 0; i < max_alloc_count; i++) {

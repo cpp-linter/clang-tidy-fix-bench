@@ -1,0 +1,1 @@
+unpack_result_t explicitly defaulted all four copy and move operations but had no destructor declaration. I added `~unpack_result_t() noexcept = default;` to complete the rule of five. The struct holds only plain integers, so behaviour is unchanged.

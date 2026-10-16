@@ -1,0 +1,40 @@
+{
+ "id": "readability-magic-numbers__Hahn-Schickard__IODD-Model__93ee8199f4__main.cpp",
+ "check": "readability-magic-numbers",
+ "check_name": "readability-magic-numbers",
+ "repo": "Hahn-Schickard/IODD-Model",
+ "sha": "93ee8199f428c5ad3ef5d75dc1ff41059402bf4f",
+ "parent": "55c6c9cde3083a6fe466af454394d18c866b1939",
+ "url": "https://github.com/Hahn-Schickard/IODD-Model/commit/93ee8199f428c5ad3ef5d75dc1ff41059402bf4f",
+ "license": "Apache-2.0",
+ "message": "suppress readability-magic-numbers",
+ "file": "sources/Example/main.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "Variant_Visitor.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 167,
+   "col": 36,
+   "sev": "warning",
+   "msg": "0xCD is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 167,
+   "col": 36,
+   "sev": "warning",
+   "msg": "0xCD is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "errors_before": 2,
+ "human_changed_lines": 1
+}

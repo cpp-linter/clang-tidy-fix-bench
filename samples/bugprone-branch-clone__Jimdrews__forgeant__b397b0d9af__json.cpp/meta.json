@@ -1,0 +1,41 @@
+{
+ "id": "bugprone-branch-clone__Jimdrews__forgeant__b397b0d9af__json.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "Jimdrews/forgeant",
+ "sha": "b397b0d9af9011ee702f100f3b7a8020bdc621fe",
+ "parent": "3e5418391b91359a6cf6115f4466f17454a47eca",
+ "url": "https://github.com/Jimdrews/forgeant/commit/b397b0d9af9011ee702f100f3b7a8020bdc621fe",
+ "license": "MIT",
+ "message": "fix: disambiguate bool branch for bugprone-branch-clone",
+ "file": "src/json/json.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "glaze/json/generic.hpp",
+  "glaze/json/read.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 22,
+   "col": 59,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 22,
+   "col": 59,
+   "sev": "warning",
+   "msg": "repeated branch body in conditional chain",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 6,
+ "human_changed_lines": 3
+}

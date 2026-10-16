@@ -1,0 +1,42 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__ralfkonrad__ql_performance_testing__3ffeee386f__TestSuiteFixture.hpp",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "cppcoreguidelines-special-member-functions",
+ "repo": "ralfkonrad/ql_performance_testing",
+ "sha": "3ffeee386fc14ed64e5b30c37d27d4ae08367b61",
+ "parent": "6c42700e74d522eac3c62deaa2f24e3b8c8e2da8",
+ "url": "https://github.com/ralfkonrad/ql_performance_testing/commit/3ffeee386fc14ed64e5b30c37d27d4ae08367b61",
+ "license": "MIT",
+ "message": "Put the NOLINT on the line it is meant to suppress",
+ "file": "rke/testsuite/TestSuiteFixture.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "boost/test/unit_test.hpp",
+  "ql/indexes/indexmanager.hpp",
+  "ql/settings.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 15,
+   "col": 11,
+   "sev": "warning",
+   "msg": "class 'TestSuiteFixture' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 15,
+   "col": 11,
+   "sev": "warning",
+   "msg": "class 'TestSuiteFixture' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "errors_before": 3,
+ "human_changed_lines": 3
+}

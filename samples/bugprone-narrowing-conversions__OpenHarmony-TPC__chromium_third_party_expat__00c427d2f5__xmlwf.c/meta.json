@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__00c427d2f5__xmlwf.c",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "OpenHarmony-TPC/chromium_third_party_expat",
+ "sha": "00c427d2f5c1b5b6dc4b3469113b9fe472bc7952",
+ "parent": "02c414e76be76a781d20ccb230eed191ba370ab8",
+ "url": "https://github.com/OpenHarmony-TPC/chromium_third_party_expat/commit/00c427d2f5c1b5b6dc4b3469113b9fe472bc7952",
+ "license": "MIT",
+ "message": "xmlwf: Address clang-tidy warning bugprone-narrowing-conversions",
+ "file": "expat/xmlwf/xmlwf.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 314,
+   "col": 14,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 314,
+   "col": 14,
+   "sev": "warning",
+   "msg": "narrowing conversion from '__size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

@@ -1,0 +1,9 @@
+diff --git a/src/calendar/ical_parser.cpp b/src/calendar/ical_parser.cpp
+index 042a0c0..b7533f8 100644
+--- a/src/calendar/ical_parser.cpp
++++ b/src/calendar/ical_parser.cpp
+@@ -469,0 +470,4 @@ namespace calendar {
++          // BEGIN:VEVENT resets these too; clearing here keeps the moved-from state from outliving
++          // this event when the stream is malformed.
++          event = CalendarEvent{};
++          exdates.clear();

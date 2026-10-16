@@ -1,0 +1,1 @@
+In `At()`, the 16 is the size limit below which the table uses a linear search instead of binary search. Introduced a local `constexpr size_t kLinearSearchMaxOutcomes = 16;` just before the `if constexpr` and compared `NumberOfOutcomes` against it. It is still a compile-time constant, so the `if constexpr` and behaviour are unchanged.

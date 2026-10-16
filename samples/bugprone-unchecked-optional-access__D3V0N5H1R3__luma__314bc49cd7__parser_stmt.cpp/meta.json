@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-unchecked-optional-access__D3V0N5H1R3__luma__314bc49cd7__parser_stmt.cpp",
+ "check": "bugprone-unchecked-optional-access",
+ "check_name": "bugprone-unchecked-optional-access",
+ "repo": "D3V0N5H1R3/luma",
+ "sha": "314bc49cd7c690474964bc5d478ab203dcf60122",
+ "parent": "78c5537eea5520000a34f55b5c778e41f59c5c79",
+ "url": "https://github.com/D3V0N5H1R3/luma/commit/314bc49cd7c690474964bc5d478ab203dcf60122",
+ "license": "MIT",
+ "message": "fix(lang): keep range-bound NOLINT on the optional deref line",
+ "file": "core/analysis/parser/parser_stmt.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 593,
+   "col": 40,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 593,
+   "col": 40,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

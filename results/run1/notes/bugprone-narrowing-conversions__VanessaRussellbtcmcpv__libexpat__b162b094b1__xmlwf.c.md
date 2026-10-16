@@ -1,0 +1,1 @@
+In xcsdup(), numBytes was an int initialised from count * sizeof(XML_Char), which is a size_t expression, and it is only ever passed to malloc and memcpy, both of which take size_t. Declaring numBytes as size_t removes the size_t-to-int narrowing and is the natural type for a byte count; behaviour is unchanged.

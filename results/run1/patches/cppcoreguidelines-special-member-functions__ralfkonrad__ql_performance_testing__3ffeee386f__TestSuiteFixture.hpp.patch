@@ -1,0 +1,14 @@
+--- a/rke/testsuite/TestSuiteFixture.hpp
++++ b/rke/testsuite/TestSuiteFixture.hpp
+@@ -14,7 +14,10 @@
+ 
+     class TestSuiteFixture {
+-        // NOLINT(cppcoreguidelines-special-member-functions)
+       public:
+         TestSuiteFixture() = default;
++        TestSuiteFixture(const TestSuiteFixture&) = delete;
++        TestSuiteFixture& operator=(const TestSuiteFixture&) = delete;
++        TestSuiteFixture(TestSuiteFixture&&) = delete;
++        TestSuiteFixture& operator=(TestSuiteFixture&&) = delete;
+ 
+         ~TestSuiteFixture() {

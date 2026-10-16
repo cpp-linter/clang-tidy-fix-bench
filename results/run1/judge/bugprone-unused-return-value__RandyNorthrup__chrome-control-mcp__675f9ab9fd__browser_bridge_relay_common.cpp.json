@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "(void) cast versus static_cast<void>; same explicit discard."}

@@ -1,0 +1,9 @@
+diff --git a/src/AnsiScreen.cpp b/src/AnsiScreen.cpp
+index bf6fdb1..f8721a1 100644
+--- a/src/AnsiScreen.cpp
++++ b/src/AnsiScreen.cpp
+@@ -304,2 +304,2 @@ ParsedDocument renderScreen(const std::string& input, const ScreenConfig& cfg) {
+-                        case 'C': scr.moveRight(firstParam(body, 1)); break;
+-                        case 'a': scr.moveRight(firstParam(body, 1)); break; // HPR
++                        case 'C':                                     // CUF
++                        case 'a': scr.moveRight(firstParam(body, 1)); break; // a = HPR

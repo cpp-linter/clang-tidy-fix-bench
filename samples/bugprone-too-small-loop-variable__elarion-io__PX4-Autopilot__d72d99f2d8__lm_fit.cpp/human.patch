@@ -1,0 +1,16 @@
+diff --git a/src/modules/commander/lm_fit.cpp b/src/modules/commander/lm_fit.cpp
+index 866fa6f..e6ae846 100644
+--- a/src/modules/commander/lm_fit.cpp
++++ b/src/modules/commander/lm_fit.cpp
+@@ -58 +58 @@ void lm_sphere_fit_iteration(const float x[], const float y[], const float z[],
+-	for (uint16_t k = 0; k < samples_collected; k++) {
++	for (size_t k = 0; k < samples_collected; k++) {
+@@ -121 +121 @@ void lm_sphere_fit_iteration(const float x[], const float y[], const float z[],
+-	for (uint16_t k = 0; k < samples_collected; k++) {
++	for (size_t k = 0; k < samples_collected; k++) {
+@@ -191 +191 @@ void lm_ellipsoid_fit_iteration(const float x[], const float y[], const float z[
+-	for (uint16_t k = 0; k < samples_collected; k++) {
++	for (size_t k = 0; k < samples_collected; k++) {
+@@ -258 +258 @@ void lm_ellipsoid_fit_iteration(const float x[], const float y[], const float z[
+-	for (uint16_t k = 0; k < samples_collected; k++) {
++	for (size_t k = 0; k < samples_collected; k++) {

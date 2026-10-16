@@ -1,0 +1,45 @@
+{
+ "id": "readability-magic-numbers__nebulastream__nebulastream__15b15fa7be__TaggedPointer.hpp",
+ "check": "readability-magic-numbers",
+ "check_name": "readability-magic-numbers",
+ "repo": "nebulastream/nebulastream",
+ "sha": "15b15fa7beab0144e95b3251989ef290c0b0d0a2",
+ "parent": "cf51866047a5601d03e6600afcde075472118add",
+ "url": "https://github.com/nebulastream/nebulastream/commit/15b15fa7beab0144e95b3251989ef290c0b0d0a2",
+ "license": "Apache-2.0",
+ "message": "fix(Clang-Tidy): Suppress readability-magic-numbers warning",
+ "file": "nes-memory/TaggedPointer.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 97,
+   "col": 50,
+   "sev": "warning",
+   "msg": "48 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 105,
+   "col": 57,
+   "sev": "warning",
+   "msg": "48 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 105,
+   "col": 57,
+   "sev": "warning",
+   "msg": "48 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

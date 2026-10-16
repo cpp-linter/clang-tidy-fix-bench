@@ -1,0 +1,80 @@
+{
+ "id": "bugprone-unchecked-optional-access__benmandrew__PEREDUR__003726442f__black_tests.cpp",
+ "check": "bugprone-unchecked-optional-access",
+ "check_name": "bugprone-unchecked-optional-access",
+ "repo": "benmandrew/PEREDUR",
+ "sha": "003726442f40b8da28486ca8dd3a9aba0fd1a7e7",
+ "parent": "4ff5c7b41b2a80efe4215ec202421c9232933418",
+ "url": "https://github.com/benmandrew/PEREDUR/commit/003726442f40b8da28486ca8dd3a9aba0fd1a7e7",
+ "license": "MIT",
+ "message": "fix(test): check optional has_value before dereferencing in black_tests",
+ "file": "test/runner/black_tests.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 9,
+   "col": 12,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  },
+  {
+   "line": 15,
+   "col": 13,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  },
+  {
+   "line": 21,
+   "col": 12,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  },
+  {
+   "line": 27,
+   "col": 13,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 9,
+   "col": 12,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  },
+  {
+   "line": 15,
+   "col": 13,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  },
+  {
+   "line": 21,
+   "col": 12,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  },
+  {
+   "line": 27,
+   "col": 13,
+   "sev": "warning",
+   "msg": "unchecked access to optional value",
+   "check": "bugprone-unchecked-optional-access"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 15
+}

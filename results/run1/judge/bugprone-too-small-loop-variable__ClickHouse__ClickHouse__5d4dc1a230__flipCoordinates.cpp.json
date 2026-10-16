@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Different approach (size_t loop index with a per-iteration cast to Discriminator instead of narrowing the bound), but correct and behaviour-preserving."}

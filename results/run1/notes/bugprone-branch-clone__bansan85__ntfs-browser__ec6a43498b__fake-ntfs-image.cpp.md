@@ -1,0 +1,1 @@
+In MakeNonAsciiUpCaseBytes, the ASCII a-z branch and the Latin-1 lowercase branch (excluding the division sign) both computed `unit - kCaseDistance`. They were merged into one condition joined by `||`, and the y-diaeresis branch stays as it was. The generated table is identical.

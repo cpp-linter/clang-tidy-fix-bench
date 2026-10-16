@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-narrowing-conversions__rv355__openvino-bevfusion-ops__5c0967b990__solve_buffer_memory.cpp",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "rv355/openvino-bevfusion-ops",
+ "sha": "5c0967b990bf8392b97ed15d864c9b3b368a6c24",
+ "parent": "1b8904a829fd0024f58f3c95b1222edac74264da",
+ "url": "https://github.com/rv355/openvino-bevfusion-ops/commit/5c0967b990bf8392b97ed15d864c9b3b368a6c24",
+ "license": "Apache-2.0",
+ "message": "[Snippets] Apply 'bugprone-narrowing-conversions' and 'cppcoreguidelines-narrowing-conversions' clang-tidy remarks (#31435)",
+ "file": "src/common/snippets/src/lowered/pass/solve_buffer_memory.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 122,
+   "col": 20,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'decltype((lhs + rhs - 1) / rhs)' (aka 'unsigned long long') to signed type 'int64_t' (aka 'long long') is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 122,
+   "col": 20,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'decltype((lhs + rhs - 1) / rhs)' (aka 'unsigned long long') to signed type 'int64_t' (aka 'long long') is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

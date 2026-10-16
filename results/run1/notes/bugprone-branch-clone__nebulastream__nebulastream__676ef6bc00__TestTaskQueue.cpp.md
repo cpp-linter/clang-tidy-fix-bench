@@ -1,0 +1,1 @@
+In `TestPipelineExecutionContext::emitBuffer`, the `ContinuationPolicy::NEVER` and `ContinuationPolicy::POSSIBLE` cases had identical bodies (append the buffer to the worker's result list). I turned `NEVER` into a label that falls into the `POSSIBLE` case, so both share one body. Behaviour is unchanged.

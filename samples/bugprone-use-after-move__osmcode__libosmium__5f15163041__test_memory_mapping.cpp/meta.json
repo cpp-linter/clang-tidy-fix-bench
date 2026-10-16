@@ -1,0 +1,80 @@
+{
+ "id": "bugprone-use-after-move__osmcode__libosmium__5f15163041__test_memory_mapping.cpp",
+ "check": "bugprone-use-after-move",
+ "check_name": "hicpp-invalid-access-moved",
+ "repo": "osmcode/libosmium",
+ "sha": "5f151630411d34451f33875cdc1c8706359646b3",
+ "parent": "a47757d537b317706b0841c692a8dda530929e6e",
+ "url": "https://github.com/osmcode/libosmium/commit/5f151630411d34451f33875cdc1c8706359646b3",
+ "license": "BSL-1.0",
+ "message": "clang-tidy: disable hicpp-invalid-access-moved only in specific places",
+ "file": "test/t/util/test_memory_mapping.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 50,
+   "col": 14,
+   "sev": "warning",
+   "msg": "'mapping1' used after it was moved",
+   "check": "hicpp-invalid-access-moved"
+  },
+  {
+   "line": 73,
+   "col": 14,
+   "sev": "warning",
+   "msg": "'mapping1' used after it was moved",
+   "check": "hicpp-invalid-access-moved"
+  },
+  {
+   "line": 276,
+   "col": 14,
+   "sev": "warning",
+   "msg": "'mapping1' used after it was moved",
+   "check": "hicpp-invalid-access-moved"
+  },
+  {
+   "line": 299,
+   "col": 14,
+   "sev": "warning",
+   "msg": "'mapping1' used after it was moved",
+   "check": "hicpp-invalid-access-moved"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 50,
+   "col": 14,
+   "sev": "warning",
+   "msg": "'mapping1' used after it was moved",
+   "check": "hicpp-invalid-access-moved"
+  },
+  {
+   "line": 73,
+   "col": 14,
+   "sev": "warning",
+   "msg": "'mapping1' used after it was moved",
+   "check": "hicpp-invalid-access-moved"
+  },
+  {
+   "line": 276,
+   "col": 14,
+   "sev": "warning",
+   "msg": "'mapping1' used after it was moved",
+   "check": "hicpp-invalid-access-moved"
+  },
+  {
+   "line": 299,
+   "col": 14,
+   "sev": "warning",
+   "msg": "'mapping1' used after it was moved",
+   "check": "hicpp-invalid-access-moved"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 8
+}

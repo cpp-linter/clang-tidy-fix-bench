@@ -1,0 +1,1 @@
+`refreshTelemetry()` repeats the factor `2.0f` from the quaternion-to-Euler formulas (sin(pitch), and the atan2 arguments for roll and yaw). I added one local `constexpr float QUAT_TERM_SCALE = 2.0f;` at the top of the computation and used it in all five places. The arithmetic is identical, so behaviour does not change.

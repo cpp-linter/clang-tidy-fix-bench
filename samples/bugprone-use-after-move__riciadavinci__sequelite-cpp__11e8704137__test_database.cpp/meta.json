@@ -1,0 +1,61 @@
+{
+ "id": "bugprone-use-after-move__riciadavinci__sequelite-cpp__11e8704137__test_database.cpp",
+ "check": "bugprone-use-after-move",
+ "check_name": "bugprone-use-after-move",
+ "repo": "riciadavinci/sequelite-cpp",
+ "sha": "11e87041370448ebb9435cbc6dbb4b2a0cbd3532",
+ "parent": "71d4a5ac220af13fad0f212829c5da71776e642b",
+ "url": "https://github.com/riciadavinci/sequelite-cpp/commit/11e87041370448ebb9435cbc6dbb4b2a0cbd3532",
+ "license": "MIT",
+ "message": "Add Clang-Tidy Exception: NOLINT(bugprone-use-after-move)",
+ "file": "tests/test_database.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "gtest/gtest.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 66,
+   "col": 18,
+   "sev": "warning",
+   "msg": "'original_db' used after it was moved",
+   "check": "bugprone-use-after-move"
+  },
+  {
+   "line": 88,
+   "col": 18,
+   "sev": "warning",
+   "msg": "'db2' used after it was moved",
+   "check": "bugprone-use-after-move"
+  },
+  {
+   "line": 104,
+   "col": 18,
+   "sev": "warning",
+   "msg": "'db' used after it was moved",
+   "check": "bugprone-use-after-move"
+  },
+  {
+   "line": 155,
+   "col": 19,
+   "sev": "warning",
+   "msg": "'db' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 155,
+   "col": 19,
+   "sev": "warning",
+   "msg": "'db' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "errors_before": 74,
+ "human_changed_lines": 2
+}

@@ -1,0 +1,40 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__message_limits.hpp",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "just-buildsystem/justbuild",
+ "sha": "c461673aad0970bc89f6336c966d2305eaae0dbb",
+ "parent": "7df9944604e2ef92abce20c00ea265793b151261",
+ "url": "https://github.com/just-buildsystem/justbuild/commit/c461673aad0970bc89f6336c966d2305eaae0dbb",
+ "license": "Apache-2.0",
+ "message": "Enable bugprone-implicit-widening-of-multiplication-result check.",
+ "file": "src/buildtool/execution_api/common/message_limits.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "grpc/grpc.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 20,
+   "col": 54,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'const std::size_t' (aka 'const unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 20,
+   "col": 54,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'const std::size_t' (aka 'const unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 1,
+ "human_changed_lines": 2
+}

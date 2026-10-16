@@ -1,0 +1,1 @@
+In the timezone-offset computation, the sub-expression `(tz_hour < 0 ? -1 : 1) * tz_minute` was evaluated in `int` and then widened to `int64_t` when added to the already-64-bit hour term. Wrapping the sign factor in `static_cast<int64_t>(...)` makes the multiplication 64-bit like the rest of the expression; results are identical for all valid inputs.

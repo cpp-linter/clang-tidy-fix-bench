@@ -1,0 +1,12 @@
+diff --git a/common/autoware_object_recognition_utils/src/predicted_path_utils.cpp b/common/autoware_object_recognition_utils/src/predicted_path_utils.cpp
+index 010d7af..f759d9c 100644
+--- a/common/autoware_object_recognition_utils/src/predicted_path_utils.cpp
++++ b/common/autoware_object_recognition_utils/src/predicted_path_utils.cpp
+@@ -39,2 +39,2 @@ boost::optional<geometry_msgs::msg::Pose> calcInterpolatedPose(
+-    if (relative_time - epsilon < time_step * path_idx) {
+-      const double offset = relative_time - time_step * (path_idx - 1);
++    if (relative_time - epsilon < time_step * static_cast<double>(path_idx)) {
++      const double offset = relative_time - time_step * static_cast<double>(path_idx - 1);
+@@ -65 +65 @@ autoware_perception_msgs::msg::PredictedPath resamplePredictedPath(
+-    input_time.at(i) = time_step * i;
++    input_time.at(i) = time_step * static_cast<double>(i);

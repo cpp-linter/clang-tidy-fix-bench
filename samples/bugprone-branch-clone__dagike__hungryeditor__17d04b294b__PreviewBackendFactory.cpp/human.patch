@@ -1,0 +1,18 @@
+diff --git a/src/preview/PreviewBackendFactory.cpp b/src/preview/PreviewBackendFactory.cpp
+index 3795728..2d27edc 100644
+--- a/src/preview/PreviewBackendFactory.cpp
++++ b/src/preview/PreviewBackendFactory.cpp
+@@ -25,8 +25,5 @@ std::unique_ptr<PreviewBackend> createPreviewBackend(QObject* parent)
+-    switch (selectedPreviewEngine()) {
+-    case PreviewEngine::WebView2:
+-        // Unreachable today: selectedPreviewEngine() only returns this when
+-        // isWebView2Available() is true, which it never is yet.
+-        break;
+-    case PreviewEngine::QtWebEngine:
+-        break;
+-    }
++    // Always QtWebEnginePreview today: selectedPreviewEngine() only returns
++    // PreviewEngine::WebView2 when isWebView2Available() is true, which it
++    // never is yet. That branch will be added here once the COM backend
++    // (a follow-on branch) lands.
++    Q_ASSERT(selectedPreviewEngine() == PreviewEngine::QtWebEngine);

@@ -1,0 +1,82 @@
+{
+ "id": "bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__f4aeedd3aa__debug_utils.cpp",
+ "check": "bugprone-signed-char-misuse",
+ "check_name": "bugprone-signed-char-misuse",
+ "repo": "HabanaAI/gaudi-pytorch-bridge",
+ "sha": "f4aeedd3aa1bd8410eb394085d2c3812edfb6fc5",
+ "parent": "8b28843dea2b0c194addccd8ea5d932cea4ab30c",
+ "url": "https://github.com/HabanaAI/gaudi-pytorch-bridge/commit/f4aeedd3aa1bd8410eb394085d2c3812edfb6fc5",
+ "license": "Apache-2.0",
+ "message": " Fix clang-tidy bugprone-signed-char-misuse (#2360)",
+ "file": "habana_lazy/debug_utils.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "ATen/core/Tensor.h",
+  "absl/strings/str_format.h",
+  "absl/types/optional.h",
+  "c10/core/Device.h",
+  "c10/core/DeviceGuard.h",
+  "c10/core/Stream.h",
+  "c10/core/TensorImpl.h",
+  "c10/util/Exception.h",
+  "fmt/compile.h",
+  "fmt/ostream.h",
+  "fmt/ranges.h",
+  "generated/env_flags/env_flags_generated.h",
+  "hl_logger/hllog.hpp",
+  "synapse_api.h",
+  "synapse_api_types.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 63,
+   "col": 25,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  },
+  {
+   "line": 67,
+   "col": 25,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  },
+  {
+   "line": 71,
+   "col": 25,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 63,
+   "col": 25,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  },
+  {
+   "line": 67,
+   "col": 25,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  },
+  {
+   "line": 71,
+   "col": 25,
+   "sev": "warning",
+   "msg": "'signed char' to 'int' conversion; consider casting to 'unsigned char' first.",
+   "check": "bugprone-signed-char-misuse"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 6
+}

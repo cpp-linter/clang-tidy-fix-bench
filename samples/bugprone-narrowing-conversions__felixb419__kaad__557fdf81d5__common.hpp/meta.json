@@ -1,0 +1,66 @@
+{
+ "id": "bugprone-narrowing-conversions__felixb419__kaad__557fdf81d5__common.hpp",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "felixb419/kaad",
+ "sha": "557fdf81d501adc414749194f487769721911e04",
+ "parent": "400e6731ef3848694c662a785a8f9fa7ed7df9ca",
+ "url": "https://github.com/felixb419/kaad/commit/557fdf81d501adc414749194f487769721911e04",
+ "license": "MIT",
+ "message": "fix: implicit conversion from size_t to int [bugprone-narrowing-conversions]",
+ "file": "include/kaad/graph/common.hpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 34,
+   "col": 15,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'std::size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 36,
+   "col": 20,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'std::size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 37,
+   "col": 20,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'std::size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 34,
+   "col": 15,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'std::size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 36,
+   "col": 20,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'std::size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  },
+  {
+   "line": 37,
+   "col": 20,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'std::size_t' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 6
+}

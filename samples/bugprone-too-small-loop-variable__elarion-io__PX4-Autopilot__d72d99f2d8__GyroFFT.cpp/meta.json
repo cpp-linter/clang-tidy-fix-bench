@@ -1,0 +1,43 @@
+{
+ "id": "bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__GyroFFT.cpp",
+ "check": "bugprone-too-small-loop-variable",
+ "check_name": "bugprone-too-small-loop-variable",
+ "repo": "elarion-io/PX4-Autopilot",
+ "sha": "d72d99f2d8f7318402c0ab20d8e2cfb20f46b81d",
+ "parent": "a2808a991c1f683077d350b6d864ec0d3578f9ee",
+ "url": "https://github.com/elarion-io/PX4-Autopilot/commit/d72d99f2d8f7318402c0ab20d8e2cfb20f46b81d",
+ "license": "BSD-3-Clause",
+ "message": "fix(ci): clang-tidy bugprone-too-small-loop-variable(#26709)",
+ "file": "src/modules/gyro_fft/GyroFFT.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "parameters/px4_parameters.hpp",
+  "px4_boardconfig.h",
+  "rclcpp/rclcpp.hpp",
+  "uORB/topics/uORBTopics.hpp"
+ ],
+ "warnings_before": [
+  {
+   "line": 442,
+   "col": 31,
+   "sev": "warning",
+   "msg": "loop variable has narrower type 'uint16_t' than iteration's upper bound 'int32_t'",
+   "check": "bugprone-too-small-loop-variable"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 442,
+   "col": 31,
+   "sev": "warning",
+   "msg": "loop variable has narrower type 'uint16_t' than iteration's upper bound 'int32_t'",
+   "check": "bugprone-too-small-loop-variable"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 4
+}

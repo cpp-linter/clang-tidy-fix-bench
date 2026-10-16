@@ -1,0 +1,21 @@
+--- a/modules/core/include/moth/core/angle.h
++++ b/modules/core/include/moth/core/angle.h
+@@ -9,4 +9,5 @@
+         constexpr float kPi = 3.14159265f;
+         constexpr float kTwoPi = 2.0f * kPi;
++constexpr float kHalfTurnDegrees = 180.0f;
+     }
+ 
+@@ -16,10 +17,10 @@
+     /// degree-based sources such as authored data files.
+     constexpr float DegToRad(float degrees) {
+-        return degrees * (kPi / 180.0f);
++        return degrees * (kPi / kHalfTurnDegrees);
+     }
+ 
+     /// @brief Converts an angle in radians to degrees, e.g. for display or serialisation.
+     constexpr float RadToDeg(float radians) {
+-        return radians * (180.0f / kPi);
++        return radians * (kHalfTurnDegrees / kPi);
+     }
+ 

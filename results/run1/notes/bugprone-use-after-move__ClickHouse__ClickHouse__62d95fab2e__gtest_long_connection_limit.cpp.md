@@ -1,0 +1,1 @@
+The test checks on purpose that a moved-from `LongConnectionSlot` holds nothing, which is the behaviour under test. To keep that check without a direct use-after-move of `a`, a const reference `moved_from` is bound to `a` before the move, and the `EXPECT_FALSE` goes through it. The test asserts exactly the same thing as before.

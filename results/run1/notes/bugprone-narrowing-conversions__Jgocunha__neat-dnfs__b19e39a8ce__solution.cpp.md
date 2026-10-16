@@ -1,0 +1,1 @@
+In `moveGaussianStimulusContinuously`, the `size_t` constant `SimulationConstants::maxSimulationSteps` was divided by the `double` `steps_x`, which converts it to `double` implicitly. I wrapped it in `static_cast<double>(...)` so the conversion is explicit. The arithmetic is the same, and the result is still cast to `int` as before.

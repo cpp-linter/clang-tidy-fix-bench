@@ -1,0 +1,22 @@
+--- a/nes-memory/TaggedPointer.hpp
++++ b/nes-memory/TaggedPointer.hpp
+@@ -95,5 +95,5 @@
+      * @return
+      */
+-    inline uint16_t tag() const { return data >> 48; }
++    inline uint16_t tag() const { return data >> TAG_SHIFT; }
+ 
+     /**
+@@ -103,5 +103,5 @@
+     [[nodiscard]] void* pointer() const
+     {
+-        return reinterpret_cast<void*>(data & ((1ULL << 48) - 1)); /// NOLINT(performance-no-int-to-ptr, cppcoreguidelines-pro-type-reinterpret-cast, hicpp-signed-bitwise) - intentional tagged pointer manipulation
++        return reinterpret_cast<void*>(data & ((1ULL << TAG_SHIFT) - 1)); /// NOLINT(performance-no-int-to-ptr, cppcoreguidelines-pro-type-reinterpret-cast, hicpp-signed-bitwise) - intentional tagged pointer manipulation
+     }
+ 
+@@ -113,4 +113,5 @@
+ 
+ private:
++    static constexpr uintptr_t TAG_SHIFT = 48;
+     uintptr_t data = 0;
+ };

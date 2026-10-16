@@ -1,0 +1,10 @@
+diff --git a/expat/tests/alloc_tests.c b/expat/tests/alloc_tests.c
+index 12ea3b2..4c3e2af 100644
+--- a/expat/tests/alloc_tests.c
++++ b/expat/tests/alloc_tests.c
+@@ -326 +326 @@ START_TEST(test_alloc_run_external_parser) {
+-    g_allocation_count = i;
++    g_allocation_count = (int)i;
+@@ -437 +437 @@ START_TEST(test_alloc_internal_entity) {
+-    g_allocation_count = i;
++    g_allocation_count = (int)i;

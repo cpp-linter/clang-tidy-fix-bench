@@ -1,0 +1,1 @@
+In two allocation-failure test loops (lines 326 and 437, the second in `test_alloc_internal_entity`), the `unsigned int` loop counter `i` was assigned to the global `int g_allocation_count`. `i` is bounded by small constants (15 and 20), so the conversion always keeps the value. I made it explicit with `g_allocation_count = (int)i;`. Behaviour is unchanged.

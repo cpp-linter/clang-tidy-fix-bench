@@ -1,0 +1,22 @@
+diff --git a/software/components/flight-core/src/estimator/attitude_estimator.cpp b/software/components/flight-core/src/estimator/attitude_estimator.cpp
+index 1ac6ff7..388ee34 100644
+--- a/software/components/flight-core/src/estimator/attitude_estimator.cpp
++++ b/software/components/flight-core/src/estimator/attitude_estimator.cpp
+@@ -92,8 +92,9 @@ namespace mark4
+-        float sinPitch = 2.0f * (q.w * q.y - q.z * q.x);
+-        sinPitch = sinPitch > 1.0f ? 1.0f : sinPitch;
+-        sinPitch = sinPitch < -1.0f ? -1.0f : sinPitch;
+-        m_eulerRad[0] =
+-            std::atan2(2.0f * (q.w * q.x + q.y * q.z), 1.0f - 2.0f * (q.x * q.x + q.y * q.y));
+-        m_eulerRad[1] = std::asin(sinPitch);
+-        m_eulerRad[2] =
+-            std::atan2(2.0f * (q.w * q.z + q.x * q.y), 1.0f - 2.0f * (q.y * q.y + q.z * q.z));
++        const float rollY = 2.0f * (q.w * q.x + q.y * q.z);
++        const float rollX = 1.0f - 2.0f * (q.x * q.x + q.y * q.y);
++        const float sinPitch = 2.0f * (q.w * q.y - q.z * q.x);
++        const float yawY = 2.0f * (q.w * q.z + q.x * q.y);
++        const float yawX = 1.0f - 2.0f * (q.y * q.y + q.z * q.z);
++        const float clamped = sinPitch > 1.0f ? 1.0f : (sinPitch < -1.0f ? -1.0f : sinPitch);
++        m_eulerRad[0] = std::atan2(rollY, rollX);
++        m_eulerRad[1] = std::asin(clamped);
++        m_eulerRad[2] = std::atan2(yawY, yawX);

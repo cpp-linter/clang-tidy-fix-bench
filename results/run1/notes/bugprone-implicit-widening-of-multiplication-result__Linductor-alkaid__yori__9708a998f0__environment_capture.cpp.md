@@ -1,0 +1,1 @@
+The `tv_nsec` initializer `2 * 1000 * 1000` of the `timespec` was computed in `int` and then widened to `long`. I wrote the first factor as `2L` so the whole product is computed in `long`, the type of `tv_nsec`. The value (2 ms) is the same, so behaviour is unchanged.

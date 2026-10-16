@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__quintin-lee__cdsl__b03026945e__eval.c",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "quintin-lee/cdsl",
+ "sha": "b03026945e6f3650134c8afcfa653b924f85292f",
+ "parent": "9c96d63bb3887f94e737c239d5e450f16d7e01bf",
+ "url": "https://github.com/quintin-lee/cdsl/commit/b03026945e6f3650134c8afcfa653b924f85292f",
+ "license": "MIT",
+ "message": "refactor: comprehensive project optimization",
+ "file": "src/vm/eval.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 108,
+   "col": 3,
+   "sev": "warning",
+   "msg": "switch has 6 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 108,
+   "col": 3,
+   "sev": "warning",
+   "msg": "switch has 6 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 10
+}

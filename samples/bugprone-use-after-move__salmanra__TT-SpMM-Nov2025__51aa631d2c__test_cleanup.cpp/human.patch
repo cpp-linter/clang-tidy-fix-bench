@@ -1,0 +1,6 @@
+diff --git a/tt_stl/tests/test_cleanup.cpp b/tt_stl/tests/test_cleanup.cpp
+index 0c63910..0093e9d 100644
+--- a/tt_stl/tests/test_cleanup.cpp
++++ b/tt_stl/tests/test_cleanup.cpp
+@@ -73,0 +74 @@ TEST(CleanupTest, PerfectForwarding) {
++        // NOLINTNEXTLINE(bugprone-use-after-move)

@@ -1,0 +1,9 @@
+--- a/src/browser_bridge_relay_common.cpp
++++ b/src/browser_bridge_relay_common.cpp
+@@ -230,5 +230,5 @@
+         // exit into a crash. The server sees its client drop, which is exactly
+         // what happened.
+-        std::fflush(nullptr);
++        (void)std::fflush(nullptr);
+         std::_Exit(0);
+       }

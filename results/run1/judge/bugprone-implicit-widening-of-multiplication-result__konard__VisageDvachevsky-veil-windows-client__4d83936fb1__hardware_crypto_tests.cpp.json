@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "std::size_t{1024} vs static_cast<std::size_t>(1024); same change."}

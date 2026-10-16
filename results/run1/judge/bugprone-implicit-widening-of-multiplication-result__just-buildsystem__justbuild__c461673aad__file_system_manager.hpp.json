@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "std::size_t{1024}*32 vs 1024UL*32; same type and value."}

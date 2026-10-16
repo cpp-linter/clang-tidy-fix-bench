@@ -1,0 +1,13 @@
+diff --git a/habana_lazy/debug_utils.cpp b/habana_lazy/debug_utils.cpp
+index e1d3a3c3..a10f5112 100644
+--- a/habana_lazy/debug_utils.cpp
++++ b/habana_lazy/debug_utils.cpp
+@@ -63 +63 @@ absl::optional<AttrTag> ParseAttrTag(
+-          nested_open = node_string[pos];
++          nested_open = static_cast<unsigned char>(node_string[pos]);
+@@ -67 +67 @@ absl::optional<AttrTag> ParseAttrTag(
+-          nested_open = node_string[pos];
++          nested_open = static_cast<unsigned char>(node_string[pos]);
+@@ -71 +71 @@ absl::optional<AttrTag> ParseAttrTag(
+-          nested_open = node_string[pos];
++          nested_open = static_cast<unsigned char>(node_string[pos]);

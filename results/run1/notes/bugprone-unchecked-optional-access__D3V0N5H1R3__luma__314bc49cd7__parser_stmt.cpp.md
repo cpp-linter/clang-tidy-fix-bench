@@ -1,0 +1,1 @@
+The range-pattern upper bound read the literal payload with .value() on the optional returned by expect(). The optional is now copied into a local, checked explicitly, and dereferenced only after the check. The failure path throws std::bad_optional_access, which is exactly what .value() did, so behaviour is unchanged; the stale NOLINT comment was turned into a normal comment.

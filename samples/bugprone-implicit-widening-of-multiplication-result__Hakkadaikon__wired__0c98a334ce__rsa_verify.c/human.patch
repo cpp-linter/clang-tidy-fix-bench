@@ -1,0 +1,7 @@
+diff --git a/src/rsa/rsa_verify.c b/src/rsa/rsa_verify.c
+index 16a858d..545cd7d 100644
+--- a/src/rsa/rsa_verify.c
++++ b/src/rsa/rsa_verify.c
+@@ -50 +50 @@ static int n_len_bad(usz n_len)
+-    if (n_len > QUIC_BN_LIMBS * 8) return 1;
++    if (n_len > (usz)QUIC_BN_LIMBS * 8) return 1;

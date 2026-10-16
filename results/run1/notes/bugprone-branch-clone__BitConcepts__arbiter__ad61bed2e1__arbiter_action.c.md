@@ -1,0 +1,1 @@
+The ARBITER_ACTION_LOG and ARBITER_ACTION_NOTIFY cases differed only in the literal tag inside the LOG_INF format string (and are identical when logging compiles out), so they were merged into one case with two labels. The format string now uses `%s` and picks "log" or "notify" from action->type, so the logged text and the dispatched++ behaviour are unchanged.

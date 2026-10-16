@@ -1,0 +1,45 @@
+{
+ "id": "cppcoreguidelines-special-member-functions__jerarn__jaql__1107ce9501__test_logger.cpp",
+ "check": "cppcoreguidelines-special-member-functions",
+ "check_name": "cppcoreguidelines-special-member-functions",
+ "repo": "jerarn/jaql",
+ "sha": "1107ce9501fe95460ee19009524e01022790438d",
+ "parent": "46887676c9eed904e22bbad508c7ee0d8300be98",
+ "url": "https://github.com/jerarn/jaql/commit/1107ce9501fe95460ee19009524e01022790438d",
+ "license": "MIT",
+ "message": "fix(infra): fix clang-tidy violations in logger and test_logger #10",
+ "file": "tests/unit/infra/test_logger.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "gtest/gtest.h",
+  "spdlog/common.h",
+  "spdlog/logger.h",
+  "spdlog/sinks/ostream_sink.h",
+  "spdlog/sinks/sink.h",
+  "spdlog/spdlog.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 13,
+   "col": 8,
+   "sev": "warning",
+   "msg": "class 'LoggerGuard' defines a non-default destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 13,
+   "col": 8,
+   "sev": "warning",
+   "msg": "class 'LoggerGuard' defines a non-default destructor, a copy constructor and a copy assignment operator but does not define a move constructor or a move assignment operator",
+   "check": "cppcoreguidelines-special-member-functions"
+  }
+ ],
+ "errors_before": 26,
+ "human_changed_lines": 16
+}

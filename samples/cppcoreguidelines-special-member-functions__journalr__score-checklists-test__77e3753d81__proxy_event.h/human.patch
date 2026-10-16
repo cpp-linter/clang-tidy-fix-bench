@@ -1,0 +1,7 @@
+diff --git a/score/mw/com/impl/proxy_event.h b/score/mw/com/impl/proxy_event.h
+index 61eeda0..be7b6d8 100644
+--- a/score/mw/com/impl/proxy_event.h
++++ b/score/mw/com/impl/proxy_event.h
+@@ -109,0 +110,2 @@ class ProxyEvent final : public ProxyEventBase
++    ~ProxyEvent() override = default;
++

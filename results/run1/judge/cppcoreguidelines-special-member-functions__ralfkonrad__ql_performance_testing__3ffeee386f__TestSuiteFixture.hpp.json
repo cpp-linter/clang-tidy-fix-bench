@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Human only repositioned the NOLINT; the candidate genuinely fixes the warning by deleting copy/move on a fixture that is never copied or moved, and removes the ineffective NOLINT."}

@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same std::size_t{16} * 1024 expression as the human fix; the human only also named it as a constant, so the array size and type are identical."}

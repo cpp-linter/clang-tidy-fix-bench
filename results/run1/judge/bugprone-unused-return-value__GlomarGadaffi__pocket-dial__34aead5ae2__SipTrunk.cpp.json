@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Explicit (void) discards instead of the human's early returns on snprintf < 0; truncation is intended and encoding errors are practically impossible with %s, so this is a reasonable, behaviour-preserving fix."}

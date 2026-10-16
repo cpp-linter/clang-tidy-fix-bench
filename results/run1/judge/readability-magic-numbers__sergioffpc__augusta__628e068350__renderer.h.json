@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same kDefaultVerticalFov static constexpr member for the flagged 0.9F. The human also named other, unflagged camera and mesh defaults."}

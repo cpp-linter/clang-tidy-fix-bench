@@ -1,0 +1,11 @@
+--- a/src/AnsiScreen.cpp
++++ b/src/AnsiScreen.cpp
+@@ -302,6 +302,6 @@
+                         case 'A': scr.moveUp(firstParam(body, 1));    break;
+                         case 'B': scr.moveDown(firstParam(body, 1));  break;
+-                        case 'C': scr.moveRight(firstParam(body, 1)); break;
+-                        case 'a': scr.moveRight(firstParam(body, 1)); break; // HPR
++                        case 'C':
++                        case 'a': scr.moveRight(firstParam(body, 1)); break; // 'a' = HPR
+                         case 'D': scr.moveLeft(firstParam(body, 1));  break;
+                         case 'E': scr.carriageReturn(); scr.moveDown(firstParam(body, 1)); break;

@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-narrowing-conversions__Hakkadaikon__wired__f2aa67c47b__recvpn.c",
+ "check": "bugprone-narrowing-conversions",
+ "check_name": "bugprone-narrowing-conversions",
+ "repo": "Hakkadaikon/wired",
+ "sha": "f2aa67c47ba1699db0046e6d0b34d82fc779afe3",
+ "parent": "0c98a334ce4e85097e28fd53d3a0370b03f24a6a",
+ "url": "https://github.com/Hakkadaikon/wired/commit/f2aa67c47ba1699db0046e6d0b34d82fc779afe3",
+ "license": "MIT",
+ "message": "fix(recvpn): make u64-to-int bit extraction explicit",
+ "file": "src/recvpn/recvpn.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 15,
+   "col": 12,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'u64' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 15,
+   "col": 12,
+   "sev": "warning",
+   "msg": "narrowing conversion from 'u64' (aka 'unsigned long') to signed type 'int' is implementation-defined",
+   "check": "bugprone-narrowing-conversions"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

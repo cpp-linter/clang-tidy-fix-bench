@@ -1,0 +1,1 @@
+In `GetPDXDimensionSplit`, `num_dimensions` (`uint32_t`) was multiplied by the `float` proportion, which converts it to `float` implicitly. I made that conversion explicit with `static_cast<float>(num_dimensions)`. Dimension counts are small, so the result is the same and is still truncated to `uint32_t` afterwards.

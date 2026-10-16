@@ -1,0 +1,42 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__log-handler.c",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "ocp-hm-openbmc-opf-ami/obmc-console",
+ "sha": "5db8c792ba479829ff4feb4e3a0ad7b682767ab1",
+ "parent": "a72711af868568481db9767db902bbbacc2d62d9",
+ "url": "https://github.com/ocp-hm-openbmc-opf-ami/obmc-console/commit/5db8c792ba479829ff4feb4e3a0ad7b682767ab1",
+ "license": "Apache-2.0",
+ "message": "obmc-console: Fix bugprone-implicit-widening-of-multiplication-result",
+ "file": "log-handler.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [
+  "endian.h",
+  "linux/types.h",
+  "systemd/sd-bus.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 46,
+   "col": 39,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 46,
+   "col": 39,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'size_t' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 2,
+ "human_changed_lines": 2
+}

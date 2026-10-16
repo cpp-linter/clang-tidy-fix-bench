@@ -1,0 +1,12 @@
+--- a/src/StaticProbabilityTable.h
++++ b/src/StaticProbabilityTable.h
+@@ -88,6 +88,7 @@
+   }
+   [[nodiscard]] constexpr int At(int value) const {
+-    // small table optimization
+-    if constexpr (NumberOfOutcomes <= 16) {
++    // small table optimization: tables up to this size use a linear search
++    constexpr size_t kLinearSearchMaxOutcomes = 16;
++    if constexpr (NumberOfOutcomes <= kLinearSearchMaxOutcomes) {
+       // linear search for the value
+       const auto iter =

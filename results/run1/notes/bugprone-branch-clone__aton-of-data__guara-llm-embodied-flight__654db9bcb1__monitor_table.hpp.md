@@ -1,0 +1,1 @@
+In evaluate(), the branch for an expected slot that is stale, malformed or incomplete and the `else if (s.malformed)` branch had identical bodies: mark the output invalid and record the first invalid id. They were combined into one `if` with the two conditions joined by `||`. Semantics are unchanged.

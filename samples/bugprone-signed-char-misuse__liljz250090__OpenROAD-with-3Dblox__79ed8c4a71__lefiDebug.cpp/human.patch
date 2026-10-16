@@ -1,0 +1,7 @@
+diff --git a/src/odb/src/lef/lef/lefiDebug.cpp b/src/odb/src/lef/lef/lefiDebug.cpp
+index 293a6e7..d5936af 100644
+--- a/src/odb/src/lef/lef/lefiDebug.cpp
++++ b/src/odb/src/lef/lef/lefiDebug.cpp
+@@ -140 +140 @@ const char* lefUpperCase(const char* str)
+-    int i = (int) *place;
++    int i = static_cast<unsigned char>(*place);

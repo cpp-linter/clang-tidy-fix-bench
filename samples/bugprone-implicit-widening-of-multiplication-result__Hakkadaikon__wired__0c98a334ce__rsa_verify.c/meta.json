@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__rsa_verify.c",
+ "check": "bugprone-implicit-widening-of-multiplication-result",
+ "check_name": "bugprone-implicit-widening-of-multiplication-result",
+ "repo": "Hakkadaikon/wired",
+ "sha": "0c98a334ce4e85097e28fd53d3a0370b03f24a6a",
+ "parent": "31131819adae5987b6b1c59c7670bf7555a637c7",
+ "url": "https://github.com/Hakkadaikon/wired/commit/0c98a334ce4e85097e28fd53d3a0370b03f24a6a",
+ "license": "MIT",
+ "message": "fix(tls): cast before multiplication in size-bound checks",
+ "file": "src/rsa/rsa_verify.c",
+ "flags": [
+  "-x",
+  "c",
+  "-std=gnu11"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 50,
+   "col": 17,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'usz' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 50,
+   "col": 17,
+   "sev": "warning",
+   "msg": "performing an implicit widening conversion to type 'usz' (aka 'unsigned long') of a multiplication performed in type 'int'",
+   "check": "bugprone-implicit-widening-of-multiplication-result"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}

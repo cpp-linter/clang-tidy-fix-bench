@@ -1,0 +1,1 @@
+The loop over variants used ColumnVariant::Discriminator (UInt8) as the loop variable against a size_t bound. The loop now iterates with a size_t index and derives the local discriminator with an explicit static_cast at the top of the body, so the loop cannot wrap while the calls still receive a Discriminator. Behaviour is unchanged (variant counts fit in a discriminator).

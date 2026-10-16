@@ -1,0 +1,1 @@
+The squared-radius thresholds `kMinuteClearPx * kMinuteClearPx` and `kBallClearR * kBallClearR` were computed in `int` and then widened for comparison against the `int64_t` distance `out`. Casting the first factor to `int64_t` performs the squaring in 64-bit, matching `out`. The constants are small, so behaviour is unchanged.

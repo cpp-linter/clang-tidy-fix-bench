@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Defaults the constructor and deletes all four copy/move operations, the same as the human fix in a different order."}

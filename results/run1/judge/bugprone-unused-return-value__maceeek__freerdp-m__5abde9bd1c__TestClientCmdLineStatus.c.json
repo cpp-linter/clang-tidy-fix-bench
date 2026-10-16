@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same (void) casts on the three fprintf diagnostics; only the continuation-line indentation differs."}

@@ -1,0 +1,10 @@
+diff --git a/source/tests/MatterArrayTests.cpp b/source/tests/MatterArrayTests.cpp
+index 71cc3fb..55a192f 100644
+--- a/source/tests/MatterArrayTests.cpp
++++ b/source/tests/MatterArrayTests.cpp
+@@ -14,0 +15,5 @@ namespace
++            MatterStub(MatterStub const& other) = delete;
++            MatterStub(MatterStub&& other) = delete;
++            MatterStub& operator=(MatterStub const& other) = delete;
++            MatterStub& operator=(MatterStub&& other) = delete;
++

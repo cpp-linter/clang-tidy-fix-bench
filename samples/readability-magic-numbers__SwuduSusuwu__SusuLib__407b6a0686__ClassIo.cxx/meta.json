@@ -1,0 +1,38 @@
+{
+ "id": "readability-magic-numbers__SwuduSusuwu__SusuLib__407b6a0686__ClassIo.cxx",
+ "check": "readability-magic-numbers",
+ "check_name": "cppcoreguidelines-avoid-magic-numbers",
+ "repo": "SwuduSusuwu/SusuLib",
+ "sha": "407b6a0686e6529e90817cc8a4ec9dbd8aa49719",
+ "parent": "2f6533dbba4cabcf7cc473f1174a1d46a8af0686",
+ "url": "https://github.com/SwuduSusuwu/SusuLib/commit/407b6a0686e6529e90817cc8a4ec9dbd8aa49719",
+ "license": "Apache-2.0",
+ "message": "@`cxx/ClassIo.cxx:classIoTests()`; use `sizeof()`",
+ "file": "cxx/ClassIo.cxx",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 190,
+   "col": 28,
+   "sev": "warning",
+   "msg": "6 is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 190,
+   "col": 28,
+   "sev": "warning",
+   "msg": "6 is a magic number; consider replacing it with a named constant",
+   "check": "cppcoreguidelines-avoid-magic-numbers"
+  }
+ ],
+ "errors_before": 1,
+ "human_changed_lines": 12
+}

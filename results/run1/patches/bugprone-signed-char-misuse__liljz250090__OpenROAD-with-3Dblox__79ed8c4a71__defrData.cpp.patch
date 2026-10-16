@@ -1,0 +1,16 @@
+--- a/src/odb/src/def/def/defrData.cpp
++++ b/src/odb/src/def/def/defrData.cpp
+@@ -202,5 +202,5 @@
+   to = shiftBuf;
+   while (*place) {
+-    int i = (int) *place;
++    int i = static_cast<unsigned char>(*place);
+     place++;
+     *to++ = defiShift[i];
+@@ -244,5 +244,5 @@
+   // Verification of the mask string
+   for (int i = 0; i < shiftMaskLength; i++) {
+-    int curShift = shiftMask[i];
++    int curShift = static_cast<unsigned char>(shiftMask[i]);
+ 
+     if (curShift < '0' || curShift > '9') {

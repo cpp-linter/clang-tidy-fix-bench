@@ -1,0 +1,7 @@
+diff --git a/star-rx72n-firmware/tests/test_rx_poeg.c b/star-rx72n-firmware/tests/test_rx_poeg.c
+index 0344210e..35886297 100644
+--- a/star-rx72n-firmware/tests/test_rx_poeg.c
++++ b/star-rx72n-firmware/tests/test_rx_poeg.c
+@@ -393 +393 @@ static void test_poeg_isr_handler(uint8_t motor_index, uint16_t unused_vector)
+-  for (uint8_t i = 0; i < k_poeg_motor_count; i++) {
++  for (uint32_t i = 0; i < k_poeg_motor_count; i++) {

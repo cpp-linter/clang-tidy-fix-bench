@@ -1,0 +1,8 @@
+diff --git a/src/json/json.cpp b/src/json/json.cpp
+index 603687f..7325681 100644
+--- a/src/json/json.cpp
++++ b/src/json/json.cpp
+@@ -23 +23,2 @@ Json from_generic(const glz::generic& g) {
+-                return Json{val};
++                bool b = val;
++                return {b};

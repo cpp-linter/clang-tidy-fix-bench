@@ -1,0 +1,24 @@
+--- a/score/language/futurecpp/include/score/private/simd/data_types.hpp
++++ b/score/language/futurecpp/include/score/private/simd/data_types.hpp
+@@ -293,4 +293,6 @@
+     basic_mask(const basic_mask&) = delete;
+     basic_mask& operator=(const basic_mask&) = delete;
++    basic_mask(basic_mask&&) = delete;
++    basic_mask& operator=(basic_mask&&) = delete;
+     ~basic_mask() = delete;
+ };
+@@ -644,4 +646,6 @@
+     basic_vec(const basic_vec&) = delete;
+     basic_vec& operator=(const basic_vec&) = delete;
++    basic_vec(basic_vec&&) = delete;
++    basic_vec& operator=(basic_vec&&) = delete;
+     ~basic_vec() = delete;
+ };
+@@ -703,4 +707,7 @@
+     where_expression(const where_expression&) = delete;
+     where_expression& operator=(const where_expression&) = delete;
++    where_expression(where_expression&&) = delete;
++    where_expression& operator=(where_expression&&) = delete;
++    ~where_expression() = default;
+ 
+     /// \brief Replace the elements of value with the elements of x for elements where mask is true.

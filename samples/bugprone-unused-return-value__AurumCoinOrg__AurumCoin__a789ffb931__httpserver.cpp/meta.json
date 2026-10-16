@@ -1,0 +1,47 @@
+{
+ "id": "bugprone-unused-return-value__AurumCoinOrg__AurumCoin__a789ffb931__httpserver.cpp",
+ "check": "bugprone-unused-return-value",
+ "check_name": "bugprone-unused-return-value",
+ "repo": "AurumCoinOrg/AurumCoin",
+ "sha": "a789ffb931d5c224d43dd0b84c4e60064a532953",
+ "parent": "343492efb5a7de5999e45dda29314759b0900262",
+ "url": "https://github.com/AurumCoinOrg/AurumCoin/commit/a789ffb931d5c224d43dd0b84c4e60064a532953",
+ "license": "MIT",
+ "message": "refactor: Enable clang-tidy bugprone-unused-return-value",
+ "file": "src/httpserver.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "event2/buffer.h",
+  "event2/bufferevent.h",
+  "event2/event.h",
+  "event2/http.h",
+  "event2/http_struct.h",
+  "event2/keyvalq_struct.h",
+  "event2/thread.h",
+  "event2/util.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 333,
+   "col": 13,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "bugprone-unused-return-value"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 333,
+   "col": 13,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "bugprone-unused-return-value"
+  }
+ ],
+ "errors_before": 71,
+ "human_changed_lines": 2
+}

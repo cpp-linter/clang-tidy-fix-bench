@@ -1,0 +1,9 @@
+--- a/src/odb/src/def/def/def_keywords.cpp
++++ b/src/odb/src/def/def/def_keywords.cpp
+@@ -151,5 +151,5 @@
+       return EOF;
+ 
+-    int ch = *next++;
++    int ch = static_cast<unsigned char>(*next++);
+ 
+     if (ch != '\r')

@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Folds the negated NON_GROUND condition into the POINT_FOLLOW branch so every input takes the same path; correct, though less readable than the human's default-true initialisation."}

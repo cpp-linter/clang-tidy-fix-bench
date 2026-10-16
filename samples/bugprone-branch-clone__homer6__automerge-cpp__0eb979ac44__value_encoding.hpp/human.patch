@@ -1,0 +1,14 @@
+diff --git a/src/storage/columns/value_encoding.hpp b/src/storage/columns/value_encoding.hpp
+index bce7077..3440dc2 100644
+--- a/src/storage/columns/value_encoding.hpp
++++ b/src/storage/columns/value_encoding.hpp
+@@ -50,4 +50,2 @@ inline void encode_scalar_value(const ScalarValue& sv,
+-        if constexpr (std::is_same_v<T, Null>) {
+-            // null: no raw bytes
+-        } else if constexpr (std::is_same_v<T, bool>) {
+-            // bool: no raw bytes, encoded in tag
++        if constexpr (std::is_same_v<T, Null> || std::is_same_v<T, bool>) {
++            // null and bool: no raw bytes, encoded in tag
+@@ -88 +86 @@ inline void encode_scalar_value(const ScalarValue& sv,
+-        else return ValueTag::null_tag;
++        else { static_assert(!sizeof(T), "unhandled ScalarValue type"); }

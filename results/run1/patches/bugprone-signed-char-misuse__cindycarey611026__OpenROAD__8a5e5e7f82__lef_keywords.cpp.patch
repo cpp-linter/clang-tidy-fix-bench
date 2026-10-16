@@ -1,0 +1,9 @@
+--- a/src/odb/src/lef/lef/lef_keywords.cpp
++++ b/src/odb/src/lef/lef/lef_keywords.cpp
+@@ -229,5 +229,5 @@
+       return EOF;
+ 
+-    int ch = *lefData->next++;
++    int ch = static_cast<unsigned char>(*lefData->next++);
+ 
+     if (ch != '\r')

@@ -1,0 +1,1 @@
+ParallelForBody is a scope guard that increments a thread-local depth counter in its constructor and decrements it in its destructor. It already deleted copying, and I also deleted the move constructor and move assignment. A moved-from guard would decrement the counter an extra time. This also completes the rule of five.

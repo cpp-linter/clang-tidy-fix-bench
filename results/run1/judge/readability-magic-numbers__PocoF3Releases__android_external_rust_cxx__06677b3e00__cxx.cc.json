@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Names the 8 in the static_assert with a file-local constant just like the human fix; static vs anonymous namespace is only a spelling difference."}

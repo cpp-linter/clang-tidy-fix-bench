@@ -1,0 +1,6 @@
+diff --git a/sources/Example/main.cpp b/sources/Example/main.cpp
+index ab5ab80..090bafe 100644
+--- a/sources/Example/main.cpp
++++ b/sources/Example/main.cpp
+@@ -166,0 +167 @@ int main() {
++    // NOLINTNEXTLINE(readability-magic-numbers)

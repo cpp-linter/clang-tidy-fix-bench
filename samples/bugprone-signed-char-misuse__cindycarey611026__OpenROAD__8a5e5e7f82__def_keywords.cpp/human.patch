@@ -1,0 +1,7 @@
+diff --git a/src/odb/src/def/def/def_keywords.cpp b/src/odb/src/def/def/def_keywords.cpp
+index 7390779..1f51f25 100644
+--- a/src/odb/src/def/def/def_keywords.cpp
++++ b/src/odb/src/def/def/def_keywords.cpp
+@@ -153 +153 @@ int defrData::GETC()
+-    int ch = *next++;
++    int ch = static_cast<unsigned char>(*next++);

@@ -1,0 +1,10 @@
+diff --git a/newbase/NFmiString.cpp b/newbase/NFmiString.cpp
+index 7f88b0b..dc76aa2 100644
+--- a/newbase/NFmiString.cpp
++++ b/newbase/NFmiString.cpp
+@@ -953 +953 @@ void NFmiString::FirstCharToUpper(unsigned long theUpperIndex)
+-      setlocale(LC_ALL, "Finnish");
++      (void)setlocale(LC_ALL, "Finnish");
+@@ -963 +963 @@ void NFmiString::FirstCharToUpper(unsigned long theUpperIndex)
+-      setlocale(LC_ALL, "C");
++      (void)setlocale(LC_ALL, "C");

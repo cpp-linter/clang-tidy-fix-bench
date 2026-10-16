@@ -1,0 +1,13 @@
+--- a/src/cmem_event.c
++++ b/src/cmem_event.c
+@@ -2195,9 +2195,5 @@
+          * pool lock for lock-free allocation. */
+         tls_cache_validate_owner(pool);
+-        if ((pool->flags & MP_FLAG_THREAD_SAFE) && !pool->is_multi_arena_child) {
+-            ptr = tlsf_alloc(pool, size);
+-        } else {
+-            ptr = tlsf_alloc(pool, size);
+-        }
++        ptr = tlsf_alloc(pool, size);
+     } else {
+         size_t total_sz =

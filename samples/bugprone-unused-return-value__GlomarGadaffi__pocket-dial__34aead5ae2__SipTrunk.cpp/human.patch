@@ -1,0 +1,18 @@
+diff --git a/src/SIP/SipTrunk.cpp b/src/SIP/SipTrunk.cpp
+index 7e85e65..4f1430b 100644
+--- a/src/SIP/SipTrunk.cpp
++++ b/src/SIP/SipTrunk.cpp
+@@ -847 +847 @@ void SipTrunk::tickRegistration(uint64_t nowMs, const sockaddr_in& sbc)
+-		std::snprintf(rc.registrarHost, sizeof(rc.registrarHost), "%s", _cfg.host);
++		if (std::snprintf(rc.registrarHost, sizeof(rc.registrarHost), "%s", _cfg.host) < 0) return;
+@@ -849,5 +849,5 @@ void SipTrunk::tickRegistration(uint64_t nowMs, const sockaddr_in& sbc)
+-		std::snprintf(rc.domain,   sizeof(rc.domain),   "%s", _cfg.host);
+-		std::snprintf(rc.aorUser,  sizeof(rc.aorUser),  "%s", _cfg.fromUser);
+-		std::snprintf(rc.authUser, sizeof(rc.authUser), "%s",
+-			_cfg.authUser[0] ? _cfg.authUser : _cfg.fromUser);
+-		std::snprintf(rc.localIp,  sizeof(rc.localIp),  "%s", _env.localIp().c_str());
++		if (std::snprintf(rc.domain,   sizeof(rc.domain),   "%s", _cfg.host) < 0) return;
++		if (std::snprintf(rc.aorUser,  sizeof(rc.aorUser),  "%s", _cfg.fromUser) < 0) return;
++		if (std::snprintf(rc.authUser, sizeof(rc.authUser), "%s",
++			_cfg.authUser[0] ? _cfg.authUser : _cfg.fromUser) < 0) return;
++		if (std::snprintf(rc.localIp,  sizeof(rc.localIp),  "%s", _env.localIp().c_str()) < 0) return;

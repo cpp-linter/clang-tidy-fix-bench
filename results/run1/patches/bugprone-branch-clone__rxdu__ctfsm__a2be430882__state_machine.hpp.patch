@@ -1,0 +1,16 @@
+--- a/include/ctfsm/state_machine.hpp
++++ b/include/ctfsm/state_machine.hpp
+@@ -235,8 +235,9 @@
+     using From = typename R::from;
+     using Ev = typename R::event;
+-    if constexpr (!std::is_same_v<Ev, Event>) {
+-      return false;  // event does not match this row
+-    } else if constexpr (std::is_same_v<From, AnyState> == Exact) {
+-      return false;  // wrong specificity for this pass
++    // Skip rows whose event does not match, or with the wrong specificity
++    // for this pass.
++    if constexpr (!std::is_same_v<Ev, Event> ||
++                  std::is_same_v<From, AnyState> == Exact) {
++      return false;
+     } else {
+       if constexpr (!std::is_same_v<From, AnyState>) {

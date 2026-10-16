@@ -1,0 +1,132 @@
+{
+ "id": "readability-magic-numbers__rogy-AquaLab__omniboat_robokit__55640b7881__schneider_model.cpp",
+ "check": "readability-magic-numbers",
+ "check_name": "readability-magic-numbers",
+ "repo": "rogy-AquaLab/omniboat_robokit",
+ "sha": "55640b7881e53c14155c5fd1bc7fe4b2e1ec4de6",
+ "parent": "6ab0660ec09db33a135aca22d5e3bdd466edabc5",
+ "url": "https://github.com/rogy-AquaLab/omniboat_robokit/commit/55640b7881e53c14155c5fd1bc7fe4b2e1ec4de6",
+ "license": "Apache-2.0",
+ "message": "deal with magic numbers in schneider_model.cpp",
+ "file": "src/schneider_model.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "mbed.h",
+  "rtos.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 51,
+   "col": 30,
+   "sev": "warning",
+   "msg": "0.01F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 77,
+   "col": 23,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 77,
+   "col": 45,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 80,
+   "col": 26,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 80,
+   "col": 34,
+   "sev": "warning",
+   "msg": "0.7F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 142,
+   "col": 20,
+   "sev": "warning",
+   "msg": "1e-3 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 169,
+   "col": 27,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 172,
+   "col": 27,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 77,
+   "col": 23,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 77,
+   "col": 45,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 80,
+   "col": 26,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 80,
+   "col": 34,
+   "sev": "warning",
+   "msg": "0.7F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 142,
+   "col": 20,
+   "sev": "warning",
+   "msg": "1e-3 is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 169,
+   "col": 27,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  },
+  {
+   "line": 172,
+   "col": 27,
+   "sev": "warning",
+   "msg": "0.4F is a magic number; consider replacing it with a named constant",
+   "check": "readability-magic-numbers"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 15
+}

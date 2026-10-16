@@ -1,0 +1,40 @@
+{
+ "id": "bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_optional_reference.cpp",
+ "check": "bugprone-use-after-move",
+ "check_name": "bugprone-use-after-move",
+ "repo": "salmanra/TT-SpMM-Nov2025",
+ "sha": "51aa631d2c2ce76333579f92f59838c143e9e75e",
+ "parent": "dffa91eb6549bd6b78bd5a1d784b98cc4a6f0057",
+ "url": "https://github.com/salmanra/TT-SpMM-Nov2025/commit/51aa631d2c2ce76333579f92f59838c143e9e75e",
+ "license": "Apache-2.0",
+ "message": "bugprone-use-after-move (#27468)",
+ "file": "tt_stl/tests/test_optional_reference.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "gmock/gmock.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 95,
+   "col": 17,
+   "sev": "warning",
+   "msg": "'ref1' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 95,
+   "col": 17,
+   "sev": "warning",
+   "msg": "'ref1' used after it was moved",
+   "check": "bugprone-use-after-move"
+  }
+ ],
+ "errors_before": 109,
+ "human_changed_lines": 1
+}

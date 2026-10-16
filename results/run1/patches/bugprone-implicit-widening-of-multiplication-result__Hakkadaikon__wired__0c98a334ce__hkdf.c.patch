@@ -1,0 +1,9 @@
+--- a/src/hkdf/hkdf.c
++++ b/src/hkdf/hkdf.c
+@@ -33,5 +33,5 @@
+ static int expand_ok(usz info_len, usz len)
+ {
+-    return len <= 255 * QUIC_SHA256_DIGEST && info_len <= 256;
++    return len <= (usz)255 * QUIC_SHA256_DIGEST && info_len <= 256;
+ }
+ 

@@ -1,0 +1,1 @@
+{"verdict": "acceptable", "reason": "Human narrowed out to int32_t; candidate instead casts the squared-threshold factors to int64_t, which correctly removes the widening with unchanged behaviour."}

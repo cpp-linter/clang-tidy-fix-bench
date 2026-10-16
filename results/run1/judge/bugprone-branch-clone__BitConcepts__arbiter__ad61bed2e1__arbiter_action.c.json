@@ -1,0 +1,1 @@
+{"verdict": "equivalent", "reason": "Same merge of the LOG and NOTIFY cases with a type-selected tag in the format string, identical to the human fix."}

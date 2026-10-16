@@ -1,0 +1,38 @@
+{
+ "id": "bugprone-branch-clone__nicknad__Wslc.Testcontainers__56a91e9955__log_line.cpp",
+ "check": "bugprone-branch-clone",
+ "check_name": "bugprone-branch-clone",
+ "repo": "nicknad/Wslc.Testcontainers",
+ "sha": "56a91e9955559f90c6bbabfdc2a05a30f4c0aff7",
+ "parent": "bf776c343b6f71f337b5786c14107aa1d80408c9",
+ "url": "https://github.com/nicknad/Wslc.Testcontainers/commit/56a91e9955559f90c6bbabfdc2a05a30f4c0aff7",
+ "license": "MIT",
+ "message": "Remove redundant SourceName case that failed clang-tidy",
+ "file": "cpp/src/log_line.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [],
+ "warnings_before": [
+  {
+   "line": 26,
+   "col": 5,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 26,
+   "col": 5,
+   "sev": "warning",
+   "msg": "switch has 2 consecutive identical branches",
+   "check": "bugprone-branch-clone"
+  }
+ ],
+ "errors_before": 2,
+ "human_changed_lines": 3
+}

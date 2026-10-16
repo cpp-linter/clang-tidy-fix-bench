@@ -1,0 +1,9 @@
+--- a/src/buildtool/execution_api/common/message_limits.hpp
++++ b/src/buildtool/execution_api/common/message_limits.hpp
+@@ -18,5 +18,5 @@
+ 
+ // Max size for batch transfers
+-static constexpr std::size_t kMaxBatchTransferSize = 3 * 1024 * 1024;
++static constexpr std::size_t kMaxBatchTransferSize = std::size_t{3} * 1024 * 1024;
+ static_assert(kMaxBatchTransferSize < GRPC_DEFAULT_MAX_RECV_MESSAGE_LENGTH,
+               "Max batch transfer size too large.");

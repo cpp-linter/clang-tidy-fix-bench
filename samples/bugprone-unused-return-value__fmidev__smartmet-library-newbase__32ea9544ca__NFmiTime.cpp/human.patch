@@ -1,0 +1,7 @@
+diff --git a/newbase/NFmiTime.cpp b/newbase/NFmiTime.cpp
+index 5bb1a15..ad4e19b 100644
+--- a/newbase/NFmiTime.cpp
++++ b/newbase/NFmiTime.cpp
+@@ -984 +984 @@ short NFmiTime::CalcZoneDifferenceHour(float theLongitude) const
+-    time(&aclock);
++    (void)time(&aclock);

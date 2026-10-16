@@ -1,0 +1,47 @@
+{
+ "id": "bugprone-unused-return-value__BigcoinBGC__bigcoin__8372cdedb6__httpserver.cpp",
+ "check": "bugprone-unused-return-value",
+ "check_name": "bugprone-unused-return-value",
+ "repo": "BigcoinBGC/bigcoin",
+ "sha": "8372cdedb651bfe5912af53ad94b5f3640865c72",
+ "parent": "8c4b973453e9bf430728d334a5e17f32af920e9d",
+ "url": "https://github.com/BigcoinBGC/bigcoin/commit/8372cdedb651bfe5912af53ad94b5f3640865c72",
+ "license": "MIT",
+ "message": "refactor: Enable clang-tidy bugprone-unused-return-value",
+ "file": "src/httpserver.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "event2/buffer.h",
+  "event2/bufferevent.h",
+  "event2/event.h",
+  "event2/http.h",
+  "event2/http_struct.h",
+  "event2/keyvalq_struct.h",
+  "event2/thread.h",
+  "event2/util.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 333,
+   "col": 13,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "bugprone-unused-return-value"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 333,
+   "col": 13,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "bugprone-unused-return-value"
+  }
+ ],
+ "errors_before": 71,
+ "human_changed_lines": 2
+}

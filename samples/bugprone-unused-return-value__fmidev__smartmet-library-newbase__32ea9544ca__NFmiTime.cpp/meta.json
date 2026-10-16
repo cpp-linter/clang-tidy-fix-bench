@@ -1,0 +1,43 @@
+{
+ "id": "bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiTime.cpp",
+ "check": "bugprone-unused-return-value",
+ "check_name": "cert-err33-c",
+ "repo": "fmidev/smartmet-library-newbase",
+ "sha": "32ea9544ca6197b263df5e990b4eaab293012c62",
+ "parent": "3cd324f3fbdf39e8fda622873917b4deba100b4c",
+ "url": "https://github.com/fmidev/smartmet-library-newbase/commit/32ea9544ca6197b263df5e990b4eaab293012c62",
+ "license": "MIT",
+ "message": "Ignore return values explicitly where they do not matter, no functional changes",
+ "file": "newbase/NFmiTime.cpp",
+ "flags": [
+  "-x",
+  "c++",
+  "-std=gnu++20"
+ ],
+ "missing": [
+  "boost/math/special_functions/fpclassify.hpp",
+  "macgyver/DateTime.h",
+  "macgyver/Exception.h",
+  "macgyver/LocalDateTime.h"
+ ],
+ "warnings_before": [
+  {
+   "line": 984,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "warnings_fixed": [
+  {
+   "line": 984,
+   "col": 5,
+   "sev": "warning",
+   "msg": "the value returned by this function should not be disregarded; neglecting it may lead to errors",
+   "check": "cert-err33-c"
+  }
+ ],
+ "errors_before": 0,
+ "human_changed_lines": 2
+}
