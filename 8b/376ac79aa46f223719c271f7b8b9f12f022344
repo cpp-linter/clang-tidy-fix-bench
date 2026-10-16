@@ -1,0 +1,2445 @@
+.gitignore
+  s_a983ac12a6b48e::t_0e0c2133870295 1-4
+LICENSE
+  s_a983ac12a6b48e::t_9310d5aaea42b7 1-202
+NOTICE
+  s_a983ac12a6b48e::t_8aeafd96f22e6a 1-1036
+README.md
+  s_a983ac12a6b48e::t_0f3a6448d33f31 2-265
+data/candidates.jsonl
+  s_a983ac12a6b48e::t_0577f6bb792d2e 1-405
+data/validate.jsonl
+  s_a983ac12a6b48e::t_c1ddf3c120171a 1-595
+results/baseline.jsonl
+  s_a983ac12a6b48e::t_93f97da9550d13 1-171
+results/run1/judge/bugprone-branch-clone__BitConcepts__arbiter__ad61bed2e1__arbiter_action.c.json
+  s_a983ac12a6b48e::t_5cea5d37c00113 1
+results/run1/judge/bugprone-branch-clone__Jimdrews__forgeant__b397b0d9af__json.cpp.json
+  s_a983ac12a6b48e::t_c2d3d0d5fa44a1 1
+results/run1/judge/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__413805a073__smooth_stop.cpp.json
+  s_a983ac12a6b48e::t_9381f3a06e9503 1
+results/run1/judge/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__4c1153f85c__node.cpp.json
+  s_a983ac12a6b48e::t_d47a53ed5ee359 1
+results/run1/judge/bugprone-branch-clone__MichaelBallen97__aero-engine__a1ee68ebe8__asset_drag.cpp.json
+  s_a983ac12a6b48e::t_c3faff26c25373 1
+results/run1/judge/bugprone-branch-clone__PhotonPower__hp-FEM__381689efc7__gmsh.cpp.json
+  s_a983ac12a6b48e::t_c73959c97ced8c 1
+results/run1/judge/bugprone-branch-clone__aklofas__urbi-embedded__17a9040285__uparse_stmt.c.json
+  s_a983ac12a6b48e::t_b6bfccff84ac66 1
+results/run1/judge/bugprone-branch-clone__aklofas__urbi-embedded__2952abc1a5__uparse_stmt.c.json
+  s_a983ac12a6b48e::t_57827286f47619 1
+results/run1/judge/bugprone-branch-clone__aklofas__urbi-embedded__44da26eeca__uvm_op_overload.c.json
+  s_a983ac12a6b48e::t_e266be4927f69d 1
+results/run1/judge/bugprone-branch-clone__aton-of-data__guara-llm-embodied-flight__654db9bcb1__monitor_table.hpp.json
+  s_a983ac12a6b48e::t_a275251ef4ae4a 1
+results/run1/judge/bugprone-branch-clone__bansan85__ntfs-browser__ec6a43498b__fake-ntfs-image.cpp.json
+  s_a983ac12a6b48e::t_48cc0799a7bea4 1
+results/run1/judge/bugprone-branch-clone__dagike__hungryeditor__17d04b294b__PreviewBackendFactory.cpp.json
+  s_a983ac12a6b48e::t_176704a6703cf1 1
+results/run1/judge/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__change_op_columns.hpp.json
+  s_a983ac12a6b48e::t_3501186f3369d9 1
+results/run1/judge/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__value_encoding.hpp.json
+  s_a983ac12a6b48e::t_a8bf9200c80616 1
+results/run1/judge/bugprone-branch-clone__liudss__microvtk__04006083fd__compressor.hpp.json
+  s_a983ac12a6b48e::t_eec48939ff3581 1
+results/run1/judge/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__PlanRenderer.hpp.json
+  s_a983ac12a6b48e::t_8424df5a9222fc 1
+results/run1/judge/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__TestTaskQueue.cpp.json
+  s_a983ac12a6b48e::t_82a170ecd6f02e 1
+results/run1/judge/bugprone-branch-clone__nicknad__Wslc.Testcontainers__56a91e9955__log_line.cpp.json
+  s_a983ac12a6b48e::t_82411ee9f00f19 1
+results/run1/judge/bugprone-branch-clone__omardev29__raylib_multiplatform__4458ec78c9__controls.cpp.json
+  s_a983ac12a6b48e::t_41d74f4d4123d3 1
+results/run1/judge/bugprone-branch-clone__quintin-lee__cdsl__b03026945e__eval.c.json
+  s_a983ac12a6b48e::t_797045bf5c0bc2 1
+results/run1/judge/bugprone-branch-clone__quintin-lee__cmem__f43202e62d__cmem_event.c.json
+  s_a983ac12a6b48e::t_7e0b5459f6ec4d 1
+results/run1/judge/bugprone-branch-clone__rxdu__ctfsm__a2be430882__state_machine.hpp.json
+  s_a983ac12a6b48e::t_bc1aa5e3ee2dbc 1
+results/run1/judge/bugprone-branch-clone__t0k0sh1__ry__2e39658acc__codegen.cpp.json
+  s_a983ac12a6b48e::t_2bb53e883c678c 1
+results/run1/judge/bugprone-branch-clone__tenstorrent__tt-umd__edd260e3ab__cluster_descriptor_types.hpp.json
+  s_a983ac12a6b48e::t_f916675a60ce80 1
+results/run1/judge/bugprone-branch-clone__vrosuits__ANSI_COLOR_TEXT__1fc4df9002__AnsiScreen.cpp.json
+  s_a983ac12a6b48e::t_f7cc16c68705cc 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__hkdf.c.json
+  s_a983ac12a6b48e::t_0ef75535c04773 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__rsa_verify.c.json
+  s_a983ac12a6b48e::t_869fb34274f432 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__aes.c.json
+  s_a983ac12a6b48e::t_7e3deb3ba67000 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__modexp.c.json
+  s_a983ac12a6b48e::t_22faf1f1885c0d 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__Linductor-alkaid__yori__9708a998f0__environment_capture.cpp.json
+  s_a983ac12a6b48e::t_1ac6c238f7e858 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__RyAnPr1Me__omscript__2ae9db9066__compiler.cpp.json
+  s_a983ac12a6b48e::t_9719c81a8c8322 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__bsikar__ra8-firmware__a23b88faba__test_media_dl_export.c.json
+  s_a983ac12a6b48e::t_1a60312cf4087c 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__cityjson__duckdb-cityjson__3671e4d890__temporal_parser.cpp.json
+  s_a983ac12a6b48e::t_9ae099a1b3a09e 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__fcatuhe__skyblip__2d10838bb6__radar.cpp.json
+  s_a983ac12a6b48e::t_168bce5de04766 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__binary_flex.hpp.json
+  s_a983ac12a6b48e::t_4056f8fca34577 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__common.hpp.json
+  s_a983ac12a6b48e::t_3f156fa5c37c20 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__iterator_impl.hpp.json
+  s_a983ac12a6b48e::t_8402900eac62d1 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__bytestream_utils.hpp.json
+  s_a983ac12a6b48e::t_88eb01ae4e287a 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__capabilities_server.cpp.json
+  s_a983ac12a6b48e::t_1ba03d0c34d3c7 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__file_system_manager.hpp.json
+  s_a983ac12a6b48e::t_39756eb670997b 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__message_limits.hpp.json
+  s_a983ac12a6b48e::t_2f69287e903326 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__4d83936fb1__hardware_crypto_tests.cpp.json
+  s_a983ac12a6b48e::t_686f8c81fa6452 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__b58aa102db__debug_logging_overhead_tests.cpp.json
+  s_a983ac12a6b48e::t_f9452aec21da39 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__c0064d54f0__congestion_controller.h.json
+  s_a983ac12a6b48e::t_34911a61419cde 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__muchq__opal-cpp__baaec9b717__beast_transport.cc.json
+  s_a983ac12a6b48e::t_6dbbb740334fcf 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__console-server.c.json
+  s_a983ac12a6b48e::t_bae15bd93dea05 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__log-handler.c.json
+  s_a983ac12a6b48e::t_74a91131cdcf61 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__test-config-parse-logsize.c.json
+  s_a983ac12a6b48e::t_28235cee0f2ae1 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__openbmc__phosphor-certificate-manager__8a59ea28a9__certificate.cpp.json
+  s_a983ac12a6b48e::t_365f6a9b45e29a 1
+results/run1/judge/bugprone-implicit-widening-of-multiplication-result__timwukp__agent-terminal__3b69404349__session.c.json
+  s_a983ac12a6b48e::t_8b56cec68a0535 1
+results/run1/judge/bugprone-narrowing-conversions__BitBoxSwiss__bitbox02-firmware__a789c9faac__qtouch.c.json
+  s_a983ac12a6b48e::t_9f692163670f2e 1
+results/run1/judge/bugprone-narrowing-conversions__Hakkadaikon__wired__f2aa67c47b__recvpn.c.json
+  s_a983ac12a6b48e::t_f8182c85453248 1
+results/run1/judge/bugprone-narrowing-conversions__Jgocunha__neat-dnfs__b19e39a8ce__solution.cpp.json
+  s_a983ac12a6b48e::t_dd708439ba771b 1
+results/run1/judge/bugprone-narrowing-conversions__Noorts__DuckIR__5f74a3a16e__common.hpp.json
+  s_a983ac12a6b48e::t_b1b97e961c25da 1
+results/run1/judge/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__00c427d2f5__xmlwf.c.json
+  s_a983ac12a6b48e::t_730d7b2695dac4 1
+results/run1/judge/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__alloc_tests.c.json
+  s_a983ac12a6b48e::t_61538679673a40 1
+results/run1/judge/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__basic_tests.c.json
+  s_a983ac12a6b48e::t_7d49eba11110b2 1
+results/run1/judge/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__handlers.c.json
+  s_a983ac12a6b48e::t_7d650617878057 1
+results/run1/judge/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__alloc_tests.c.json
+  s_a983ac12a6b48e::t_3b3b5cb46682e2 1
+results/run1/judge/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__basic_tests.c.json
+  s_a983ac12a6b48e::t_c4971668e5fde9 1
+results/run1/judge/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__handlers.c.json
+  s_a983ac12a6b48e::t_0c7216ce767e1a 1
+results/run1/judge/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__misc_tests.c.json
+  s_a983ac12a6b48e::t_abc3983a35de48 1
+results/run1/judge/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__nsalloc_tests.c.json
+  s_a983ac12a6b48e::t_f556d2285633e6 1
+results/run1/judge/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__b162b094b1__xmlwf.c.json
+  s_a983ac12a6b48e::t_386e55ac871669 1
+results/run1/judge/bugprone-narrowing-conversions__autowarefoundation__autoware_core__46ebf6f474__spline_interpolation_points_2d.cpp.json
+  s_a983ac12a6b48e::t_8162d8f5795dc5 1
+results/run1/judge/bugprone-narrowing-conversions__autowarefoundation__autoware_core__c6ba5f2fe0__predicted_path_utils.cpp.json
+  s_a983ac12a6b48e::t_d37f747fe14c8f 1
+results/run1/judge/bugprone-narrowing-conversions__felixb419__kaad__557fdf81d5__common.hpp.json
+  s_a983ac12a6b48e::t_15920368eaff5c 1
+results/run1/judge/bugprone-narrowing-conversions__libexpat__libexpat__0c5b205a01__xmlwf.c.json
+  s_a983ac12a6b48e::t_384bbfebd5bcb6 1
+results/run1/judge/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__alloc_tests.c.json
+  s_a983ac12a6b48e::t_651bc2f51b8646 1
+results/run1/judge/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__basic_tests.c.json
+  s_a983ac12a6b48e::t_8576087b42b882 1
+results/run1/judge/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__handlers.c.json
+  s_a983ac12a6b48e::t_c14677452b0180 1
+results/run1/judge/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__misc_tests.c.json
+  s_a983ac12a6b48e::t_dceb053100a321 1
+results/run1/judge/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__nsalloc_tests.c.json
+  s_a983ac12a6b48e::t_e086cd3d39aa22 1
+results/run1/judge/bugprone-narrowing-conversions__rv355__openvino-bevfusion-ops__5c0967b990__solve_buffer_memory.cpp.json
+  s_a983ac12a6b48e::t_83fbdcfe518037 1
+results/run1/judge/bugprone-narrowing-conversions__thus__simpleconfig__9ff815d978__sconf.c.json
+  s_a983ac12a6b48e::t_e2d292c3d7a354 1
+results/run1/judge/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__d0d7b8afad__lexer.cpp.json
+  s_a983ac12a6b48e::t_6a9452a901d321 1
+results/run1/judge/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__f4aeedd3aa__debug_utils.cpp.json
+  s_a983ac12a6b48e::t_d37d22e99ca605 1
+results/run1/judge/bugprone-signed-char-misuse__aldelaro5__dolphin-memory-engine__c840965545__MemViewer.cpp.json
+  s_a983ac12a6b48e::t_3b1795296b6553 1
+results/run1/judge/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__def_keywords.cpp.json
+  s_a983ac12a6b48e::t_575c1f9c44cc6b 1
+results/run1/judge/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defiFPC.cpp.json
+  s_a983ac12a6b48e::t_968b551d94313f 1
+results/run1/judge/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defrData.cpp.json
+  s_a983ac12a6b48e::t_dc1993d3f8e406 1
+results/run1/judge/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lef_keywords.cpp.json
+  s_a983ac12a6b48e::t_96c643f5feddd2 1
+results/run1/judge/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lefiDebug.cpp.json
+  s_a983ac12a6b48e::t_8195d61338e889 1
+results/run1/judge/bugprone-signed-char-misuse__cy-suite__paddlepaddle-new__287e124311__device_worker.cc.json
+  s_a983ac12a6b48e::t_1254993d45195e 1
+results/run1/judge/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__def_keywords.cpp.json
+  s_a983ac12a6b48e::t_7113b3e1594207 1
+results/run1/judge/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defiFPC.cpp.json
+  s_a983ac12a6b48e::t_a1e0421f2dbce2 1
+results/run1/judge/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defrData.cpp.json
+  s_a983ac12a6b48e::t_af59aa5ba251ff 1
+results/run1/judge/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lef_keywords.cpp.json
+  s_a983ac12a6b48e::t_b3990e8000352d 1
+results/run1/judge/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lefiDebug.cpp.json
+  s_a983ac12a6b48e::t_ca3c3c51b24bba 1
+results/run1/judge/bugprone-signed-char-misuse__thus__simpleconfig__6f6407f228__opts.c.json
+  s_a983ac12a6b48e::t_78517c5250f13b 1
+results/run1/judge/bugprone-signed-char-misuse__uACPI__uACPI__abc6e6b3b8__stdlib.c.json
+  s_a983ac12a6b48e::t_7f77b225d1b92b 1
+results/run1/judge/bugprone-signed-char-misuse__viewizard__dncdbg__570f950a75__evalstackmachine.cpp.json
+  s_a983ac12a6b48e::t_5c95d7aeadc837 1
+results/run1/judge/bugprone-too-small-loop-variable__ClickHouse__ClickHouse__5d4dc1a230__flipCoordinates.cpp.json
+  s_a983ac12a6b48e::t_106fc208d44cf0 1
+results/run1/judge/bugprone-too-small-loop-variable__Locked-Inc__STAR__e188b49676__test_rx_poeg.c.json
+  s_a983ac12a6b48e::t_e3d7918815e4fd 1
+results/run1/judge/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__GyroFFT.cpp.json
+  s_a983ac12a6b48e::t_96aa25fb89c290 1
+results/run1/judge/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__RingBuffer.hpp.json
+  s_a983ac12a6b48e::t_baa681909984cf 1
+results/run1/judge/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__lm_fit.cpp.json
+  s_a983ac12a6b48e::t_e685c093825740 1
+results/run1/judge/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__septentrio.cpp.json
+  s_a983ac12a6b48e::t_cd76d5a72c8a4f 1
+results/run1/judge/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__esys_iutil.c.json
+  s_a983ac12a6b48e::t_84cb2c0030202e 1
+results/run1/judge/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__sysapi_util.c.json
+  s_a983ac12a6b48e::t_0df8b1e0c34d6f 1
+results/run1/judge/bugprone-unchecked-optional-access__D3V0N5H1R3__luma__314bc49cd7__parser_stmt.cpp.json
+  s_a983ac12a6b48e::t_52805bf24d5d12 1
+results/run1/judge/bugprone-unchecked-optional-access__benmandrew__PEREDUR__003726442f__black_tests.cpp.json
+  s_a983ac12a6b48e::t_aa659fa6dbff3b 1
+results/run1/judge/bugprone-unused-return-value__AurumCoinOrg__AurumCoin__a789ffb931__httpserver.cpp.json
+  s_a983ac12a6b48e::t_942aa2a11690d1 1
+results/run1/judge/bugprone-unused-return-value__BigcoinBGC__bigcoin__8372cdedb6__httpserver.cpp.json
+  s_a983ac12a6b48e::t_f0dae22a7b5288 1
+results/run1/judge/bugprone-unused-return-value__GlomarGadaffi__pocket-dial__34aead5ae2__SipTrunk.cpp.json
+  s_a983ac12a6b48e::t_24b9e59d696081 1
+results/run1/judge/bugprone-unused-return-value__Kino1994__bitcoin-full-history__0d79e2829f__httpserver.cpp.json
+  s_a983ac12a6b48e::t_425709ca360f2d 1
+results/run1/judge/bugprone-unused-return-value__RandyNorthrup__chrome-control-mcp__675f9ab9fd__browser_bridge_relay_common.cpp.json
+  s_a983ac12a6b48e::t_6e13fe6c814277 1
+results/run1/judge/bugprone-unused-return-value__cppservergit__evhttp-apiserver__75bae79ba5__server.c.json
+  s_a983ac12a6b48e::t_f8bdacc4a7d17b 1
+results/run1/judge/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiString.cpp.json
+  s_a983ac12a6b48e::t_bde784b2700069 1
+results/run1/judge/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiTime.cpp.json
+  s_a983ac12a6b48e::t_e859f0e3d3e09b 1
+results/run1/judge/bugprone-unused-return-value__fmidev__smartmet-plugin-wms__410691f297__Handler.cpp.json
+  s_a983ac12a6b48e::t_690b3b0e1cc6a4 1
+results/run1/judge/bugprone-unused-return-value__joey-huckabee__aero1553__f3ddb6ca09__platform_posix.cpp.json
+  s_a983ac12a6b48e::t_223eb15c882870 1
+results/run1/judge/bugprone-unused-return-value__maceeek__freerdp-m__5abde9bd1c__TestClientCmdLineStatus.c.json
+  s_a983ac12a6b48e::t_f2963d3ce2bc12 1
+results/run1/judge/bugprone-unused-return-value__trainberks-maker__bitstar-core__faa23738fc__httpserver.cpp.json
+  s_a983ac12a6b48e::t_4d89f0f44b4e7e 1
+results/run1/judge/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__ical_parser.cpp.json
+  s_a983ac12a6b48e::t_e7235311a2434b 1
+results/run1/judge/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__security_primitives_test.cpp.json
+  s_a983ac12a6b48e::t_9f8ca3cd149ee4 1
+results/run1/judge/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__settings_window.cpp.json
+  s_a983ac12a6b48e::t_4c4f41aac629b3 1
+results/run1/judge/bugprone-use-after-move__ClickHouse__ClickHouse__62d95fab2e__gtest_long_connection_limit.cpp.json
+  s_a983ac12a6b48e::t_e7ebfc4a2dbc88 1
+results/run1/judge/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__ical_parser.cpp.json
+  s_a983ac12a6b48e::t_c113dce955e43d 1
+results/run1/judge/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__security_primitives_test.cpp.json
+  s_a983ac12a6b48e::t_b69e64ca28c8cb 1
+results/run1/judge/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__settings_window.cpp.json
+  s_a983ac12a6b48e::t_e93b75fb54e719 1
+results/run1/judge/bugprone-use-after-move__osmcode__libosmium__5f15163041__test_memory_mapping.cpp.json
+  s_a983ac12a6b48e::t_06c7e6291eb89a 1
+results/run1/judge/bugprone-use-after-move__riciadavinci__sequelite-cpp__11e8704137__test_database.cpp.json
+  s_a983ac12a6b48e::t_a533881a728790 1
+results/run1/judge/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_cleanup.cpp.json
+  s_a983ac12a6b48e::t_71f22652364008 1
+results/run1/judge/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_optional_reference.cpp.json
+  s_a983ac12a6b48e::t_ea29238ecd1d4b 1
+results/run1/judge/cppcoreguidelines-special-member-functions__00-YSH-Autoware-Before__agnocast__e032f05386__agnocast.cpp.json
+  s_a983ac12a6b48e::t_de6d2e4eca1681 1
+results/run1/judge/cppcoreguidelines-special-member-functions__airbus__sen__8ecbecf059__remote_interest_handler.h.json
+  s_a983ac12a6b48e::t_f6d3fe6544c484 1
+results/run1/judge/cppcoreguidelines-special-member-functions__eclipse-score__baselibs__2e8c5c7746__data_types.hpp.json
+  s_a983ac12a6b48e::t_9c88d99eaa9789 1
+results/run1/judge/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__provider.cpp.json
+  s_a983ac12a6b48e::t_d847ba585d00f0 1
+results/run1/judge/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__sample_sender_receiver.cpp.json
+  s_a983ac12a6b48e::t_81a18541b82748 1
+results/run1/judge/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__smokeyeyes.cpp.json
+  s_a983ac12a6b48e::t_06877439701dce 1
+results/run1/judge/cppcoreguidelines-special-member-functions__fengjiran__AetherMind__4d9fc06f31__backend_registry.h.json
+  s_a983ac12a6b48e::t_4bcc763f94c218 1
+results/run1/judge/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__dispatcher.hpp.json
+  s_a983ac12a6b48e::t_df8545e944f388 1
+results/run1/judge/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__hw_dispatcher.hpp.json
+  s_a983ac12a6b48e::t_9ac8809d8c44a3 1
+results/run1/judge/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__implementation.hpp.json
+  s_a983ac12a6b48e::t_0183e42f6e6415 1
+results/run1/judge/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__inflate_state.hpp.json
+  s_a983ac12a6b48e::t_261520eca9a78a 1
+results/run1/judge/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__input_stream.hpp.json
+  s_a983ac12a6b48e::t_648569c1ab4f93 1
+results/run1/judge/cppcoreguidelines-special-member-functions__jerarn__jaql__1107ce9501__test_logger.cpp.json
+  s_a983ac12a6b48e::t_319c88066e25b0 1
+results/run1/judge/cppcoreguidelines-special-member-functions__joshpeterson__binarily__ed2e4889ad__binary_reader.h.json
+  s_a983ac12a6b48e::t_028261cb019aa2 1
+results/run1/judge/cppcoreguidelines-special-member-functions__journalr__score-checklists-test__77e3753d81__proxy_event.h.json
+  s_a983ac12a6b48e::t_c61bf96186c172 1
+results/run1/judge/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task.hpp.json
+  s_a983ac12a6b48e::t_0c147421648501 1
+results/run1/judge/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task_tests.cpp.json
+  s_a983ac12a6b48e::t_9529a7424e1246 1
+results/run1/judge/cppcoreguidelines-special-member-functions__lefebvre__mqces__bf880afb2d__parallel.hpp.json
+  s_a983ac12a6b48e::t_4f0503011b509b 1
+results/run1/judge/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__bufferAgent.h.json
+  s_a983ac12a6b48e::t_7c0198f4ffaff2 1
+results/run1/judge/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__writeBuffer.h.json
+  s_a983ac12a6b48e::t_a6814843ad15fd 1
+results/run1/judge/cppcoreguidelines-special-member-functions__openbmc__phosphor-debug-collector__7d6d2445da__pldm_utils.hpp.json
+  s_a983ac12a6b48e::t_278ab2bfd1166b 1
+results/run1/judge/cppcoreguidelines-special-member-functions__ralfkonrad__ql_performance_testing__3ffeee386f__TestSuiteFixture.hpp.json
+  s_a983ac12a6b48e::t_96150a4f625762 1
+results/run1/judge/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__Directions.cpp.json
+  s_a983ac12a6b48e::t_335acaeaed1a95 1
+results/run1/judge/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__IMatter.hpp.json
+  s_a983ac12a6b48e::t_3d6ea1af67ec6d 1
+results/run1/judge/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__MatterArrayTests.cpp.json
+  s_a983ac12a6b48e::t_6db4d8c25423c2 1
+results/run1/judge/readability-magic-numbers__Hahn-Schickard__IODD-Model__93ee8199f4__main.cpp.json
+  s_a983ac12a6b48e::t_22aabacaba1f7a 1
+results/run1/judge/readability-magic-numbers__Keyrim__drone-mark4__e6686f5fd9__attitude_estimator.cpp.json
+  s_a983ac12a6b48e::t_b2f94ff41a9665 1
+results/run1/judge/readability-magic-numbers__PocoF3Releases__android_external_rust_cxx__06677b3e00__cxx.cc.json
+  s_a983ac12a6b48e::t_325a5afcd1b141 1
+results/run1/judge/readability-magic-numbers__SwuduSusuwu__SusuLib__407b6a0686__ClassIo.cxx.json
+  s_a983ac12a6b48e::t_d914b0e67cda9a 1
+results/run1/judge/readability-magic-numbers__deeplex__deeppack__e3954dfb47__perfect_hash.hpp.json
+  s_a983ac12a6b48e::t_f518aaf0d0659a 1
+results/run1/judge/readability-magic-numbers__ekkus93__esp32-macro-keyboard__fe70b72cd4__device_controls_logic.c.json
+  s_a983ac12a6b48e::t_06833b7b1beea2 1
+results/run1/judge/readability-magic-numbers__felixb419__kaad__2911ea786a__exceptions.cpp.json
+  s_a983ac12a6b48e::t_c550d25f93dbc2 1
+results/run1/judge/readability-magic-numbers__felixb419__kaad__73f753c90b__check_tensor.hpp.json
+  s_a983ac12a6b48e::t_b6b4b59ffdb6c2 1
+results/run1/judge/readability-magic-numbers__felixb419__kaad__73f753c90b__kernels.hpp.json
+  s_a983ac12a6b48e::t_bdf80c32c6c437 1
+results/run1/judge/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__local_search.cpp.json
+  s_a983ac12a6b48e::t_601964da764122 1
+results/run1/judge/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__tsp.cpp.json
+  s_a983ac12a6b48e::t_3864a5ebbffbc3 1
+results/run1/judge/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__wrapper.h.json
+  s_a983ac12a6b48e::t_45d1eccdcb7050 1
+results/run1/judge/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__angle.h.json
+  s_a983ac12a6b48e::t_9eb7d2dee73b0d 1
+results/run1/judge/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__transform.h.json
+  s_a983ac12a6b48e::t_6be7bbf4c65981 1
+results/run1/judge/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__client.hpp.json
+  s_a983ac12a6b48e::t_ce260a15338c4d 1
+results/run1/judge/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__connection_config.hpp.json
+  s_a983ac12a6b48e::t_79d7e53eb81d3f 1
+results/run1/judge/readability-magic-numbers__nebulastream__nebulastream__15b15fa7be__TaggedPointer.hpp.json
+  s_a983ac12a6b48e::t_dc8e2812756c93 1
+results/run1/judge/readability-magic-numbers__rogy-AquaLab__omniboat_robokit__55640b7881__schneider_model.cpp.json
+  s_a983ac12a6b48e::t_3e2b188ddbb4f2 1
+results/run1/judge/readability-magic-numbers__scholar-of-artifice__game-dice-cpp__db61709e30__StaticProbabilityTable.h.json
+  s_a983ac12a6b48e::t_cacadb8ca15f1f 1
+results/run1/judge/readability-magic-numbers__sergioffpc__augusta__628e068350__main.cpp.json
+  s_a983ac12a6b48e::t_c100612d378bb0 1
+results/run1/judge/readability-magic-numbers__sergioffpc__augusta__628e068350__renderer.h.json
+  s_a983ac12a6b48e::t_8fe88fc7b68741 1
+results/run1/notes/bugprone-branch-clone__BitConcepts__arbiter__ad61bed2e1__arbiter_action.c.md
+  s_a983ac12a6b48e::t_582938a5097d37 1
+results/run1/notes/bugprone-branch-clone__Jimdrews__forgeant__b397b0d9af__json.cpp.md
+  s_a983ac12a6b48e::t_fdaf6722df2365 1
+results/run1/notes/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__413805a073__smooth_stop.cpp.md
+  s_a983ac12a6b48e::t_f375557fe18847 1
+results/run1/notes/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__4c1153f85c__node.cpp.md
+  s_a983ac12a6b48e::t_690099441e90fa 1
+results/run1/notes/bugprone-branch-clone__MichaelBallen97__aero-engine__a1ee68ebe8__asset_drag.cpp.md
+  s_a983ac12a6b48e::t_59d45e60fd7af6 1
+results/run1/notes/bugprone-branch-clone__PhotonPower__hp-FEM__381689efc7__gmsh.cpp.md
+  s_a983ac12a6b48e::t_a6a06c3728c064 1
+results/run1/notes/bugprone-branch-clone__aklofas__urbi-embedded__17a9040285__uparse_stmt.c.md
+  s_a983ac12a6b48e::t_2425a45de52648 1
+results/run1/notes/bugprone-branch-clone__aklofas__urbi-embedded__2952abc1a5__uparse_stmt.c.md
+  s_a983ac12a6b48e::t_df04b532176206 1
+results/run1/notes/bugprone-branch-clone__aklofas__urbi-embedded__44da26eeca__uvm_op_overload.c.md
+  s_a983ac12a6b48e::t_967e7af8dec116 1
+results/run1/notes/bugprone-branch-clone__aton-of-data__guara-llm-embodied-flight__654db9bcb1__monitor_table.hpp.md
+  s_a983ac12a6b48e::t_e562dfe5cc10d8 1
+results/run1/notes/bugprone-branch-clone__bansan85__ntfs-browser__ec6a43498b__fake-ntfs-image.cpp.md
+  s_a983ac12a6b48e::t_310ed2e3e558ad 1
+results/run1/notes/bugprone-branch-clone__dagike__hungryeditor__17d04b294b__PreviewBackendFactory.cpp.md
+  s_a983ac12a6b48e::t_3d13c8f958d205 1
+results/run1/notes/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__change_op_columns.hpp.md
+  s_a983ac12a6b48e::t_020ba980435af2 1
+results/run1/notes/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__value_encoding.hpp.md
+  s_a983ac12a6b48e::t_17d2148ce09f1e 1
+results/run1/notes/bugprone-branch-clone__liudss__microvtk__04006083fd__compressor.hpp.md
+  s_a983ac12a6b48e::t_f79bd5c3f9ddbe 1
+results/run1/notes/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__PlanRenderer.hpp.md
+  s_a983ac12a6b48e::t_be8987fbd97366 1
+results/run1/notes/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__TestTaskQueue.cpp.md
+  s_a983ac12a6b48e::t_acbe56da551d6c 1
+results/run1/notes/bugprone-branch-clone__nicknad__Wslc.Testcontainers__56a91e9955__log_line.cpp.md
+  s_a983ac12a6b48e::t_2706d116fa04c9 1
+results/run1/notes/bugprone-branch-clone__omardev29__raylib_multiplatform__4458ec78c9__controls.cpp.md
+  s_a983ac12a6b48e::t_dff4b997b9189f 1
+results/run1/notes/bugprone-branch-clone__quintin-lee__cdsl__b03026945e__eval.c.md
+  s_a983ac12a6b48e::t_67ae0af91cc88d 1
+results/run1/notes/bugprone-branch-clone__quintin-lee__cmem__f43202e62d__cmem_event.c.md
+  s_a983ac12a6b48e::t_fb83c3cfd7674e 1
+results/run1/notes/bugprone-branch-clone__rxdu__ctfsm__a2be430882__state_machine.hpp.md
+  s_a983ac12a6b48e::t_7f22d5bfe6bcd6 1
+results/run1/notes/bugprone-branch-clone__t0k0sh1__ry__2e39658acc__codegen.cpp.md
+  s_a983ac12a6b48e::t_fb72bd63b901e7 1
+results/run1/notes/bugprone-branch-clone__tenstorrent__tt-umd__edd260e3ab__cluster_descriptor_types.hpp.md
+  s_a983ac12a6b48e::t_32919feb7cb8f8 1
+results/run1/notes/bugprone-branch-clone__vrosuits__ANSI_COLOR_TEXT__1fc4df9002__AnsiScreen.cpp.md
+  s_a983ac12a6b48e::t_0f65bee5f16831 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__hkdf.c.md
+  s_a983ac12a6b48e::t_f16cb4524062df 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__rsa_verify.c.md
+  s_a983ac12a6b48e::t_b7226233bf6284 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__aes.c.md
+  s_a983ac12a6b48e::t_efe8ec0c4164ff 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__modexp.c.md
+  s_a983ac12a6b48e::t_e403013e152fc0 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__Linductor-alkaid__yori__9708a998f0__environment_capture.cpp.md
+  s_a983ac12a6b48e::t_0625601de6d379 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__RyAnPr1Me__omscript__2ae9db9066__compiler.cpp.md
+  s_a983ac12a6b48e::t_7c66ae092dfa55 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__bsikar__ra8-firmware__a23b88faba__test_media_dl_export.c.md
+  s_a983ac12a6b48e::t_f1d3ab8a9d633a 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__cityjson__duckdb-cityjson__3671e4d890__temporal_parser.cpp.md
+  s_a983ac12a6b48e::t_365dc964ceb4c7 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__fcatuhe__skyblip__2d10838bb6__radar.cpp.md
+  s_a983ac12a6b48e::t_a1a9173c5082b8 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__binary_flex.hpp.md
+  s_a983ac12a6b48e::t_dd0a945c610a34 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__common.hpp.md
+  s_a983ac12a6b48e::t_c1f95dffd1a0e7 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__iterator_impl.hpp.md
+  s_a983ac12a6b48e::t_8148c03e575949 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__bytestream_utils.hpp.md
+  s_a983ac12a6b48e::t_c70bd4552b850b 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__capabilities_server.cpp.md
+  s_a983ac12a6b48e::t_78fda90c4481a1 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__file_system_manager.hpp.md
+  s_a983ac12a6b48e::t_be85471545afd4 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__message_limits.hpp.md
+  s_a983ac12a6b48e::t_5a93bfb832b297 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__4d83936fb1__hardware_crypto_tests.cpp.md
+  s_a983ac12a6b48e::t_bb902e09149b06 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__b58aa102db__debug_logging_overhead_tests.cpp.md
+  s_a983ac12a6b48e::t_f7941e006fa865 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__c0064d54f0__congestion_controller.h.md
+  s_a983ac12a6b48e::t_8dee61274921ed 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__muchq__opal-cpp__baaec9b717__beast_transport.cc.md
+  s_a983ac12a6b48e::t_2d1d03e3ecb1c2 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__console-server.c.md
+  s_a983ac12a6b48e::t_6ff8526560e97a 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__log-handler.c.md
+  s_a983ac12a6b48e::t_b7a60dbe9f185c 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__test-config-parse-logsize.c.md
+  s_a983ac12a6b48e::t_7695b977b9fc31 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__openbmc__phosphor-certificate-manager__8a59ea28a9__certificate.cpp.md
+  s_a983ac12a6b48e::t_d363d573387c67 1
+results/run1/notes/bugprone-implicit-widening-of-multiplication-result__timwukp__agent-terminal__3b69404349__session.c.md
+  s_a983ac12a6b48e::t_feb66b98ded392 1
+results/run1/notes/bugprone-narrowing-conversions__BitBoxSwiss__bitbox02-firmware__a789c9faac__qtouch.c.md
+  s_a983ac12a6b48e::t_bb75419ceb54a0 1
+results/run1/notes/bugprone-narrowing-conversions__Hakkadaikon__wired__f2aa67c47b__recvpn.c.md
+  s_a983ac12a6b48e::t_c4378bcc7b98c0 1
+results/run1/notes/bugprone-narrowing-conversions__Jgocunha__neat-dnfs__b19e39a8ce__solution.cpp.md
+  s_a983ac12a6b48e::t_571726890d2d75 1
+results/run1/notes/bugprone-narrowing-conversions__Noorts__DuckIR__5f74a3a16e__common.hpp.md
+  s_a983ac12a6b48e::t_6dd5f3def8966b 1
+results/run1/notes/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__00c427d2f5__xmlwf.c.md
+  s_a983ac12a6b48e::t_56fd958ea2bbee 1
+results/run1/notes/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__alloc_tests.c.md
+  s_a983ac12a6b48e::t_8f82d809471042 1
+results/run1/notes/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__basic_tests.c.md
+  s_a983ac12a6b48e::t_63444f1de160ee 1
+results/run1/notes/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__handlers.c.md
+  s_a983ac12a6b48e::t_a43da208c2abd1 1
+results/run1/notes/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__alloc_tests.c.md
+  s_a983ac12a6b48e::t_79067690f54348 1
+results/run1/notes/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__basic_tests.c.md
+  s_a983ac12a6b48e::t_bb3da84acbd6c6 1
+results/run1/notes/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__handlers.c.md
+  s_a983ac12a6b48e::t_5793ba88d6ce91 1
+results/run1/notes/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__misc_tests.c.md
+  s_a983ac12a6b48e::t_c4545198873036 1
+results/run1/notes/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__nsalloc_tests.c.md
+  s_a983ac12a6b48e::t_2df77bac3341af 1
+results/run1/notes/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__b162b094b1__xmlwf.c.md
+  s_a983ac12a6b48e::t_32e9ebf20034c9 1
+results/run1/notes/bugprone-narrowing-conversions__autowarefoundation__autoware_core__46ebf6f474__spline_interpolation_points_2d.cpp.md
+  s_a983ac12a6b48e::t_aef2736623efc1 1
+results/run1/notes/bugprone-narrowing-conversions__autowarefoundation__autoware_core__c6ba5f2fe0__predicted_path_utils.cpp.md
+  s_a983ac12a6b48e::t_210185779a4fab 1
+results/run1/notes/bugprone-narrowing-conversions__felixb419__kaad__557fdf81d5__common.hpp.md
+  s_a983ac12a6b48e::t_6aa3b75bb93932 1
+results/run1/notes/bugprone-narrowing-conversions__libexpat__libexpat__0c5b205a01__xmlwf.c.md
+  s_a983ac12a6b48e::t_b9ffa082985668 1
+results/run1/notes/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__alloc_tests.c.md
+  s_a983ac12a6b48e::t_48eda3adbcce9c 1
+results/run1/notes/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__basic_tests.c.md
+  s_a983ac12a6b48e::t_25191fe081ae98 1
+results/run1/notes/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__handlers.c.md
+  s_a983ac12a6b48e::t_116261895a3765 1
+results/run1/notes/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__misc_tests.c.md
+  s_a983ac12a6b48e::t_6558bf8b40bb60 1
+results/run1/notes/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__nsalloc_tests.c.md
+  s_a983ac12a6b48e::t_a45dc6a062fd16 1
+results/run1/notes/bugprone-narrowing-conversions__rv355__openvino-bevfusion-ops__5c0967b990__solve_buffer_memory.cpp.md
+  s_a983ac12a6b48e::t_a256d3acb16393 1
+results/run1/notes/bugprone-narrowing-conversions__thus__simpleconfig__9ff815d978__sconf.c.md
+  s_a983ac12a6b48e::t_0a7df991ed64d7 1
+results/run1/notes/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__d0d7b8afad__lexer.cpp.md
+  s_a983ac12a6b48e::t_f0a180f4b66651 1
+results/run1/notes/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__f4aeedd3aa__debug_utils.cpp.md
+  s_a983ac12a6b48e::t_4ca6351ea09384 1
+results/run1/notes/bugprone-signed-char-misuse__aldelaro5__dolphin-memory-engine__c840965545__MemViewer.cpp.md
+  s_a983ac12a6b48e::t_8184ec4d2c50c9 1
+results/run1/notes/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__def_keywords.cpp.md
+  s_a983ac12a6b48e::t_1b06964b2606b6 1
+results/run1/notes/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defiFPC.cpp.md
+  s_a983ac12a6b48e::t_4aaa2a8598e1fa 1
+results/run1/notes/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defrData.cpp.md
+  s_a983ac12a6b48e::t_943985a4fb8319 1
+results/run1/notes/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lef_keywords.cpp.md
+  s_a983ac12a6b48e::t_19a35c02d6a636 1
+results/run1/notes/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lefiDebug.cpp.md
+  s_a983ac12a6b48e::t_adabf421a3a359 1
+results/run1/notes/bugprone-signed-char-misuse__cy-suite__paddlepaddle-new__287e124311__device_worker.cc.md
+  s_a983ac12a6b48e::t_dba22d92e7f644 1
+results/run1/notes/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__def_keywords.cpp.md
+  s_a983ac12a6b48e::t_29b27234f2e6b1 1
+results/run1/notes/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defiFPC.cpp.md
+  s_a983ac12a6b48e::t_4766b77e8bf124 1
+results/run1/notes/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defrData.cpp.md
+  s_a983ac12a6b48e::t_4a58bf3b8e3329 1
+results/run1/notes/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lef_keywords.cpp.md
+  s_a983ac12a6b48e::t_a25247c385e8fc 1
+results/run1/notes/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lefiDebug.cpp.md
+  s_a983ac12a6b48e::t_0a506058fa0140 1
+results/run1/notes/bugprone-signed-char-misuse__thus__simpleconfig__6f6407f228__opts.c.md
+  s_a983ac12a6b48e::t_e9cc809c64a00e 1
+results/run1/notes/bugprone-signed-char-misuse__uACPI__uACPI__abc6e6b3b8__stdlib.c.md
+  s_a983ac12a6b48e::t_a461da9deeb555 1
+results/run1/notes/bugprone-signed-char-misuse__viewizard__dncdbg__570f950a75__evalstackmachine.cpp.md
+  s_a983ac12a6b48e::t_7ca3a3ca5cd897 1
+results/run1/notes/bugprone-too-small-loop-variable__ClickHouse__ClickHouse__5d4dc1a230__flipCoordinates.cpp.md
+  s_a983ac12a6b48e::t_abdad4e838f543 1
+results/run1/notes/bugprone-too-small-loop-variable__Locked-Inc__STAR__e188b49676__test_rx_poeg.c.md
+  s_a983ac12a6b48e::t_50c48547abb67e 1
+results/run1/notes/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__GyroFFT.cpp.md
+  s_a983ac12a6b48e::t_07f177a29d3c8e 1
+results/run1/notes/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__RingBuffer.hpp.md
+  s_a983ac12a6b48e::t_9c162ce03e7175 1
+results/run1/notes/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__lm_fit.cpp.md
+  s_a983ac12a6b48e::t_3ae5b6e2ae173e 1
+results/run1/notes/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__septentrio.cpp.md
+  s_a983ac12a6b48e::t_bd25b6a20b089e 1
+results/run1/notes/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__esys_iutil.c.md
+  s_a983ac12a6b48e::t_c00f838061dffc 1
+results/run1/notes/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__sysapi_util.c.md
+  s_a983ac12a6b48e::t_44bc5e651a7c42 1
+results/run1/notes/bugprone-unchecked-optional-access__D3V0N5H1R3__luma__314bc49cd7__parser_stmt.cpp.md
+  s_a983ac12a6b48e::t_a56f5a0113654f 1
+results/run1/notes/bugprone-unchecked-optional-access__benmandrew__PEREDUR__003726442f__black_tests.cpp.md
+  s_a983ac12a6b48e::t_8673ddae2caa2a 1
+results/run1/notes/bugprone-unused-return-value__AurumCoinOrg__AurumCoin__a789ffb931__httpserver.cpp.md
+  s_a983ac12a6b48e::t_a8e596dc9070df 1
+results/run1/notes/bugprone-unused-return-value__BigcoinBGC__bigcoin__8372cdedb6__httpserver.cpp.md
+  s_a983ac12a6b48e::t_0ef470b1e5809d 1
+results/run1/notes/bugprone-unused-return-value__GlomarGadaffi__pocket-dial__34aead5ae2__SipTrunk.cpp.md
+  s_a983ac12a6b48e::t_f103f5aa3a420b 1
+results/run1/notes/bugprone-unused-return-value__Kino1994__bitcoin-full-history__0d79e2829f__httpserver.cpp.md
+  s_a983ac12a6b48e::t_8f15bd58330805 1
+results/run1/notes/bugprone-unused-return-value__RandyNorthrup__chrome-control-mcp__675f9ab9fd__browser_bridge_relay_common.cpp.md
+  s_a983ac12a6b48e::t_75120bc4969726 1
+results/run1/notes/bugprone-unused-return-value__cppservergit__evhttp-apiserver__75bae79ba5__server.c.md
+  s_a983ac12a6b48e::t_502f637117ecbb 1
+results/run1/notes/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiString.cpp.md
+  s_a983ac12a6b48e::t_d69381847d41ef 1
+results/run1/notes/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiTime.cpp.md
+  s_a983ac12a6b48e::t_42ea04b3fe652a 1
+results/run1/notes/bugprone-unused-return-value__fmidev__smartmet-plugin-wms__410691f297__Handler.cpp.md
+  s_a983ac12a6b48e::t_88a2c2831898cd 1
+results/run1/notes/bugprone-unused-return-value__joey-huckabee__aero1553__f3ddb6ca09__platform_posix.cpp.md
+  s_a983ac12a6b48e::t_00a46f2b66b834 1
+results/run1/notes/bugprone-unused-return-value__maceeek__freerdp-m__5abde9bd1c__TestClientCmdLineStatus.c.md
+  s_a983ac12a6b48e::t_6598ab5094124b 1
+results/run1/notes/bugprone-unused-return-value__trainberks-maker__bitstar-core__faa23738fc__httpserver.cpp.md
+  s_a983ac12a6b48e::t_6eb56bcea52811 1
+results/run1/notes/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__ical_parser.cpp.md
+  s_a983ac12a6b48e::t_9de794319aa0d6 1
+results/run1/notes/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__security_primitives_test.cpp.md
+  s_a983ac12a6b48e::t_0e91452bfd96a8 1
+results/run1/notes/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__settings_window.cpp.md
+  s_a983ac12a6b48e::t_ae90ce2975c5e5 1
+results/run1/notes/bugprone-use-after-move__ClickHouse__ClickHouse__62d95fab2e__gtest_long_connection_limit.cpp.md
+  s_a983ac12a6b48e::t_7b27d756b13964 1
+results/run1/notes/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__ical_parser.cpp.md
+  s_a983ac12a6b48e::t_75dd709e3e08d1 1
+results/run1/notes/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__security_primitives_test.cpp.md
+  s_a983ac12a6b48e::t_1aea9a3ddaef09 1
+results/run1/notes/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__settings_window.cpp.md
+  s_a983ac12a6b48e::t_71b765bf55c709 1
+results/run1/notes/bugprone-use-after-move__osmcode__libosmium__5f15163041__test_memory_mapping.cpp.md
+  s_a983ac12a6b48e::t_5aa5c97535b61e 1
+results/run1/notes/bugprone-use-after-move__riciadavinci__sequelite-cpp__11e8704137__test_database.cpp.md
+  s_a983ac12a6b48e::t_137d913d9a22cd 1
+results/run1/notes/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_cleanup.cpp.md
+  s_a983ac12a6b48e::t_5a8ac6d65447cc 1
+results/run1/notes/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_optional_reference.cpp.md
+  s_a983ac12a6b48e::t_652938b579160e 1
+results/run1/notes/cppcoreguidelines-special-member-functions__00-YSH-Autoware-Before__agnocast__e032f05386__agnocast.cpp.md
+  s_a983ac12a6b48e::t_37e78f5983aaaf 1
+results/run1/notes/cppcoreguidelines-special-member-functions__airbus__sen__8ecbecf059__remote_interest_handler.h.md
+  s_a983ac12a6b48e::t_f3666087b6c2fe 1
+results/run1/notes/cppcoreguidelines-special-member-functions__eclipse-score__baselibs__2e8c5c7746__data_types.hpp.md
+  s_a983ac12a6b48e::t_0bf523d9d45857 1
+results/run1/notes/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__provider.cpp.md
+  s_a983ac12a6b48e::t_f3accd745b48dc 1
+results/run1/notes/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__sample_sender_receiver.cpp.md
+  s_a983ac12a6b48e::t_09d7cf8a456e1a 1
+results/run1/notes/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__smokeyeyes.cpp.md
+  s_a983ac12a6b48e::t_5ec5d7b649871a 1
+results/run1/notes/cppcoreguidelines-special-member-functions__fengjiran__AetherMind__4d9fc06f31__backend_registry.h.md
+  s_a983ac12a6b48e::t_9e81b9ddc53fd6 1
+results/run1/notes/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__dispatcher.hpp.md
+  s_a983ac12a6b48e::t_60ed69212a23bc 1
+results/run1/notes/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__hw_dispatcher.hpp.md
+  s_a983ac12a6b48e::t_d95d64693dca58 1
+results/run1/notes/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__implementation.hpp.md
+  s_a983ac12a6b48e::t_41db4943ad9500 1
+results/run1/notes/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__inflate_state.hpp.md
+  s_a983ac12a6b48e::t_a7480884c70f88 1
+results/run1/notes/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__input_stream.hpp.md
+  s_a983ac12a6b48e::t_1c5402d1cd9172 1
+results/run1/notes/cppcoreguidelines-special-member-functions__jerarn__jaql__1107ce9501__test_logger.cpp.md
+  s_a983ac12a6b48e::t_2958f0f1f00330 1
+results/run1/notes/cppcoreguidelines-special-member-functions__joshpeterson__binarily__ed2e4889ad__binary_reader.h.md
+  s_a983ac12a6b48e::t_7e8a26929075dc 1
+results/run1/notes/cppcoreguidelines-special-member-functions__journalr__score-checklists-test__77e3753d81__proxy_event.h.md
+  s_a983ac12a6b48e::t_9460a95f0da657 1
+results/run1/notes/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task.hpp.md
+  s_a983ac12a6b48e::t_f75ae1561d55f7 1
+results/run1/notes/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task_tests.cpp.md
+  s_a983ac12a6b48e::t_ed96e2d61a4a17 1
+results/run1/notes/cppcoreguidelines-special-member-functions__lefebvre__mqces__bf880afb2d__parallel.hpp.md
+  s_a983ac12a6b48e::t_4880d004a96a9e 1
+results/run1/notes/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__bufferAgent.h.md
+  s_a983ac12a6b48e::t_b4b9669dc6e06f 1
+results/run1/notes/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__writeBuffer.h.md
+  s_a983ac12a6b48e::t_d030446b364d98 1
+results/run1/notes/cppcoreguidelines-special-member-functions__openbmc__phosphor-debug-collector__7d6d2445da__pldm_utils.hpp.md
+  s_a983ac12a6b48e::t_5a175b7c689396 1
+results/run1/notes/cppcoreguidelines-special-member-functions__ralfkonrad__ql_performance_testing__3ffeee386f__TestSuiteFixture.hpp.md
+  s_a983ac12a6b48e::t_26eff41a58edd3 1
+results/run1/notes/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__Directions.cpp.md
+  s_a983ac12a6b48e::t_cad29d39e0e482 1
+results/run1/notes/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__IMatter.hpp.md
+  s_a983ac12a6b48e::t_f1f19dc8dcad18 1
+results/run1/notes/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__MatterArrayTests.cpp.md
+  s_a983ac12a6b48e::t_b926632df6fa95 1
+results/run1/notes/readability-magic-numbers__Hahn-Schickard__IODD-Model__93ee8199f4__main.cpp.md
+  s_a983ac12a6b48e::t_e9718d050e2463 1
+results/run1/notes/readability-magic-numbers__Keyrim__drone-mark4__e6686f5fd9__attitude_estimator.cpp.md
+  s_a983ac12a6b48e::t_8281db6c1b0b5f 1
+results/run1/notes/readability-magic-numbers__PocoF3Releases__android_external_rust_cxx__06677b3e00__cxx.cc.md
+  s_a983ac12a6b48e::t_e3d528424ce985 1
+results/run1/notes/readability-magic-numbers__SwuduSusuwu__SusuLib__407b6a0686__ClassIo.cxx.md
+  s_a983ac12a6b48e::t_92db832bc363cc 1
+results/run1/notes/readability-magic-numbers__deeplex__deeppack__e3954dfb47__perfect_hash.hpp.md
+  s_a983ac12a6b48e::t_df3a35601d1caf 1
+results/run1/notes/readability-magic-numbers__ekkus93__esp32-macro-keyboard__fe70b72cd4__device_controls_logic.c.md
+  s_a983ac12a6b48e::t_1a3e0e5e5cf030 1
+results/run1/notes/readability-magic-numbers__felixb419__kaad__2911ea786a__exceptions.cpp.md
+  s_a983ac12a6b48e::t_ee4c36f69c3d65 1
+results/run1/notes/readability-magic-numbers__felixb419__kaad__73f753c90b__check_tensor.hpp.md
+  s_a983ac12a6b48e::t_92f63236ff654b 1
+results/run1/notes/readability-magic-numbers__felixb419__kaad__73f753c90b__kernels.hpp.md
+  s_a983ac12a6b48e::t_979186cdf5185b 1
+results/run1/notes/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__local_search.cpp.md
+  s_a983ac12a6b48e::t_c1a48e56c14c8c 1
+results/run1/notes/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__tsp.cpp.md
+  s_a983ac12a6b48e::t_cfa7531429dd27 1
+results/run1/notes/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__wrapper.h.md
+  s_a983ac12a6b48e::t_79f851dbc5f1ea 1
+results/run1/notes/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__angle.h.md
+  s_a983ac12a6b48e::t_d33614b8605c7c 1
+results/run1/notes/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__transform.h.md
+  s_a983ac12a6b48e::t_5d335f3e5e1baa 1
+results/run1/notes/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__client.hpp.md
+  s_a983ac12a6b48e::t_276e0cba2cd391 1
+results/run1/notes/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__connection_config.hpp.md
+  s_a983ac12a6b48e::t_b6e995aaf60bc2 1
+results/run1/notes/readability-magic-numbers__nebulastream__nebulastream__15b15fa7be__TaggedPointer.hpp.md
+  s_a983ac12a6b48e::t_e699157018b457 1
+results/run1/notes/readability-magic-numbers__rogy-AquaLab__omniboat_robokit__55640b7881__schneider_model.cpp.md
+  s_a983ac12a6b48e::t_3ea919099893ad 1
+results/run1/notes/readability-magic-numbers__scholar-of-artifice__game-dice-cpp__db61709e30__StaticProbabilityTable.h.md
+  s_a983ac12a6b48e::t_5e2340a409e06f 1
+results/run1/notes/readability-magic-numbers__sergioffpc__augusta__628e068350__main.cpp.md
+  s_a983ac12a6b48e::t_11adc51f5356a2 1
+results/run1/notes/readability-magic-numbers__sergioffpc__augusta__628e068350__renderer.h.md
+  s_a983ac12a6b48e::t_53598b4ba1530a 1
+results/run1/patches/bugprone-branch-clone__BitConcepts__arbiter__ad61bed2e1__arbiter_action.c.patch
+  s_a983ac12a6b48e::t_f8ba54461138ac 1-16
+results/run1/patches/bugprone-branch-clone__Jimdrews__forgeant__b397b0d9af__json.cpp.patch
+  s_a983ac12a6b48e::t_7df07c129940d2 1-16
+results/run1/patches/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__413805a073__smooth_stop.cpp.patch
+  s_a983ac12a6b48e::t_3b2a2b0e033f59 1-13
+results/run1/patches/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__4c1153f85c__node.cpp.patch
+  s_a983ac12a6b48e::t_aec043e23e9467 1-14
+results/run1/patches/bugprone-branch-clone__MichaelBallen97__aero-engine__a1ee68ebe8__asset_drag.cpp.patch
+  s_a983ac12a6b48e::t_541ab7cb758ff6 1-21
+results/run1/patches/bugprone-branch-clone__PhotonPower__hp-FEM__381689efc7__gmsh.cpp.patch
+  s_a983ac12a6b48e::t_6b568e145ccc0e 1-8
+results/run1/patches/bugprone-branch-clone__aklofas__urbi-embedded__17a9040285__uparse_stmt.c.patch
+  s_a983ac12a6b48e::t_966e047fe32361 1-14
+results/run1/patches/bugprone-branch-clone__aklofas__urbi-embedded__2952abc1a5__uparse_stmt.c.patch
+  s_a983ac12a6b48e::t_fb504aa9c32968 1-11
+results/run1/patches/bugprone-branch-clone__aklofas__urbi-embedded__44da26eeca__uvm_op_overload.c.patch
+  s_a983ac12a6b48e::t_6fee129570a0c8 1-12
+results/run1/patches/bugprone-branch-clone__aton-of-data__guara-llm-embodied-flight__654db9bcb1__monitor_table.hpp.patch
+  s_a983ac12a6b48e::t_a92d674fd2a822 1-14
+results/run1/patches/bugprone-branch-clone__bansan85__ntfs-browser__ec6a43498b__fake-ntfs-image.cpp.patch
+  s_a983ac12a6b48e::t_cd3e6b5c0ccaff 1-16
+results/run1/patches/bugprone-branch-clone__dagike__hungryeditor__17d04b294b__PreviewBackendFactory.cpp.patch
+  s_a983ac12a6b48e::t_e0079c8efc362a 1-8
+results/run1/patches/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__change_op_columns.hpp.patch
+  s_a983ac12a6b48e::t_c15c1673b887c0 1-11
+results/run1/patches/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__value_encoding.hpp.patch
+  s_a983ac12a6b48e::t_cfa668b96756d9 1-28
+results/run1/patches/bugprone-branch-clone__liudss__microvtk__04006083fd__compressor.hpp.patch
+  s_a983ac12a6b48e::t_0f185e21a52b0d 1-23
+results/run1/patches/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__PlanRenderer.hpp.patch
+  s_a983ac12a6b48e::t_03c090829890f2 1-11
+results/run1/patches/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__TestTaskQueue.cpp.patch
+  s_a983ac12a6b48e::t_27cca3321f4fc5 1-12
+results/run1/patches/bugprone-branch-clone__nicknad__Wslc.Testcontainers__56a91e9955__log_line.cpp.patch
+  s_a983ac12a6b48e::t_fe09c800a0edfb 1-8
+results/run1/patches/bugprone-branch-clone__omardev29__raylib_multiplatform__4458ec78c9__controls.cpp.patch
+  s_a983ac12a6b48e::t_9df13483bc2272 1-25
+results/run1/patches/bugprone-branch-clone__quintin-lee__cdsl__b03026945e__eval.c.patch
+  s_a983ac12a6b48e::t_e6c55440bf6893 1-21
+results/run1/patches/bugprone-branch-clone__quintin-lee__cmem__f43202e62d__cmem_event.c.patch
+  s_a983ac12a6b48e::t_498665b9eced11 1-13
+results/run1/patches/bugprone-branch-clone__rxdu__ctfsm__a2be430882__state_machine.hpp.patch
+  s_a983ac12a6b48e::t_fa7043dffb98b9 1-16
+results/run1/patches/bugprone-branch-clone__t0k0sh1__ry__2e39658acc__codegen.cpp.patch
+  s_a983ac12a6b48e::t_e226630116f278 1-44
+results/run1/patches/bugprone-branch-clone__tenstorrent__tt-umd__edd260e3ab__cluster_descriptor_types.hpp.patch
+  s_a983ac12a6b48e::t_efedf3e95ec282 1-8
+results/run1/patches/bugprone-branch-clone__vrosuits__ANSI_COLOR_TEXT__1fc4df9002__AnsiScreen.cpp.patch
+  s_a983ac12a6b48e::t_629839af877bd5 1-11
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__hkdf.c.patch
+  s_a983ac12a6b48e::t_917aeb407d1e9c 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__rsa_verify.c.patch
+  s_a983ac12a6b48e::t_7cc4dbb1153c45 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__aes.c.patch
+  s_a983ac12a6b48e::t_886506f59830a1 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__modexp.c.patch
+  s_a983ac12a6b48e::t_9d4827c051ed70 1-16
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__Linductor-alkaid__yori__9708a998f0__environment_capture.cpp.patch
+  s_a983ac12a6b48e::t_12fc669ebdfcfe 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__RyAnPr1Me__omscript__2ae9db9066__compiler.cpp.patch
+  s_a983ac12a6b48e::t_78d8e305171dc2 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__bsikar__ra8-firmware__a23b88faba__test_media_dl_export.c.patch
+  s_a983ac12a6b48e::t_dc042bdb7a9c5a 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__cityjson__duckdb-cityjson__3671e4d890__temporal_parser.cpp.patch
+  s_a983ac12a6b48e::t_ab4540f7976578 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__fcatuhe__skyblip__2d10838bb6__radar.cpp.patch
+  s_a983ac12a6b48e::t_b81229c5dcf903 1-16
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__binary_flex.hpp.patch
+  s_a983ac12a6b48e::t_7abf08a133a3e3 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__common.hpp.patch
+  s_a983ac12a6b48e::t_6933c5cb97cedb 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__iterator_impl.hpp.patch
+  s_a983ac12a6b48e::t_8a898a8624d2ad 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__bytestream_utils.hpp.patch
+  s_a983ac12a6b48e::t_eada027b2ec3e4 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__capabilities_server.cpp.patch
+  s_a983ac12a6b48e::t_59759d45717ae1 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__file_system_manager.hpp.patch
+  s_a983ac12a6b48e::t_1e806f51d4f9fe 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__message_limits.hpp.patch
+  s_a983ac12a6b48e::t_484cd14dab1e39 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__4d83936fb1__hardware_crypto_tests.cpp.patch
+  s_a983ac12a6b48e::t_ce8555c622c3f3 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__b58aa102db__debug_logging_overhead_tests.cpp.patch
+  s_a983ac12a6b48e::t_1a17a8d6e00320 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__c0064d54f0__congestion_controller.h.patch
+  s_a983ac12a6b48e::t_b9e54552602c4c 1-20
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__muchq__opal-cpp__baaec9b717__beast_transport.cc.patch
+  s_a983ac12a6b48e::t_36e2aa20b5560a 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__console-server.c.patch
+  s_a983ac12a6b48e::t_556d826dfdd12e 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__log-handler.c.patch
+  s_a983ac12a6b48e::t_d6a2a054c0c957 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__test-config-parse-logsize.c.patch
+  s_a983ac12a6b48e::t_7f06614df42d78 1-21
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__openbmc__phosphor-certificate-manager__8a59ea28a9__certificate.cpp.patch
+  s_a983ac12a6b48e::t_bd175ec2d32f02 1-9
+results/run1/patches/bugprone-implicit-widening-of-multiplication-result__timwukp__agent-terminal__3b69404349__session.c.patch
+  s_a983ac12a6b48e::t_5c2c42c243f1ea 1-9
+results/run1/patches/bugprone-narrowing-conversions__BitBoxSwiss__bitbox02-firmware__a789c9faac__qtouch.c.patch
+  s_a983ac12a6b48e::t_bd60f563bc69da 1-9
+results/run1/patches/bugprone-narrowing-conversions__Hakkadaikon__wired__f2aa67c47b__recvpn.c.patch
+  s_a983ac12a6b48e::t_20d7e7922568eb 1-9
+results/run1/patches/bugprone-narrowing-conversions__Jgocunha__neat-dnfs__b19e39a8ce__solution.cpp.patch
+  s_a983ac12a6b48e::t_1ff2829e2af460 1-9
+results/run1/patches/bugprone-narrowing-conversions__Noorts__DuckIR__5f74a3a16e__common.hpp.patch
+  s_a983ac12a6b48e::t_46d40b561c0716 1-9
+results/run1/patches/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__00c427d2f5__xmlwf.c.patch
+  s_a983ac12a6b48e::t_770bd0a555dfaa 1-9
+results/run1/patches/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__alloc_tests.c.patch
+  s_a983ac12a6b48e::t_5cec98283a5e55 1-16
+results/run1/patches/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__basic_tests.c.patch
+  s_a983ac12a6b48e::t_c00b7f944642b4 1-16
+results/run1/patches/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__handlers.c.patch
+  s_a983ac12a6b48e::t_b99c08ee431ed9 1-27
+results/run1/patches/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__alloc_tests.c.patch
+  s_a983ac12a6b48e::t_6ee5d16dbfb7bc 1-16
+results/run1/patches/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__basic_tests.c.patch
+  s_a983ac12a6b48e::t_a851aae08644d6 1-16
+results/run1/patches/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__handlers.c.patch
+  s_a983ac12a6b48e::t_109408b4e4275d 1-29
+results/run1/patches/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__misc_tests.c.patch
+  s_a983ac12a6b48e::t_62c1551280824d 1-20
+results/run1/patches/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__nsalloc_tests.c.patch
+  s_a983ac12a6b48e::t_71edd32a2b7b38 1-20
+results/run1/patches/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__b162b094b1__xmlwf.c.patch
+  s_a983ac12a6b48e::t_700f4ee59999d1 1-9
+results/run1/patches/bugprone-narrowing-conversions__autowarefoundation__autoware_core__46ebf6f474__spline_interpolation_points_2d.cpp.patch
+  s_a983ac12a6b48e::t_e69d3f4f838fae 1-9
+results/run1/patches/bugprone-narrowing-conversions__autowarefoundation__autoware_core__c6ba5f2fe0__predicted_path_utils.cpp.patch
+  s_a983ac12a6b48e::t_ec3f540ad2fd18 1-18
+results/run1/patches/bugprone-narrowing-conversions__felixb419__kaad__557fdf81d5__common.hpp.patch
+  s_a983ac12a6b48e::t_20904d497a6e9b 1-14
+results/run1/patches/bugprone-narrowing-conversions__libexpat__libexpat__0c5b205a01__xmlwf.c.patch
+  s_a983ac12a6b48e::t_df8372e550375a 1-9
+results/run1/patches/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__alloc_tests.c.patch
+  s_a983ac12a6b48e::t_56d8543d579e79 1-20
+results/run1/patches/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__basic_tests.c.patch
+  s_a983ac12a6b48e::t_79080acc0cd37c 1-16
+results/run1/patches/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__handlers.c.patch
+  s_a983ac12a6b48e::t_86394f0f8cef6f 1-29
+results/run1/patches/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__misc_tests.c.patch
+  s_a983ac12a6b48e::t_1a6a36b659d934 1-20
+results/run1/patches/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__nsalloc_tests.c.patch
+  s_a983ac12a6b48e::t_fd212e014d7ae8 1-20
+results/run1/patches/bugprone-narrowing-conversions__rv355__openvino-bevfusion-ops__5c0967b990__solve_buffer_memory.cpp.patch
+  s_a983ac12a6b48e::t_83cf9beb4bf8fd 1-9
+results/run1/patches/bugprone-narrowing-conversions__thus__simpleconfig__9ff815d978__sconf.c.patch
+  s_a983ac12a6b48e::t_83793af97bf34a 1-16
+results/run1/patches/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__d0d7b8afad__lexer.cpp.patch
+  s_a983ac12a6b48e::t_72ec8810c9bfe0 1-9
+results/run1/patches/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__f4aeedd3aa__debug_utils.cpp.patch
+  s_a983ac12a6b48e::t_f731ea5c513039 1-19
+results/run1/patches/bugprone-signed-char-misuse__aldelaro5__dolphin-memory-engine__c840965545__MemViewer.cpp.patch
+  s_a983ac12a6b48e::t_707579d098644c 1-9
+results/run1/patches/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__def_keywords.cpp.patch
+  s_a983ac12a6b48e::t_c99073ea8659de 1-9
+results/run1/patches/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defiFPC.cpp.patch
+  s_a983ac12a6b48e::t_8a063a8b397b1a 1-12
+results/run1/patches/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defrData.cpp.patch
+  s_a983ac12a6b48e::t_c18de7e00e8ce7 1-16
+results/run1/patches/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lef_keywords.cpp.patch
+  s_a983ac12a6b48e::t_b7b0527ccd50cd 1-9
+results/run1/patches/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lefiDebug.cpp.patch
+  s_a983ac12a6b48e::t_b21027a9ee56d4 1-9
+results/run1/patches/bugprone-signed-char-misuse__cy-suite__paddlepaddle-new__287e124311__device_worker.cc.patch
+  s_a983ac12a6b48e::t_5d2c5feeeb443b 1-10
+results/run1/patches/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__def_keywords.cpp.patch
+  s_a983ac12a6b48e::t_4c1c14e26c84ae 1-9
+results/run1/patches/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defiFPC.cpp.patch
+  s_a983ac12a6b48e::t_434fdb9f4f0a6a 1-12
+results/run1/patches/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defrData.cpp.patch
+  s_a983ac12a6b48e::t_d85326188139f1 1-16
+results/run1/patches/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lef_keywords.cpp.patch
+  s_a983ac12a6b48e::t_07ad3463758c1d 1-9
+results/run1/patches/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lefiDebug.cpp.patch
+  s_a983ac12a6b48e::t_e82d671dd274a2 1-9
+results/run1/patches/bugprone-signed-char-misuse__thus__simpleconfig__6f6407f228__opts.c.patch
+  s_a983ac12a6b48e::t_d6f134ec222a73 1-9
+results/run1/patches/bugprone-signed-char-misuse__uACPI__uACPI__abc6e6b3b8__stdlib.c.patch
+  s_a983ac12a6b48e::t_fe1a454895463c 1-9
+results/run1/patches/bugprone-signed-char-misuse__viewizard__dncdbg__570f950a75__evalstackmachine.cpp.patch
+  s_a983ac12a6b48e::t_70c95214209384 1-9
+results/run1/patches/bugprone-too-small-loop-variable__ClickHouse__ClickHouse__5d4dc1a230__flipCoordinates.cpp.patch
+  s_a983ac12a6b48e::t_4df7ef671fb9b8 1-12
+results/run1/patches/bugprone-too-small-loop-variable__Locked-Inc__STAR__e188b49676__test_rx_poeg.c.patch
+  s_a983ac12a6b48e::t_821a9aac5a0554 1-9
+results/run1/patches/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__GyroFFT.cpp.patch
+  s_a983ac12a6b48e::t_57f26d4b233add 1-9
+results/run1/patches/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__RingBuffer.hpp.patch
+  s_a983ac12a6b48e::t_76273c9761f091 1-34
+results/run1/patches/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__lm_fit.cpp.patch
+  s_a983ac12a6b48e::t_4b4893699fc4a7 1-30
+results/run1/patches/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__septentrio.cpp.patch
+  s_a983ac12a6b48e::t_967bf999342a7a 1-9
+results/run1/patches/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__esys_iutil.c.patch
+  s_a983ac12a6b48e::t_fb22c5528a42ef 1-9
+results/run1/patches/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__sysapi_util.c.patch
+  s_a983ac12a6b48e::t_990282ca03f1f0 1-9
+results/run1/patches/bugprone-unchecked-optional-access__D3V0N5H1R3__luma__314bc49cd7__parser_stmt.cpp.patch
+  s_a983ac12a6b48e::t_1213c625a9fc51 1-16
+results/run1/patches/bugprone-unchecked-optional-access__benmandrew__PEREDUR__003726442f__black_tests.cpp.patch
+  s_a983ac12a6b48e::t_978e64dd34eabb 1-34
+results/run1/patches/bugprone-unused-return-value__AurumCoinOrg__AurumCoin__a789ffb931__httpserver.cpp.patch
+  s_a983ac12a6b48e::t_cf4937f25fa08e 1-9
+results/run1/patches/bugprone-unused-return-value__BigcoinBGC__bigcoin__8372cdedb6__httpserver.cpp.patch
+  s_a983ac12a6b48e::t_d6e0b1f801ff6e 1-9
+results/run1/patches/bugprone-unused-return-value__GlomarGadaffi__pocket-dial__34aead5ae2__SipTrunk.cpp.patch
+  s_a983ac12a6b48e::t_98b5523ddda8c8 1-19
+results/run1/patches/bugprone-unused-return-value__Kino1994__bitcoin-full-history__0d79e2829f__httpserver.cpp.patch
+  s_a983ac12a6b48e::t_92439551ae0505 1-9
+results/run1/patches/bugprone-unused-return-value__RandyNorthrup__chrome-control-mcp__675f9ab9fd__browser_bridge_relay_common.cpp.patch
+  s_a983ac12a6b48e::t_38d96d53ce2c65 1-9
+results/run1/patches/bugprone-unused-return-value__cppservergit__evhttp-apiserver__75bae79ba5__server.c.patch
+  s_a983ac12a6b48e::t_479c7aecc4db80 1-11
+results/run1/patches/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiString.cpp.patch
+  s_a983ac12a6b48e::t_1dada503b93134 1-16
+results/run1/patches/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiTime.cpp.patch
+  s_a983ac12a6b48e::t_d5d2b8a89e4cd5 1-11
+results/run1/patches/bugprone-unused-return-value__fmidev__smartmet-plugin-wms__410691f297__Handler.cpp.patch
+  s_a983ac12a6b48e::t_c4e057185e85b5 1-9
+results/run1/patches/bugprone-unused-return-value__joey-huckabee__aero1553__f3ddb6ca09__platform_posix.cpp.patch
+  s_a983ac12a6b48e::t_24aab90ebaae49 1-9
+results/run1/patches/bugprone-unused-return-value__maceeek__freerdp-m__5abde9bd1c__TestClientCmdLineStatus.c.patch
+  s_a983ac12a6b48e::t_9bf717d5544c21 1-23
+results/run1/patches/bugprone-unused-return-value__trainberks-maker__bitstar-core__faa23738fc__httpserver.cpp.patch
+  s_a983ac12a6b48e::t_5bc1003167d89b 1-9
+results/run1/patches/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__ical_parser.cpp.patch
+  s_a983ac12a6b48e::t_d6834787ee40a2 1-9
+results/run1/patches/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__security_primitives_test.cpp.patch
+  s_a983ac12a6b48e::t_6e81562f4f2688 1-15
+results/run1/patches/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__settings_window.cpp.patch
+  s_a983ac12a6b48e::t_b73c0473ddae1c 1-12
+results/run1/patches/bugprone-use-after-move__ClickHouse__ClickHouse__62d95fab2e__gtest_long_connection_limit.cpp.patch
+  s_a983ac12a6b48e::t_62b24a78b767b2 1-11
+results/run1/patches/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__ical_parser.cpp.patch
+  s_a983ac12a6b48e::t_69042b8ee0057b 1-9
+results/run1/patches/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__security_primitives_test.cpp.patch
+  s_a983ac12a6b48e::t_87c1ead2b77613 1-15
+results/run1/patches/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__settings_window.cpp.patch
+  s_a983ac12a6b48e::t_7a2913c696d1d2 1-12
+results/run1/patches/bugprone-use-after-move__osmcode__libosmium__5f15163041__test_memory_mapping.cpp.patch
+  s_a983ac12a6b48e::t_2bc28beb967bb1 1-48
+results/run1/patches/bugprone-use-after-move__riciadavinci__sequelite-cpp__11e8704137__test_database.cpp.patch
+  s_a983ac12a6b48e::t_ac3167a06dff69 1-13
+results/run1/patches/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_cleanup.cpp.patch
+  s_a983ac12a6b48e::t_a18636b4101c0c 1-10
+results/run1/patches/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_optional_reference.cpp.patch
+  s_a983ac12a6b48e::t_da020eeeb142aa 1-15
+results/run1/patches/cppcoreguidelines-special-member-functions__00-YSH-Autoware-Before__agnocast__e032f05386__agnocast.cpp.patch
+  s_a983ac12a6b48e::t_af74cec80e3da6 1-12
+results/run1/patches/cppcoreguidelines-special-member-functions__airbus__sen__8ecbecf059__remote_interest_handler.h.patch
+  s_a983ac12a6b48e::t_51671e66b4cf8c 1-11
+results/run1/patches/cppcoreguidelines-special-member-functions__eclipse-score__baselibs__2e8c5c7746__data_types.hpp.patch
+  s_a983ac12a6b48e::t_cc384d6c38ca68 1-24
+results/run1/patches/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__provider.cpp.patch
+  s_a983ac12a6b48e::t_fa9e26df55957e 1-9
+results/run1/patches/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__sample_sender_receiver.cpp.patch
+  s_a983ac12a6b48e::t_f671a418f80e89 1-11
+results/run1/patches/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__smokeyeyes.cpp.patch
+  s_a983ac12a6b48e::t_6a7676c4955af7 1-12
+results/run1/patches/cppcoreguidelines-special-member-functions__fengjiran__AetherMind__4d9fc06f31__backend_registry.h.patch
+  s_a983ac12a6b48e::t_76031c348bb33c 1-8
+results/run1/patches/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__dispatcher.hpp.patch
+  s_a983ac12a6b48e::t_3d90ad3f2a97c3 1-11
+results/run1/patches/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__hw_dispatcher.hpp.patch
+  s_a983ac12a6b48e::t_bd3dce81ea412d 1-12
+results/run1/patches/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__implementation.hpp.patch
+  s_a983ac12a6b48e::t_7c26375c82c8a9 1-9
+results/run1/patches/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__inflate_state.hpp.patch
+  s_a983ac12a6b48e::t_cef4498adb535e 1-11
+results/run1/patches/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__input_stream.hpp.patch
+  s_a983ac12a6b48e::t_56a69ac108db5d 1-9
+results/run1/patches/cppcoreguidelines-special-member-functions__jerarn__jaql__1107ce9501__test_logger.cpp.patch
+  s_a983ac12a6b48e::t_47af09872ca391 1-9
+results/run1/patches/cppcoreguidelines-special-member-functions__joshpeterson__binarily__ed2e4889ad__binary_reader.h.patch
+  s_a983ac12a6b48e::t_01560ca3953f1a 1-11
+results/run1/patches/cppcoreguidelines-special-member-functions__journalr__score-checklists-test__77e3753d81__proxy_event.h.patch
+  s_a983ac12a6b48e::t_296b7f45c189db 1-9
+results/run1/patches/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task.hpp.patch
+  s_a983ac12a6b48e::t_ed3099f4180250 1-13
+results/run1/patches/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task_tests.cpp.patch
+  s_a983ac12a6b48e::t_41c80ae4d2e3b5 1-11
+results/run1/patches/cppcoreguidelines-special-member-functions__lefebvre__mqces__bf880afb2d__parallel.hpp.patch
+  s_a983ac12a6b48e::t_c6327d38a35e94 1-9
+results/run1/patches/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__bufferAgent.h.patch
+  s_a983ac12a6b48e::t_d04cb5202a6cf3 1-12
+results/run1/patches/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__writeBuffer.h.patch
+  s_a983ac12a6b48e::t_c336059dd1defc 1-12
+results/run1/patches/cppcoreguidelines-special-member-functions__openbmc__phosphor-debug-collector__7d6d2445da__pldm_utils.hpp.patch
+  s_a983ac12a6b48e::t_16935d6f4e5ef7 1-9
+results/run1/patches/cppcoreguidelines-special-member-functions__ralfkonrad__ql_performance_testing__3ffeee386f__TestSuiteFixture.hpp.patch
+  s_a983ac12a6b48e::t_f409de5e07f0a8 1-14
+results/run1/patches/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__Directions.cpp.patch
+  s_a983ac12a6b48e::t_6bd1f70719d7cf 1-12
+results/run1/patches/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__IMatter.hpp.patch
+  s_a983ac12a6b48e::t_1ae3938f2d1be8 1-14
+results/run1/patches/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__MatterArrayTests.cpp.patch
+  s_a983ac12a6b48e::t_7737e124f390e8 1-11
+results/run1/patches/readability-magic-numbers__Hahn-Schickard__IODD-Model__93ee8199f4__main.cpp.patch
+  s_a983ac12a6b48e::t_c3667e06a2e3ee 1-10
+results/run1/patches/readability-magic-numbers__Keyrim__drone-mark4__e6686f5fd9__attitude_estimator.cpp.patch
+  s_a983ac12a6b48e::t_4316d93379534f 1-19
+results/run1/patches/readability-magic-numbers__PocoF3Releases__android_external_rust_cxx__06677b3e00__cxx.cc.patch
+  s_a983ac12a6b48e::t_3ab3c192bb8b56 1-10
+results/run1/patches/readability-magic-numbers__SwuduSusuwu__SusuLib__407b6a0686__ClassIo.cxx.patch
+  s_a983ac12a6b48e::t_3f2871420e7c8d 1-10
+results/run1/patches/readability-magic-numbers__deeplex__deeppack__e3954dfb47__perfect_hash.hpp.patch
+  s_a983ac12a6b48e::t_54734a966f370d 1-23
+results/run1/patches/readability-magic-numbers__ekkus93__esp32-macro-keyboard__fe70b72cd4__device_controls_logic.c.patch
+  s_a983ac12a6b48e::t_338142571a1592 1-35
+results/run1/patches/readability-magic-numbers__felixb419__kaad__2911ea786a__exceptions.cpp.patch
+  s_a983ac12a6b48e::t_20163fc330bcb9 1-11
+results/run1/patches/readability-magic-numbers__felixb419__kaad__73f753c90b__check_tensor.hpp.patch
+  s_a983ac12a6b48e::t_b6ba8574c80b84 1-18
+results/run1/patches/readability-magic-numbers__felixb419__kaad__73f753c90b__kernels.hpp.patch
+  s_a983ac12a6b48e::t_f40f381755964c 1-40
+results/run1/patches/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__local_search.cpp.patch
+  s_a983ac12a6b48e::t_9038a5e08bbaa0 1-20
+results/run1/patches/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__tsp.cpp.patch
+  s_a983ac12a6b48e::t_d65c9343f801bd 1-14
+results/run1/patches/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__wrapper.h.patch
+  s_a983ac12a6b48e::t_1236df56a95f22 1-10
+results/run1/patches/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__angle.h.patch
+  s_a983ac12a6b48e::t_38d53084104206 1-21
+results/run1/patches/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__transform.h.patch
+  s_a983ac12a6b48e::t_f4366ba78a359f 1-10
+results/run1/patches/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__client.hpp.patch
+  s_a983ac12a6b48e::t_a95ade6437b54e 1-17
+results/run1/patches/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__connection_config.hpp.patch
+  s_a983ac12a6b48e::t_951fc35f88e2bc 1-23
+results/run1/patches/readability-magic-numbers__nebulastream__nebulastream__15b15fa7be__TaggedPointer.hpp.patch
+  s_a983ac12a6b48e::t_3db33862c5cf09 1-22
+results/run1/patches/readability-magic-numbers__rogy-AquaLab__omniboat_robokit__55640b7881__schneider_model.cpp.patch
+  s_a983ac12a6b48e::t_26c33f1dceee67 1-43
+results/run1/patches/readability-magic-numbers__scholar-of-artifice__game-dice-cpp__db61709e30__StaticProbabilityTable.h.patch
+  s_a983ac12a6b48e::t_2865499fb08290 1-12
+results/run1/patches/readability-magic-numbers__sergioffpc__augusta__628e068350__main.cpp.patch
+  s_a983ac12a6b48e::t_7947eddfc885e6 1-16
+results/run1/patches/readability-magic-numbers__sergioffpc__augusta__628e068350__renderer.h.patch
+  s_a983ac12a6b48e::t_889fa541c4720b 1-15
+results/run1/report.md
+  s_a983ac12a6b48e::t_1b48eaa4d6bfd5 1-13
+results/run1/results.jsonl
+  s_a983ac12a6b48e::t_8f4efaa0772665 1-171
+results/run1/scores.jsonl
+  s_a983ac12a6b48e::t_8196e6c4d00d38 1-171
+samples/bugprone-branch-clone__BitConcepts__arbiter__ad61bed2e1__arbiter_action.c/after.c
+  s_a983ac12a6b48e::t_0d37c3a2d3d760 1-74
+samples/bugprone-branch-clone__BitConcepts__arbiter__ad61bed2e1__arbiter_action.c/before.c
+  s_a983ac12a6b48e::t_24ef6e3832c1ee 1-78
+samples/bugprone-branch-clone__BitConcepts__arbiter__ad61bed2e1__arbiter_action.c/human.patch
+  s_a983ac12a6b48e::t_3b6b55f44b3e4e 1-14
+samples/bugprone-branch-clone__BitConcepts__arbiter__ad61bed2e1__arbiter_action.c/meta.json
+  s_a983ac12a6b48e::t_216241f6a5b39f 1-38
+samples/bugprone-branch-clone__Jimdrews__forgeant__b397b0d9af__json.cpp/after.cpp
+  s_a983ac12a6b48e::t_8fc70a2faf1612 1-174
+samples/bugprone-branch-clone__Jimdrews__forgeant__b397b0d9af__json.cpp/before.cpp
+  s_a983ac12a6b48e::t_87c8c89d94eeb3 1-173
+samples/bugprone-branch-clone__Jimdrews__forgeant__b397b0d9af__json.cpp/human.patch
+  s_a983ac12a6b48e::t_0d99384f622e11 1-8
+samples/bugprone-branch-clone__Jimdrews__forgeant__b397b0d9af__json.cpp/meta.json
+  s_a983ac12a6b48e::t_ab8bb69066da2e 1-41
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__413805a073__smooth_stop.cpp/after.cpp
+  s_a983ac12a6b48e::t_66b3626dc0eca7 1-161
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__413805a073__smooth_stop.cpp/before.cpp
+  s_a983ac12a6b48e::t_a355b1c9fd99ac 1-161
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__413805a073__smooth_stop.cpp/human.patch
+  s_a983ac12a6b48e::t_6544c92cdf206d 1-11
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__413805a073__smooth_stop.cpp/meta.json
+  s_a983ac12a6b48e::t_76345b9829c74b 1-41
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__4c1153f85c__node.cpp/after.cpp
+  s_a983ac12a6b48e::t_67f4f8b2a7ea29 1-452
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__4c1153f85c__node.cpp/before.cpp
+  s_a983ac12a6b48e::t_402cb6ca64a72c 1-454
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__4c1153f85c__node.cpp/human.patch
+  s_a983ac12a6b48e::t_dcc58a76651ede 1-10
+samples/bugprone-branch-clone__MBilalQ__autoware_towtruck_universe__4c1153f85c__node.cpp/meta.json
+  s_a983ac12a6b48e::t_477e2ca6eca887 1-54
+samples/bugprone-branch-clone__MichaelBallen97__aero-engine__a1ee68ebe8__asset_drag.cpp/after.cpp
+  s_a983ac12a6b48e::t_d893c4ccad2e47 1-191
+samples/bugprone-branch-clone__MichaelBallen97__aero-engine__a1ee68ebe8__asset_drag.cpp/before.cpp
+  s_a983ac12a6b48e::t_be1969a559d611 1-197
+samples/bugprone-branch-clone__MichaelBallen97__aero-engine__a1ee68ebe8__asset_drag.cpp/human.patch
+  s_a983ac12a6b48e::t_1e4bcdcf382152 1-34
+samples/bugprone-branch-clone__MichaelBallen97__aero-engine__a1ee68ebe8__asset_drag.cpp/meta.json
+  s_a983ac12a6b48e::t_48a3c18ca0df04 1-38
+samples/bugprone-branch-clone__PhotonPower__hp-FEM__381689efc7__gmsh.cpp/after.cpp
+  s_a983ac12a6b48e::t_05ac9a22bbc513 1-370
+samples/bugprone-branch-clone__PhotonPower__hp-FEM__381689efc7__gmsh.cpp/before.cpp
+  s_a983ac12a6b48e::t_ccad0c7e6dc008 1-371
+samples/bugprone-branch-clone__PhotonPower__hp-FEM__381689efc7__gmsh.cpp/human.patch
+  s_a983ac12a6b48e::t_4df974ba27c850 1-6
+samples/bugprone-branch-clone__PhotonPower__hp-FEM__381689efc7__gmsh.cpp/meta.json
+  s_a983ac12a6b48e::t_5d56770edfc1c9 1-43
+samples/bugprone-branch-clone__aklofas__urbi-embedded__17a9040285__uparse_stmt.c/after.c
+  s_a983ac12a6b48e::t_6d49b63dd9d076 1-1255
+samples/bugprone-branch-clone__aklofas__urbi-embedded__17a9040285__uparse_stmt.c/before.c
+  s_a983ac12a6b48e::t_8b9083065a0467 1-1256
+samples/bugprone-branch-clone__aklofas__urbi-embedded__17a9040285__uparse_stmt.c/human.patch
+  s_a983ac12a6b48e::t_1b2a5f41448b4c 1-17
+samples/bugprone-branch-clone__aklofas__urbi-embedded__17a9040285__uparse_stmt.c/meta.json
+  s_a983ac12a6b48e::t_6d594b3cc68378 1-38
+samples/bugprone-branch-clone__aklofas__urbi-embedded__2952abc1a5__uparse_stmt.c/after.c
+  s_a983ac12a6b48e::t_71bfacb8c3dba2 1-517
+samples/bugprone-branch-clone__aklofas__urbi-embedded__2952abc1a5__uparse_stmt.c/before.c
+  s_a983ac12a6b48e::t_d7b880ec376bd6 1-515
+samples/bugprone-branch-clone__aklofas__urbi-embedded__2952abc1a5__uparse_stmt.c/human.patch
+  s_a983ac12a6b48e::t_e3682377c749d7 1-13
+samples/bugprone-branch-clone__aklofas__urbi-embedded__2952abc1a5__uparse_stmt.c/meta.json
+  s_a983ac12a6b48e::t_06c356a374edde 1-38
+samples/bugprone-branch-clone__aklofas__urbi-embedded__44da26eeca__uvm_op_overload.c/after.c
+  s_a983ac12a6b48e::t_6125e8dcb2072a 1-283
+samples/bugprone-branch-clone__aklofas__urbi-embedded__44da26eeca__uvm_op_overload.c/before.c
+  s_a983ac12a6b48e::t_f90bdc704403f8 1-281
+samples/bugprone-branch-clone__aklofas__urbi-embedded__44da26eeca__uvm_op_overload.c/human.patch
+  s_a983ac12a6b48e::t_2d290791b7c9c1 1-15
+samples/bugprone-branch-clone__aklofas__urbi-embedded__44da26eeca__uvm_op_overload.c/meta.json
+  s_a983ac12a6b48e::t_5b12d360b0aceb 1-38
+samples/bugprone-branch-clone__aton-of-data__guara-llm-embodied-flight__654db9bcb1__monitor_table.hpp/after.hpp
+  s_a983ac12a6b48e::t_8d8c6d26865ded 1-204
+samples/bugprone-branch-clone__aton-of-data__guara-llm-embodied-flight__654db9bcb1__monitor_table.hpp/before.hpp
+  s_a983ac12a6b48e::t_72bb42be324c14 1-209
+samples/bugprone-branch-clone__aton-of-data__guara-llm-embodied-flight__654db9bcb1__monitor_table.hpp/human.patch
+  s_a983ac12a6b48e::t_5df4a8ff221728 1-12
+samples/bugprone-branch-clone__aton-of-data__guara-llm-embodied-flight__654db9bcb1__monitor_table.hpp/meta.json
+  s_a983ac12a6b48e::t_825ca50f2e7c41 1-38
+samples/bugprone-branch-clone__bansan85__ntfs-browser__ec6a43498b__fake-ntfs-image.cpp/after.cpp
+  s_a983ac12a6b48e::t_350679e2300e10 1-5917
+samples/bugprone-branch-clone__bansan85__ntfs-browser__ec6a43498b__fake-ntfs-image.cpp/before.cpp
+  s_a983ac12a6b48e::t_3f99071d6fc130 1-5920
+samples/bugprone-branch-clone__bansan85__ntfs-browser__ec6a43498b__fake-ntfs-image.cpp/human.patch
+  s_a983ac12a6b48e::t_465200e2f067ac 1-14
+samples/bugprone-branch-clone__bansan85__ntfs-browser__ec6a43498b__fake-ntfs-image.cpp/meta.json
+  s_a983ac12a6b48e::t_51a352bfe9d4c5 1-41
+samples/bugprone-branch-clone__dagike__hungryeditor__17d04b294b__PreviewBackendFactory.cpp/after.cpp
+  s_a983ac12a6b48e::t_17552072423a3d 1-33
+samples/bugprone-branch-clone__dagike__hungryeditor__17d04b294b__PreviewBackendFactory.cpp/before.cpp
+  s_a983ac12a6b48e::t_a918d25a37fe91 1-36
+samples/bugprone-branch-clone__dagike__hungryeditor__17d04b294b__PreviewBackendFactory.cpp/human.patch
+  s_a983ac12a6b48e::t_108b1dd08e27c9 1-18
+samples/bugprone-branch-clone__dagike__hungryeditor__17d04b294b__PreviewBackendFactory.cpp/meta.json
+  s_a983ac12a6b48e::t_fe5dc27c43c6bf 1-43
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__change_op_columns.hpp/after.hpp
+  s_a983ac12a6b48e::t_82a790cc8d1e1d 1-416
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__change_op_columns.hpp/before.hpp
+  s_a983ac12a6b48e::t_c7e9fccfbaada8 1-418
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__change_op_columns.hpp/human.patch
+  s_a983ac12a6b48e::t_0ef337437c03d0 1-9
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__change_op_columns.hpp/meta.json
+  s_a983ac12a6b48e::t_7d568e0a701f46 1-38
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__value_encoding.hpp/after.hpp
+  s_a983ac12a6b48e::t_4cb41082e62999 1-187
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__value_encoding.hpp/before.hpp
+  s_a983ac12a6b48e::t_8450dfd3610360 1-189
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__value_encoding.hpp/human.patch
+  s_a983ac12a6b48e::t_940c56481c1701 1-14
+samples/bugprone-branch-clone__homer6__automerge-cpp__0eb979ac44__value_encoding.hpp/meta.json
+  s_a983ac12a6b48e::t_d85c7b6d664c5e 1-52
+samples/bugprone-branch-clone__liudss__microvtk__04006083fd__compressor.hpp/after.hpp
+  s_a983ac12a6b48e::t_f761093b4116c5 1-93
+samples/bugprone-branch-clone__liudss__microvtk__04006083fd__compressor.hpp/before.hpp
+  s_a983ac12a6b48e::t_0c1d55be970123 1-93
+samples/bugprone-branch-clone__liudss__microvtk__04006083fd__compressor.hpp/human.patch
+  s_a983ac12a6b48e::t_cfe0395584ba4a 1-7
+samples/bugprone-branch-clone__liudss__microvtk__04006083fd__compressor.hpp/meta.json
+  s_a983ac12a6b48e::t_fc21c52da1e67a 1-38
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__PlanRenderer.hpp/after.hpp
+  s_a983ac12a6b48e::t_b4b506f701aca7 1-631
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__PlanRenderer.hpp/before.hpp
+  s_a983ac12a6b48e::t_28949de83255c6 1-631
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__PlanRenderer.hpp/human.patch
+  s_a983ac12a6b48e::t_b9ed87c905096e 1-10
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__PlanRenderer.hpp/meta.json
+  s_a983ac12a6b48e::t_c2d7d846edb7bc 1-61
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__TestTaskQueue.cpp/after.cpp
+  s_a983ac12a6b48e::t_00f9ebe7229c89 1-200
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__TestTaskQueue.cpp/before.cpp
+  s_a983ac12a6b48e::t_6b8bfc4136b5eb 1-202
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__TestTaskQueue.cpp/human.patch
+  s_a983ac12a6b48e::t_fa0f9dd0110f99 1-11
+samples/bugprone-branch-clone__nebulastream__nebulastream__676ef6bc00__TestTaskQueue.cpp/meta.json
+  s_a983ac12a6b48e::t_aafacb7d3ccf9d 1-49
+samples/bugprone-branch-clone__nicknad__Wslc.Testcontainers__56a91e9955__log_line.cpp/after.cpp
+  s_a983ac12a6b48e::t_86083dfac9d28b 1-52
+samples/bugprone-branch-clone__nicknad__Wslc.Testcontainers__56a91e9955__log_line.cpp/before.cpp
+  s_a983ac12a6b48e::t_8d9a15b090c558 1-53
+samples/bugprone-branch-clone__nicknad__Wslc.Testcontainers__56a91e9955__log_line.cpp/human.patch
+  s_a983ac12a6b48e::t_bfd5d1b9dc0c8d 1-9
+samples/bugprone-branch-clone__nicknad__Wslc.Testcontainers__56a91e9955__log_line.cpp/meta.json
+  s_a983ac12a6b48e::t_70e207b0959255 1-38
+samples/bugprone-branch-clone__omardev29__raylib_multiplatform__4458ec78c9__controls.cpp/after.cpp
+  s_a983ac12a6b48e::t_1c8c6bfc964c40 1-617
+samples/bugprone-branch-clone__omardev29__raylib_multiplatform__4458ec78c9__controls.cpp/before.cpp
+  s_a983ac12a6b48e::t_33b782faf6d84e 1-617
+samples/bugprone-branch-clone__omardev29__raylib_multiplatform__4458ec78c9__controls.cpp/human.patch
+  s_a983ac12a6b48e::t_b8a39a51ebe397 1-23
+samples/bugprone-branch-clone__omardev29__raylib_multiplatform__4458ec78c9__controls.cpp/meta.json
+  s_a983ac12a6b48e::t_1ce51d2f1d8a94 1-40
+samples/bugprone-branch-clone__quintin-lee__cdsl__b03026945e__eval.c/after.c
+  s_a983ac12a6b48e::t_889b3eb9f430b0 1-1145
+samples/bugprone-branch-clone__quintin-lee__cdsl__b03026945e__eval.c/before.c
+  s_a983ac12a6b48e::t_01ce9c6c9bed1b 1-1155
+samples/bugprone-branch-clone__quintin-lee__cdsl__b03026945e__eval.c/human.patch
+  s_a983ac12a6b48e::t_cc0b19ed65f925 1-19
+samples/bugprone-branch-clone__quintin-lee__cdsl__b03026945e__eval.c/meta.json
+  s_a983ac12a6b48e::t_e65fbfb3675a05 1-38
+samples/bugprone-branch-clone__quintin-lee__cmem__f43202e62d__cmem_event.c/after.c
+  s_a983ac12a6b48e::t_7a0ff5a114cccc 1-3776
+samples/bugprone-branch-clone__quintin-lee__cmem__f43202e62d__cmem_event.c/before.c
+  s_a983ac12a6b48e::t_1e0b9cb5b64488 1-3779
+samples/bugprone-branch-clone__quintin-lee__cmem__f43202e62d__cmem_event.c/human.patch
+  s_a983ac12a6b48e::t_eb26930f4f38ec 1-12
+samples/bugprone-branch-clone__quintin-lee__cmem__f43202e62d__cmem_event.c/meta.json
+  s_a983ac12a6b48e::t_fd8882146eadcb 1-38
+samples/bugprone-branch-clone__rxdu__ctfsm__a2be430882__state_machine.hpp/after.hpp
+  s_a983ac12a6b48e::t_d329a3bace0e0f 1-270
+samples/bugprone-branch-clone__rxdu__ctfsm__a2be430882__state_machine.hpp/before.hpp
+  s_a983ac12a6b48e::t_518ada06b0d66d 1-266
+samples/bugprone-branch-clone__rxdu__ctfsm__a2be430882__state_machine.hpp/human.patch
+  s_a983ac12a6b48e::t_fe6cfa12c09353 1-9
+samples/bugprone-branch-clone__rxdu__ctfsm__a2be430882__state_machine.hpp/meta.json
+  s_a983ac12a6b48e::t_a01d7b5168fa64 1-38
+samples/bugprone-branch-clone__t0k0sh1__ry__2e39658acc__codegen.cpp/after.cpp
+  s_a983ac12a6b48e::t_28d27677c43f82 1-1213
+samples/bugprone-branch-clone__t0k0sh1__ry__2e39658acc__codegen.cpp/before.cpp
+  s_a983ac12a6b48e::t_4fb8072409e745 1-1213
+samples/bugprone-branch-clone__t0k0sh1__ry__2e39658acc__codegen.cpp/human.patch
+  s_a983ac12a6b48e::t_95107124fa7be8 1-10
+samples/bugprone-branch-clone__t0k0sh1__ry__2e39658acc__codegen.cpp/meta.json
+  s_a983ac12a6b48e::t_c74105f611b457 1-62
+samples/bugprone-branch-clone__tenstorrent__tt-umd__edd260e3ab__cluster_descriptor_types.hpp/after.hpp
+  s_a983ac12a6b48e::t_580084e9fe6cfc 1-330
+samples/bugprone-branch-clone__tenstorrent__tt-umd__edd260e3ab__cluster_descriptor_types.hpp/before.hpp
+  s_a983ac12a6b48e::t_8be65a72b9c2a2 1-331
+samples/bugprone-branch-clone__tenstorrent__tt-umd__edd260e3ab__cluster_descriptor_types.hpp/human.patch
+  s_a983ac12a6b48e::t_b9ca9cde27cfdd 1-6
+samples/bugprone-branch-clone__tenstorrent__tt-umd__edd260e3ab__cluster_descriptor_types.hpp/meta.json
+  s_a983ac12a6b48e::t_55de490f9c5603 1-41
+samples/bugprone-branch-clone__vrosuits__ANSI_COLOR_TEXT__1fc4df9002__AnsiScreen.cpp/after.cpp
+  s_a983ac12a6b48e::t_0510e9540b0d9c 1-402
+samples/bugprone-branch-clone__vrosuits__ANSI_COLOR_TEXT__1fc4df9002__AnsiScreen.cpp/before.cpp
+  s_a983ac12a6b48e::t_b24507ffb1a6dc 1-402
+samples/bugprone-branch-clone__vrosuits__ANSI_COLOR_TEXT__1fc4df9002__AnsiScreen.cpp/human.patch
+  s_a983ac12a6b48e::t_c1a3a7239f8fe3 1-9
+samples/bugprone-branch-clone__vrosuits__ANSI_COLOR_TEXT__1fc4df9002__AnsiScreen.cpp/meta.json
+  s_a983ac12a6b48e::t_16d9a1b3f386ec 1-38
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__hkdf.c/after.c
+  s_a983ac12a6b48e::t_2f317e675150d6 1-89
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__hkdf.c/before.c
+  s_a983ac12a6b48e::t_2f40d503601d99 1-89
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__hkdf.c/human.patch
+  s_a983ac12a6b48e::t_53c97a685ad114 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__hkdf.c/meta.json
+  s_a983ac12a6b48e::t_f749e7a34431f5 1-38
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__rsa_verify.c/after.c
+  s_a983ac12a6b48e::t_5e3d50ab06eb31 1-83
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__rsa_verify.c/before.c
+  s_a983ac12a6b48e::t_c2b58b86c681e1 1-83
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__rsa_verify.c/human.patch
+  s_a983ac12a6b48e::t_4dfee62b548cc6 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__0c98a334ce__rsa_verify.c/meta.json
+  s_a983ac12a6b48e::t_5d14ac19a3424a 1-38
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__aes.c/after.c
+  s_a983ac12a6b48e::t_f67af08ae95a74 1-130
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__aes.c/before.c
+  s_a983ac12a6b48e::t_31a820aece0bca 1-130
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__aes.c/human.patch
+  s_a983ac12a6b48e::t_ff73bd60271978 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__aes.c/meta.json
+  s_a983ac12a6b48e::t_71aab21fe2279e 1-38
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__modexp.c/after.c
+  s_a983ac12a6b48e::t_ecdf76c7adff48 1-86
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__modexp.c/before.c
+  s_a983ac12a6b48e::t_5b48cf1f637e71 1-86
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__modexp.c/human.patch
+  s_a983ac12a6b48e::t_e7cf30f2570239 1-10
+samples/bugprone-implicit-widening-of-multiplication-result__Hakkadaikon__wired__31131819ad__modexp.c/meta.json
+  s_a983ac12a6b48e::t_9b0f5de2e1a7ac 1-52
+samples/bugprone-implicit-widening-of-multiplication-result__Linductor-alkaid__yori__9708a998f0__environment_capture.cpp/after.cpp
+  s_a983ac12a6b48e::t_d4aad910a04442 1-350
+samples/bugprone-implicit-widening-of-multiplication-result__Linductor-alkaid__yori__9708a998f0__environment_capture.cpp/before.cpp
+  s_a983ac12a6b48e::t_962b7787145d78 1-350
+samples/bugprone-implicit-widening-of-multiplication-result__Linductor-alkaid__yori__9708a998f0__environment_capture.cpp/human.patch
+  s_a983ac12a6b48e::t_8374dade6c390e 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__Linductor-alkaid__yori__9708a998f0__environment_capture.cpp/meta.json
+  s_a983ac12a6b48e::t_320f12d4605753 1-38
+samples/bugprone-implicit-widening-of-multiplication-result__RyAnPr1Me__omscript__2ae9db9066__compiler.cpp/after.cpp
+  s_a983ac12a6b48e::t_15b1d7ce211349 1-187
+samples/bugprone-implicit-widening-of-multiplication-result__RyAnPr1Me__omscript__2ae9db9066__compiler.cpp/before.cpp
+  s_a983ac12a6b48e::t_313412a62055d3 1-187
+samples/bugprone-implicit-widening-of-multiplication-result__RyAnPr1Me__omscript__2ae9db9066__compiler.cpp/human.patch
+  s_a983ac12a6b48e::t_22c54607cf0c98 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__RyAnPr1Me__omscript__2ae9db9066__compiler.cpp/meta.json
+  s_a983ac12a6b48e::t_a13103b2ec9a5d 1-45
+samples/bugprone-implicit-widening-of-multiplication-result__bsikar__ra8-firmware__a23b88faba__test_media_dl_export.c/after.c
+  s_a983ac12a6b48e::t_7206b7aca23646 1-933
+samples/bugprone-implicit-widening-of-multiplication-result__bsikar__ra8-firmware__a23b88faba__test_media_dl_export.c/before.c
+  s_a983ac12a6b48e::t_0725510d8b0e2f 1-933
+samples/bugprone-implicit-widening-of-multiplication-result__bsikar__ra8-firmware__a23b88faba__test_media_dl_export.c/human.patch
+  s_a983ac12a6b48e::t_e8a3aa6fcc071c 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__bsikar__ra8-firmware__a23b88faba__test_media_dl_export.c/meta.json
+  s_a983ac12a6b48e::t_c0ba81d7636ed9 1-40
+samples/bugprone-implicit-widening-of-multiplication-result__cityjson__duckdb-cityjson__3671e4d890__temporal_parser.cpp/after.cpp
+  s_a983ac12a6b48e::t_896ee04a0957fa 1-186
+samples/bugprone-implicit-widening-of-multiplication-result__cityjson__duckdb-cityjson__3671e4d890__temporal_parser.cpp/before.cpp
+  s_a983ac12a6b48e::t_cf555889e971af 1-185
+samples/bugprone-implicit-widening-of-multiplication-result__cityjson__duckdb-cityjson__3671e4d890__temporal_parser.cpp/human.patch
+  s_a983ac12a6b48e::t_fceea81d1b4b90 1-8
+samples/bugprone-implicit-widening-of-multiplication-result__cityjson__duckdb-cityjson__3671e4d890__temporal_parser.cpp/meta.json
+  s_a983ac12a6b48e::t_361991f059a2cc 1-41
+samples/bugprone-implicit-widening-of-multiplication-result__fcatuhe__skyblip__2d10838bb6__radar.cpp/after.cpp
+  s_a983ac12a6b48e::t_d622ae6f5babc3 1-631
+samples/bugprone-implicit-widening-of-multiplication-result__fcatuhe__skyblip__2d10838bb6__radar.cpp/before.cpp
+  s_a983ac12a6b48e::t_c35f636ec4e688 1-631
+samples/bugprone-implicit-widening-of-multiplication-result__fcatuhe__skyblip__2d10838bb6__radar.cpp/human.patch
+  s_a983ac12a6b48e::t_9fef7f6212ba72 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__fcatuhe__skyblip__2d10838bb6__radar.cpp/meta.json
+  s_a983ac12a6b48e::t_476673c05e25bb 1-52
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__binary_flex.hpp/after.hpp
+  s_a983ac12a6b48e::t_5705f373a5d4a4 1-149
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__binary_flex.hpp/before.hpp
+  s_a983ac12a6b48e::t_2311d12a324838 1-148
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__binary_flex.hpp/human.patch
+  s_a983ac12a6b48e::t_759e127e443fb2 1-8
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__binary_flex.hpp/meta.json
+  s_a983ac12a6b48e::t_bfab7843265641 1-40
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__common.hpp/after.hpp
+  s_a983ac12a6b48e::t_613c75e1f2fdbe 1-101
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__common.hpp/before.hpp
+  s_a983ac12a6b48e::t_2f51ab2ffe4cbb 1-101
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__common.hpp/human.patch
+  s_a983ac12a6b48e::t_b20c7b729be3fe 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__common.hpp/meta.json
+  s_a983ac12a6b48e::t_7bc5c7730d5b70 1-38
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__iterator_impl.hpp/after.hpp
+  s_a983ac12a6b48e::t_d4ea9f8b053c34 1-121
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__iterator_impl.hpp/before.hpp
+  s_a983ac12a6b48e::t_5801567675bade 1-121
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__iterator_impl.hpp/human.patch
+  s_a983ac12a6b48e::t_053a21626ef1fe 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__felixb419__kaad__400e6731ef__iterator_impl.hpp/meta.json
+  s_a983ac12a6b48e::t_5ff5e5e76b02f5 1-38
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__bytestream_utils.hpp/after.hpp
+  s_a983ac12a6b48e::t_7cac715e37e0e3 1-103
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__bytestream_utils.hpp/before.hpp
+  s_a983ac12a6b48e::t_3f4f4b8c72d64b 1-103
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__bytestream_utils.hpp/human.patch
+  s_a983ac12a6b48e::t_a76ece424f1f0e 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__bytestream_utils.hpp/meta.json
+  s_a983ac12a6b48e::t_96398deba01dda 1-38
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__capabilities_server.cpp/after.cpp
+  s_a983ac12a6b48e::t_290b8eec26b705 1-59
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__capabilities_server.cpp/before.cpp
+  s_a983ac12a6b48e::t_e7d9dcf046648b 1-59
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__capabilities_server.cpp/human.patch
+  s_a983ac12a6b48e::t_abb15cddb6c96f 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__capabilities_server.cpp/meta.json
+  s_a983ac12a6b48e::t_c6e3df5dcbd9dd 1-42
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__file_system_manager.hpp/after.hpp
+  s_a983ac12a6b48e::t_02f2353f557c3f 1-1344
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__file_system_manager.hpp/before.hpp
+  s_a983ac12a6b48e::t_4955e28c02a0fd 1-1344
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__file_system_manager.hpp/human.patch
+  s_a983ac12a6b48e::t_3cac9332f45ad1 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__file_system_manager.hpp/meta.json
+  s_a983ac12a6b48e::t_fd3a5d2f137afa 1-41
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__message_limits.hpp/after.hpp
+  s_a983ac12a6b48e::t_5dd9bb7793829e 1-22
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__message_limits.hpp/before.hpp
+  s_a983ac12a6b48e::t_19d635556080de 1-22
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__message_limits.hpp/human.patch
+  s_a983ac12a6b48e::t_5b7261186fa503 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__just-buildsystem__justbuild__c461673aad__message_limits.hpp/meta.json
+  s_a983ac12a6b48e::t_3a45856afba11a 1-40
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__4d83936fb1__hardware_crypto_tests.cpp/after.cpp
+  s_a983ac12a6b48e::t_0a8c2e835cc35a 1-407
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__4d83936fb1__hardware_crypto_tests.cpp/before.cpp
+  s_a983ac12a6b48e::t_ab53393b83eec7 1-407
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__4d83936fb1__hardware_crypto_tests.cpp/human.patch
+  s_a983ac12a6b48e::t_0dfc9dd7626780 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__4d83936fb1__hardware_crypto_tests.cpp/meta.json
+  s_a983ac12a6b48e::t_5830c22e1cd9b9 1-40
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__b58aa102db__debug_logging_overhead_tests.cpp/after.cpp
+  s_a983ac12a6b48e::t_97c18aedb16ef5 1-206
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__b58aa102db__debug_logging_overhead_tests.cpp/before.cpp
+  s_a983ac12a6b48e::t_bf0965794fcb54 1-206
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__b58aa102db__debug_logging_overhead_tests.cpp/human.patch
+  s_a983ac12a6b48e::t_29aed4367d80db 1-10
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__b58aa102db__debug_logging_overhead_tests.cpp/meta.json
+  s_a983ac12a6b48e::t_3643ec24ceef83 1-42
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__c0064d54f0__congestion_controller.h/after.h
+  s_a983ac12a6b48e::t_9d72cec0b7d8eb 1-200
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__c0064d54f0__congestion_controller.h/before.h
+  s_a983ac12a6b48e::t_53736d74a2e89a 1-200
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__c0064d54f0__congestion_controller.h/human.patch
+  s_a983ac12a6b48e::t_9f5c214beb7f78 1-13
+samples/bugprone-implicit-widening-of-multiplication-result__konard__VisageDvachevsky-veil-windows-client__c0064d54f0__congestion_controller.h/meta.json
+  s_a983ac12a6b48e::t_f12946d890a992 1-66
+samples/bugprone-implicit-widening-of-multiplication-result__muchq__opal-cpp__baaec9b717__beast_transport.cc/after.cc
+  s_a983ac12a6b48e::t_d134f8f3d5b3dd 1-2670
+samples/bugprone-implicit-widening-of-multiplication-result__muchq__opal-cpp__baaec9b717__beast_transport.cc/before.cc
+  s_a983ac12a6b48e::t_9f1af0c8e0df4f 1-2666
+samples/bugprone-implicit-widening-of-multiplication-result__muchq__opal-cpp__baaec9b717__beast_transport.cc/human.patch
+  s_a983ac12a6b48e::t_86c9ca825fe918 1-11
+samples/bugprone-implicit-widening-of-multiplication-result__muchq__opal-cpp__baaec9b717__beast_transport.cc/meta.json
+  s_a983ac12a6b48e::t_da2f2a2dd3387a 1-53
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__console-server.c/after.c
+  s_a983ac12a6b48e::t_d38147db824f6e 1-856
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__console-server.c/before.c
+  s_a983ac12a6b48e::t_aa3aea6ede41ee 1-856
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__console-server.c/human.patch
+  s_a983ac12a6b48e::t_1d1b18a2c44b0d 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__console-server.c/meta.json
+  s_a983ac12a6b48e::t_602ccd7b6f3ddc 1-40
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__log-handler.c/after.c
+  s_a983ac12a6b48e::t_c371a0d68c8bce 1-190
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__log-handler.c/before.c
+  s_a983ac12a6b48e::t_1627638148dd88 1-190
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__log-handler.c/human.patch
+  s_a983ac12a6b48e::t_86c6847cf9a298 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__log-handler.c/meta.json
+  s_a983ac12a6b48e::t_aeba6ef131bb1f 1-42
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__test-config-parse-logsize.c/after.c
+  s_a983ac12a6b48e::t_259affb91bb2c6 1-70
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__test-config-parse-logsize.c/before.c
+  s_a983ac12a6b48e::t_846cb8aa8478c8 1-70
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__test-config-parse-logsize.c/human.patch
+  s_a983ac12a6b48e::t_8141781d0dbb7d 1-16
+samples/bugprone-implicit-widening-of-multiplication-result__ocp-hm-openbmc-opf-ami__obmc-console__5db8c792ba__test-config-parse-logsize.c/meta.json
+  s_a983ac12a6b48e::t_a2b07b4f64ce7c 1-96
+samples/bugprone-implicit-widening-of-multiplication-result__openbmc__phosphor-certificate-manager__8a59ea28a9__certificate.cpp/after.cpp
+  s_a983ac12a6b48e::t_005f06b2c2cda6 1-711
+samples/bugprone-implicit-widening-of-multiplication-result__openbmc__phosphor-certificate-manager__8a59ea28a9__certificate.cpp/before.cpp
+  s_a983ac12a6b48e::t_8adaaa06a60358 1-711
+samples/bugprone-implicit-widening-of-multiplication-result__openbmc__phosphor-certificate-manager__8a59ea28a9__certificate.cpp/human.patch
+  s_a983ac12a6b48e::t_b06631b00dae9c 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__openbmc__phosphor-certificate-manager__8a59ea28a9__certificate.cpp/meta.json
+  s_a983ac12a6b48e::t_58600b58d96789 1-48
+samples/bugprone-implicit-widening-of-multiplication-result__timwukp__agent-terminal__3b69404349__session.c/after.c
+  s_a983ac12a6b48e::t_e462911c024857 1-1106
+samples/bugprone-implicit-widening-of-multiplication-result__timwukp__agent-terminal__3b69404349__session.c/before.c
+  s_a983ac12a6b48e::t_b83cba12e1b16a 1-1106
+samples/bugprone-implicit-widening-of-multiplication-result__timwukp__agent-terminal__3b69404349__session.c/human.patch
+  s_a983ac12a6b48e::t_786558c954eee8 1-7
+samples/bugprone-implicit-widening-of-multiplication-result__timwukp__agent-terminal__3b69404349__session.c/meta.json
+  s_a983ac12a6b48e::t_47f19f12dc142b 1-66
+samples/bugprone-narrowing-conversions__BitBoxSwiss__bitbox02-firmware__a789c9faac__qtouch.c/after.c
+  s_a983ac12a6b48e::t_bb0cf3fbacfc51 1-714
+samples/bugprone-narrowing-conversions__BitBoxSwiss__bitbox02-firmware__a789c9faac__qtouch.c/before.c
+  s_a983ac12a6b48e::t_c42e40199d1eba 1-714
+samples/bugprone-narrowing-conversions__BitBoxSwiss__bitbox02-firmware__a789c9faac__qtouch.c/human.patch
+  s_a983ac12a6b48e::t_dd2c9b6908ae13 1-7
+samples/bugprone-narrowing-conversions__BitBoxSwiss__bitbox02-firmware__a789c9faac__qtouch.c/meta.json
+  s_a983ac12a6b48e::t_f25c0984e5b095 1-38
+samples/bugprone-narrowing-conversions__Hakkadaikon__wired__f2aa67c47b__recvpn.c/after.c
+  s_a983ac12a6b48e::t_7b325ad5f9b9c5 1-68
+samples/bugprone-narrowing-conversions__Hakkadaikon__wired__f2aa67c47b__recvpn.c/before.c
+  s_a983ac12a6b48e::t_835bf4ee71a3bc 1-68
+samples/bugprone-narrowing-conversions__Hakkadaikon__wired__f2aa67c47b__recvpn.c/human.patch
+  s_a983ac12a6b48e::t_7c1d6f174155db 1-7
+samples/bugprone-narrowing-conversions__Hakkadaikon__wired__f2aa67c47b__recvpn.c/meta.json
+  s_a983ac12a6b48e::t_90635a59a070bd 1-38
+samples/bugprone-narrowing-conversions__Jgocunha__neat-dnfs__b19e39a8ce__solution.cpp/after.cpp
+  s_a983ac12a6b48e::t_bbf66e07157e54 1-1217
+samples/bugprone-narrowing-conversions__Jgocunha__neat-dnfs__b19e39a8ce__solution.cpp/before.cpp
+  s_a983ac12a6b48e::t_5d1ee031867784 1-1217
+samples/bugprone-narrowing-conversions__Jgocunha__neat-dnfs__b19e39a8ce__solution.cpp/human.patch
+  s_a983ac12a6b48e::t_5e48ea787a3e8b 1-7
+samples/bugprone-narrowing-conversions__Jgocunha__neat-dnfs__b19e39a8ce__solution.cpp/meta.json
+  s_a983ac12a6b48e::t_fc6caddd00855e 1-45
+samples/bugprone-narrowing-conversions__Noorts__DuckIR__5f74a3a16e__common.hpp/after.hpp
+  s_a983ac12a6b48e::t_d7cc24a12b8f40 1-161
+samples/bugprone-narrowing-conversions__Noorts__DuckIR__5f74a3a16e__common.hpp/before.hpp
+  s_a983ac12a6b48e::t_a80ad86a8120fd 1-161
+samples/bugprone-narrowing-conversions__Noorts__DuckIR__5f74a3a16e__common.hpp/human.patch
+  s_a983ac12a6b48e::t_5d3d0caaf9c7d3 1-7
+samples/bugprone-narrowing-conversions__Noorts__DuckIR__5f74a3a16e__common.hpp/meta.json
+  s_a983ac12a6b48e::t_73bc4cd18a526d 1-38
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__00c427d2f5__xmlwf.c/after.c
+  s_a983ac12a6b48e::t_8048d374b2667a 1-1313
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__00c427d2f5__xmlwf.c/before.c
+  s_a983ac12a6b48e::t_e85dec37613540 1-1313
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__00c427d2f5__xmlwf.c/human.patch
+  s_a983ac12a6b48e::t_422751611ee747 1-7
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__00c427d2f5__xmlwf.c/meta.json
+  s_a983ac12a6b48e::t_9a03f77ee034e9 1-38
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__alloc_tests.c/after.c
+  s_a983ac12a6b48e::t_1ea542061bc6c0 1-2154
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__alloc_tests.c/before.c
+  s_a983ac12a6b48e::t_ac04d9b21dd480 1-2154
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__alloc_tests.c/human.patch
+  s_a983ac12a6b48e::t_b4b6f18a97a8a6 1-10
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__alloc_tests.c/meta.json
+  s_a983ac12a6b48e::t_bc37ff4e927551 1-52
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__basic_tests.c/after.c
+  s_a983ac12a6b48e::t_2ed9fc689e5773 1-6472
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__basic_tests.c/before.c
+  s_a983ac12a6b48e::t_4aa2bd6080dc4b 1-6472
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__basic_tests.c/human.patch
+  s_a983ac12a6b48e::t_d43d51db047d01 1-10
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__basic_tests.c/meta.json
+  s_a983ac12a6b48e::t_67436bf7d3a981 1-52
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__handlers.c/after.c
+  s_a983ac12a6b48e::t_89955dc7bb45d7 1-1980
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__handlers.c/before.c
+  s_a983ac12a6b48e::t_20adf939e37ec4 1-1980
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__handlers.c/human.patch
+  s_a983ac12a6b48e::t_540d3299fb0869 1-17
+samples/bugprone-narrowing-conversions__OpenHarmony-TPC__chromium_third_party_expat__f75b1be489__handlers.c/meta.json
+  s_a983ac12a6b48e::t_41c0bee4b72031 1-94
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__alloc_tests.c/after.c
+  s_a983ac12a6b48e::t_18ba17e472ec35 1-2154
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__alloc_tests.c/before.c
+  s_a983ac12a6b48e::t_36456fa779a61a 1-2154
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__alloc_tests.c/human.patch
+  s_a983ac12a6b48e::t_2b6b58b3db4f65 1-10
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__alloc_tests.c/meta.json
+  s_a983ac12a6b48e::t_e67513f9db5ac2 1-52
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__basic_tests.c/after.c
+  s_a983ac12a6b48e::t_65d1c4a7704add 1-6472
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__basic_tests.c/before.c
+  s_a983ac12a6b48e::t_9231a81502a6b7 1-6472
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__basic_tests.c/human.patch
+  s_a983ac12a6b48e::t_07f74f99433455 1-10
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__basic_tests.c/meta.json
+  s_a983ac12a6b48e::t_be247e7ef1ec59 1-52
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__handlers.c/after.c
+  s_a983ac12a6b48e::t_6390ba07df8b06 1-1980
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__handlers.c/before.c
+  s_a983ac12a6b48e::t_bc5a6c62e41be4 1-1980
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__handlers.c/human.patch
+  s_a983ac12a6b48e::t_2db572f442a2cb 1-17
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__handlers.c/meta.json
+  s_a983ac12a6b48e::t_087deb5e90f906 1-94
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__misc_tests.c/after.c
+  s_a983ac12a6b48e::t_415d41beebc8a1 1-710
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__misc_tests.c/before.c
+  s_a983ac12a6b48e::t_24bdc3196f1f64 1-710
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__misc_tests.c/human.patch
+  s_a983ac12a6b48e::t_8b0807761a2a90 1-10
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__misc_tests.c/meta.json
+  s_a983ac12a6b48e::t_8e7879b58d0e80 1-52
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__nsalloc_tests.c/after.c
+  s_a983ac12a6b48e::t_2f6fb4af161f5d 1-1537
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__nsalloc_tests.c/before.c
+  s_a983ac12a6b48e::t_7a464873423b2b 1-1537
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__nsalloc_tests.c/human.patch
+  s_a983ac12a6b48e::t_ab2c0205ab302b 1-10
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__36f4fa6156__nsalloc_tests.c/meta.json
+  s_a983ac12a6b48e::t_fb425058862980 1-52
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__b162b094b1__xmlwf.c/after.c
+  s_a983ac12a6b48e::t_4a83608511d07e 1-1313
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__b162b094b1__xmlwf.c/before.c
+  s_a983ac12a6b48e::t_ab605155811162 1-1313
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__b162b094b1__xmlwf.c/human.patch
+  s_a983ac12a6b48e::t_b38632de995483 1-7
+samples/bugprone-narrowing-conversions__VanessaRussellbtcmcpv__libexpat__b162b094b1__xmlwf.c/meta.json
+  s_a983ac12a6b48e::t_1f5d6924ef5d89 1-38
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__46ebf6f474__spline_interpolation_points_2d.cpp/after.cpp
+  s_a983ac12a6b48e::t_ee50dfc57b2a1e 1-406
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__46ebf6f474__spline_interpolation_points_2d.cpp/before.cpp
+  s_a983ac12a6b48e::t_ea0e4bc9ed8a03 1-406
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__46ebf6f474__spline_interpolation_points_2d.cpp/human.patch
+  s_a983ac12a6b48e::t_3bd136f9e68985 1-7
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__46ebf6f474__spline_interpolation_points_2d.cpp/meta.json
+  s_a983ac12a6b48e::t_f5b98dafd9ea27 1-41
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__c6ba5f2fe0__predicted_path_utils.cpp/after.cpp
+  s_a983ac12a6b48e::t_9465e610e9daa3 1-133
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__c6ba5f2fe0__predicted_path_utils.cpp/before.cpp
+  s_a983ac12a6b48e::t_b8a2dac123f2d6 1-133
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__c6ba5f2fe0__predicted_path_utils.cpp/human.patch
+  s_a983ac12a6b48e::t_55849f228e9c65 1-12
+samples/bugprone-narrowing-conversions__autowarefoundation__autoware_core__c6ba5f2fe0__predicted_path_utils.cpp/meta.json
+  s_a983ac12a6b48e::t_51bb513c727ae3 1-75
+samples/bugprone-narrowing-conversions__felixb419__kaad__557fdf81d5__common.hpp/after.hpp
+  s_a983ac12a6b48e::t_aac0f4fd352636 1-101
+samples/bugprone-narrowing-conversions__felixb419__kaad__557fdf81d5__common.hpp/before.hpp
+  s_a983ac12a6b48e::t_0f439d764c5b35 1-101
+samples/bugprone-narrowing-conversions__felixb419__kaad__557fdf81d5__common.hpp/human.patch
+  s_a983ac12a6b48e::t_9c85c7abba5894 1-12
+samples/bugprone-narrowing-conversions__felixb419__kaad__557fdf81d5__common.hpp/meta.json
+  s_a983ac12a6b48e::t_81282e2d63cfed 1-66
+samples/bugprone-narrowing-conversions__libexpat__libexpat__0c5b205a01__xmlwf.c/after.c
+  s_a983ac12a6b48e::t_818a6dbbbf87a4 1-1313
+samples/bugprone-narrowing-conversions__libexpat__libexpat__0c5b205a01__xmlwf.c/before.c
+  s_a983ac12a6b48e::t_700540883c0e77 1-1313
+samples/bugprone-narrowing-conversions__libexpat__libexpat__0c5b205a01__xmlwf.c/human.patch
+  s_a983ac12a6b48e::t_1e38cc3c041469 1-7
+samples/bugprone-narrowing-conversions__libexpat__libexpat__0c5b205a01__xmlwf.c/meta.json
+  s_a983ac12a6b48e::t_0e3f0856a59792 1-38
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__alloc_tests.c/after.c
+  s_a983ac12a6b48e::t_78b2115a3e230b 1-2154
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__alloc_tests.c/before.c
+  s_a983ac12a6b48e::t_2ebcd27e59e223 1-2154
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__alloc_tests.c/human.patch
+  s_a983ac12a6b48e::t_768c6e8df1aa49 1-10
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__alloc_tests.c/meta.json
+  s_a983ac12a6b48e::t_9bc7ca51dc9546 1-52
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__basic_tests.c/after.c
+  s_a983ac12a6b48e::t_2bc8ab774fffc3 1-6472
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__basic_tests.c/before.c
+  s_a983ac12a6b48e::t_71c132ae09b96d 1-6472
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__basic_tests.c/human.patch
+  s_a983ac12a6b48e::t_ab4d00fc9e9b1b 1-10
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__basic_tests.c/meta.json
+  s_a983ac12a6b48e::t_7b375b0dd52e97 1-52
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__handlers.c/after.c
+  s_a983ac12a6b48e::t_7320b7ade23237 1-1980
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__handlers.c/before.c
+  s_a983ac12a6b48e::t_654400a52a175a 1-1980
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__handlers.c/human.patch
+  s_a983ac12a6b48e::t_d12446eff2bd05 1-17
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__handlers.c/meta.json
+  s_a983ac12a6b48e::t_a5a7841348b757 1-94
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__misc_tests.c/after.c
+  s_a983ac12a6b48e::t_9b95d5aa468639 1-710
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__misc_tests.c/before.c
+  s_a983ac12a6b48e::t_ddf6572a1af1d5 1-710
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__misc_tests.c/human.patch
+  s_a983ac12a6b48e::t_564a558bd19667 1-10
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__misc_tests.c/meta.json
+  s_a983ac12a6b48e::t_b0051f78bcf3b8 1-52
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__nsalloc_tests.c/after.c
+  s_a983ac12a6b48e::t_4cb2d4906deeb9 1-1537
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__nsalloc_tests.c/before.c
+  s_a983ac12a6b48e::t_5c3828f7c95088 1-1537
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__nsalloc_tests.c/human.patch
+  s_a983ac12a6b48e::t_0a1eb91df23abe 1-10
+samples/bugprone-narrowing-conversions__libexpat__libexpat__94cceb228c__nsalloc_tests.c/meta.json
+  s_a983ac12a6b48e::t_28a87dae6e9335 1-52
+samples/bugprone-narrowing-conversions__rv355__openvino-bevfusion-ops__5c0967b990__solve_buffer_memory.cpp/after.cpp
+  s_a983ac12a6b48e::t_7aa42ba97d170f 1-185
+samples/bugprone-narrowing-conversions__rv355__openvino-bevfusion-ops__5c0967b990__solve_buffer_memory.cpp/before.cpp
+  s_a983ac12a6b48e::t_271b3eb5c16f8d 1-185
+samples/bugprone-narrowing-conversions__rv355__openvino-bevfusion-ops__5c0967b990__solve_buffer_memory.cpp/human.patch
+  s_a983ac12a6b48e::t_a263fbdc316f9f 1-7
+samples/bugprone-narrowing-conversions__rv355__openvino-bevfusion-ops__5c0967b990__solve_buffer_memory.cpp/meta.json
+  s_a983ac12a6b48e::t_66ee72231fbbc0 1-38
+samples/bugprone-narrowing-conversions__thus__simpleconfig__9ff815d978__sconf.c/after.c
+  s_a983ac12a6b48e::t_8eb20c7fca7ca6 1-1440
+samples/bugprone-narrowing-conversions__thus__simpleconfig__9ff815d978__sconf.c/before.c
+  s_a983ac12a6b48e::t_69c617dcae7423 1-1440
+samples/bugprone-narrowing-conversions__thus__simpleconfig__9ff815d978__sconf.c/human.patch
+  s_a983ac12a6b48e::t_7f28c27f4d312c 1-12
+samples/bugprone-narrowing-conversions__thus__simpleconfig__9ff815d978__sconf.c/meta.json
+  s_a983ac12a6b48e::t_97c468cc97beab 1-52
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__d0d7b8afad__lexer.cpp/after.cpp
+  s_a983ac12a6b48e::t_2320030795ce8e 1-123
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__d0d7b8afad__lexer.cpp/before.cpp
+  s_a983ac12a6b48e::t_d8b3bae4feb33f 1-124
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__d0d7b8afad__lexer.cpp/human.patch
+  s_a983ac12a6b48e::t_427c294bf73ba4 1-8
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__d0d7b8afad__lexer.cpp/meta.json
+  s_a983ac12a6b48e::t_7bbe571da74238 1-52
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__f4aeedd3aa__debug_utils.cpp/after.cpp
+  s_a983ac12a6b48e::t_e1e28b2a3107df 1-287
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__f4aeedd3aa__debug_utils.cpp/before.cpp
+  s_a983ac12a6b48e::t_d50d1c30f964df 1-287
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__f4aeedd3aa__debug_utils.cpp/human.patch
+  s_a983ac12a6b48e::t_7b193b4f252c5b 1-13
+samples/bugprone-signed-char-misuse__HabanaAI__gaudi-pytorch-bridge__f4aeedd3aa__debug_utils.cpp/meta.json
+  s_a983ac12a6b48e::t_4dbbdc9ed4f816 1-82
+samples/bugprone-signed-char-misuse__aldelaro5__dolphin-memory-engine__c840965545__MemViewer.cpp/after.cpp
+  s_a983ac12a6b48e::t_baa0295a64bd3f 1-1013
+samples/bugprone-signed-char-misuse__aldelaro5__dolphin-memory-engine__c840965545__MemViewer.cpp/before.cpp
+  s_a983ac12a6b48e::t_916515fa137d2b 1-1013
+samples/bugprone-signed-char-misuse__aldelaro5__dolphin-memory-engine__c840965545__MemViewer.cpp/human.patch
+  s_a983ac12a6b48e::t_12eb62f0303519 1-7
+samples/bugprone-signed-char-misuse__aldelaro5__dolphin-memory-engine__c840965545__MemViewer.cpp/meta.json
+  s_a983ac12a6b48e::t_371df35886937f 1-69
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__def_keywords.cpp/after.cpp
+  s_a983ac12a6b48e::t_7fbaf20830f30e 1-1651
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__def_keywords.cpp/before.cpp
+  s_a983ac12a6b48e::t_750fe2d9ab0cf1 1-1651
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__def_keywords.cpp/human.patch
+  s_a983ac12a6b48e::t_f8a0b3e5660502 1-7
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__def_keywords.cpp/meta.json
+  s_a983ac12a6b48e::t_7ebbba59f5be38 1-40
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defiFPC.cpp/after.cpp
+  s_a983ac12a6b48e::t_8b645e76021099 1-276
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defiFPC.cpp/before.cpp
+  s_a983ac12a6b48e::t_f2373ef924a589 1-276
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defiFPC.cpp/human.patch
+  s_a983ac12a6b48e::t_c3e3507bfaf7ed 1-10
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defiFPC.cpp/meta.json
+  s_a983ac12a6b48e::t_2bc28e729c2afd 1-52
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defrData.cpp/after.cpp
+  s_a983ac12a6b48e::t_85eb9f839613a4 1-394
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defrData.cpp/before.cpp
+  s_a983ac12a6b48e::t_c8517d7f85ad58 1-394
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defrData.cpp/human.patch
+  s_a983ac12a6b48e::t_7a4c3d5dcab347 1-10
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__defrData.cpp/meta.json
+  s_a983ac12a6b48e::t_5480c51a9c8cbd 1-52
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lef_keywords.cpp/after.cpp
+  s_a983ac12a6b48e::t_cc161da1dbd659 1-2209
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lef_keywords.cpp/before.cpp
+  s_a983ac12a6b48e::t_b56311b8a1fc5e 1-2209
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lef_keywords.cpp/human.patch
+  s_a983ac12a6b48e::t_496109e8d2d7f3 1-7
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lef_keywords.cpp/meta.json
+  s_a983ac12a6b48e::t_45f5ea7e302e59 1-40
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lefiDebug.cpp/after.cpp
+  s_a983ac12a6b48e::t_04331c2d5d33b7 1-157
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lefiDebug.cpp/before.cpp
+  s_a983ac12a6b48e::t_c789dc46db2bcb 1-157
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lefiDebug.cpp/human.patch
+  s_a983ac12a6b48e::t_c8b14f9372f35b 1-7
+samples/bugprone-signed-char-misuse__cindycarey611026__OpenROAD__8a5e5e7f82__lefiDebug.cpp/meta.json
+  s_a983ac12a6b48e::t_ef425b813d8bb5 1-38
+samples/bugprone-signed-char-misuse__cy-suite__paddlepaddle-new__287e124311__device_worker.cc/after.cc
+  s_a983ac12a6b48e::t_abb2f44b518ebc 1-500
+samples/bugprone-signed-char-misuse__cy-suite__paddlepaddle-new__287e124311__device_worker.cc/before.cc
+  s_a983ac12a6b48e::t_4391819bb43fc2 1-499
+samples/bugprone-signed-char-misuse__cy-suite__paddlepaddle-new__287e124311__device_worker.cc/human.patch
+  s_a983ac12a6b48e::t_abee4d5e1c8cbe 1-8
+samples/bugprone-signed-char-misuse__cy-suite__paddlepaddle-new__287e124311__device_worker.cc/meta.json
+  s_a983ac12a6b48e::t_9df070279b3d6b 1-42
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__def_keywords.cpp/after.cpp
+  s_a983ac12a6b48e::t_ccbc8709d52e9a 1-1651
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__def_keywords.cpp/before.cpp
+  s_a983ac12a6b48e::t_3441edace47736 1-1651
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__def_keywords.cpp/human.patch
+  s_a983ac12a6b48e::t_a86cde868ae58f 1-7
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__def_keywords.cpp/meta.json
+  s_a983ac12a6b48e::t_731ef8f9ecf433 1-40
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defiFPC.cpp/after.cpp
+  s_a983ac12a6b48e::t_a5709d52b48388 1-276
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defiFPC.cpp/before.cpp
+  s_a983ac12a6b48e::t_0af79588731575 1-276
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defiFPC.cpp/human.patch
+  s_a983ac12a6b48e::t_02e10a03a09666 1-10
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defiFPC.cpp/meta.json
+  s_a983ac12a6b48e::t_74d0b3816e9d1c 1-52
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defrData.cpp/after.cpp
+  s_a983ac12a6b48e::t_e7d89764a011bd 1-394
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defrData.cpp/before.cpp
+  s_a983ac12a6b48e::t_0e4042db2563d2 1-394
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defrData.cpp/human.patch
+  s_a983ac12a6b48e::t_2c77d16d8cb3fd 1-10
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__defrData.cpp/meta.json
+  s_a983ac12a6b48e::t_7011adab6e3e16 1-52
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lef_keywords.cpp/after.cpp
+  s_a983ac12a6b48e::t_7e7a9113a1c827 1-2209
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lef_keywords.cpp/before.cpp
+  s_a983ac12a6b48e::t_6aa623b8a03185 1-2209
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lef_keywords.cpp/human.patch
+  s_a983ac12a6b48e::t_eeb71b06f67dbd 1-7
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lef_keywords.cpp/meta.json
+  s_a983ac12a6b48e::t_9ad5b18f9f9edb 1-40
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lefiDebug.cpp/after.cpp
+  s_a983ac12a6b48e::t_1ddcdee6fd759c 1-157
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lefiDebug.cpp/before.cpp
+  s_a983ac12a6b48e::t_04d80dc7dd14e5 1-157
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lefiDebug.cpp/human.patch
+  s_a983ac12a6b48e::t_916664a8b1fb7f 1-7
+samples/bugprone-signed-char-misuse__liljz250090__OpenROAD-with-3Dblox__79ed8c4a71__lefiDebug.cpp/meta.json
+  s_a983ac12a6b48e::t_787f0b6db84cd9 1-38
+samples/bugprone-signed-char-misuse__thus__simpleconfig__6f6407f228__opts.c/after.c
+  s_a983ac12a6b48e::t_2263e869435b00 1-809
+samples/bugprone-signed-char-misuse__thus__simpleconfig__6f6407f228__opts.c/before.c
+  s_a983ac12a6b48e::t_c3e965b9df7574 1-809
+samples/bugprone-signed-char-misuse__thus__simpleconfig__6f6407f228__opts.c/human.patch
+  s_a983ac12a6b48e::t_d7cc084df234af 1-7
+samples/bugprone-signed-char-misuse__thus__simpleconfig__6f6407f228__opts.c/meta.json
+  s_a983ac12a6b48e::t_625f4a78492144 1-38
+samples/bugprone-signed-char-misuse__uACPI__uACPI__abc6e6b3b8__stdlib.c/after.c
+  s_a983ac12a6b48e::t_bc1bb53d201f05 1-717
+samples/bugprone-signed-char-misuse__uACPI__uACPI__abc6e6b3b8__stdlib.c/before.c
+  s_a983ac12a6b48e::t_0299f089d70898 1-717
+samples/bugprone-signed-char-misuse__uACPI__uACPI__abc6e6b3b8__stdlib.c/human.patch
+  s_a983ac12a6b48e::t_a445c501d57d6f 1-7
+samples/bugprone-signed-char-misuse__uACPI__uACPI__abc6e6b3b8__stdlib.c/meta.json
+  s_a983ac12a6b48e::t_1b44c8a823802d 1-38
+samples/bugprone-signed-char-misuse__viewizard__dncdbg__570f950a75__evalstackmachine.cpp/after.cpp
+  s_a983ac12a6b48e::t_06555b715168d3 1-2093
+samples/bugprone-signed-char-misuse__viewizard__dncdbg__570f950a75__evalstackmachine.cpp/before.cpp
+  s_a983ac12a6b48e::t_59a31f78d4ace6 1-2093
+samples/bugprone-signed-char-misuse__viewizard__dncdbg__570f950a75__evalstackmachine.cpp/human.patch
+  s_a983ac12a6b48e::t_6facddf15ff474 1-7
+samples/bugprone-signed-char-misuse__viewizard__dncdbg__570f950a75__evalstackmachine.cpp/meta.json
+  s_a983ac12a6b48e::t_63fe8443640bc2 1-68
+samples/bugprone-too-small-loop-variable__ClickHouse__ClickHouse__5d4dc1a230__flipCoordinates.cpp/after.cpp
+  s_a983ac12a6b48e::t_62ae51fc71f1da 1-281
+samples/bugprone-too-small-loop-variable__ClickHouse__ClickHouse__5d4dc1a230__flipCoordinates.cpp/before.cpp
+  s_a983ac12a6b48e::t_58f9b60095aa52 1-279
+samples/bugprone-too-small-loop-variable__ClickHouse__ClickHouse__5d4dc1a230__flipCoordinates.cpp/human.patch
+  s_a983ac12a6b48e::t_236242488ed3be 1-9
+samples/bugprone-too-small-loop-variable__ClickHouse__ClickHouse__5d4dc1a230__flipCoordinates.cpp/meta.json
+  s_a983ac12a6b48e::t_58f9090103958e 1-47
+samples/bugprone-too-small-loop-variable__Locked-Inc__STAR__e188b49676__test_rx_poeg.c/after.c
+  s_a983ac12a6b48e::t_883778dec11899 1-930
+samples/bugprone-too-small-loop-variable__Locked-Inc__STAR__e188b49676__test_rx_poeg.c/before.c
+  s_a983ac12a6b48e::t_81bffc55f1f957 1-930
+samples/bugprone-too-small-loop-variable__Locked-Inc__STAR__e188b49676__test_rx_poeg.c/human.patch
+  s_a983ac12a6b48e::t_7a7f4a310d6cff 1-7
+samples/bugprone-too-small-loop-variable__Locked-Inc__STAR__e188b49676__test_rx_poeg.c/meta.json
+  s_a983ac12a6b48e::t_99db73e3741f26 1-40
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__GyroFFT.cpp/after.cpp
+  s_a983ac12a6b48e::t_f910725b4bb53f 1-743
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__GyroFFT.cpp/before.cpp
+  s_a983ac12a6b48e::t_659c911e23f5e4 1-743
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__GyroFFT.cpp/human.patch
+  s_a983ac12a6b48e::t_b365f1715faae6 1-10
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__GyroFFT.cpp/meta.json
+  s_a983ac12a6b48e::t_0eb03c847a1d7c 1-43
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__RingBuffer.hpp/after.hpp
+  s_a983ac12a6b48e::t_f3cd700b13d491 1-217
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__RingBuffer.hpp/before.hpp
+  s_a983ac12a6b48e::t_ebf461c7f735a3 1-217
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__RingBuffer.hpp/human.patch
+  s_a983ac12a6b48e::t_96864583c49d87 1-41
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__RingBuffer.hpp/meta.json
+  s_a983ac12a6b48e::t_c4639948683bc1 1-80
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__lm_fit.cpp/after.cpp
+  s_a983ac12a6b48e::t_0a19a7c7f6094b 1-355
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__lm_fit.cpp/before.cpp
+  s_a983ac12a6b48e::t_a630e761f8d706 1-355
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__lm_fit.cpp/human.patch
+  s_a983ac12a6b48e::t_306c7478d4b2fa 1-16
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__lm_fit.cpp/meta.json
+  s_a983ac12a6b48e::t_0851c9260b9628 1-80
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__septentrio.cpp/after.cpp
+  s_a983ac12a6b48e::t_f0169ac5f12b5d 1-1874
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__septentrio.cpp/before.cpp
+  s_a983ac12a6b48e::t_e0c383fcadf231 1-1874
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__septentrio.cpp/human.patch
+  s_a983ac12a6b48e::t_dba5ccf105cd1b 1-7
+samples/bugprone-too-small-loop-variable__elarion-io__PX4-Autopilot__d72d99f2d8__septentrio.cpp/meta.json
+  s_a983ac12a6b48e::t_b03ea22dbd4c26 1-41
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__esys_iutil.c/after.c
+  s_a983ac12a6b48e::t_d181e00d8ac08c 1-1774
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__esys_iutil.c/before.c
+  s_a983ac12a6b48e::t_b23d7f26b0e2ec 1-1774
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__esys_iutil.c/human.patch
+  s_a983ac12a6b48e::t_bf6663f82cbd36 1-7
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__esys_iutil.c/meta.json
+  s_a983ac12a6b48e::t_8444256b2800a2 1-38
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__sysapi_util.c/after.c
+  s_a983ac12a6b48e::t_3eaefa2ad57a9d 1-407
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__sysapi_util.c/before.c
+  s_a983ac12a6b48e::t_fa991047c9fbbf 1-407
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__sysapi_util.c/human.patch
+  s_a983ac12a6b48e::t_c1dc70f58d70ca 1-7
+samples/bugprone-too-small-loop-variable__jon2__tpm2-tss-pqc__501cd22d4b__sysapi_util.c/meta.json
+  s_a983ac12a6b48e::t_ac8f245137fbe1 1-38
+samples/bugprone-unchecked-optional-access__D3V0N5H1R3__luma__314bc49cd7__parser_stmt.cpp/after.cpp
+  s_a983ac12a6b48e::t_f3029a9bb64464 1-782
+samples/bugprone-unchecked-optional-access__D3V0N5H1R3__luma__314bc49cd7__parser_stmt.cpp/before.cpp
+  s_a983ac12a6b48e::t_f37d32261fcff7 1-782
+samples/bugprone-unchecked-optional-access__D3V0N5H1R3__luma__314bc49cd7__parser_stmt.cpp/human.patch
+  s_a983ac12a6b48e::t_d849a1a3da292f 1-10
+samples/bugprone-unchecked-optional-access__D3V0N5H1R3__luma__314bc49cd7__parser_stmt.cpp/meta.json
+  s_a983ac12a6b48e::t_3ebfd275ec01a7 1-38
+samples/bugprone-unchecked-optional-access__benmandrew__PEREDUR__003726442f__black_tests.cpp/after.cpp
+  s_a983ac12a6b48e::t_b155dc84957ee4 1-45
+samples/bugprone-unchecked-optional-access__benmandrew__PEREDUR__003726442f__black_tests.cpp/before.cpp
+  s_a983ac12a6b48e::t_2684e492e957ef 1-38
+samples/bugprone-unchecked-optional-access__benmandrew__PEREDUR__003726442f__black_tests.cpp/human.patch
+  s_a983ac12a6b48e::t_40b0556b17f184 1-24
+samples/bugprone-unchecked-optional-access__benmandrew__PEREDUR__003726442f__black_tests.cpp/meta.json
+  s_a983ac12a6b48e::t_e2f15126146a61 1-80
+samples/bugprone-unused-return-value__AurumCoinOrg__AurumCoin__a789ffb931__httpserver.cpp/after.cpp
+  s_a983ac12a6b48e::t_eb26557cda0395 1-779
+samples/bugprone-unused-return-value__AurumCoinOrg__AurumCoin__a789ffb931__httpserver.cpp/before.cpp
+  s_a983ac12a6b48e::t_09d27f26fbbcac 1-779
+samples/bugprone-unused-return-value__AurumCoinOrg__AurumCoin__a789ffb931__httpserver.cpp/human.patch
+  s_a983ac12a6b48e::t_ca413b38ac1acc 1-7
+samples/bugprone-unused-return-value__AurumCoinOrg__AurumCoin__a789ffb931__httpserver.cpp/meta.json
+  s_a983ac12a6b48e::t_356683f812133c 1-47
+samples/bugprone-unused-return-value__BigcoinBGC__bigcoin__8372cdedb6__httpserver.cpp/after.cpp
+  s_a983ac12a6b48e::t_720426a4262fc4 1-779
+samples/bugprone-unused-return-value__BigcoinBGC__bigcoin__8372cdedb6__httpserver.cpp/before.cpp
+  s_a983ac12a6b48e::t_c914a3bf78d97b 1-779
+samples/bugprone-unused-return-value__BigcoinBGC__bigcoin__8372cdedb6__httpserver.cpp/human.patch
+  s_a983ac12a6b48e::t_e3a8d68e59edc6 1-7
+samples/bugprone-unused-return-value__BigcoinBGC__bigcoin__8372cdedb6__httpserver.cpp/meta.json
+  s_a983ac12a6b48e::t_d8b177b1ef624a 1-47
+samples/bugprone-unused-return-value__GlomarGadaffi__pocket-dial__34aead5ae2__SipTrunk.cpp/after.cpp
+  s_a983ac12a6b48e::t_1d5f39027f29ae 1-919
+samples/bugprone-unused-return-value__GlomarGadaffi__pocket-dial__34aead5ae2__SipTrunk.cpp/before.cpp
+  s_a983ac12a6b48e::t_0457f3170f2b71 1-919
+samples/bugprone-unused-return-value__GlomarGadaffi__pocket-dial__34aead5ae2__SipTrunk.cpp/human.patch
+  s_a983ac12a6b48e::t_afbfc30524a89e 1-18
+samples/bugprone-unused-return-value__GlomarGadaffi__pocket-dial__34aead5ae2__SipTrunk.cpp/meta.json
+  s_a983ac12a6b48e::t_ebfa9c57a928e2 1-94
+samples/bugprone-unused-return-value__Kino1994__bitcoin-full-history__0d79e2829f__httpserver.cpp/after.cpp
+  s_a983ac12a6b48e::t_25bade9b70961d 1-779
+samples/bugprone-unused-return-value__Kino1994__bitcoin-full-history__0d79e2829f__httpserver.cpp/before.cpp
+  s_a983ac12a6b48e::t_db76fb025185c4 1-779
+samples/bugprone-unused-return-value__Kino1994__bitcoin-full-history__0d79e2829f__httpserver.cpp/human.patch
+  s_a983ac12a6b48e::t_e2096b1347af07 1-7
+samples/bugprone-unused-return-value__Kino1994__bitcoin-full-history__0d79e2829f__httpserver.cpp/meta.json
+  s_a983ac12a6b48e::t_3bb9341c7dfbbd 1-47
+samples/bugprone-unused-return-value__RandyNorthrup__chrome-control-mcp__675f9ab9fd__browser_bridge_relay_common.cpp/after.cpp
+  s_a983ac12a6b48e::t_31cb9f7e39de06 1-322
+samples/bugprone-unused-return-value__RandyNorthrup__chrome-control-mcp__675f9ab9fd__browser_bridge_relay_common.cpp/before.cpp
+  s_a983ac12a6b48e::t_1b9ca591b8e7f9 1-322
+samples/bugprone-unused-return-value__RandyNorthrup__chrome-control-mcp__675f9ab9fd__browser_bridge_relay_common.cpp/human.patch
+  s_a983ac12a6b48e::t_6a2a5ac3b3f0c0 1-7
+samples/bugprone-unused-return-value__RandyNorthrup__chrome-control-mcp__675f9ab9fd__browser_bridge_relay_common.cpp/meta.json
+  s_a983ac12a6b48e::t_be98bd6521f7d8 1-42
+samples/bugprone-unused-return-value__cppservergit__evhttp-apiserver__75bae79ba5__server.c/after.c
+  s_a983ac12a6b48e::t_200c518c689df3 1-1000
+samples/bugprone-unused-return-value__cppservergit__evhttp-apiserver__75bae79ba5__server.c/before.c
+  s_a983ac12a6b48e::t_af91404a186b57 1-1000
+samples/bugprone-unused-return-value__cppservergit__evhttp-apiserver__75bae79ba5__server.c/human.patch
+  s_a983ac12a6b48e::t_84289a5c21392f 1-7
+samples/bugprone-unused-return-value__cppservergit__evhttp-apiserver__75bae79ba5__server.c/meta.json
+  s_a983ac12a6b48e::t_28a96ea6f69c38 1-43
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiString.cpp/after.cpp
+  s_a983ac12a6b48e::t_da2f86b5d119d5 1-1130
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiString.cpp/before.cpp
+  s_a983ac12a6b48e::t_a225f7608d1f6a 1-1130
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiString.cpp/human.patch
+  s_a983ac12a6b48e::t_a4c0cf8c0da303 1-10
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiString.cpp/meta.json
+  s_a983ac12a6b48e::t_c89e3a9f71c37b 1-83
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiTime.cpp/after.cpp
+  s_a983ac12a6b48e::t_ff56c667eaee08 1-1348
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiTime.cpp/before.cpp
+  s_a983ac12a6b48e::t_6aafb22d09fc09 1-1348
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiTime.cpp/human.patch
+  s_a983ac12a6b48e::t_cb7ce4b7ff7325 1-7
+samples/bugprone-unused-return-value__fmidev__smartmet-library-newbase__32ea9544ca__NFmiTime.cpp/meta.json
+  s_a983ac12a6b48e::t_1104a4c9edc2b8 1-43
+samples/bugprone-unused-return-value__fmidev__smartmet-plugin-wms__410691f297__Handler.cpp/after.cpp
+  s_a983ac12a6b48e::t_311029feade77f 1-1772
+samples/bugprone-unused-return-value__fmidev__smartmet-plugin-wms__410691f297__Handler.cpp/before.cpp
+  s_a983ac12a6b48e::t_b051f01c64c725 1-1772
+samples/bugprone-unused-return-value__fmidev__smartmet-plugin-wms__410691f297__Handler.cpp/human.patch
+  s_a983ac12a6b48e::t_1650ca948fdce8 1-7
+samples/bugprone-unused-return-value__fmidev__smartmet-plugin-wms__410691f297__Handler.cpp/meta.json
+  s_a983ac12a6b48e::t_26b053fadffdd3 1-44
+samples/bugprone-unused-return-value__joey-huckabee__aero1553__f3ddb6ca09__platform_posix.cpp/after.cpp
+  s_a983ac12a6b48e::t_df6c78e36431e9 1-549
+samples/bugprone-unused-return-value__joey-huckabee__aero1553__f3ddb6ca09__platform_posix.cpp/before.cpp
+  s_a983ac12a6b48e::t_4c1a1590cd1f21 1-544
+samples/bugprone-unused-return-value__joey-huckabee__aero1553__f3ddb6ca09__platform_posix.cpp/human.patch
+  s_a983ac12a6b48e::t_5608f67fcec83b 1-12
+samples/bugprone-unused-return-value__joey-huckabee__aero1553__f3ddb6ca09__platform_posix.cpp/meta.json
+  s_a983ac12a6b48e::t_a26922ee683d59 1-38
+samples/bugprone-unused-return-value__maceeek__freerdp-m__5abde9bd1c__TestClientCmdLineStatus.c/after.c
+  s_a983ac12a6b48e::t_91961d061ce300 1-71
+samples/bugprone-unused-return-value__maceeek__freerdp-m__5abde9bd1c__TestClientCmdLineStatus.c/before.c
+  s_a983ac12a6b48e::t_2b7a56b7d3b244 1-71
+samples/bugprone-unused-return-value__maceeek__freerdp-m__5abde9bd1c__TestClientCmdLineStatus.c/human.patch
+  s_a983ac12a6b48e::t_028fa8abbd8975 1-15
+samples/bugprone-unused-return-value__maceeek__freerdp-m__5abde9bd1c__TestClientCmdLineStatus.c/meta.json
+  s_a983ac12a6b48e::t_225ac4b8e0fcac 1-68
+samples/bugprone-unused-return-value__trainberks-maker__bitstar-core__faa23738fc__httpserver.cpp/after.cpp
+  s_a983ac12a6b48e::t_c0066c06fdee8b 1-779
+samples/bugprone-unused-return-value__trainberks-maker__bitstar-core__faa23738fc__httpserver.cpp/before.cpp
+  s_a983ac12a6b48e::t_138642c269c3ea 1-779
+samples/bugprone-unused-return-value__trainberks-maker__bitstar-core__faa23738fc__httpserver.cpp/human.patch
+  s_a983ac12a6b48e::t_e9d32480c8ab17 1-7
+samples/bugprone-unused-return-value__trainberks-maker__bitstar-core__faa23738fc__httpserver.cpp/meta.json
+  s_a983ac12a6b48e::t_899e86621450f6 1-47
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__ical_parser.cpp/after.cpp
+  s_a983ac12a6b48e::t_acbb96a6578a95 1-551
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__ical_parser.cpp/before.cpp
+  s_a983ac12a6b48e::t_63bcee022b7ea2 1-547
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__ical_parser.cpp/human.patch
+  s_a983ac12a6b48e::t_51f75fb5b0841b 1-9
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__ical_parser.cpp/meta.json
+  s_a983ac12a6b48e::t_8374d3e88ab573 1-52
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__security_primitives_test.cpp/after.cpp
+  s_a983ac12a6b48e::t_c6fc1f49e4e45f 1-348
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__security_primitives_test.cpp/before.cpp
+  s_a983ac12a6b48e::t_c4b970880c37ff 1-346
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__security_primitives_test.cpp/human.patch
+  s_a983ac12a6b48e::t_e5775b0c66ffd8 1-7
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__security_primitives_test.cpp/meta.json
+  s_a983ac12a6b48e::t_b4408bea621b09 1-38
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__settings_window.cpp/after.cpp
+  s_a983ac12a6b48e::t_cea8842f5d7629 1-1165
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__settings_window.cpp/before.cpp
+  s_a983ac12a6b48e::t_3789fbe9ec0a42 1-1166
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__settings_window.cpp/human.patch
+  s_a983ac12a6b48e::t_7c55a82782a2c3 1-10
+samples/bugprone-use-after-move__BevActual__helix-desktop__a260845d73__settings_window.cpp/meta.json
+  s_a983ac12a6b48e::t_76d4489e3a20dd 1-42
+samples/bugprone-use-after-move__ClickHouse__ClickHouse__62d95fab2e__gtest_long_connection_limit.cpp/after.cpp
+  s_a983ac12a6b48e::t_5cb6aad298d71d 1-68
+samples/bugprone-use-after-move__ClickHouse__ClickHouse__62d95fab2e__gtest_long_connection_limit.cpp/before.cpp
+  s_a983ac12a6b48e::t_2d3f30351c3e76 1-66
+samples/bugprone-use-after-move__ClickHouse__ClickHouse__62d95fab2e__gtest_long_connection_limit.cpp/human.patch
+  s_a983ac12a6b48e::t_618f9ccea79fd3 1-7
+samples/bugprone-use-after-move__ClickHouse__ClickHouse__62d95fab2e__gtest_long_connection_limit.cpp/meta.json
+  s_a983ac12a6b48e::t_84382713733577 1-40
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__ical_parser.cpp/after.cpp
+  s_a983ac12a6b48e::t_e1123a1d11fb67 1-551
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__ical_parser.cpp/before.cpp
+  s_a983ac12a6b48e::t_b5335c13e22cf3 1-547
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__ical_parser.cpp/human.patch
+  s_a983ac12a6b48e::t_2891be41533aac 1-9
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__ical_parser.cpp/meta.json
+  s_a983ac12a6b48e::t_fc82d7e6c1e3d1 1-52
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__security_primitives_test.cpp/after.cpp
+  s_a983ac12a6b48e::t_ebf614afd7e95e 1-348
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__security_primitives_test.cpp/before.cpp
+  s_a983ac12a6b48e::t_cbda859368cc33 1-346
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__security_primitives_test.cpp/human.patch
+  s_a983ac12a6b48e::t_9d5e833e072ec7 1-7
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__security_primitives_test.cpp/meta.json
+  s_a983ac12a6b48e::t_16dc72e5078203 1-38
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__settings_window.cpp/after.cpp
+  s_a983ac12a6b48e::t_31fde4b3364c57 1-1165
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__settings_window.cpp/before.cpp
+  s_a983ac12a6b48e::t_098436743e1938 1-1166
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__settings_window.cpp/human.patch
+  s_a983ac12a6b48e::t_4cff00dc91957b 1-10
+samples/bugprone-use-after-move__george-leonard314__chiroptera-shell__7ea1245ada__settings_window.cpp/meta.json
+  s_a983ac12a6b48e::t_fed2cd2b153a7e 1-42
+samples/bugprone-use-after-move__osmcode__libosmium__5f15163041__test_memory_mapping.cpp/after.cpp
+  s_a983ac12a6b48e::t_de352385c5997b 1-414
+samples/bugprone-use-after-move__osmcode__libosmium__5f15163041__test_memory_mapping.cpp/before.cpp
+  s_a983ac12a6b48e::t_dabde6815383f8 1-414
+samples/bugprone-use-after-move__osmcode__libosmium__5f15163041__test_memory_mapping.cpp/human.patch
+  s_a983ac12a6b48e::t_7bb2c4cbddb4e9 1-16
+samples/bugprone-use-after-move__osmcode__libosmium__5f15163041__test_memory_mapping.cpp/meta.json
+  s_a983ac12a6b48e::t_aaa0b9d388924b 1-80
+samples/bugprone-use-after-move__riciadavinci__sequelite-cpp__11e8704137__test_database.cpp/after.cpp
+  s_a983ac12a6b48e::t_3113b22bd89647 1-160
+samples/bugprone-use-after-move__riciadavinci__sequelite-cpp__11e8704137__test_database.cpp/before.cpp
+  s_a983ac12a6b48e::t_e16f472c9d51ca 1-160
+samples/bugprone-use-after-move__riciadavinci__sequelite-cpp__11e8704137__test_database.cpp/human.patch
+  s_a983ac12a6b48e::t_d002ac5a5b1161 1-7
+samples/bugprone-use-after-move__riciadavinci__sequelite-cpp__11e8704137__test_database.cpp/meta.json
+  s_a983ac12a6b48e::t_698e3c1ccd675f 1-61
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_cleanup.cpp/after.cpp
+  s_a983ac12a6b48e::t_10bc8fdf705873 1-80
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_cleanup.cpp/before.cpp
+  s_a983ac12a6b48e::t_243bfb662d1596 1-79
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_cleanup.cpp/human.patch
+  s_a983ac12a6b48e::t_5a1eb1ad92d544 1-6
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_cleanup.cpp/meta.json
+  s_a983ac12a6b48e::t_ae0750657d3455 1-40
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_optional_reference.cpp/after.cpp
+  s_a983ac12a6b48e::t_1d8388e8200b18 1-206
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_optional_reference.cpp/before.cpp
+  s_a983ac12a6b48e::t_3b936a6be0f9c8 1-205
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_optional_reference.cpp/human.patch
+  s_a983ac12a6b48e::t_2f61f768a6b24d 1-6
+samples/bugprone-use-after-move__salmanra__TT-SpMM-Nov2025__51aa631d2c__test_optional_reference.cpp/meta.json
+  s_a983ac12a6b48e::t_af9b45086fb345 1-40
+samples/cppcoreguidelines-special-member-functions__00-YSH-Autoware-Before__agnocast__e032f05386__agnocast.cpp/after.cpp
+  s_a983ac12a6b48e::t_4c41fe39b624b3 1-180
+samples/cppcoreguidelines-special-member-functions__00-YSH-Autoware-Before__agnocast__e032f05386__agnocast.cpp/before.cpp
+  s_a983ac12a6b48e::t_a9d677917de64e 1-174
+samples/cppcoreguidelines-special-member-functions__00-YSH-Autoware-Before__agnocast__e032f05386__agnocast.cpp/human.patch
+  s_a983ac12a6b48e::t_4f350ef3920751 1-11
+samples/cppcoreguidelines-special-member-functions__00-YSH-Autoware-Before__agnocast__e032f05386__agnocast.cpp/meta.json
+  s_a983ac12a6b48e::t_8b67f81bf2efb3 1-41
+samples/cppcoreguidelines-special-member-functions__airbus__sen__8ecbecf059__remote_interest_handler.h/after.h
+  s_a983ac12a6b48e::t_bc6659244c52ee 1-333
+samples/cppcoreguidelines-special-member-functions__airbus__sen__8ecbecf059__remote_interest_handler.h/before.h
+  s_a983ac12a6b48e::t_c6efe49899ffaf 1-331
+samples/cppcoreguidelines-special-member-functions__airbus__sen__8ecbecf059__remote_interest_handler.h/human.patch
+  s_a983ac12a6b48e::t_833fc01e1cadde 1-8
+samples/cppcoreguidelines-special-member-functions__airbus__sen__8ecbecf059__remote_interest_handler.h/meta.json
+  s_a983ac12a6b48e::t_05aa59dc27f919 1-38
+samples/cppcoreguidelines-special-member-functions__eclipse-score__baselibs__2e8c5c7746__data_types.hpp/after.hpp
+  s_a983ac12a6b48e::t_b7eddae21f1884 1-834
+samples/cppcoreguidelines-special-member-functions__eclipse-score__baselibs__2e8c5c7746__data_types.hpp/before.hpp
+  s_a983ac12a6b48e::t_2b7d061d637537 1-830
+samples/cppcoreguidelines-special-member-functions__eclipse-score__baselibs__2e8c5c7746__data_types.hpp/human.patch
+  s_a983ac12a6b48e::t_a34acefa1a1d39 1-16
+samples/cppcoreguidelines-special-member-functions__eclipse-score__baselibs__2e8c5c7746__data_types.hpp/meta.json
+  s_a983ac12a6b48e::t_c459959e798e90 1-66
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__provider.cpp/after.cpp
+  s_a983ac12a6b48e::t_30dadf4a333da8 1-235
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__provider.cpp/before.cpp
+  s_a983ac12a6b48e::t_b006b814599ec7 1-230
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__provider.cpp/human.patch
+  s_a983ac12a6b48e::t_bc26be872d722d 1-10
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__provider.cpp/meta.json
+  s_a983ac12a6b48e::t_bb6b5ddba1ca09 1-57
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__sample_sender_receiver.cpp/after.cpp
+  s_a983ac12a6b48e::t_6baff6b37bf2d6 1-1098
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__sample_sender_receiver.cpp/before.cpp
+  s_a983ac12a6b48e::t_a39070e32baab1 1-1094
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__sample_sender_receiver.cpp/human.patch
+  s_a983ac12a6b48e::t_59a012c33c092a 1-9
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__sample_sender_receiver.cpp/meta.json
+  s_a983ac12a6b48e::t_04ca6a5d610987 1-55
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__smokeyeyes.cpp/after.cpp
+  s_a983ac12a6b48e::t_5f398c50539bf1 1-519
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__smokeyeyes.cpp/before.cpp
+  s_a983ac12a6b48e::t_0edf0e1996160c 1-512
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__smokeyeyes.cpp/human.patch
+  s_a983ac12a6b48e::t_a68c01acb119c2 1-12
+samples/cppcoreguidelines-special-member-functions__eclipse-score__communication__e8f73889f3__smokeyeyes.cpp/meta.json
+  s_a983ac12a6b48e::t_24040b2a5914dd 1-54
+samples/cppcoreguidelines-special-member-functions__fengjiran__AetherMind__4d9fc06f31__backend_registry.h/after.h
+  s_a983ac12a6b48e::t_5be8f70313ede1 1-33
+samples/cppcoreguidelines-special-member-functions__fengjiran__AetherMind__4d9fc06f31__backend_registry.h/before.h
+  s_a983ac12a6b48e::t_1bd76f841567d3 1-32
+samples/cppcoreguidelines-special-member-functions__fengjiran__AetherMind__4d9fc06f31__backend_registry.h/human.patch
+  s_a983ac12a6b48e::t_c08f787737b7af 1-6
+samples/cppcoreguidelines-special-member-functions__fengjiran__AetherMind__4d9fc06f31__backend_registry.h/meta.json
+  s_a983ac12a6b48e::t_5a138d9696a8fc 1-40
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__dispatcher.hpp/after.hpp
+  s_a983ac12a6b48e::t_2a6cf408fc260e 1-174
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__dispatcher.hpp/before.hpp
+  s_a983ac12a6b48e::t_b5970d75b4ec57 1-172
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__dispatcher.hpp/human.patch
+  s_a983ac12a6b48e::t_13cedf6173fd76 1-8
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__dispatcher.hpp/meta.json
+  s_a983ac12a6b48e::t_a4c2ef7eadfaee 1-38
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__hw_dispatcher.hpp/after.hpp
+  s_a983ac12a6b48e::t_5e2b13865c399e 1-100
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__hw_dispatcher.hpp/before.hpp
+  s_a983ac12a6b48e::t_d1b949922f8f4b 1-95
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__hw_dispatcher.hpp/human.patch
+  s_a983ac12a6b48e::t_4bace3d21a2fb7 1-10
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__hw_dispatcher.hpp/meta.json
+  s_a983ac12a6b48e::t_eaf5abbbe7abf4 1-38
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__implementation.hpp/after.hpp
+  s_a983ac12a6b48e::t_b2d62c868094b9 1-50
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__implementation.hpp/before.hpp
+  s_a983ac12a6b48e::t_12bacafb5561d8 1-49
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__implementation.hpp/human.patch
+  s_a983ac12a6b48e::t_e92bfe911c6163 1-8
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__implementation.hpp/meta.json
+  s_a983ac12a6b48e::t_624a536ba9f2fd 1-38
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__inflate_state.hpp/after.hpp
+  s_a983ac12a6b48e::t_107fcaa6844384 1-725
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__inflate_state.hpp/before.hpp
+  s_a983ac12a6b48e::t_8cf0ec999f83a1 1-723
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__inflate_state.hpp/human.patch
+  s_a983ac12a6b48e::t_be9ef3d4ae6283 1-8
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__inflate_state.hpp/meta.json
+  s_a983ac12a6b48e::t_73a74d54c65941 1-38
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__input_stream.hpp/after.hpp
+  s_a983ac12a6b48e::t_6c26a965bc9737 1-293
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__input_stream.hpp/before.hpp
+  s_a983ac12a6b48e::t_484109f1bfa601 1-291
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__input_stream.hpp/human.patch
+  s_a983ac12a6b48e::t_230c6094e4ac67 1-7
+samples/cppcoreguidelines-special-member-functions__intel__qpl__dd066b5944__input_stream.hpp/meta.json
+  s_a983ac12a6b48e::t_be065d116fae35 1-38
+samples/cppcoreguidelines-special-member-functions__jerarn__jaql__1107ce9501__test_logger.cpp/after.cpp
+  s_a983ac12a6b48e::t_65fde86145fd22 1-86
+samples/cppcoreguidelines-special-member-functions__jerarn__jaql__1107ce9501__test_logger.cpp/before.cpp
+  s_a983ac12a6b48e::t_1a8c91336610fa 1-84
+samples/cppcoreguidelines-special-member-functions__jerarn__jaql__1107ce9501__test_logger.cpp/human.patch
+  s_a983ac12a6b48e::t_109fd7823ada67 1-25
+samples/cppcoreguidelines-special-member-functions__jerarn__jaql__1107ce9501__test_logger.cpp/meta.json
+  s_a983ac12a6b48e::t_0fa743cb56fa40 1-45
+samples/cppcoreguidelines-special-member-functions__joshpeterson__binarily__ed2e4889ad__binary_reader.h/after.h
+  s_a983ac12a6b48e::t_2a3a0b8296204f 1-32
+samples/cppcoreguidelines-special-member-functions__joshpeterson__binarily__ed2e4889ad__binary_reader.h/before.h
+  s_a983ac12a6b48e::t_b61c72d71e5958 1-26
+samples/cppcoreguidelines-special-member-functions__joshpeterson__binarily__ed2e4889ad__binary_reader.h/human.patch
+  s_a983ac12a6b48e::t_3864177b50edd0 1-11
+samples/cppcoreguidelines-special-member-functions__joshpeterson__binarily__ed2e4889ad__binary_reader.h/meta.json
+  s_a983ac12a6b48e::t_5c3437a25dd1d1 1-40
+samples/cppcoreguidelines-special-member-functions__journalr__score-checklists-test__77e3753d81__proxy_event.h/after.h
+  s_a983ac12a6b48e::t_75d6dc7739f4ca 1-289
+samples/cppcoreguidelines-special-member-functions__journalr__score-checklists-test__77e3753d81__proxy_event.h/before.h
+  s_a983ac12a6b48e::t_e59fe526b38cbc 1-287
+samples/cppcoreguidelines-special-member-functions__journalr__score-checklists-test__77e3753d81__proxy_event.h/human.patch
+  s_a983ac12a6b48e::t_bbf76fef28b84d 1-7
+samples/cppcoreguidelines-special-member-functions__journalr__score-checklists-test__77e3753d81__proxy_event.h/meta.json
+  s_a983ac12a6b48e::t_0e08068911fc04 1-42
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task.hpp/after.hpp
+  s_a983ac12a6b48e::t_c15119d0def03b 1-395
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task.hpp/before.hpp
+  s_a983ac12a6b48e::t_984635726071b8 1-389
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task.hpp/human.patch
+  s_a983ac12a6b48e::t_56c21dc0f80286 1-11
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task.hpp/meta.json
+  s_a983ac12a6b48e::t_c76836f4325166 1-45
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task_tests.cpp/after.cpp
+  s_a983ac12a6b48e::t_f812264c3ca079 1-431
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task_tests.cpp/before.cpp
+  s_a983ac12a6b48e::t_50042a151db219 1-426
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task_tests.cpp/human.patch
+  s_a983ac12a6b48e::t_556353b5ac0946 1-10
+samples/cppcoreguidelines-special-member-functions__learning-process__parallel_programming_course__a521bfc3ed__task_tests.cpp/meta.json
+  s_a983ac12a6b48e::t_cce8b18bb45e09 1-41
+samples/cppcoreguidelines-special-member-functions__lefebvre__mqces__bf880afb2d__parallel.hpp/after.hpp
+  s_a983ac12a6b48e::t_9ff0f5bf90fd56 1-116
+samples/cppcoreguidelines-special-member-functions__lefebvre__mqces__bf880afb2d__parallel.hpp/before.hpp
+  s_a983ac12a6b48e::t_80e843379dab5e 1-111
+samples/cppcoreguidelines-special-member-functions__lefebvre__mqces__bf880afb2d__parallel.hpp/human.patch
+  s_a983ac12a6b48e::t_ec4c31731a9d3e 1-23
+samples/cppcoreguidelines-special-member-functions__lefebvre__mqces__bf880afb2d__parallel.hpp/meta.json
+  s_a983ac12a6b48e::t_ca59c48a23d42a 1-38
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__bufferAgent.h/after.h
+  s_a983ac12a6b48e::t_c0318db750ea06 1-454
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__bufferAgent.h/before.h
+  s_a983ac12a6b48e::t_ac169a8ab15fad 1-449
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__bufferAgent.h/human.patch
+  s_a983ac12a6b48e::t_4850058ad7934a 1-10
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__bufferAgent.h/meta.json
+  s_a983ac12a6b48e::t_6596bf6002bd76 1-58
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__writeBuffer.h/after.h
+  s_a983ac12a6b48e::t_f29731f8d0b58c 1-316
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__writeBuffer.h/before.h
+  s_a983ac12a6b48e::t_efb00f32cb7cc7 1-311
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__writeBuffer.h/human.patch
+  s_a983ac12a6b48e::t_b5c6f07a1c4e3b 1-10
+samples/cppcoreguidelines-special-member-functions__onedata__helpers__70b0c2f66f__writeBuffer.h/meta.json
+  s_a983ac12a6b48e::t_508ca759c5bc78 1-58
+samples/cppcoreguidelines-special-member-functions__openbmc__phosphor-debug-collector__7d6d2445da__pldm_utils.hpp/after.hpp
+  s_a983ac12a6b48e::t_25f6f297cf4241 1-84
+samples/cppcoreguidelines-special-member-functions__openbmc__phosphor-debug-collector__7d6d2445da__pldm_utils.hpp/before.hpp
+  s_a983ac12a6b48e::t_149cee74c1cb63 1-82
+samples/cppcoreguidelines-special-member-functions__openbmc__phosphor-debug-collector__7d6d2445da__pldm_utils.hpp/human.patch
+  s_a983ac12a6b48e::t_f71c67661e6ea8 1-7
+samples/cppcoreguidelines-special-member-functions__openbmc__phosphor-debug-collector__7d6d2445da__pldm_utils.hpp/meta.json
+  s_a983ac12a6b48e::t_4216b1f3f50166 1-42
+samples/cppcoreguidelines-special-member-functions__ralfkonrad__ql_performance_testing__3ffeee386f__TestSuiteFixture.hpp/after.hpp
+  s_a983ac12a6b48e::t_288f2237543d09 1-32
+samples/cppcoreguidelines-special-member-functions__ralfkonrad__ql_performance_testing__3ffeee386f__TestSuiteFixture.hpp/before.hpp
+  s_a983ac12a6b48e::t_003afabd36b4c2 1-33
+samples/cppcoreguidelines-special-member-functions__ralfkonrad__ql_performance_testing__3ffeee386f__TestSuiteFixture.hpp/human.patch
+  s_a983ac12a6b48e::t_09f4900b39f52e 1-8
+samples/cppcoreguidelines-special-member-functions__ralfkonrad__ql_performance_testing__3ffeee386f__TestSuiteFixture.hpp/meta.json
+  s_a983ac12a6b48e::t_ca4429e0aa234a 1-42
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__Directions.cpp/after.cpp
+  s_a983ac12a6b48e::t_f2fcd25780cbf3 1-572
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__Directions.cpp/before.cpp
+  s_a983ac12a6b48e::t_2f94e522728c86 1-566
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__Directions.cpp/human.patch
+  s_a983ac12a6b48e::t_d8bada77ee652f 1-11
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__Directions.cpp/meta.json
+  s_a983ac12a6b48e::t_6d00fcc4f5523b 1-38
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__IMatter.hpp/after.hpp
+  s_a983ac12a6b48e::t_b044cc02bfc605 1-20
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__IMatter.hpp/before.hpp
+  s_a983ac12a6b48e::t_87ccdec79d46e6 1-13
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__IMatter.hpp/human.patch
+  s_a983ac12a6b48e::t_b66ee563585644 1-13
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__IMatter.hpp/meta.json
+  s_a983ac12a6b48e::t_a8dfd1a19f5c39 1-38
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__MatterArrayTests.cpp/after.cpp
+  s_a983ac12a6b48e::t_4119bac77669b5 1-55
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__MatterArrayTests.cpp/before.cpp
+  s_a983ac12a6b48e::t_ab2559c0e51845 1-50
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__MatterArrayTests.cpp/human.patch
+  s_a983ac12a6b48e::t_1ea36e12763b09 1-10
+samples/cppcoreguidelines-special-member-functions__sgshulman__DGEM__5c1a9a4bb8__MatterArrayTests.cpp/meta.json
+  s_a983ac12a6b48e::t_58408773f39c86 1-38
+samples/readability-magic-numbers__Hahn-Schickard__IODD-Model__93ee8199f4__main.cpp/after.cpp
+  s_a983ac12a6b48e::t_155ec5387d0ac9 1-187
+samples/readability-magic-numbers__Hahn-Schickard__IODD-Model__93ee8199f4__main.cpp/before.cpp
+  s_a983ac12a6b48e::t_13df6a84945822 1-186
+samples/readability-magic-numbers__Hahn-Schickard__IODD-Model__93ee8199f4__main.cpp/human.patch
+  s_a983ac12a6b48e::t_814cebef64a4f2 1-6
+samples/readability-magic-numbers__Hahn-Schickard__IODD-Model__93ee8199f4__main.cpp/meta.json
+  s_a983ac12a6b48e::t_307819c94fcb75 1-40
+samples/readability-magic-numbers__Keyrim__drone-mark4__e6686f5fd9__attitude_estimator.cpp/after.cpp
+  s_a983ac12a6b48e::t_edbacad545d8c1 1-106
+samples/readability-magic-numbers__Keyrim__drone-mark4__e6686f5fd9__attitude_estimator.cpp/before.cpp
+  s_a983ac12a6b48e::t_5e7db52703c6cb 1-105
+samples/readability-magic-numbers__Keyrim__drone-mark4__e6686f5fd9__attitude_estimator.cpp/human.patch
+  s_a983ac12a6b48e::t_3e1d7c7b37a852 1-22
+samples/readability-magic-numbers__Keyrim__drone-mark4__e6686f5fd9__attitude_estimator.cpp/meta.json
+  s_a983ac12a6b48e::t_95ac4a11a358b4 1-94
+samples/readability-magic-numbers__PocoF3Releases__android_external_rust_cxx__06677b3e00__cxx.cc/after.cc
+  s_a983ac12a6b48e::t_23623033e275ee 1-362
+samples/readability-magic-numbers__PocoF3Releases__android_external_rust_cxx__06677b3e00__cxx.cc/before.cc
+  s_a983ac12a6b48e::t_7399c11e647c61 1-359
+samples/readability-magic-numbers__PocoF3Releases__android_external_rust_cxx__06677b3e00__cxx.cc/human.patch
+  s_a983ac12a6b48e::t_d8da08ab118e4a 1-12
+samples/readability-magic-numbers__PocoF3Releases__android_external_rust_cxx__06677b3e00__cxx.cc/meta.json
+  s_a983ac12a6b48e::t_370588a9c52c0a 1-38
+samples/readability-magic-numbers__SwuduSusuwu__SusuLib__407b6a0686__ClassIo.cxx/after.cxx
+  s_a983ac12a6b48e::t_56f21110aeb84b 1-213
+samples/readability-magic-numbers__SwuduSusuwu__SusuLib__407b6a0686__ClassIo.cxx/before.cxx
+  s_a983ac12a6b48e::t_b0022569efb7c7 1-213
+samples/readability-magic-numbers__SwuduSusuwu__SusuLib__407b6a0686__ClassIo.cxx/human.patch
+  s_a983ac12a6b48e::t_ac52c3f8fac600 1-17
+samples/readability-magic-numbers__SwuduSusuwu__SusuLib__407b6a0686__ClassIo.cxx/meta.json
+  s_a983ac12a6b48e::t_475ab978dd54dc 1-38
+samples/readability-magic-numbers__deeplex__deeppack__e3954dfb47__perfect_hash.hpp/after.hpp
+  s_a983ac12a6b48e::t_92693216d201aa 1-284
+samples/readability-magic-numbers__deeplex__deeppack__e3954dfb47__perfect_hash.hpp/before.hpp
+  s_a983ac12a6b48e::t_29ac2eb07ea240 1-284
+samples/readability-magic-numbers__deeplex__deeppack__e3954dfb47__perfect_hash.hpp/human.patch
+  s_a983ac12a6b48e::t_53ebe718fbcb76 1-13
+samples/readability-magic-numbers__deeplex__deeppack__e3954dfb47__perfect_hash.hpp/meta.json
+  s_a983ac12a6b48e::t_c3f1e0010eb588 1-99
+samples/readability-magic-numbers__ekkus93__esp32-macro-keyboard__fe70b72cd4__device_controls_logic.c/after.c
+  s_a983ac12a6b48e::t_d4b84c02d7737a 1-61
+samples/readability-magic-numbers__ekkus93__esp32-macro-keyboard__fe70b72cd4__device_controls_logic.c/before.c
+  s_a983ac12a6b48e::t_488ad639b92518 1-47
+samples/readability-magic-numbers__ekkus93__esp32-macro-keyboard__fe70b72cd4__device_controls_logic.c/human.patch
+  s_a983ac12a6b48e::t_63f183e42696ad 1-33
+samples/readability-magic-numbers__ekkus93__esp32-macro-keyboard__fe70b72cd4__device_controls_logic.c/meta.json
+  s_a983ac12a6b48e::t_ba01fb5e7c411a 1-150
+samples/readability-magic-numbers__felixb419__kaad__2911ea786a__exceptions.cpp/after.cpp
+  s_a983ac12a6b48e::t_580cbc5bdc91ba 1-71
+samples/readability-magic-numbers__felixb419__kaad__2911ea786a__exceptions.cpp/before.cpp
+  s_a983ac12a6b48e::t_464c861b8c6c0f 1-68
+samples/readability-magic-numbers__felixb419__kaad__2911ea786a__exceptions.cpp/human.patch
+  s_a983ac12a6b48e::t_91bda4798da702 1-11
+samples/readability-magic-numbers__felixb419__kaad__2911ea786a__exceptions.cpp/meta.json
+  s_a983ac12a6b48e::t_8e40882aa6b476 1-38
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__check_tensor.hpp/after.hpp
+  s_a983ac12a6b48e::t_4b964850aecaef 1-53
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__check_tensor.hpp/before.hpp
+  s_a983ac12a6b48e::t_fb5ca617461ee5 1-56
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__check_tensor.hpp/human.patch
+  s_a983ac12a6b48e::t_fd88436282cccb 1-14
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__check_tensor.hpp/meta.json
+  s_a983ac12a6b48e::t_af50a9fc8a077e 1-80
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__kernels.hpp/after.hpp
+  s_a983ac12a6b48e::t_86c42b8dfff9c3 1-379
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__kernels.hpp/before.hpp
+  s_a983ac12a6b48e::t_4cd95f1eba7dc0 1-379
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__kernels.hpp/human.patch
+  s_a983ac12a6b48e::t_45ceda163d499b 1-16
+samples/readability-magic-numbers__felixb419__kaad__73f753c90b__kernels.hpp/meta.json
+  s_a983ac12a6b48e::t_31384f44eb7661 1-80
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__local_search.cpp/after.cpp
+  s_a983ac12a6b48e::t_5342b6f84f79fa 1-2381
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__local_search.cpp/before.cpp
+  s_a983ac12a6b48e::t_4d060b9468857c 1-2379
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__local_search.cpp/human.patch
+  s_a983ac12a6b48e::t_900631ba87584e 1-13
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__local_search.cpp/meta.json
+  s_a983ac12a6b48e::t_a2895f84492451 1-52
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__tsp.cpp/after.cpp
+  s_a983ac12a6b48e::t_f9c6aff4cae8e3 1-303
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__tsp.cpp/before.cpp
+  s_a983ac12a6b48e::t_dbc25d9e357822 1-302
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__tsp.cpp/human.patch
+  s_a983ac12a6b48e::t_a9efe6a1b21da0 1-11
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__tsp.cpp/meta.json
+  s_a983ac12a6b48e::t_0421dd84f31650 1-38
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__wrapper.h/after.h
+  s_a983ac12a6b48e::t_41262b0afa92d4 1-77
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__wrapper.h/before.h
+  s_a983ac12a6b48e::t_649375a905d1fe 1-76
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__wrapper.h/human.patch
+  s_a983ac12a6b48e::t_9ff57e44004e6d 1-8
+samples/readability-magic-numbers__haditabealhojeh__rtopt__ca0389dc31__wrapper.h/meta.json
+  s_a983ac12a6b48e::t_ebf61447218cd0 1-38
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__angle.h/after.h
+  s_a983ac12a6b48e::t_04ca5f6d481331 1-46
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__angle.h/before.h
+  s_a983ac12a6b48e::t_496ce0fb8ad422 1-44
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__angle.h/human.patch
+  s_a983ac12a6b48e::t_4381b6a3d02d03 1-13
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__angle.h/meta.json
+  s_a983ac12a6b48e::t_e55436ce4607b0 1-52
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__transform.h/after.h
+  s_a983ac12a6b48e::t_8c7f108694e3b8 1-127
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__transform.h/before.h
+  s_a983ac12a6b48e::t_0f6feff62c5fa1 1-125
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__transform.h/human.patch
+  s_a983ac12a6b48e::t_bc0145c81dfdd3 1-10
+samples/readability-magic-numbers__instinkt900__moth_toolkit__2487578cd8__transform.h/meta.json
+  s_a983ac12a6b48e::t_ea07de4ccae6ce 1-38
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__client.hpp/after.hpp
+  s_a983ac12a6b48e::t_c09aa043a073aa 1-201
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__client.hpp/before.hpp
+  s_a983ac12a6b48e::t_e9a9934dc3fb36 1-201
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__client.hpp/human.patch
+  s_a983ac12a6b48e::t_24ee419ee36075 1-7
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__client.hpp/meta.json
+  s_a983ac12a6b48e::t_8ba107c4170dfd 1-38
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__connection_config.hpp/after.hpp
+  s_a983ac12a6b48e::t_c9386b3ce5de70 1-47
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__connection_config.hpp/before.hpp
+  s_a983ac12a6b48e::t_19cae31da36b22 1-38
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__connection_config.hpp/human.patch
+  s_a983ac12a6b48e::t_b6ab4115b2d7c9 1-25
+samples/readability-magic-numbers__kgsahil__kraken-sdk__d39a936438__connection_config.hpp/meta.json
+  s_a983ac12a6b48e::t_40ae820c44bc17 1-94
+samples/readability-magic-numbers__nebulastream__nebulastream__15b15fa7be__TaggedPointer.hpp/after.hpp
+  s_a983ac12a6b48e::t_6721f9479fe782 1-120
+samples/readability-magic-numbers__nebulastream__nebulastream__15b15fa7be__TaggedPointer.hpp/before.hpp
+  s_a983ac12a6b48e::t_53d694e6eab745 1-118
+samples/readability-magic-numbers__nebulastream__nebulastream__15b15fa7be__TaggedPointer.hpp/human.patch
+  s_a983ac12a6b48e::t_ed91cf3b328371 1-9
+samples/readability-magic-numbers__nebulastream__nebulastream__15b15fa7be__TaggedPointer.hpp/meta.json
+  s_a983ac12a6b48e::t_3652cd65576fb4 1-45
+samples/readability-magic-numbers__rogy-AquaLab__omniboat_robokit__55640b7881__schneider_model.cpp/after.cpp
+  s_a983ac12a6b48e::t_4a53bdcedad7af 1-235
+samples/readability-magic-numbers__rogy-AquaLab__omniboat_robokit__55640b7881__schneider_model.cpp/before.cpp
+  s_a983ac12a6b48e::t_2729a97385372a 1-230
+samples/readability-magic-numbers__rogy-AquaLab__omniboat_robokit__55640b7881__schneider_model.cpp/human.patch
+  s_a983ac12a6b48e::t_fdffa255cd15cf 1-24
+samples/readability-magic-numbers__rogy-AquaLab__omniboat_robokit__55640b7881__schneider_model.cpp/meta.json
+  s_a983ac12a6b48e::t_b899e71742852b 1-132
+samples/readability-magic-numbers__scholar-of-artifice__game-dice-cpp__db61709e30__StaticProbabilityTable.h/after.h
+  s_a983ac12a6b48e::t_8e44a06e02aea1 1-119
+samples/readability-magic-numbers__scholar-of-artifice__game-dice-cpp__db61709e30__StaticProbabilityTable.h/before.h
+  s_a983ac12a6b48e::t_7811efd0cc0b7c 1-118
+samples/readability-magic-numbers__scholar-of-artifice__game-dice-cpp__db61709e30__StaticProbabilityTable.h/human.patch
+  s_a983ac12a6b48e::t_21a529fa43f894 1-8
+samples/readability-magic-numbers__scholar-of-artifice__game-dice-cpp__db61709e30__StaticProbabilityTable.h/meta.json
+  s_a983ac12a6b48e::t_9102f1564c767b 1-38
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__main.cpp/after.cpp
+  s_a983ac12a6b48e::t_7cacd9ddc5c826 1-212
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__main.cpp/before.cpp
+  s_a983ac12a6b48e::t_f3d46166051266 1-210
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__main.cpp/human.patch
+  s_a983ac12a6b48e::t_b2ae7cc84cebc2 1-10
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__main.cpp/meta.json
+  s_a983ac12a6b48e::t_daaf41370f50ba 1-44
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__renderer.h/after.h
+  s_a983ac12a6b48e::t_6c70cb69f19eb9 1-334
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__renderer.h/before.h
+  s_a983ac12a6b48e::t_a5495976109608 1-324
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__renderer.h/human.patch
+  s_a983ac12a6b48e::t_d0af28a71b10e7 1-24
+samples/readability-magic-numbers__sergioffpc__augusta__628e068350__renderer.h/meta.json
+  s_a983ac12a6b48e::t_869c8dbbaf4da2 1-44
+scripts/baseline.py
+  s_a983ac12a6b48e::t_54b6d7dfac673b 1-45
+scripts/check_fix.py
+  s_a983ac12a6b48e::t_5eca8d5f521816 1-113
+scripts/make_tasks.py
+  s_a983ac12a6b48e::t_b6534fb313d2ca 1-59
+scripts/mine.py
+  s_a983ac12a6b48e::t_af4b3f73b60491 1-128
+scripts/score.py
+  s_a983ac12a6b48e::t_e5ecef81786680 1-120
+scripts/tidy.py
+  s_a983ac12a6b48e::t_f411e3abf8670c 1-171
+scripts/validate.py
+  s_a983ac12a6b48e::t_d17785819b1181 1-129
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8b376ac79aa46f223719c271f7b8b9f12f022344",
+  "prompts": {},
+  "sessions": {
+    "s_a983ac12a6b48e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cee72681-327b-45db-83cf-63b287b21d14",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Xianpeng Shen <3353385+shenxianpeng@users.noreply.github.com>"
+    }
+  }
+}
