@@ -1,5 +1,11 @@
 # clang-tidy-fix-bench
 
+> [!WARNING]
+> **Experimental, AI-judged, not human-reviewed.** All fixes and all judge
+> verdicts in this repository were produced by AI models of the same family,
+> and no maintainer has reviewed them. Treat the success rates as an early
+> signal, not as a validated result. See [Limitations](#limitations).
+
 A benchmark of real clang-tidy warnings, taken from open-source commits, for
 measuring how well an automated tool fixes warnings that clang-tidy cannot fix
 on its own.
