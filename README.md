@@ -1,9 +1,10 @@
 # clang-tidy-fix-bench
 
 > [!WARNING]
-> **Experimental, AI-judged, not human-reviewed.** All fixes and all judge
-> verdicts in this repository were produced by AI models of the same family,
-> and no maintainer has reviewed them. Treat the success rates as an early
+> **Experimental, AI-judged, not human-reviewed.** The fixes and judge
+> verdicts of run1 and of the full run2 were produced by AI models of the same
+> family (the run2 pilot also includes GitHub Copilot CLI), and no maintainer
+> has reviewed them. Treat the success rates as an early
 > signal, not as a validated result. See [Limitations](#limitations).
 
 A benchmark of real clang-tidy warnings, taken from open-source commits, for
@@ -214,6 +215,22 @@ ralfkonrad/ql_performance_testing `TestSuiteFixture.hpp`). In those cases
 "equivalent to human" is not the right target, which is why
 `acceptable` is a separate verdict.
 
+## Results: run2
+
+run2 measures a single blind attempt without the checker, with and without a
+short per-check remediation hint ([`hints/`](hints)). The agent was Claude Code
+(`claude-fable-5-2`), judged by a single same-family judge. Full report:
+[`results/run2/README.md`](results/run2/README.md).
+
+| Run | Hint | Mechanical pass | Judge: equivalent or acceptable | Success | `bugprone-use-after-move` success |
+|---|:---:|---:|---:|---:|---:|
+| claude-plain-all | no | 156/171 (91%) | 164/171 (96%) | 152/171 (89%) | 6/11 |
+| claude-hint-all | yes | 162/171 (95%) | 163/171 (95%) | 156/171 (91%) | 4/11 |
+
+The human fixes score 156/171 on the same mechanical check: 13 of them are a
+`NOLINT`, which the scorer rejects. The report also has a 20-sample pilot
+that includes GitHub Copilot CLI.
+
 ## Reproducing
 
 Requirements: macOS with Xcode command line tools, clang-tidy 22 on `PATH` (or
@@ -235,6 +252,33 @@ python3 scripts/score.py myrun
 # after writing runs/myrun/judge/<id>.json ({"verdict": ..., "reason": ...}):
 python3 scripts/score.py myrun --report   # -> runs/myrun/report.md
 ```
+
+run2 used the coding-agent CLIs headless, one fresh session per task
+([`scripts/run_agents.py`](scripts/run_agents.py)), and a blind judge per
+candidate ([`scripts/judge.py`](scripts/judge.py)):
+
+```bash
+# blind single attempt, with and without the hint (add --subset pilot for the 20-sample pilot)
+python3 scripts/make_tasks.py claude-plain-all --no-checker
+python3 scripts/make_tasks.py claude-hint-all --no-checker --hint
+
+# check one task first and read runs/<run>/logs/, then run the rest
+python3 scripts/run_agents.py claude-plain-all --agent claude --limit 1 --jobs 1
+python3 scripts/run_agents.py claude-plain-all --agent claude --jobs 2
+
+python3 scripts/score.py claude-plain-all
+python3 scripts/judge.py claude-plain-all --judge claude --jobs 2
+python3 scripts/score.py claude-plain-all --report --judges claude
+python3 scripts/compare.py claude-plain-all claude-hint-all   # -> runs/compare.md
+```
+
+`--agent` and `--judge` accept `claude`, `copilot` and `codex`. The claude and
+copilot flags were checked with Claude Code 2.1.311 and Copilot CLI 1.0.73; the
+codex flags are untested. Personal configuration is kept out of the runs:
+claude runs with `--safe-mode --setting-sources ""`. copilot runs with its own
+`COPILOT_HOME`, so create `runs/.copilot-home/config.json` holding only the
+login entries of `~/.copilot/config.json` first. With several judges
+(`--judges claude,codex`), a candidate is accepted only if every judge accepts it.
 
 To check a single edited file:
 `python3 scripts/check_fix.py <sample-id> <path-to-file>`.
