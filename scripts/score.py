@@ -3,6 +3,9 @@
 
 usage: score.py <run>            -> runs/<run>/scores.jsonl (mechanical) + review packets
        score.py <run> --report   -> runs/<run>/report.md (needs judge/<id>.json files)
+       score.py <run> --report --judges claude,codex
+                                 -> same, from judge-<name>/<id>.json (judge.py); a candidate
+                                    counts as accepted only if every judge accepts it
 """
 import difflib
 import fnmatch
@@ -87,15 +90,31 @@ def pct(k, n):
     return f"{k} ({k / n:.0%})"
 
 
-def report(run):
+def load_verdict(rd, sid, judges):
+    """Final verdict + per-judge verdicts. With several judges, a verdict is
+    kept only where all agree; otherwise it is 'disputed' and not accepted
+    unless every judge accepted it (conservative)."""
+    if not judges:
+        j = rd / "judge" / f"{sid}.json"
+        jd = json.loads(j.read_text()) if j.exists() else {}
+        v = jd.get("verdict")
+        return v, jd.get("reason"), {}, v in ("equivalent", "acceptable")
+    per = {}
+    for name in judges:
+        j = rd / f"judge-{name}" / f"{sid}.json"
+        per[name] = json.loads(j.read_text())["verdict"] if j.exists() else None
+    vs = set(per.values())
+    final = vs.pop() if len(vs) == 1 else "disputed"
+    accepted = all(v in ("equivalent", "acceptable") for v in per.values())
+    return final, None, per, accepted
+
+
+def report(run, judges=()):
     rd = ROOT / "runs" / run
     rows = [json.loads(l) for l in (rd / "scores.jsonl").read_text().splitlines()]
     by = defaultdict(list)
     for r in rows:
-        j = rd / "judge" / f"{r['id']}.json"
-        jd = json.loads(j.read_text()) if j.exists() else {}
-        r["verdict"], r["judge_reason"] = jd.get("verdict"), jd.get("reason")
-        r["accepted"] = r["verdict"] in ("equivalent", "acceptable")
+        r["verdict"], r["judge_reason"], r["judges"], r["accepted"] = load_verdict(rd, r["id"], judges)
         r["success"] = bool(r.get("resolved")) and r["accepted"]
         by[r["check"]].append(r)
     lines = ["| Check | Samples | Mechanical pass | Judge: equivalent to human | Judge: equivalent or acceptable | Success (mechanical and judge) |",
@@ -110,6 +129,9 @@ def report(run):
         lines.append(f"| `{c}` | {n} | {pct(v['a'], n)} | {pct(v['e'], n)} | {pct(v['b'], n)} | {pct(v['s'], n)} |")
     n = tot["n"]
     lines.append(f"| **All** | {n} | {pct(tot['a'], n)} | {pct(tot['e'], n)} | {pct(tot['b'], n)} | {pct(tot['s'], n)} |")
+    if len(judges) > 1:
+        agree = sum(r["verdict"] != "disputed" for r in rows)
+        lines.append(f"\nJudges {', '.join(judges)} agree on {pct(agree, len(rows))} of candidates.")
     (rd / "report.md").write_text("\n".join(lines) + "\n")
     (rd / "results.jsonl").write_text("".join(json.dumps(r) + "\n" for r in rows))
     print("\n".join(lines))
@@ -117,4 +139,5 @@ def report(run):
 
 if __name__ == "__main__":
     run = sys.argv[1]
-    report(run) if "--report" in sys.argv else mechanical(run)
+    js = sys.argv[sys.argv.index("--judges") + 1].split(",") if "--judges" in sys.argv else ()
+    report(run, js) if "--report" in sys.argv else mechanical(run)
